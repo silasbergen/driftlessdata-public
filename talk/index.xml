@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Driftless Data</title>
+    <link>http://driftlessdata.space/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Driftless Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>ASA REU Experiences at Winona State University</title>
+      <link>http://driftlessdata.space/talk/reu-jsm/</link>
+      <pubDate>Sun, 30 Jul 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/talk/reu-jsm/</guid>
+      <description>&lt;p&gt;With Chris Malone; Brant Deppa; and Tisha Hooks&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A data visualization course for undergraduate data science students</title>
+      <link>http://driftlessdata.space/talk/dsci310-causeweb/</link>
+      <pubDate>Mon, 12 Dec 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/talk/dsci310-causeweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Melding data with social justice in undergraduate statistics and data science courses</title>
+      <link>http://driftlessdata.space/talk/iase/</link>
+      <pubDate>Fri, 22 Jul 2016 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/talk/iase/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

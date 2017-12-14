@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.31.1" />
+  <meta name="author" content="Silas Bergen">
+  <meta name="description" content="Assistant professor of statistics and data science">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/stat365/home/">
+
+  
+  
+
+
+  
+
+  
+  
+  
+  
+    
+  
+  
+    
+    
+      
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+      
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-111127083-1', 'auto');
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+
+  
+  <link rel="alternate" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="feed" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://driftlessdata.space/courses/stat365/home/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="Driftless Data">
+  <meta property="og:url" content="http://driftlessdata.space/courses/stat365/home/">
+  <meta property="og:title" content="Stat 365: Experimental design and analysis (Spring 2017) | Driftless Data">
+  <meta property="og:description" content="">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2017-01-08T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2017-01-08T00:00:00&#43;00:00">
+  
+
+  
+
+  <title>Stat 365: Experimental design and analysis (Spring 2017) | Driftless Data</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+      <a class="navbar-brand" href="/">Driftless Data</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      
+      <ul class="nav navbar-nav navbar-left">
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#talks">
+            
+            <span>Presentations</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+          
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+      
+
+      
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Stat 365: Experimental design and analysis (Spring 2017)</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-01-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 8, 2017
+    </time>
+  </span>
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+</div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h3 id="course-materials">Course materials</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/suv1gym3stchwcj/Stat%20365%20Syllabus%20-%20Spring%202017.docx?dl=0">Syllabus</a></li>
+<li><a href="https://cran.r-project.org/">R cran</a></li>
+<li><a href="https://www.rstudio.com/">R studio</a></li>
+<li><a href="http://tryr.codeschool.com/">&ldquo;Try R&rdquo; tutorial (for R beginners)</a></li>
+<li><a href="https://www.youtube.com/watch?v=eBJ9Yo6flsM&amp;list=PLDWCGvw0A7lUIKbsM-6BHpS8KfXFT9JSt">Intro to R Studio tutorial
+video</a></li>
+<li><a href="https://www.dropbox.com/s/cumf8gr8zqtoscz/Ref-modify.docx?dl=0">&ldquo;Ref-modify.docx&rdquo; style document called in .Rmd
+files</a></li>
+</ul>
+
+<h3 id="handouts">Handouts</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/wttsmxwxmdrq9ck/1_-_Review_of_modeling.docx?dl=0">Handout 1: Review of
+modeling</a>
+| <a href="https://www.dropbox.com/s/iy5ebz59fpyorlq/Real.Estate.csv?dl=0">House price data
+(.csv)</a>
+| <a href="https://mediaspace.mnscu.edu/media/Stat+365+-+Handout+1+completion/0_vkxyvrf9">Video of completed Handout
+1</a>
+| <a href="https://www.dropbox.com/s/9ts94hot9m1t45f/1%20-%20Review%20of%20modeling.Rmd?dl=0">R Markdown (.Rmd)
+file</a></li>
+<li><a href="https://www.dropbox.com/s/497wxgw41ergghx/2%20-%20Intro%20to%20exp%20designs.docx?dl=0">Handout 2: Intro to experimental
+design</a></li>
+<li><a href="https://www.dropbox.com/s/db57pebkmp93o9k/3_-Review_of_inference.docx?dl=0">Handout 3: Review of inference in the context of experimental
+design</a>
+| <a href="https://www.dropbox.com/s/7wv5k1orjtzf0uy/3%20-%20Review%20of%20inference.Rmd?dl=0">.Rmd
+file</a></li>
+<li><a href="https://www.dropbox.com/s/rvl1shvc1niiqn5/4_-_CRD_Part1.docx?dl=0">Handout 4: Completely randomized designs (CRDs), part
+1</a></li>
+<li><a href="https://www.dropbox.com/s/n2jpzyv754t118k/5_-_CRD_Part2.docx?dl=0">Handout 5: CRDs part 2: Matrix representation of
+model</a>
+|
+<a href="https://www.dropbox.com/s/ayhjrntwwc0iqsr/5%20-%20CRD_Part2.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/3cjcujwgh4r2aoe/6_-_Treatment_contrasts.docx?dl=0">Handout 6: Treatment
+comparisons</a>
+|
+<a href="https://www.dropbox.com/s/09utm0714d8fjbe/6%20-%20Treatment%20contrasts.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/uhqlrpflcx1knfa/7_-_Model_diagnostics_and_remedial_measures.docx?dl=0">Handout 7: Model diagnostics and remedial
+measures</a>
+|
+<a href="https://www.dropbox.com/s/ykqxo8z5wi2juwf/7%20-%20Model%20diagnostics%20and%20remedial%20measures.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/1wz7b3aorj0q65o/8_-_power.docx?dl=0">Handout 8:
+Power</a>
+|
+<a href="https://www.dropbox.com/s/f2ut7h4pq7ffosq/8%20-%20power.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/err5rw3ejxd7wkb/9-Factorial_Designs.docx?dl=0">Handout 9: Factorial
+designs</a>
+|
+<a href="https://www.dropbox.com/s/zsnzw3lrppvcnug/9-Factorial%20Designs.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/qm2e3vwe1yinn4m/10-Randomized_complete_block_designs.docx?dl=0">Handout 10: Randomized complete block
+designs</a>|
+<a href="https://www.dropbox.com/s/8egkd59hqt5uac8/10-Randomized%20complete%20block%20designs.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/gs8d7lsmvczats7/11-ANCOVA.docx?dl=0">Handout 11:
+ANCOVA</a></li>
+<li><a href="https://www.dropbox.com/s/75jvqzp4swxxmxq/12-Mixed_models.docx?dl=0">Handout 12: Mixed effects
+models</a>
+|
+<a href="https://www.dropbox.com/s/utehl8y2jqgoq69/12-Mixed%20models.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/fqo166ba3mqoa2l/13-Sums-of-square-types.docx?dl=0">Handout 13: Sums-of-squares
+types</a>
+|
+<a href="https://www.dropbox.com/s/fninjgujd8udl68/13-Sums-of-square-types.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/yqej84d0i2jbxr6/14-Repeated_Measures.docx?dl=0">Handout 14: Repeated
+measures</a>
+|
+<a href="https://www.dropbox.com/s/p668wbo0666019c/14-Repeated%20Measures.Rmd?dl=0">.Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/6lrvgp23bnro1oh/15-Nested_designs.docx?dl=0">Handout 15: Nested
+designs</a>
+|
+<a href="https://www.dropbox.com/s/efbsgglbw0j0fc8/15-Nested%20designs.Rmd?dl=0">Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/3x9qccaq1axiwzr/16-Analysis_decisions.docx?dl=0">Handout 16: Choosing the right
+analysis</a>
+| <a href="https://www.dropbox.com/s/5vj7tv8hod89n9m/Code%20for%20Handout%2016%20examples.R?dl=0">R
+code</a></li>
+</ul>
+
+<h3 id="homework">Homework</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/85cwc27juy4hsx4/HW1.docx?dl=0">Homework
+1</a></li>
+<li><a href="https://www.dropbox.com/s/400lvj24y0l47y8/HW2.docx?dl=0">Homework 2
+(.docx)</a> |
+<a href="https://www.dropbox.com/s/iaz8u38vwljno8n/HW2.Rmd?dl=0">Homework 2
+(.Rmd)</a> |
+<a href="https://www.dropbox.com/s/2xaova8xr4a9vys/HW2-KEY.docx?dl=0">KEY</a></li>
+<li><a href="https://www.dropbox.com/s/4fma4g90db1dxx2/HW3.docx?dl=0">Homework 3
+(.docx)</a>|
+<a href="https://www.dropbox.com/s/zj0uac7f9zeoe4q/HW3.Rmd?dl=0">(.Rmd)</a> |
+<a href="https://www.dropbox.com/s/yeacjsjmj359hvx/HW3-KEY.docx?dl=0">KEY</a></li>
+<li>Homework 4 |
+<a href="https://www.dropbox.com/s/h3tpacudzpv6t5g/HW4.docx?dl=0">Word</a> |
+<a href="https://www.dropbox.com/s/qcq16he7lvve2uy/HW4.Rmd?dl=0">Rmd</a>
+|<a href="https://www.dropbox.com/s/k4j6ucqiqni6bmu/HW4-KEY.docx?dl=0">KEY</a>|
+<a href="https://www.dropbox.com/s/sgtm9gmquxw97xs/HW4-KEY.Rmd?dl=0">KEY
+Rmd</a></li>
+<li><a href="https://www.dropbox.com/s/cjuuw9bm8mt7e3t/HW5.docx?dl=0">Homework
+5</a> |
+<a href="https://www.dropbox.com/s/1464ntf0a1ve3fi/BordenEtAl.pdf?dl=0"><em>AJSM</em>
+article</a>
+| <a href="https://www.dropbox.com/s/nw2fssh52ha4qys/HW5-KEY.docx?dl=0">KEY</a>
+| <a href="https://www.dropbox.com/s/51rlqj1gr7uj2d8/HW5-KEY.Rmd?dl=0">KEY
+Rmd</a></li>
+<li>Homework 6 |
+<a href="https://www.dropbox.com/s/42o1v26hdspctw4/HW6.docx?dl=0">Word</a> |
+<a href="https://www.dropbox.com/s/82wubixlv9ixxi3/HW6.Rmd?dl=0">.Rmd</a> |
+<a href="http://journals.sagepub.com/doi/pdf/10.1038/jcbfm.2010.95"><em>JCBFM</em>
+article</a>
+| <a href="https://www.dropbox.com/s/2xwusvbmwfx2a07/HW6-KEY.docx?dl=0">KEY</a>
+| <a href="https://www.dropbox.com/s/vb5oxiseus606f2/HW6-KEY.Rmd?dl=0">KEY
+Rmd</a></li>
+<li>Homework 7 | <a href="https://www.dropbox.com/s/gtnsgr0fbb37x94/HW7.docx?dl=0">Word
+|</a><a href="https://www.dropbox.com/s/yp1aoqxoipblxze/HW7.Rmd?dl=0">.Rmd</a>
+| <a href="https://www.dropbox.com/s/o9vvvn115p01srt/LandyEtAl_Beauty_is_talent.pdf?dl=0">Relevant article for Question
+2</a>
+| <a href="https://www.dropbox.com/s/2xpjkxcjyn67v2j/HW7-KEY.docx?dl=0">KEY</a>
+| <a href="https://www.dropbox.com/s/wfipddj2lasge8s/HW7-KEY.Rmd?dl=0">KEY
+Rmd</a></li>
+</ul>
+
+<h3 id="data-sets">Data sets</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/tpgf7ql28qs4gtt/Asparagus.csv?dl=0">Aparagus
+data</a></li>
+<li><a href="https://www.dropbox.com/s/1ug8vc9hrcazqer/Auditory.csv?dl=0">Auditory
+data</a></li>
+<li><a href="https://www.dropbox.com/s/6fvwe3i8q88uu4i/Beauty.csv?dl=0">Beauty</a></li>
+<li><a href="https://www.dropbox.com/s/56jiu91y11u1uhm/beefwater.csv?dl=0">Beef water
+data</a></li>
+<li><a href="https://www.dropbox.com/s/hz9vtoe53ywpxgm/caffeine.csv?dl=0">Caffeine
+data</a></li>
+<li><a href="https://www.dropbox.com/s/jz4pwe4xwr67hvp/dental.csv?dl=0">Dental</a></li>
+<li><a href="https://www.dropbox.com/s/j61nvsar1awm2bg/marker-display.csv?dl=0">Display (felt-tipped marker)
+data</a></li>
+<li><a href="https://www.dropbox.com/s/mlpy2wu3vmptd8c/Glucose-readings.csv?dl=0">Glucose
+data</a></li>
+<li><a href="https://www.dropbox.com/s/j3m8emdmn0prvnc/HeartTransplant.csv?dl=0">Heart transplant
+data</a></li>
+<li><a href="https://www.dropbox.com/s/o36llyf9t21blry/helmet.csv?dl=0">Helmet data for
+midterm</a></li>
+<li><a href="https://www.dropbox.com/s/p0rgc7iullduw2e/infarct.csv?dl=0">Infarction
+data</a></li>
+<li><a href="https://www.dropbox.com/s/9p1ug4gfj3nsn33/jealousysubset.csv?dl=0">Jealousy
+data</a></li>
+<li><a href="https://www.dropbox.com/s/ee4nz9il7e9poiv/meniscus.csv?dl=0">Meniscus
+data</a></li>
+<li><a href="https://www.dropbox.com/s/kuig4zxuqeuwhap/MLBStandings-2016.csv?dl=0">MLB
+(.csv)</a></li>
+<li><a href="https://www.dropbox.com/s/ioiezjimjtd9rd0/moneythink.csv?dl=0">Money puzzle times data
+(.csv)</a></li>
+<li><a href="https://www.dropbox.com/s/kuyrlm0isxk9ci0/PigFeed.csv?dl=0">Pig feed data set
+(.csv)</a></li>
+<li><a href="https://www.dropbox.com/s/3tcghoknoymtdqv/rogaine.csv?dl=0">Rogaine
+data</a></li>
+<li><a href="https://www.dropbox.com/s/2te9kbmv7r345r9/Shrimp.csv?dl=0">Shrimp data
+(.csv)</a></li>
+<li><a href="https://www.dropbox.com/s/cz6zsltoi9qkq9s/Treadmill.csv?dl=0">Treadmill
+data</a></li>
+<li><a href="https://www.dropbox.com/s/7l66nnju60s78gi/trombone.csv?dl=0">Trombone
+data</a></li>
+<li><a href="https://www.dropbox.com/s/s4up9u6ulj3wh2c/Weightlifting.csv?dl=0">Weightlifting
+data</a></li>
+<li><a href="https://www.dropbox.com/s/u417g4za41bs225/wheatdata.csv?dl=0">Wheat</a></li>
+</ul>
+
+<h3 id="labs">Labs</h3>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/oyeuvw6gt7zp1lp/Lab1%20%28Factorial%20CRD%29.docx?dl=0">Lab
+1</a>
+| <a href="https://winona.az1.qualtrics.com/jfe/form/SV_2sKiKPvRczKBT3n">Peer evaluation
+survey</a></li>
+<li><a href="https://www.dropbox.com/s/ahie1h0euooll3q/RCBD-activity.docx?dl=0">Lab 2
+(RCBD)</a></li>
+<li><a href="https://www.dropbox.com/s/0a5r7sfgblks8lz/Lab%203%20%28Mixed%20model%29.docx?dl=0">Lab 3 (mixed
+model)</a>
+|
+<a href="https://www.dropbox.com/s/6cz0ho0ospp8rti/Lab_3_Assignment.docx?dl=0">Assignment</a>
+|
+<a href="https://www.dropbox.com/s/9b2zsy85q7zjm67/Tangrams2017-clean.csv?dl=0">Data</a>
+|
+<a href="https://www.dropbox.com/s/do585btl2bhi02b/Lab_3_KEY.docx?dl=0">KEY</a></li>
+<li><a href="https://www.dropbox.com/s/29dar9rtcxnh7ui/Lab%20FINAL.docx?dl=0">FINAL
+PROJECT</a>
+| <a href="https://www.dropbox.com/s/si0ssa27v0jivnq/Group4-presentation.pptx?dl=0">Example slides
+1</a>
+| <a href="https://www.dropbox.com/s/roebuifa064qz7h/Group1-Presentation.pptx?dl=0">Example slides
+2</a></li>
+</ul>
+
+<h3 id="exams">Exams</h3>
+
+<ul>
+<li>Midterm exam |
+<a href="https://www.dropbox.com/s/g1zn43p5r1qcc9i/Exam1-S17.docx?dl=0">Word</a>
+|
+<a href="https://www.dropbox.com/s/hnknxlha9r9f5ze/Exam1-S17.Rmd?dl=0">.Rmd</a>
+|
+<a href="https://www.dropbox.com/s/4adm98ygypjckrh/Exam1-S17-KEY.docx?dl=0">KEY</a></li>
+<li><a href="https://www.dropbox.com/s/88uxpxeygyddbzw/Exam2-S17.docx?dl=0">Final
+exam</a>
+| <a href="https://www.dropbox.com/s/yda96w17dr703uz/Inversion.csv?dl=0">Inversion data set for
+Q3</a></li>
+</ul>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Silas Bergen &middot; 
+
+      Powered by the
+      <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+      <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+      
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
