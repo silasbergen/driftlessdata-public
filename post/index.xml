@@ -107,6 +107,18 @@ ggplot(data = stemdata) +
     </item>
     
     <item>
+      <title>And the winner is...</title>
+      <link>http://driftlessdata.space/post/policedatachallenge/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/policedatachallenge/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/midterm/&#34;&gt;midterm project for my data visualization course&lt;/a&gt; this past fall required students to submit to the &lt;a href=&#34;http://thisisstatistics.org/policedatachallenge/&#34;&gt;ASA&amp;rsquo;s Police Data Challenge&lt;/a&gt;.  The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle).  I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.&lt;/p&gt;
+
+&lt;p&gt;Several weeks later, we received the exciting news that one of the teams won &lt;a href=&#34;http://thisisstatistics.org/police-data-challenge-congratulations-to-our-winners/&#34;&gt;&amp;ldquo;Best Overall&amp;rdquo;&lt;/a&gt; among undergraduate teams!  Congratulations to Winona State students &lt;a href=&#34;https://www.linkedin.com/in/jimmyjhickey/&#34;&gt;Jimmy Hickey&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/kapil-khanal/&#34;&gt;Kapil Khanal&lt;/a&gt;, and Luke Peacock for their excellent work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Minne MUDAC 2017</title>
       <link>http://driftlessdata.space/post/minnemudac/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 -0600</pubDate>
@@ -219,6 +231,40 @@ write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
 &lt;p&gt;From this graph, we can see the four points on the right that lie below the reference line.  These indicate that the top four most exciting events in Game 6, 2011 were &lt;em&gt;more exciting&lt;/em&gt; than the top four most exciting events from Game 5, 2017.  On the other hand, the top 5-10 most exciting events in Game 5, 2017 lie above the reference line, indicating they were more exciting than the events with WPA ranked 5-10 in Game 6, 2011.  The rest of the events ranked 11-20 in WPA go back to lying below the line.&lt;/p&gt;
 
 &lt;p&gt;So, it does appear that Game 6, 2011 was truly a more thrilling game than Game 5, 2017!   The total WPA of Game 6, 2011 was greater than the total WPA in Game 5, 2017, and of the top-20 &amp;ldquo;most exciting&amp;rdquo; events, they tended to be &lt;em&gt;more exciting&lt;/em&gt; in 2011. Oh well, Game 5, 2017 was still worth losing a few hours of sleep!  I think&amp;hellip;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A summer REU at Winona State</title>
+      <link>http://driftlessdata.space/post/winstats/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/winstats/</guid>
+      <description>&lt;p&gt;This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU).  Winona State was awarded the REU by the &lt;a href=&#34;http://www.amstat.org/&#34;&gt;American Statistical Association&lt;/a&gt;, which had received &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1560332&#34;&gt;a grant from the NSF&lt;/a&gt; to fund four students at each of nine sites over the course of three years (three different sites per year).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/meganaadland/&#34;&gt;Megan Aadland&lt;/a&gt; (South Dakota State), &lt;a href=&#34;https://www.linkedin.com/in/jenn-halbleib/&#34;&gt;Jenn Halbleib&lt;/a&gt; (Amherst), &lt;a href=&#34;https://www.linkedin.com/in/adriannakallis/&#34;&gt;Adrianna Kallis&lt;/a&gt; (Iowa State), and &lt;a href=&#34;https://www.linkedin.com/in/eva-tourangeau/&#34;&gt;Eva Tourangeau&lt;/a&gt; (Lawrence) were selected from a competitive, national pool of undergraduates.  Their primary task: to learn!  Their specific task was to partner with researchers at the &lt;a href=&#34;https://international.ipums.org/international/&#34;&gt;Integrated Public Use Microdata Series International (IPUMS-I)&lt;/a&gt; to develop data products and visualizations for IPUMS-I users.   Two students worked primarily on using multiple correspondence analysis to develop an index of household wealth, while the other two worked on an &lt;a href=&#34;https://public.tableau.com/views/IPUMS-IWorldInteractiveDashboard/Dashboard1?:embed=y&amp;amp;:display_count=yes&#34;&gt;interactive data visualization&lt;/a&gt; to summarize basic demographic information for countries of interest to IPUMS-I users.  Both projects required a lot of data cleaning after extracting the microdata from the &lt;a href=&#34;https://international.ipums.org/international-action/variables/group&#34;&gt;IPUMS-I query service&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Along with their research, the students took several professional development trips to learn about applications of data analytics in the workplace.  These included visits to &lt;a href=&#34;https://www.mayoclinic.org/&#34;&gt;Mayo Clinic&lt;/a&gt;, &lt;a href=&#34;https://bethematch.org/&#34;&gt;Be the Match&lt;/a&gt;, &lt;a href=&#34;https://www.optum.com/&#34;&gt;Optum&lt;/a&gt;, and the &lt;a href=&#34;https://www.wilder.org/Pages/default.aspx&#34;&gt;Wilder Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But it wasn&amp;rsquo;t all work!  Fun included:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/saints_game.jpg&#34; width=&#34;500&#34;/&gt;
+St. Paul Saints baseball game!&lt;br /&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/pizza_farm.jpg&#34; width=&#34;400&#34;/&gt;
+Suncrest pizza farm!&lt;br /&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the summer, the students traveled to Baltimore to present &lt;a href=&#34;http://driftlessdata.space/files/JSM-Poster.pdf&#34;&gt;their&lt;/a&gt; &lt;a href=&#34;http://driftlessdata.space/files/JSM_Poster_Presentation.jpg&#34;&gt;research&lt;/a&gt; at the &lt;a href=&#34;https://ww2.amstat.org/meetings/jsm/2017/&#34;&gt;2017 Joint Statistical Meetings&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The 10 weeks flew by!  The students were a joy to spend a summer with, and it is obvious that great things lie ahead for each of them.  The &lt;a href=&#34;https://drive.google.com/file/d/0B8hZWQ0xl_CkbTJHMFk5WTVicmc/view&#34;&gt;three REU sites for Summer 2018 are already selected&lt;/a&gt;, so go apply (or tell your students to apply)!&lt;/p&gt;
 </description>
     </item>
     

@@ -107,6 +107,18 @@ ggplot(data = stemdata) +
     </item>
     
     <item>
+      <title>And the winner is...</title>
+      <link>http://driftlessdata.space/post/policedatachallenge/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/policedatachallenge/</guid>
+      <description>&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/midterm/&#34;&gt;midterm project for my data visualization course&lt;/a&gt; this past fall required students to submit to the &lt;a href=&#34;http://thisisstatistics.org/policedatachallenge/&#34;&gt;ASA&amp;rsquo;s Police Data Challenge&lt;/a&gt;.  The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle).  I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.&lt;/p&gt;
+
+&lt;p&gt;Several weeks later, we received the exciting news that one of the teams won &lt;a href=&#34;http://thisisstatistics.org/police-data-challenge-congratulations-to-our-winners/&#34;&gt;&amp;ldquo;Best Overall&amp;rdquo;&lt;/a&gt; among undergraduate teams!  Congratulations to Winona State students &lt;a href=&#34;https://www.linkedin.com/in/jimmyjhickey/&#34;&gt;Jimmy Hickey&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/kapil-khanal/&#34;&gt;Kapil Khanal&lt;/a&gt;, and Luke Peacock for their excellent work.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Minne MUDAC 2017</title>
       <link>http://driftlessdata.space/post/minnemudac/</link>
       <pubDate>Fri, 10 Nov 2017 00:00:00 -0600</pubDate>
@@ -1001,6 +1013,40 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
     </item>
     
     <item>
+      <title>A summer REU at Winona State</title>
+      <link>http://driftlessdata.space/post/winstats/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/winstats/</guid>
+      <description>&lt;p&gt;This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU).  Winona State was awarded the REU by the &lt;a href=&#34;http://www.amstat.org/&#34;&gt;American Statistical Association&lt;/a&gt;, which had received &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1560332&#34;&gt;a grant from the NSF&lt;/a&gt; to fund four students at each of nine sites over the course of three years (three different sites per year).&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/meganaadland/&#34;&gt;Megan Aadland&lt;/a&gt; (South Dakota State), &lt;a href=&#34;https://www.linkedin.com/in/jenn-halbleib/&#34;&gt;Jenn Halbleib&lt;/a&gt; (Amherst), &lt;a href=&#34;https://www.linkedin.com/in/adriannakallis/&#34;&gt;Adrianna Kallis&lt;/a&gt; (Iowa State), and &lt;a href=&#34;https://www.linkedin.com/in/eva-tourangeau/&#34;&gt;Eva Tourangeau&lt;/a&gt; (Lawrence) were selected from a competitive, national pool of undergraduates.  Their primary task: to learn!  Their specific task was to partner with researchers at the &lt;a href=&#34;https://international.ipums.org/international/&#34;&gt;Integrated Public Use Microdata Series International (IPUMS-I)&lt;/a&gt; to develop data products and visualizations for IPUMS-I users.   Two students worked primarily on using multiple correspondence analysis to develop an index of household wealth, while the other two worked on an &lt;a href=&#34;https://public.tableau.com/views/IPUMS-IWorldInteractiveDashboard/Dashboard1?:embed=y&amp;amp;:display_count=yes&#34;&gt;interactive data visualization&lt;/a&gt; to summarize basic demographic information for countries of interest to IPUMS-I users.  Both projects required a lot of data cleaning after extracting the microdata from the &lt;a href=&#34;https://international.ipums.org/international-action/variables/group&#34;&gt;IPUMS-I query service&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;Along with their research, the students took several professional development trips to learn about applications of data analytics in the workplace.  These included visits to &lt;a href=&#34;https://www.mayoclinic.org/&#34;&gt;Mayo Clinic&lt;/a&gt;, &lt;a href=&#34;https://bethematch.org/&#34;&gt;Be the Match&lt;/a&gt;, &lt;a href=&#34;https://www.optum.com/&#34;&gt;Optum&lt;/a&gt;, and the &lt;a href=&#34;https://www.wilder.org/Pages/default.aspx&#34;&gt;Wilder Foundation&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;But it wasn&amp;rsquo;t all work!  Fun included:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/saints_game.jpg&#34; width=&#34;500&#34;/&gt;
+St. Paul Saints baseball game!&lt;br /&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/pizza_farm.jpg&#34; width=&#34;400&#34;/&gt;
+Suncrest pizza farm!&lt;br /&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of the summer, the students traveled to Baltimore to present &lt;a href=&#34;http://driftlessdata.space/files/JSM-Poster.pdf&#34;&gt;their&lt;/a&gt; &lt;a href=&#34;http://driftlessdata.space/files/JSM_Poster_Presentation.jpg&#34;&gt;research&lt;/a&gt; at the &lt;a href=&#34;https://ww2.amstat.org/meetings/jsm/2017/&#34;&gt;2017 Joint Statistical Meetings&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The 10 weeks flew by!  The students were a joy to spend a summer with, and it is obvious that great things lie ahead for each of them.  The &lt;a href=&#34;https://drive.google.com/file/d/0B8hZWQ0xl_CkbTJHMFk5WTVicmc/view&#34;&gt;three REU sites for Summer 2018 are already selected&lt;/a&gt;, so go apply (or tell your students to apply)!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>R Homework 1</title>
       <link>http://driftlessdata.space/courses/stat450/r_hw1/</link>
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
@@ -1251,189 +1297,6 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0m28op23nou0xaj/worldbankregions.csv?dl=0&#34;&gt;World bank regions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dqp1wlha7h578fp/WorldBank-clean.csv?dl=0&#34;&gt;World bank indicators&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stat 450-460: Mathematical statistics I-II (Fall 2017)</title>
-      <link>http://driftlessdata.space/courses/stat450/stat450-home/</link>
-      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/stat450-home/</guid>
-      <description>
-
-&lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Additional courses on R provided by &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Chapter 3: Discrete random variables | &lt;a href=&#34;https://www.dropbox.com/s/dez6w5nqgepexs7/Chapter_3-Discrete.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2w69winr1hza613/Chapter%203-Discrete.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 4: Continuous random variables | &lt;a href=&#34;https://www.dropbox.com/s/ao4gsywmreh47hz/Chapter4-continuous.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/7rfb8ovsoplfqnr/Chapter4-continuous.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 5: Joint distributions | &lt;a href=&#34;https://www.dropbox.com/s/49fvh6czirwj0kj/Chapter5-joint.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/49fvh6czirwj0kj/Chapter5-joint.pdf?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 6: Transformations | &lt;a href=&#34;https://www.dropbox.com/s/exqv4o5p6qjlri2/Chapter6-transformations.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/dtjhdymk43m4562/Chapter6-transformations.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
-
-&lt;p&gt;This &lt;a href=&#34;https://www.dropbox.com/s/0n0vheg0ucg1tln/Writing%20Rubric-2018.docx?dl=0&#34;&gt;writing rubric&lt;/a&gt; will be applied to all take-home exams that require the use of R Markdown.  Of your entire midterm grade, 10% of your will come from your score on this rubric; 50% from your score on the take-home portion; and 40% from your score on the in-class portion.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/sov203yn8i9p6yj/MathStatI-Midterm-Fall2016.docx?dl=0&#34;&gt;Practice midterm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Take-home midterm (due 10/25) | &lt;a href=&#34;https://www.dropbox.com/s/tcap7bhtf6tfhn7/Stat450-TakeHomeMidterm-Fall2017.docx?dl=0&#34;&gt;Word doc&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/lmp8syvoo0xvnzc/Stat450-TakeHomeMidterm-Fall2017.Rmd?dl=0&#34;&gt;Source file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Take-home final (due 12/8) | &lt;a href=&#34;https://www.dropbox.com/s/ilalv552wp65ili/Stat450-TakehomeFinal-F17.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/o0uohzn1k5arnuy/Stat450-TakehomeFinal-F17.Rmd?dl=0&#34;&gt;Source file&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;presentations&#34;&gt;Presentations&lt;/h3&gt;
-
-&lt;p&gt;For Wednesday, 11/30, the following from Chapter 6.  I will randomly assign one of the following problems to each student.
-&amp;lt;!&amp;ndash;
-* 77, 92
-* 79, 93
-* 95, 114
-* 136, 141&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;7, 25, 51&lt;/li&gt;
-&lt;li&gt;9, 27, 53&lt;/li&gt;
-&lt;li&gt;11, 29, 55&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;14, 32, 58
-&amp;ndash;&amp;gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;10, 14, 34, 37, 46, 74, 80, 81.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw1/&#34;&gt;R Homework 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/4zsa47cr0031429/R_HW1.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw2/&#34;&gt;R Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/8angsdzqcetqbc6/R_HW2.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw3/&#34;&gt;R Homework 3&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/mpxrssfn93e38u8/R_HW3.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/b1k99n05s22njvi/BreastCancerSample.csv?dl=0&#34;&gt;Breast cancer data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following problems from the textbook are due Friday, 12/1. Hand in solutions at beginning of class.  All of the following are from Chapter 6:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2, 8, 15, 20,&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;26, 31&lt;/li&gt;
-&lt;li&gt;48, 50, 57, 58&lt;/li&gt;
-&lt;li&gt;65, 68, 71&lt;/li&gt;
-&lt;li&gt;76, 77, 78, 79&lt;/li&gt;
-&lt;li&gt;92, 94, 95, 103, 111, 114&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--
-* 6, 15
-* 23, 34, 35
-* 42
-* 80
-* 89, 96 (use R on part d.), 111, 112
-* 160, 165, 167, 173, 185, 188, 190, 197, 198, 200
---&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://driftlessdata.space/courses/stat450/syllabus/</link>
-      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
-      <description>
-
-&lt;h3 id=&#34;stat-450-mathematical-statistics-i-stat450-home&#34;&gt;&lt;a href=&#34;../stat450-home/&#34;&gt;STAT 450: Mathematical statistics I&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;fall-2017&#34;&gt;Fall 2017&lt;/h3&gt;
-
-&lt;h3 id=&#34;instructor-dr-silas-bergen&#34;&gt;INSTRUCTOR: Dr. Silas Bergen&lt;/h3&gt;
-
-&lt;h3 id=&#34;office-gildemeister-124d&#34;&gt;OFFICE: Gildemeister 124D&lt;/h3&gt;
-
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Math 312 (Multivariable calculus)&lt;/li&gt;
-&lt;li&gt;Math 337 (Probability); concurrent enrollment OK&lt;/li&gt;
-&lt;li&gt;Eng 111&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;course-summary&#34;&gt;Course summary&lt;/h3&gt;
-
-&lt;p&gt;STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution. The successful student in STAT 460 will leave the course with a basic understanding of many of the important foundational concepts in statistical inference, namely estimation (with confidence) and hypothesis testing. In addition, students will be comfortable using a wide variety of mathematical tools for solving statistical inference problems.&lt;/p&gt;
-
-&lt;p&gt;Along the way, students will also become adept at using R to investigate and solve statistical problems.&lt;/p&gt;
-
-&lt;h3 id=&#34;course-text&#34;&gt;Course text&lt;/h3&gt;
-
-&lt;p&gt;The required text for this course is Mathematical Statistics with Applications by Wackerly, Mendenhall, &amp;amp; Scheaffer, 7th edition (WMS7).  Students may share copies of this book, although students planning on continuing to graduate school are encouraged to have their own copy.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Mathematical-Statistics-Applications-Dennis-Wackerly/dp/0495110817/ref=sr_1_1?ie=UTF8&amp;amp;qid=1471463588&amp;amp;sr=8-1&amp;amp;keywords=mathematical+statistics+wackerly&#34;&gt;Amazon link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.csulb.edu/~okoroste/wackerly.pdf&#34;&gt;Kindle version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;course-outline&#34;&gt;Course outline&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ch. 1 - What is Statistics? (review)&lt;/li&gt;
-&lt;li&gt;Ch. 2 - Probability (review)&lt;/li&gt;
-&lt;li&gt;Ch. 3 - Discrete Random Variables (review)&lt;/li&gt;
-&lt;li&gt;Ch. 4 - Continuous Random Variables (review)&lt;/li&gt;
-&lt;li&gt;Ch. 5 - Bivariate and Multivariate Distributions&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 6 - Functions of Random Variables&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 7 - Sampling Distributions and the CLT&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 8 - Estimation&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 9 - Properties of Point Estimators and Methods of Estimation&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 10 - Hypothesis Testing&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 16 - Introduction to Bayesian Methods for Inference&lt;/li&gt;
-&lt;li&gt;Other Chapters and Topics (time permitting)  Selected topics and sections from Ch. 11 - 15 and others not included in the text, e.g. resampling methods.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;statistical-computing&#34;&gt;Statistical computing&lt;/h2&gt;
-
-&lt;p&gt;We will use the open-source R programming language extensively throughout this course, both in the course notes and through regular R-specific assignments.   Please download R and R studio using the links below.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-
-&lt;p&gt;Your final grade will be determined based on the following criteria:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Presentations (10%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;On a regular basis throughout the semester, I will assign problems that you will be required to present to the class.  These may be either problems from the textbook, or additional problems that I assign.  You will have at least 2 days to work on the problem before presenting.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homework (40%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Submitted homework will be comprised of two parts:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Theoretical problems:&lt;/em&gt; These will primarily be problems assigned from WMS7.  Students are encouraged, but not required, to submit these homework solutions using R Markdown/LaTeX.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Investigative problems:&lt;/em&gt; In addition to the theoretical problems, there will be regular problems that require the use of R to investigate some aspect of the content covered in class.  &lt;strong&gt;&lt;em&gt;Solutions to these assignments must be submitted as a knitted html document.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Midterm exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Midterm exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Similar to the Midterm, the Final exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
 </description>
     </item>
     
