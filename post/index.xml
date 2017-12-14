@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Driftless Data</title>
+    <link>http://driftlessdata.space/post/</link>
+    <description>Recent content in Posts on Driftless Data</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0600</lastBuildDate>
+    <atom:link href="/post/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Gestalt principles and income inequality</title>
+      <link>http://driftlessdata.space/post/income-gestalt/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/income-gestalt/</guid>
+      <description>&lt;p&gt;The fall semester is over and final grades are in, which means it’s time to reflect on what just took place and how to grow from here. Today, I reflect on my third time teaching the &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/home/&#34;&gt;data visualization course&lt;/a&gt;. This course has come a long way since the first time I taught it in Fall 2015, and yet there are still so many improvements to make! One of the concepts I want to greater emphasize next time I teach the course are the &lt;em&gt;Gestalt principles&lt;/em&gt;, which Gestalt psychologist Kurt Koffka summarizes as the idea that &lt;a href=&#34;https://www.interaction-design.org/literature/topics/gestalt-principles&#34;&gt;“The whole is &lt;em&gt;other&lt;/em&gt; than the sum of the parts.”&lt;/a&gt;. I like to think of the Gestalt principles as ground rules for how to create meaningful patterns out of chaos.&lt;/p&gt;
+&lt;p&gt;Twain Taylor has an &lt;a href=&#34;https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/&#34;&gt;excellent post&lt;/a&gt; on how the Gestalt principles manifest in data visualization. He summarizes the principles in this chart:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;https://www.fusioncharts.com/blog/wp-content/uploads/2014/03/illustrations.jpg&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Quoting from his &lt;a href=&#34;https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/&#34;&gt;post&lt;/a&gt;;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Here is what we notice from each of the illustrations:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Proximity&lt;/strong&gt;: We see three rows of dots instead of four columns of dots because they are closer horizontally than vertically.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Similarity&lt;/strong&gt;: We see similar looking objects as part of the same group.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enclosure&lt;/strong&gt;: We group the first four and and last four dots as two rows instead of eight dots.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Symmetry&lt;/strong&gt;: We see three pairs of symmetrical brackets rather than six individual brackets.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Closure&lt;/strong&gt;: We automatically close the square and circle instead of seeing three disconnected paths.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuity&lt;/strong&gt;: We see one continuous path instead of three arbitrary ones.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Connection&lt;/strong&gt;: We group the connected dots as belonging to the same group.&lt;br /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Figure &amp;amp; ground&lt;/strong&gt;: We either notice the two faces, or the vase. Whichever we notice becomes the figure, and the other the ground&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In my experience visualizing data, it seems the most pervasive principles are &lt;em&gt;proximity&lt;/em&gt;, &lt;em&gt;similarity&lt;/em&gt;, &lt;em&gt;enclosure&lt;/em&gt;, and &lt;em&gt;connection&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I was struck by the ubiquitousness of these principles as I was reviewing my students’ final visualization projects. One &lt;a href=&#34;https://public.tableau.com/views/STEM_8/Salary?:embed=y&amp;amp;:display_count=yes&#34;&gt;very fine project in particular&lt;/a&gt; inspired me to write this post. Next time I teach the visualization course, I hope to include the following example to illustrate these principles to my students.&lt;/p&gt;
+&lt;div id=&#34;illustrating-the-gestalt-principles-with-acs-income-data&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Illustrating the Gestalt principles with ACS income data&lt;/h3&gt;
+&lt;p&gt;As an example data set, I settled on data over 2009-2016 from the &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt;, which I requested from the &lt;a href=&#34;https://usa.ipums.org/usa/index.shtml&#34;&gt;IPUMS USA&lt;/a&gt; data request system. I specifically requested incomes by year, sex, educational attainment, and field of degree. I filtered the data to only include those with a Bachelor’s degree or higher who were currently employed at the time of sampling, and created a new variable to indicate whether or not the field was a STEM field (using a combination of &lt;a href=&#34;http://mentornet.org/service/stem_fields.html&#34;&gt;this source&lt;/a&gt; and &lt;a href=&#34;http://stemdegreelist.com/&#34;&gt;this source&lt;/a&gt; to help me determine).&lt;/p&gt;
+&lt;p&gt;The primary question I want to visualize is: &lt;strong&gt;&lt;em&gt;What is the inequality in average income comparing males to females?&lt;/em&gt;&lt;/strong&gt; Of course, average income depends on many other factors, including field of degree, type of degree, and year, to name just a few. We’ll focus on visualizing the gender income gap adjusting for these other factors as well.&lt;/p&gt;
+&lt;p&gt;Here’s a quick look at the first six rows of the data set.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;##   Year    Sex              Educ    Field avg.income
+## 1 2009 Female Bachelor&amp;#39;s degree Non-STEM   47440.41
+## 2 2009 Female Bachelor&amp;#39;s degree     STEM   51423.20
+## 3 2009 Female   Doctoral degree Non-STEM   77378.22
+## 4 2009 Female   Doctoral degree     STEM   87257.88
+## 5 2009 Female   Master&amp;#39;s degree Non-STEM   60549.57
+## 6 2009 Female   Master&amp;#39;s degree     STEM   65621.16&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Notably, the data set consists of one row per year/sex/education/field category, with &lt;code&gt;avg.income&lt;/code&gt; indicating the average income for that combination.&lt;/p&gt;
+&lt;p&gt;So let’s visualize! We want to investigate the gender income gap, so here’s a first go:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;288&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Mostly, this is chaos! But we do see the Gestalt principle of &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; manifest itself: we perceive the incomes on the left (belonging to females) as a group, and the incomes on the right (belonging to males) as a group. Let’s incorporate &lt;strong&gt;Year&lt;/strong&gt; on the horizontal, since we are accustomed to identifying trends across time:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;384&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We now see year groupings by way of the &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; principle, and sex groupings via color-coding with the &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; principle. There’s still too much chaos, however. Let’s try again:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The amount of chaos is reduced dramatically, all by way of implementing the &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt; principle, specifically enclosing the highest level of educational attainments together in separate panels. This particular type of enclosure is often referred to as &lt;em&gt;faceting&lt;/em&gt; in the data visualization realm. The drastic reduction in chaos, and improvement of clarity, is due to the fact that there were four educational attainment groupings. We would not have improved the clarity as much if we had, say, grouped by field of degree instead, which only has two groups:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Faceting by educational attainment is better, so let’s continue working with that one, now indicating field of degree:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The new principle is &lt;strong&gt;&lt;em&gt;connection&lt;/em&gt;&lt;/strong&gt;. Clearly, we perceive each line as an entity, representing now a Sex/Field combination (Male/STEM, for example). Another instance of &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; is in play, since the lines for STEM fields are dashed, while the lines for non-STEM fields are solid.&lt;/p&gt;
+&lt;p&gt;So, here we have it, a visualization that illustrates the principles of &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;em&gt;connection&lt;/em&gt;&lt;/strong&gt;. We’ve implemented these principles to significantly reduce chaos and improve clarity. But there’s still an issue with this visualization. Remember the intent of the visualization is to explore &lt;strong&gt;gender income inequality&lt;/strong&gt;. If we take another look at the above visualization, this is not the most obvious comparison to make. Rather, due to the &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; of the lines within each sex (they are close together, and of the same color), the comparison our brain is encouraged to make is to compare incomes of STEM to non-STEM, &lt;em&gt;within&lt;/em&gt; sex. That’s not the most important comparison! It makes most sense to compare males to females, &lt;em&gt;within&lt;/em&gt; field.&lt;/p&gt;
+&lt;p&gt;This brings us to a related concept: &lt;em&gt;not all means of introducing similarity are created equal&lt;/em&gt;. When we group by similarity, we tend to first recognize similarities in &lt;em&gt;color&lt;/em&gt;, then in &lt;em&gt;shape&lt;/em&gt;. Angela Wright, a color psychologist, states that &lt;a href=&#34;http://businessadvance.com/wp-content/uploads/2015/04/white-paper-sequence-of-cognition.pdf&#34;&gt;“color is noticed by the brain before shapes or wording.”&lt;/a&gt; Thus if we want the encourage the viewer to compare the sexes, we should probably color-code by field instead, so we compare income by gender &lt;em&gt;within&lt;/em&gt; field. Here’s how that looks:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;I’m still not convinced that this encourages the brain to first compare the sexes to each other. The &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; of the STEM and non-STEM lines is too hard to overcome! We might need to introduce another layer of &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt; (by way of faceting) to make the important comparison the most obvious:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;details-on-data-collection-and-visualization&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Details on data collection and visualization&lt;/h3&gt;
+&lt;p&gt;IPUMS stands for &lt;em&gt;Integrated Public-Use Microdata Series&lt;/em&gt;. The suite of &lt;a href=&#34;https://www.ipums.org/&#34;&gt;IPUMS tools&lt;/a&gt; is an excellent source of varied data, from health to education to international census data. I aggregated the data for this example from the microdata extract, and you can download a &lt;a href=&#34;https://www.dropbox.com/s/r729zbwjjxoboy1/ACS-stem-aggregated.csv?dl=0&#34;&gt;.csv of the aggregated data here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;R code for creating the “final two” visualizations is below:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+#Assuming file is in current working directory:
+stemdata &amp;lt;- read.csv(&amp;quot;ACS-stem-aggregated.csv&amp;quot;)
+stemdata$Educ &amp;lt;- factor(stemdata$Educ, levels = c(&amp;quot;Bachelor&amp;#39;s degree&amp;quot;,&amp;quot;Master&amp;#39;s degree&amp;quot;,&amp;quot;Doctoral degree&amp;quot;,&amp;quot;Professional degree&amp;quot;))
+
+#Faceting by education;
+#color-coding by field;
+#different lines for Sex:
+ggplot(data = stemdata) + 
+   geom_point(aes(x = Year, y = avg.income/1000,color=Field)) +
+     geom_line(aes(x = Year, y = avg.income/1000,color=Field,linetype=Sex)) +
+                facet_grid(.~Educ)+
+  ylab(&amp;#39;Average income (in thousand $)&amp;#39;)
+
+
+#Double faceting:
+ggplot(data = stemdata) + 
+  #geom_point(aes(x = Year, y = avg.income/1000, shape=Sex)) +
+     geom_line(aes(x = Year, y = avg.income/1000,linetype=Sex)) +
+                facet_grid(Field~ Educ)+
+  ylab(&amp;#39;Average income (in thousand $)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Minne MUDAC 2017</title>
+      <link>http://driftlessdata.space/post/minnemudac/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/minnemudac/</guid>
+      <description>&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/all-teams.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
+ &lt;b&gt; Winona State University undergraduates made a great impression at the 2017 &lt;a href=&#34;http://minneanalytics.org/minnemudac&#34;&gt; MinneMUDAC data analytics competition &lt;/a&gt; &lt;/b&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;On November 3-4, Winona State statistics and data science students participated in the fantastic &lt;a href=&#34;http://minneanalytics.org/minnemudac/&#34;&gt;MinneMUDAC 2017&lt;/a&gt; data analytics competition.  Students worked
+in teams of up to five students for one month analyzing de-identified administrative medical and pharmacy claims data provided by &lt;a href=&#34;https://www.optum.com/&#34;&gt;Optum&lt;/a&gt;.  The competition
+required students to analyze complicated data on health insurance claims made by Type-II diabetics.  The event was hosted by &lt;a href=&#34;http://minneanalytics.org/&#34;&gt;MinneAnalytics&lt;/a&gt; at the Optum campus in Bloomington, Minnesota.&lt;/p&gt;
+
+&lt;p&gt;The event began the evening of November 3. MinneAnalytics provided dinner and a professional Q&amp;amp;A panel of data scientists.  The event kicked off in earnest on Saturday, November 4.  Students gave
+their 5-minute presentations to teams of judges, and  were scored on a variety of criteria ranging from analytic acumen; presentation organization; and team synergy.  Some weight
+was also given by how accurately teams could predict the top-6000 most expensive Type-II diabetics for the next calendar year for a held-out target data set of patients for
+which the actual insurance costs were known only to the event organizers.&lt;/p&gt;
+
+&lt;p&gt;The top five teams from the first round went on to present to all judges in a final round.  From this final round, teams were given awards for &amp;ldquo;Best overall&amp;rdquo;; &amp;ldquo;Analytic acumen&amp;rdquo;; and
+&amp;ldquo;Serendipitous discovery.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;There were 22 total undergraduate teams who participated.  We were very excited that of the top five teams to proceed to the final round,
+three were from Winona State!  Of these three, one won &amp;ldquo;Best overall&amp;rdquo; and another the award for &amp;ldquo;Analytic acumen.&amp;rdquo;  We were very proud of all our students
+who participated.  Each one of them took time out of their busy semesters to gain fantastic professional development experience.  From real-life data analysis
+of a very messy and complicated data set to presenting their results to panels of industry and academic professionals, it will be an experience that will serve them all very well.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/best-overall.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
+&lt;b&gt; The &amp;ldquo;Best Overall&amp;rdquo; team at MinneMUDAC 2017, from Winona State University.
+From left to right: Sam Meyer; Sam Dokkebakken; Eddie Schmitt; Austin Ellingworth; and Jack Barta &lt;/b&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/analytic-acumen.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
+ &lt;b&gt; The &amp;ldquo;Analytic Acumen&amp;rdquo; award went to this team from Winona State University.
+From left to right: Reagan Buske; Chris Humbert; Mariah Quam; David Stampley Jr; and McHale Dye. &lt;/b&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Quantifying thrill</title>
+      <link>http://driftlessdata.space/post/viz-worldseries-wpa/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-worldseries-wpa/</guid>
+      <description>&lt;p&gt;Monday morning, October 30, found me groggy and sandy-eyed.  The culprit was the 5-hour and 17-minute, 10-inning thriller between the LA Dodgers and Houston Astros in Game 5 of the 2017 the night before.  Thanks to living in the Central Time Zone, I went to bed around 1am. The Astros ended up defeating the Dodgers 13-12, but the game was insane, featuring three comebacks from deficits of 3 runs or more.  By the end, I was emotionally exhausted, and I didn&amp;rsquo;t even have a stake in either team!  Lots was written about the game over at &lt;a href=&#34;http://www.fangraphs.com/&#34;&gt;Fangraphs&lt;/a&gt;, one of my favorite baseball analytics websites.&lt;/p&gt;
+
+&lt;p&gt;One &lt;a href=&#34;https://www.fangraphs.com/blogs/game-five-was-as-weird-as-it-felt/&#34;&gt;post in particular&lt;/a&gt; by Craig Edwards caught my attention from a data visualization perspective.  It compared the game to another epic game: &lt;a href=&#34;https://www.baseball-reference.com/boxes/SLN/SLN201110270.shtml&#34;&gt;Game 6 of the 2011 World Series&lt;/a&gt;, where the St. Louis Cardinals staved off elimination by defeating the Texas Rangers 10-9 in 11 innings.  The crux of the article was a table that listed the top-20 &amp;ldquo;most exciting events&amp;rdquo; of each World Series side-by-side.  Here is a screenshot of said table:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/wpa-table.JPG&#34; width=&#34;400&#34; /&gt;
+&lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;An &amp;ldquo;exciting event&amp;rdquo; is one that yields a large swing in the win expectancy of the game, as measured by Win Probability Added, or WPA.  Read Fangraph&amp;rsquo;s &lt;a href=&#34;https://www.fangraphs.com/library/misc/wpa/&#34;&gt;excellent glossary entry on WPA&lt;/a&gt; for more detail, but essentially, the bigger the WPA of an event, the more exciting it is.&lt;/p&gt;
+
+&lt;p&gt;The table is great, but it&amp;rsquo;s hard to see which of the two games has the &lt;em&gt;most&lt;/em&gt; exciting Top-20 events.  I wanted to visualize!  But I needed the data.  Fangraphs has play logs for every single Major League game, which lists (among other metrics) the events of the game; the win expectancy following the event; and the WPA of the event.  I needed data from the &lt;a href=&#34;https://www.fangraphs.com/plays.aspx?date=2011-10-27&amp;amp;team=Cardinals&amp;amp;dh=0&amp;amp;season=2011&#34;&gt;Game 6, 2011&lt;/a&gt; and the &lt;a href=&#34;https://www.fangraphs.com/plays.aspx?date=2017-10-29&amp;amp;team=Astros&amp;amp;dh=0&amp;amp;season=2017&#34;&gt;Game 5, 2017&lt;/a&gt; play logs.  But I needed them both in the same data source!&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;R&lt;/code&gt; has a great package &lt;code&gt;rvest&lt;/code&gt; that makes web-scraping (especially scraping html tables) quite easy.  Here&amp;rsquo;s the code I wrote to scrape the &lt;a href=&#34;https://www.fangraphs.com/plays.aspx?date=2011-10-27&amp;amp;team=Cardinals&amp;amp;dh=0&amp;amp;season=2011&#34;&gt;Game 6, 2011&lt;/a&gt; data; do some cleaning; and write the cleaned data into a .csv file.  I wrote very similar code to get the &lt;a href=&#34;https://www.fangraphs.com/plays.aspx?date=2017-10-29&amp;amp;team=Astros&amp;amp;dh=0&amp;amp;season=2017&#34;&gt;Game 5, 2017&lt;/a&gt; data:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;library(rvest)
+library(dplyr)
+#Read in the data, find the right table:
+url &amp;lt;- &#39;https://www.fangraphs.com/plays.aspx?date=2011-10-27&amp;amp;team=Cardinals&amp;amp;dh=0&amp;amp;season=2011&#39;
+raw &amp;lt;- read_html(url)%&amp;gt;%
+       html_table(fill=TRUE)
+mytable &amp;lt;- raw[[9]][,1:12]
+
+#Use dplyr to clean it up. By code row:
+  #Create absolute value of WPA
+  #Create new column to indicate the game
+  #Remove the &amp;quot;%&amp;quot; from the win expectancy, create Event number
+  #Arrange in descending order by WPA
+  #Create rank column
+cleantable &amp;lt;- mytable %&amp;gt;%
+  mutate(WPA_abs = abs(WPA)) %&amp;gt;%                                            
+  mutate(Game = rep(&#39;Game 6, 2011&#39;,nrow(mytable))) %&amp;gt;%                    
+  mutate(WE = as.numeric(gsub(&#39;%&#39;,&#39;&#39;,WE)), Event = 1:nrow(mytable)) %&amp;gt;%      
+  arrange(-WPA_abs) %&amp;gt;%                                                     
+  mutate(WPA_Rank = 1:nrow(mytable))                                          
+
+#Write cleaned data to csv file
+write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then on to visualizing!  Using Tableau, I created a win-expectancy graph for each of the games.  The red dots indicate &amp;ldquo;exciting events&amp;rdquo;; events with WPA of 15% or more:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/WPA_WS_blog/tracker-dash?:embed=y?:showVizHome=no&#34;
+ width=&#34;755&#34; height=&#34;392&#34;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;Clearly, both games were crazy, with wild swings in win expectancy!  If you count up the red dots, Game 6 in 2011 had 8 &amp;ldquo;exciting events&amp;rdquo; while Game 5 in 2017 had 10 &amp;ldquo;exciting events.&amp;rdquo;  15% is quite an arbitrary threshold for &amp;ldquo;exciting&amp;rdquo; however; different thresholds would likely change the comparison.  Comparing total WPA flips the story: the total WPA of 7.2 in Game 6, 2011 was larger than the total WPA of 6.2 in Game 5, 2017.&lt;/p&gt;
+
+&lt;p&gt;My primary interest, however, was to compare the top-20 most exciting events of both games in a clearer visual manner, respecting principles of human perception:&lt;/p&gt;
+
+&lt;iframe src=&#34;https://public.tableau.com/views/WPA_WS_blog/Top-20?:embed=y?:showVizHome=no&#34;
+ width=&#34;655&#34; height=&#34;495&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;From this graph, we can see the four points on the right that lie below the reference line.  These indicate that the top four most exciting events in Game 6, 2011 were &lt;em&gt;more exciting&lt;/em&gt; than the top four most exciting events from Game 5, 2017.  On the other hand, the top 5-10 most exciting events in Game 5, 2017 lie above the reference line, indicating they were more exciting than the events with WPA ranked 5-10 in Game 6, 2011.  The rest of the events ranked 11-20 in WPA go back to lying below the line.&lt;/p&gt;
+
+&lt;p&gt;So, it does appear that Game 6, 2011 was truly a more thrilling game than Game 5, 2017!   The total WPA of Game 6, 2011 was greater than the total WPA in Game 5, 2017, and of the top-20 &amp;ldquo;most exciting&amp;rdquo; events, they tended to be &lt;em&gt;more exciting&lt;/em&gt; in 2011. Oh well, Game 5, 2017 was still worth losing a few hours of sleep!  I think&amp;hellip;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Racial disparity in Winona Area Public School District</title>
+      <link>http://driftlessdata.space/post/viz-waps-disparity/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-waps-disparity/</guid>
+      <description>&lt;p&gt; This visualization project was inspired by the excellent This American Life episode, &lt;em&gt; &lt;a href=&#34;https://www.thisamericanlife.org/radio-archives/episode/538/is-this-working&#34;&gt; Is This Working? &lt;/a&gt; &lt;/em&gt;  
+ The entire episode is well worth a listen, but the gist of the episode was that racial inequity in disciplinary action translates into racial inequity in academic outcomes.  I was curious to see 
+if this association held up, in the Winona Area Public Schools, using publicly available data from the &lt;a href=&#34;http://education.state.mn.us/MDE/Data/&#34;&gt; Minnesota Department of Education Data Center. &lt;/a&gt;  Turns out, it does.   &lt;/p&gt; 
+
+&lt;p&gt;&lt;center&gt;
+&lt;iframe src=&#34;https://public.tableau.com/views/WAPS-infographic/Dash?:showVizHome=no?:embed=y&amp;:display_count=no&#34;
+ width=&#34;1010&#34; height=&#34;940&#34;&gt;&lt;/iframe&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>#OscarsSoWhite</title>
+      <link>http://driftlessdata.space/post/viz-oscars/</link>
+      <pubDate>Sun, 28 Feb 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-oscars/</guid>
+      <description>&lt;p&gt;As I was watching Chris Rock host the 2016 Oscars, I decided to finally scratch my curiosity itch and learn &lt;code&gt;R&lt;/code&gt;&amp;rsquo;s Twitter API, &lt;code&gt;twitteR&lt;/code&gt;.  The 2016 Oscars were &lt;a href=&#34;http://www.latimes.com/entertainment/la-et-oscars-so-white-reaction-htmlstory.html&#34;&gt;controversial&lt;/a&gt;, due to the fact that all the actors and actresses nominated were white for the second year in a row.  Chris Rock made sure to point this out in his &lt;a href=&#34;https://www.youtube.com/watch?v=kqhVNZgZGqQ&#34;&gt;opening monologue&lt;/a&gt;, and tweets began using the hashtag #OscarsSoWhite to advance the conversation.&lt;/p&gt;
+
+&lt;p&gt;I decided to make a word cloud of tweets that used the hashtag #OscarsSoWhite, so I could:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;investigate what people were saying when they used this hashtag;&lt;/li&gt;
+&lt;li&gt;finally use the &lt;code&gt;twitteR&lt;/code&gt; package, which I hadn&amp;rsquo;t up to this point.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The resulting word cloud created in Tableau is below.  No blinding insight; mostly it&amp;rsquo;s obvious that host Chris Rock was a popular tweet topic.&lt;/p&gt;
+
+&lt;iframe src=&#34;https://public.tableau.com/views/OscarsSoWhite/OscarsSoWhite?:embed=y?:showVizHome=no&#34;
+ width=&#34;755&#34; height=&#34;600&#34;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;There are lots of nice online tutorials to help scrape Tweets and clean them (they are messy!), for example &lt;a href=&#34;https://www.r-bloggers.com/create-twitter-wordcloud-with-sentiments/&#34;&gt;this one&lt;/a&gt; and &lt;a href=&#34;http://technokarak.com/how-to-clean-the-twitter-data-using-r-twitter-mining-tutorial.html&#34;&gt;this one&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
