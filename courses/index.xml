@@ -846,19 +846,19 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
     
     <item>
       <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
-      <link>http://driftlessdata.space/courses/dsci310/dsci310-home/</link>
+      <link>http://driftlessdata.space/courses/dsci310/home/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://driftlessdata.space/courses/dsci310/dsci310-home/</guid>
+      <guid>http://driftlessdata.space/courses/dsci310/home/</guid>
       <description>
 
-&lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;syllabus-hahahugoshortcode-1hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
 
-&lt;h3 id=&#34;midterm-project-midterm&#34;&gt;&lt;a href=&#34;../midterm/&#34;&gt;Midterm project&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;midterm-project-hahahugoshortcode-2hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/midterm/&#34;&gt;Midterm project&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Presentations to begin 10/27.&lt;/p&gt;
 
-&lt;h3 id=&#34;final-project-final&#34;&gt;&lt;a href=&#34;../final/&#34;&gt;Final project&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;final-project-hahahugoshortcode-3hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/final/&#34;&gt;Final project&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Presentations to begin 11/13.&lt;/p&gt;
 
@@ -923,10 +923,10 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
 &lt;h3 id=&#34;play-days&#34;&gt;Play days!&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../playday1/&#34;&gt;Play day 1&lt;/a&gt;, begins 9/13&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/playday1/&#34;&gt;Play day 1&lt;/a&gt;, begins 9/13&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;../ipums-visualization-ggplot/&#34;&gt;Play day 2&lt;/a&gt; | &lt;a href=&#34;../ipums-visualization-key/&#34;&gt;R code for plots&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../playday3/&#34;&gt;Play day 3&lt;/a&gt;, begins 10/16&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../playday4/&#34;&gt;Play day 4&lt;/a&gt;, begins 11/6&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/playday3/&#34;&gt;Play day 3&lt;/a&gt;, begins 10/16&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/playday4/&#34;&gt;Play day 4&lt;/a&gt;, begins 11/6&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
@@ -945,13 +945,13 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
     
     <item>
       <title>Stat 450-460: Mathematical statistics I-II (Fall 2017)</title>
-      <link>http://driftlessdata.space/courses/stat450/stat450-home/</link>
+      <link>http://driftlessdata.space/courses/stat450/home/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://driftlessdata.space/courses/stat450/stat450-home/</guid>
+      <guid>http://driftlessdata.space/courses/stat450/home/</guid>
       <description>
 
-&lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;syllabus-hahahugoshortcode-1hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/dsci310/syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
 
@@ -1040,7 +1040,7 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
       <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
       <description>
 
-&lt;h3 id=&#34;stat-450-mathematical-statistics-i-stat450-home&#34;&gt;&lt;a href=&#34;../stat450-home/&#34;&gt;STAT 450: Mathematical statistics I&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;stat-450-mathematical-statistics-i-hahahugoshortcode-1hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/stat365/home/&#34;&gt;STAT 450: Mathematical statistics I&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;fall-2017&#34;&gt;Fall 2017&lt;/h3&gt;
 
@@ -1134,7 +1134,7 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
       <guid>http://driftlessdata.space/courses/dsci310/syllabus/</guid>
       <description>
 
-&lt;h3 id=&#34;data-summarization-and-visualization-fall-2017-dsci310-home&#34;&gt;&lt;a href=&#34;../dsci310-home/&#34;&gt;Data summarization and visualization (Fall 2017)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&#34;data-summarization-and-visualization-fall-2017-hahahugoshortcode-1hbhb&#34;&gt;&lt;a href=&#34;http://driftlessdata.space/courses/stat365/home/&#34;&gt;Data summarization and visualization (Fall 2017)&lt;/a&gt;&lt;/h3&gt;
 
 &lt;h3 id=&#34;course-overview&#34;&gt;Course overview&lt;/h3&gt;
 
@@ -1315,10 +1315,10 @@ and visualizations that communicate the answers to those questions. The data set
     
     <item>
       <title>Stat 365: Experimental design and analysis (Spring 2017)</title>
-      <link>http://driftlessdata.space/courses/stat365/stat365-home/</link>
+      <link>http://driftlessdata.space/courses/stat365/home/</link>
       <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://driftlessdata.space/courses/stat365/stat365-home/</guid>
+      <guid>http://driftlessdata.space/courses/stat365/home/</guid>
       <description>
 
 &lt;h3 id=&#34;course-materials&#34;&gt;Course materials&lt;/h3&gt;
