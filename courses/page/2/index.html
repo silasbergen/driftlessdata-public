@@ -240,6 +240,16 @@
   
   
   <div>
+    <h2><a href="http://driftlessdata.space/courses/stat450/stat450-home/">Stat 450-460: Mathematical statistics I-II (Fall 2017)</a></h2>
+    <div class="article-style">
+      
+      Syllabus Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2 cheat sheet
+ R Markdown cheat sheet  Notes  Chapter 3: Discrete random variables | pdf | Rmd Chapter 4: Continuous random variables | pdf | Rmd Chapter 5: Joint distributions | pdf | Rmd Chapter 6: Transformations | pdf | Rmd  Exams This writing rubric will be applied to all take-home exams that require the use of R Markdown.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="http://driftlessdata.space/courses/stat450/syllabus/">Syllabus</a></h2>
     <div class="article-style">
       
@@ -258,7 +268,7 @@
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat365/home/">Stat 365: Experimental design and analysis (Spring 2017)</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/stat365/stat365-home/">Stat 365: Experimental design and analysis (Spring 2017)</a></h2>
     <div class="article-style">
       
       Course materials  Syllabus R cran R studio &ldquo;Try R&rdquo; tutorial (for R beginners) Intro to R Studio tutorial video &ldquo;Ref-modify.docx&rdquo; style document called in .Rmd files  Handouts  Handout 1: Review of modeling | House price data (.csv) | Video of completed Handout 1 | R Markdown (.Rmd) file Handout 2: Intro to experimental design Handout 3: Review of inference in the context of experimental design | .
@@ -340,17 +350,6 @@ facet_grid(.
       
       Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
 library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/r_hw2/">R Homework 2</a></h2>
-    <div class="article-style">
-      
-      Due Wednesday, 9/20 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
-(Modified from Introduction to Scientific Programming and Simulation Using R by Owen Jones et al).
-A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 slot (numbered 0) is colored green.
       
     </div>
   </div>
