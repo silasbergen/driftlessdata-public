@@ -845,6 +845,77 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
     </item>
     
     <item>
+      <title>R Homework 1</title>
+      <link>http://driftlessdata.space/courses/stat450/r_hw1.knit/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/r_hw1.knit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Due Friday, 9/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted html, Word, or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In class, we considered the case of rolling two dice, one red and one white.  Let $Y\equiv$ the minimum of the two rolls.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Define the probability mass function (pmf) in tabular format.  The table is started for you, below.  Fill in the appropriate entries for $p(y)$.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;$y$&lt;/th&gt;
+&lt;th&gt;$p(y)$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Graph this pmf.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Find $\mu \equiv E(Y)$.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Find $\sigma^2 \equiv Var(Y)$.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Find $M_Y(t)$, and create a plot of $M_Y(t)$ as a function of $t$ over the interval $[-1,1]$.  (Hint: first, write a function &lt;code&gt;m(t)&lt;/code&gt; that takes as argument &lt;code&gt;t&lt;/code&gt; and returns $M_Y(t)$, for any input $t$.  Then, create a sequence of $t-$values over $[1,1]$ with the &lt;code&gt;seq()&lt;/code&gt; function, and use your function to evaluate $M_Y(t)$ for each value in the sequence.  Then plot this sequence with $t$ on the x-axis and $M_Y(t)$ on the y-axis.  The function &lt;code&gt;exp(t)&lt;/code&gt; can be used to evaluate $e^t$.)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Now write an &lt;code&gt;R&lt;/code&gt; function &lt;code&gt;one.Y()&lt;/code&gt; that simulates a single realization of $Y$.  Using this function and &lt;code&gt;replicate()&lt;/code&gt;, generate 1000 realizations of $Y$.  Graph the empirical pmf, and verify that is is similar to the theoretical one above.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Find the empirical mean $\bar Y$ and variance $S^2$ (use &lt;code&gt;mean()&lt;/code&gt; and &lt;code&gt;var()&lt;/code&gt;).  How do they compare to $\mu$ and $\sigma^2$?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
       <link>http://driftlessdata.space/courses/dsci310/dsci310-home/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
@@ -1628,30 +1699,6 @@ exam&lt;/a&gt;
 | &lt;a href=&#34;https://www.dropbox.com/s/yda96w17dr703uz/Inversion.csv?dl=0&#34;&gt;Inversion data set for
 Q3&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Critique #1</title>
-      <link>http://driftlessdata.space/courses/dsci310/critique1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/dsci310/critique1/</guid>
-      <description>&lt;p&gt;Charles Joseph Minard&amp;rsquo;s famous visualization of Napoleon&amp;rsquo;s disastrous march on Russia in 1812 earned Ed Tufte&amp;rsquo;s glowing praise: &lt;a href=&#34;https://www.edwardtufte.com/tufte/posters&#34;&gt;&amp;ldquo;Probably the best statistical graphic ever drawn.&amp;rdquo;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://nowscape.com/images/map_napoleon_moscow.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Read this &lt;a href=&#34;https://robots.thoughtbot.com/analyzing-minards-visualization-of-napoleons-1812-march&#34;&gt;excellent description and analysis&lt;/a&gt; by Joanne Cheng, then submit your answers to the following questions on D2L:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;What are the variables that are encoded in this visualization?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;For each, state whether it is categorical nominal; categorical ordinal; or quantitative.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;What elementary perceptual tasks are used to encode each variable?&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Do you agree with Tufte&amp;rsquo;s assessment?  Regardless, find a graph that &lt;em&gt;you&lt;/em&gt; think is impressive, and include a link.  Briefly describe why it impresses you, using justification that cites concepts discussed in class.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     
