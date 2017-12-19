@@ -11,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/dsci310/ipums-visualization-ggplot.utf8/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/stat450/r_hw3.utf8/">
 
   
   
@@ -62,31 +62,32 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Driftless Data">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="alternate" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="feed" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/courses/dsci310/ipums-visualization-ggplot.utf8/">
+  <link rel="canonical" href="http://driftlessdata.space/courses/stat450/r_hw3.utf8/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="/courses/dsci310/ipums-visualization-ggplot.utf8/">
-  <meta property="og:title" content="IPUMS visualization in ggplot2 | Driftless Data">
+  <meta property="og:url" content="http://driftlessdata.space/courses/stat450/r_hw3.utf8/">
+  <meta property="og:title" content="R Homework 3 | Driftless Data">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2017-10-20T00:00:00&#43;00:00">
   
-  
+  <meta property="article:modified_time" content="2017-10-20T00:00:00&#43;00:00">
   
 
   
 
-  <title>IPUMS visualization in ggplot2 | Driftless Data</title>
+  <title>R Homework 3 | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -234,7 +235,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">IPUMS visualization in ggplot2</h1>
+      <h1 itemprop="name">R Homework 3</h1>
 
       
 
@@ -242,10 +243,8 @@
 
   <span class="article-date">
     
-        Last updated on
-    
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Jan 1, 0001
+    <time datetime="2017-10-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Oct 20, 2017
     </time>
   </span>
 
@@ -265,36 +264,229 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p>Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing.  One possible visualization is shown below.  Can you re-create this visualization?  (Below is for the USA, but you can pick your country of interest.)</p>
+        <p><strong>Due Wednesday, 11/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted Word doc or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.</strong></p>
 
-<pre><code class="language-r">library(dplyr);library(ggplot2)
-ipums &lt;- read.csv('C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv')
-usa &lt;- ipums %&gt;% filter(Country=='United States')
-#head(usa)
-ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
-  geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
-  facet_grid(.~Year) + 
-  scale_color_discrete(name='Highest education attained') + 
-  theme(axis.text.x = element_text(angle=90)) + 
-  scale_y_continuous(name='Count (in millions)', labels = function(x) paste(x / 1000000,'M')) 
-</code></pre>
+<ol>
+<li>In Math-Stat, all of the pmfs/pdfs we have discussed are truly <em>models</em>.  This means they are proposed mathematical frameworks for explaining behavior of actual data.  We consier one proposed model for some actual data in this problem.  Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution.  Specifically, with $X =1$ if the cell is malignant and $X = 0$ if the cell is benign:</li>
+</ol>
 
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p>$$P(X = x)= 0.4^x 0.6^{1-x}.$$</p>
 
-<p>One possible problem with this visualization is that it visualizes counts instead of percents.  Using <code>dplyr</code>, re-create the visualization below that shows the percents instead of counts:</p>
+<p>Suppose that the radius of the cell in microns, $Y$, depends on $X$ and can be well-modeled with the following conditional pdf:</p>
 
-<pre><code class="language-r">sex.totals &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%summarize(Total = sum(Count))
-#head(sex.totals)
-usa2 &lt;- inner_join(usa,sex.totals,by=c('Year','Sex'))%&gt;%mutate(pct = 100*Count/Total)
-ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
-  geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
-  facet_grid(.~Year) + 
-  scale_color_discrete(name='Highest education attained') +
-  ylab('Percent of population') + 
-    theme(axis.text.x = element_text(angle=90))
-</code></pre>
+<p>$$ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &lt; y &lt; \infty
+$$</p>
 
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<p>A.  Find $\mu_Y = E(Y)$.</p>
+
+<p>B.  Find $\sigma^2_Y = Var(Y)$.</p>
+
+<p>C.  The data set BreastCancerSample.csv contains data on 569 cells.  Plot bar graphs of $X$, and histograms of $Y$ for each $X$.  Does the proposed model appear reasonable?</p>
+
+<p>D.  Find $\hat\mu_Y = \hat E(Y)$ and $\hat\sigma^2_Y = \widehat{Var}(Y)$, the empirical (i.e., observed) mean and variance of the cell radii.  Verify that they well-approximate the theoretical quantitities.</p>
+
+<p>E.  Now use the data to fill out the following table:</p>
+
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>$\hat p(x)$</th>
+<th>$\hat E(Y\mid X)$</th>
+<th>$\widehat{Var}(Y\mid X)$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>Use the quantities in this table to find $\hat \mu_Y$ and $\hat\sigma^2_Y$.  Verify that they match your answers to part D.</p>
+
+<ol>
+<li>As discussed in class, if $(X,Y)$ follow a bivariate normal distribution then:</li>
+</ol>
+
+<p>$$ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)$$</p>
+
+<p>$$Var(Y|X) = \sigma^2_Y( 1-\rho^2)$$</p>
+
+<p>This implies that under bivariate normality, the conditional mean of $Y$ given $X$ is linear, and the form of the  intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal.  In this problem we study this further.</p>
+
+<p>Consider the following combinations of parameterizations, for $\mu_Y = \mu_X = 10$ and $\sigma_X = 2$:</p>
+
+<table>
+<thead>
+<tr>
+<th>$\rho$</th>
+<th>$\sigma_Y/\sigma_X$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0.1</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+
+<p>Using the function <code>mvrnorm()</code> from the <code>MASS</code> package, simulate 100 $(X,Y)$ pairs for each row of the table above.</p>
+
+<p>A.  Plot the 9 data sets, including the best-fit linear regression line (use <code>geom_smooth(method='lm')</code> if using <code>ggplot</code>).</p>
+
+<p>B.  By describing the scatterplots, briefly explain how the combinations of $\rho$ and $\sigma_Y/\sigma_X$ affect $\widehat{Var}(Y|X)$.</p>
+
+<p>C.  Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using <code>lm()</code> on each of the 9 simulated data sets.</p>
+
+<table>
+<thead>
+<tr>
+<th>$\rho$</th>
+<th>$\sigma_Y/\sigma_X$</th>
+<th>$\beta_0$</th>
+<th>$\beta_1$</th>
+<th>$\hat\beta_0$</th>
+<th>$\hat\beta_1$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0.1</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 
       </div>
 
@@ -392,6 +584,13 @@ ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=Ed
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

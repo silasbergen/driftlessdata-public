@@ -11,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/dsci310/ipums-visualization-ggplot.utf8/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/stat450/r_hw1.utf8/">
 
   
   
@@ -62,31 +62,32 @@
   
 
   
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="Driftless Data">
-  <link rel="feed" href="/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="alternate" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="feed" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/courses/dsci310/ipums-visualization-ggplot.utf8/">
+  <link rel="canonical" href="http://driftlessdata.space/courses/stat450/r_hw1.utf8/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="/courses/dsci310/ipums-visualization-ggplot.utf8/">
-  <meta property="og:title" content="IPUMS visualization in ggplot2 | Driftless Data">
+  <meta property="og:url" content="http://driftlessdata.space/courses/stat450/r_hw1.utf8/">
+  <meta property="og:title" content="R Homework 1 | Driftless Data">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2017-08-27T00:00:00&#43;00:00">
   
-  
+  <meta property="article:modified_time" content="2017-08-27T00:00:00&#43;00:00">
   
 
   
 
-  <title>IPUMS visualization in ggplot2 | Driftless Data</title>
+  <title>R Homework 1 | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -234,7 +235,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">IPUMS visualization in ggplot2</h1>
+      <h1 itemprop="name">R Homework 1</h1>
 
       
 
@@ -242,10 +243,8 @@
 
   <span class="article-date">
     
-        Last updated on
-    
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Jan 1, 0001
+    <time datetime="2017-08-27 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Aug 27, 2017
     </time>
   </span>
 
@@ -265,36 +264,68 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p>Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing.  One possible visualization is shown below.  Can you re-create this visualization?  (Below is for the USA, but you can pick your country of interest.)</p>
+        <p><strong>Due Friday, 9/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted html, Word, or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.</strong></p>
 
-<pre><code class="language-r">library(dplyr);library(ggplot2)
-ipums &lt;- read.csv('C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv')
-usa &lt;- ipums %&gt;% filter(Country=='United States')
-#head(usa)
-ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
-  geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
-  facet_grid(.~Year) + 
-  scale_color_discrete(name='Highest education attained') + 
-  theme(axis.text.x = element_text(angle=90)) + 
-  scale_y_continuous(name='Count (in millions)', labels = function(x) paste(x / 1000000,'M')) 
-</code></pre>
+<p>In class, we considered the case of rolling two dice, one red and one white.  Let $Y\equiv$ the minimum of the two rolls.</p>
 
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<ol>
+<li>Define the probability mass function (pmf) in tabular format.  The table is started for you, below.  Fill in the appropriate entries for $p(y)$.</li>
+</ol>
 
-<p>One possible problem with this visualization is that it visualizes counts instead of percents.  Using <code>dplyr</code>, re-create the visualization below that shows the percents instead of counts:</p>
+<table>
+<thead>
+<tr>
+<th>$y$</th>
+<th>$p(y)$</th>
+</tr>
+</thead>
 
-<pre><code class="language-r">sex.totals &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%summarize(Total = sum(Count))
-#head(sex.totals)
-usa2 &lt;- inner_join(usa,sex.totals,by=c('Year','Sex'))%&gt;%mutate(pct = 100*Count/Total)
-ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
-  geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
-  facet_grid(.~Year) + 
-  scale_color_discrete(name='Highest education attained') +
-  ylab('Percent of population') + 
-    theme(axis.text.x = element_text(angle=90))
-</code></pre>
+<tbody>
+<tr>
+<td>1</td>
+<td></td>
+</tr>
 
-<p><img src="IPUMS-visualization-ggplot_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+<tr>
+<td>2</td>
+<td></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<ol>
+<li><p>Graph this pmf.</p></li>
+
+<li><p>Find $\mu \equiv E(Y)$.</p></li>
+
+<li><p>Find $\sigma^2 \equiv Var(Y)$.</p></li>
+
+<li><p>Find $M_Y(t)$, and create a plot of $M_Y(t)$ as a function of $t$ over the interval $[-1,1]$.  (Hint: first, write a function <code>m(t)</code> that takes as argument <code>t</code> and returns $M_Y(t)$, for any input $t$.  Then, create a sequence of $t-$values over $[1,1]$ with the <code>seq()</code> function, and use your function to evaluate $M_Y(t)$ for each value in the sequence.  Then plot this sequence with $t$ on the x-axis and $M_Y(t)$ on the y-axis.  The function <code>exp(t)</code> can be used to evaluate $e^t$.)</p></li>
+
+<li><p>Now write an <code>R</code> function <code>one.Y()</code> that simulates a single realization of $Y$.  Using this function and <code>replicate()</code>, generate 1000 realizations of $Y$.  Graph the empirical pmf, and verify that is is similar to the theoretical one above.</p></li>
+
+<li><p>Find the empirical mean $\bar Y$ and variance $S^2$ (use <code>mean()</code> and <code>var()</code>).  How do they compare to $\mu$ and $\sigma^2$?</p></li>
+</ol>
 
       </div>
 
@@ -392,6 +423,13 @@ ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=Ed
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 
