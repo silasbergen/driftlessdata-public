@@ -5,6 +5,33 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/courses/stat110/stat110-home/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/courses/stat110/syllabus/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/post/group-homework/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/post/on-epts/</loc>
       <lastmod>2017-12-19T00:00:00+00:00</lastmod>
     </url>
@@ -123,15 +150,6 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/stat450/r_hw1/</loc>
-      <lastmod>2017-08-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://driftlessdata.space/courses/stat450/r_hw1.knit/</loc>
       <lastmod>2017-08-27T00:00:00+00:00</lastmod>
     </url>
     
@@ -342,7 +360,7 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/</loc>
-      <lastmod>2017-11-07T00:00:00+00:00</lastmod>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -379,6 +397,16 @@
     
       <loc>http://driftlessdata.space/</loc>
       <lastmod>2017-10-15T00:00:00-05:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/tags/education/</loc>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -467,16 +495,8 @@
     
     <url>
     
-      <loc>http://driftlessdata.space/courses/stat450/schedule.knit/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://driftlessdata.space/tags/students/</loc>
-      <lastmod>2017-12-07T00:00:00-06:00</lastmod>
+      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

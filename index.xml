@@ -11,6 +11,553 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat 110: Fundamentals of statistics (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;office-hours-gildemeister-124d&#34;&gt;Office hours (Gildemeister 124D)&lt;/h3&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://silasbergen.github.io/Tinkerplots.pdf&#34;&gt;Tinkerplots installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;Tutoring services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/85xnt7xk9jjtt14/BinomialProbabilities.xlsx?dl=0&#34;&gt;Binomial spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;schedule-of-upcoming-events&#34;&gt;Schedule of upcoming events&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Done by class&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;In class&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1/9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;First day!&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Syllabus;   Install JMP&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NO CLASS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NO CLASS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/16&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Lectures 1 &amp;amp; 2 videos and D2L practice quizzes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Practice problems &amp;amp; in-class quiz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Homework 1 (in groups)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture 1: Introduction to data | &lt;a href=&#34;https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-Lecture+1A+Introduction+to+data+-+Quiz/0_y7j9h9ml&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 2: Summarizing a single variable | &lt;a href=&#34;https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-Lecture+2A+Summarizing+a+single+variable+-+Quiz/0_erqal4x1&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;h3 id=&#34;practice-problems&#34;&gt;Practice problems&lt;/h3&gt;
+
+&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Birthweight.jmp&#34;&gt;Birth weight
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/se0fo4xi45zab5v/Body_Image.jmp?dl=0&#34;&gt;Body Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/lbqr85a1to664n9/BRFSS.jmp?dl=0&#34;&gt;BRFSS
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/x22xv6aljppse5b/CA_Expenditures.jmp?dl=0&#34;&gt;California expenditures data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wl0ms087o0mqv2/kid_calories.jmp?dl=0&#34;&gt;Calories data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wbpr5zkvvyti45/HypoCommute2.jmp?dl=0&#34;&gt;Commute times&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/FEVdata.jmp&#34;&gt;FEV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zzqqp6cv96me99r/Gun-data.jmp?dl=0&#34;&gt;Gun data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/HIV-Antiretroviral.jmp&#34;&gt;HIV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/IraqWar.jmp&#34;&gt;Iraq War
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Lions.jmp&#34;&gt;Lions
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Lower back pain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/atthasd2ce0xt7f/Drink-Smoke-Cancer.jmp?dl=0&#34;&gt;Lung cancer data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/LymphNodes.jmp&#34;&gt;Lymphedenopathy
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Pancreatic_Cancer_Data.jmp&#34;&gt;Pancreatic cancer
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/otx5y9p8b1zi14d/Parents_Attitudes.jmp?dl=0&#34;&gt;Parental attitude data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ehdrph7ki0ikhzl/Parole_Prediction.jmp?dl=0&#34;&gt;Parole prediction data&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/PewFacebookData.jmp&#34;&gt;Pew research
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Smiles.jmp&#34;&gt;Smiles
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/aqd6cvhs2ebagz0/StudentSurveyFall2017.jmp?dl=0&#34;&gt;Student Survey
+Data (Fall 2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/subarus.jmp&#34;&gt;Subaru
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Titanic.jmp&#34;&gt;Titanic
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/trombone.jmp&#34;&gt;Trombone
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-110-fundamentals-of-statistics-stat110-home&#34;&gt;&lt;a href=&#34;../stat110-home/&#34;&gt;Stat 110: Fundamentals of statistics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Required software&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JMP -&lt;/strong&gt; available from WSU network for free. &lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tinkerplots&lt;/strong&gt; - costs $7. &lt;a href=&#34;https://silasbergen.github.io/Tinkerplots.pdf&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Optional text&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no text required for this course. However, if you would like to
+refer to a textbook, a good reference is &lt;em&gt;Unlocking the Power of Data&lt;/em&gt;
+by Lock, Lock, Lock, Lock, and Lock.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Prerequisites&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Qualifying score on the mathematics placement exam or MATH 050.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Basic Skills Learning Outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This course can be used to satisfy the University Studies Program&amp;rsquo;s
+requirements for Basic Skills in Mathematics or Goal Area 4 under the
+new General Education Program. This includes requirements and learning
+activities that will promote your abilities to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Illustrate historical and contemporary applications of
+mathematical/logical systems;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clearly express mathematical/logical ideas in writing;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explain what constitutes a valid mathematical/logical argument
+(proof); and&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply higher-order problem-solving and/or modeling strategies.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Additional learning outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The successful Stat 110 student will be able to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use logical reasoning by studying mathematical patterns and
+relationships&lt;/strong&gt; One of the major goals of statistics is to find patterns and
+relationships in datasets. Hence almost all lectures, homework
+problems, and test questions in the course have the study of
+patterns for variables and relationships between variables as their
+basis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use mathematical models to describe real-world phenomena and to
+solve real-world problems - as well as understand the limitations of
+models in making predictions and drawing conclusions&lt;/strong&gt;
+In all of the textbooks and course notes used in STAT 110 the
+majority of the problems are real-world based and are &amp;ldquo;word&amp;rdquo;
+problems. Further, all instructors require the students when doing
+such problems to write conclusions and discuss limitations.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;organize data, communicate the essential features of the data, and
+interpret the data in a meaningful way&lt;/strong&gt;
+This is the heart of STAT 110. The topics covered are chosen so
+that students who complete the course can organize data, communicate
+essential features of the data both numerically and graphically and
+provide interpretations/conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;do a critical analysis of scientific and other research&lt;/strong&gt;
+The scientific method is discussed early in the course. The logic
+of hypothesis testing is discussed in detail. Further, on tests and
+written assignments the students are expected to go beyond a simple
+analysis and provide implications, interpretations, and conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;extract correct information from tables and common graphical
+displays, such as line graphs, scatter plots, histograms, and
+frequency tables&lt;/strong&gt;
+All of these topics are explicitly taught in STAT 110 and are on
+the course outline. Please note that &amp;ldquo;line graphs&amp;rdquo; is subsumed under
+&amp;ldquo;Frequency distributions and histograms&amp;rdquo;. Also, please note that
+&amp;ldquo;scatter plots&amp;rdquo; are more formally called &amp;ldquo;Bivariate displays&amp;rdquo; by
+statisticians.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;express the relationships illustrated in graphical displays and
+tables clearly and correctly in words&lt;/strong&gt;
+As can be seen from the course outline, graphical displays and
+tables cover a significant portion of the course content. As
+discussed above, interpretation in words is expected by all
+instructors on homework and tests.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use appropriate technology to describe and solve quantitative
+problems.&lt;/strong&gt;
+As stated on the course outline, &amp;ldquo;It is required that at least one
+assignment using an appropriate computer package be included in the
+course.&amp;rdquo; In this section of STAT 110, we will primarily use a
+statistical software package called JMP.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Assessment tasks&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The following assessments will be used to gauge growth in the Basic
+Skills and additional learning outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quizzes (10%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The section of Stat 110 you are taking is &lt;em&gt;flipped&lt;/em&gt;.  This means that the PowerPoint lectures are all recorded on video that you watch on your own outside of class, and class time is spent on additional problem solving, concept review, and completing homework.  The video lectures have practice quiz questions embedded along the way, just to help keep the video interactive and help you assess your understanding along the way.  There will also be practice D2L practice quizzes that you can take an unlimited number of times.  The video quiz and D2L practice quizzes are just for practice; you are not graded on these.  After watching the videos and taking the practice quizzes, we will have &lt;em&gt;in-class quizzes&lt;/em&gt; that you can take &lt;strong&gt;up to two times&lt;/strong&gt;.  Your score on the quiz will be the highest of the attempts.  Your cumulative score on these quizzes will account for 10% of your final grade.  Your single lowest quiz score will be dropped.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Attendance (5%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Attending class is very important. Lots of learning happens in class, including group discussions; problem solving; and review of important concepts.  Accordingly, 5% of your final grade is based on our simple attendance, which I will take at some point during each class period.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Group homework assignments (35%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Roughly half of the in-class time will be spent doing group
+homework assignments. There are a number of benefits to in-class group
+assignments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No (or at least, very little) homework outside of class!&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You get to explain concepts to, and hear explanations from, your
+classmates. It&amp;rsquo;s very likely that I will explain a concept in a way
+you did not understand, but a classmate will explain it to you in a
+way that you can understand.&lt;/li&gt;
+&lt;li&gt;Those of you who &lt;em&gt;do&lt;/em&gt; understand a concept will understand it &lt;em&gt;ever
+better&lt;/em&gt; when you try to explain it to a classmate!&lt;/li&gt;
+&lt;li&gt;I am there in class with you, so as to better answer your questions
+as they arise.
+But don&amp;rsquo;t take my word for it!  Here&amp;rsquo;s a word cloud of responses to the question &amp;ldquo;What did you like BEST about in-class group homework&amp;rdquo; I asked on the previous two semeters&amp;rsquo; course evaluations:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+ &lt;img src=&#34;../../../img/group-best-wordcloud.png&#34; width=&#34;500&#34;&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+I will alternate between randomly assigning you into groups (usually of 3), and
+allowing you to select your own groups.  Students will submit their assignments to
+ D2L, and all students in a group will get the same homework grade. The
+ homework practice concepts learned in class. Homework assignment will
+ often require use of JMP or Tinkerplots. &lt;strong&gt;Homework that is submitted
+ after I have uploaded a key will receive a 0.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Two midterm exams (30%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These exams will require you to demonstrate your &lt;em&gt;understanding&lt;/em&gt; of the
+material as opposed to your ability to &lt;em&gt;memorize&lt;/em&gt; certain concepts. The
+format will primarily be a combination of short answer, multiple choice,
+and T/F. Exam dates will be announced at least one week in advance.
+Rescheduling of an exam will be permitted only if there is a
+family/medical emergency. Also, &lt;strong&gt;you must contact me before the exam is
+to be taken&lt;/strong&gt;. Arrangements will be made for the exam to be taken at an
+earlier time, if at all possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Final exam (20%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This exam will include material covered since the second midterm exam as
+well as material learned over the course of the entire semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final grades&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Final grades will be a percent that accounts for work on homework and
+exams. Final grades will be assigned as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;90-100%: A&lt;/li&gt;
+&lt;li&gt;80-89%: Guaranteed at least a B&lt;/li&gt;
+&lt;li&gt;70-79%: Guaranteed at least a C&lt;/li&gt;
+&lt;li&gt;60-69%: Guaranteed at least a D&lt;/li&gt;
+&lt;li&gt;&amp;lt;60%: No lower than F&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Laptops&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I encourage you to bring your laptop to class every day so that our
+classroom can function as a computer lab. I expect you to use your laptop in class for &lt;strong&gt;ACADEMIC
+PURPOSES ONLY&lt;/strong&gt;!  Also having a FULL BATTERY (or nearly full) is really beneficial!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Academic integrity policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;Academic Integrity
+Policy&lt;/a&gt;. Note that both copying
+another student&amp;rsquo;s work and allowing someone to copy your work are clear violations of this
+policy. If there is reasonable evidence of copying another individual&amp;rsquo;s work, it will be construed as
+an act of plagiarism. The first occurrence of violating the academic integrity policy will result
+in a significant loss of points on that specific homework assignment or exam; the second occurrence will
+result in failure of the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Expectations&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this course, I expect each of you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;to genuinely try your hardest and to demand the best of yourself.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;to seek help if you are confused or if you are starting to fall
+behind. Please make use of my office hours or the tutoring available
+via WSU Tutoring Services.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;to be an active learner. This involves ATTENDING and PARTICIPATING
+in class.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In return, you can expect the following from me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;a sincere desire for you to learn and an effort to support you in
+your learning.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;an honest attempt to be fair to everyone in the class.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;an effort to make the learning atmosphere productive and enjoyable.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free tutoring is available via tutoring services. You can schedule
+appointments with tutors during times that fit with your schedule.
+See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two good places to help you find resources of all kinds on campus
+are &lt;em&gt;&lt;a href=&#34;https://www.winona.edu/studentsupportservices/&#34;&gt;Student
+Support&lt;/a&gt;.&lt;/em&gt; This is
+essentially &amp;ldquo;home base&amp;rdquo; for student services, and can direct you to
+other more specific resources. Examples of resources at Student
+Support:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic advising&lt;/li&gt;
+&lt;li&gt;Help exploring major and minor options&lt;/li&gt;
+&lt;li&gt;Career exploration&lt;/li&gt;
+&lt;li&gt;Assistance in navigating the Financial Aid system&lt;/li&gt;
+&lt;li&gt;Budget and money management skills&lt;/li&gt;
+&lt;li&gt;Tutoring and/or supplemental instruction&lt;/li&gt;
+&lt;li&gt;Study skills coaching&lt;/li&gt;
+&lt;li&gt;Time management training&lt;/li&gt;
+&lt;li&gt;Leadership skill development&lt;/li&gt;
+&lt;li&gt;Support for students with documented disabilities&lt;/li&gt;
+&lt;li&gt;Support for students who are parents&lt;/li&gt;
+&lt;li&gt;Assistance preparing for graduate and professional programs&lt;/li&gt;
+&lt;li&gt;Assistance with writing resumes and cover letters&lt;/li&gt;
+&lt;li&gt;Cultural and social enrichment opportunities&lt;/li&gt;
+&lt;li&gt;Referrals to on-campus and off-campus resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you have a disability, the &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/accessservices/&#34;&gt;Access
+Services&lt;/a&gt;&lt;/em&gt; office can
+document it for your professors and facilitate accommodations. If
+you have a documented disability that requires accommodation, please
+contact Access Services as soon as possible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;College can be very stressful. &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/counselingservices/&#34;&gt;Counseling
+Services&lt;/a&gt;&lt;/em&gt; offices on
+both campuses are here to help you with a wide range of
+difficulties, ranging from sexual assault, depression, and grief
+after the loss of a loved one to stress management, anxiety, general
+adjustment to college, and many others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;https://www.winona.edu/inclusion-diversity/KEAP.asp&#34;&gt;&lt;em&gt;KEAP
+Center&lt;/em&gt;&lt;/a&gt; in
+Kryszko 162 works in partnership with the Inclusion and Diversity
+Office to create a safe space and an inclusive atmosphere for
+diverse persons, organizations and groups. This includes people with
+issues related to:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Race, Ethnicity and National Origin&lt;/li&gt;
+&lt;li&gt;Gender&lt;/li&gt;
+&lt;li&gt;Age&lt;/li&gt;
+&lt;li&gt;Religion and Beliefs&lt;/li&gt;
+&lt;li&gt;Ability Levels&lt;/li&gt;
+&lt;li&gt;Economic Status&lt;/li&gt;
+&lt;li&gt;Gender and Sexual Identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To find out about web registration, placement tests, program
+requirements and support tools to help students succeed, visit the
+&lt;em&gt;Advising Services&lt;/em&gt; office and website for answers to all your
+questions!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Commitment to inclusive excellence&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;WSU recognizes that our individual differences can deepen our
+understanding of one another and the world around us, rather than divide
+us. In this class, people of all ethnicities, genders, religions, ages,
+sexual orientations, disabilities, socioeconomic backgrounds, regions,
+and nationalities are strongly encouraged to share their rich array of
+perspectives and experiences. If you feel your differences may in some
+way isolate you from WSU&amp;rsquo;s community or if you have a need of any
+specific accommodations, please speak with the instructor early in the
+semester about your concerns and what we can do together to help you
+become an active and engaged member of our class and community.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tentative course outline&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Introduction to data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Descriptive Methods for a Single Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Barplots, counts, percents&lt;/p&gt;
+
+&lt;p&gt;b.  Histograms, mean/median, quantiles, standard deviation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Describing associations between 2 variables&lt;/p&gt;
+
+&lt;p&gt;a.  Mosaic plots&lt;/p&gt;
+
+&lt;p&gt;b.  Boxplots&lt;/p&gt;
+
+&lt;p&gt;c.  Scatterplots&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Multivariable thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Confounding&lt;/p&gt;
+
+&lt;p&gt;b.  Confounding adjustment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduction to inferential thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Introduction to Statistical Thinking&lt;/p&gt;
+
+&lt;p&gt;b.  Some Definitions&lt;/p&gt;
+
+&lt;p&gt;c.  The Importance of Random Sampling&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for a Single Categorical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  Discussion of Sample-to-Sample Variation&lt;/p&gt;
+
+&lt;p&gt;c.  Using the Binomial Probability Model to Make Decisions&lt;/p&gt;
+
+&lt;p&gt;d.  Formal Statistical Inference (Binomial Exact Test, Confidence
+    Interval for a Single Proportion, Chi-Square Goodness of Fit Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Categorical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  More Descriptive Methods: Relative Risk and Odds Ratios&lt;/p&gt;
+
+&lt;p&gt;c.  Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of
+    Proportions)&lt;/p&gt;
+
+&lt;p&gt;d.  Understanding the Basics of Experimental Design and Correlation
+     vs. Causation&lt;/p&gt;
+
+&lt;p&gt;e.  Inferences for Comparing Several Proportions Across Another
+     Variable (Chi-Square Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inferential Methods for a Single Numerical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Inference for a Single Mean (t-test and confidence interval for
+    a single mean)&lt;/p&gt;
+
+&lt;p&gt;b.  Inference for Comparing Two Means with Dependent Groups (paired
+    t-test, confidence interval for a mean difference)&lt;/p&gt;
+
+&lt;p&gt;c.  Inference for Comparing Two Means with Independent Groups
+    (t-test for independent samples, confidence interval for a
+    difference in means)&lt;/p&gt;
+
+&lt;p&gt;d.  Inference for Comparing Several Group Means (ANOVA)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Numerical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods (correlation, scatterplots)&lt;/p&gt;
+
+&lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What students have to say about group homework</title>
+      <link>http://driftlessdata.space/post/group-homework/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/group-homework/</guid>
+      <description>&lt;p&gt;The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could on at length about why *I* think group homework is beneficial, but that’s not the point of this post. This post is what I learned from the &lt;em&gt;students&lt;/em&gt; telling me about their group homework experience.&lt;/p&gt;
+&lt;p&gt;First, though, I do need to provide a couple quick details about how I manage group homework. They occur approximately once a week, and I alternate between randomly assigning the students into groups of three, and letting them choose their own groups. When students chose their own, I encouraged groups of three but allowed four (no higher).&lt;/p&gt;
+&lt;p&gt;On end-of-semester course evaluations, I asked the following questions:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;em&gt;What do you like BEST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;What did you like LEAST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Here is a word cloud of the responses to the first question (what did you like BEST?):&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;There are a lot of words in here that I’m glad to see! (And that echo my motivation for implementing group homework.) Students can &lt;em&gt;ask questions&lt;/em&gt;; &lt;em&gt;work&lt;/em&gt; with &lt;em&gt;people&lt;/em&gt;; &lt;em&gt;talk&lt;/em&gt; with &lt;em&gt;others&lt;/em&gt;; etc. &lt;em&gt;Professor&lt;/em&gt; shows up in the cloud too; I’m always present and able to help problem-solve, or ask redirecting questions if students are off-topic.&lt;/p&gt;
+&lt;p&gt;Well and good. But even more striking is the word cloud for student reponses to what they liked &lt;em&gt;LEAST&lt;/em&gt; about group homework:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;If you’ve ever seen a more telling word cloud, I want to see it!! It’s pretty obvious what I need to work on this semester regarding group homework. One possibility to encourage universal participation: I assign the “scribe” of the group (the person writing down and submitting the group’s answers to be graded), and make sure it’s someone different each week. Maybe simply paying better attention to students who are “staring off” and gently encouraging them to participate.&lt;/p&gt;
+&lt;p&gt;Also not surprising, given the groans when I announce it’s “random assignment week”, are the words &lt;em&gt;assigned&lt;/em&gt;, &lt;em&gt;random&lt;/em&gt;, and &lt;em&gt;randomly&lt;/em&gt;. Students aren’t fond of being randomly assigned to groups, although it’s not something I see myself dropping. It’s important to mix up the voices; give international and domestic students a chance to work together; and give students experience working in a team with people they don’t necessarily choose (that’s real life after all!)&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>On elementary perceptual tasks</title>
       <link>http://driftlessdata.space/post/on-epts/</link>
       <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
@@ -1109,167 +1656,6 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
 &lt;li&gt;Which teams&amp;rsquo; winning percentages most improved the most from 2016-2017?  Which teams got much worse?&lt;/li&gt;
 &lt;li&gt;Which teams are most underperforming and overperforming their predicted winning percentage in 2017?&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A summer REU at Winona State</title>
-      <link>http://driftlessdata.space/post/winstats/</link>
-      <pubDate>Sun, 10 Sep 2017 00:00:00 -0500</pubDate>
-      
-      <guid>http://driftlessdata.space/post/winstats/</guid>
-      <description>&lt;p&gt;This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU).  Winona State was awarded the REU by the &lt;a href=&#34;http://www.amstat.org/&#34;&gt;American Statistical Association&lt;/a&gt;, which had received &lt;a href=&#34;https://www.nsf.gov/awardsearch/showAward?AWD_ID=1560332&#34;&gt;a grant from the NSF&lt;/a&gt; to fund four students at each of nine sites over the course of three years (three different sites per year).&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.linkedin.com/in/meganaadland/&#34;&gt;Megan Aadland&lt;/a&gt; (South Dakota State), &lt;a href=&#34;https://www.linkedin.com/in/jenn-halbleib/&#34;&gt;Jenn Halbleib&lt;/a&gt; (Amherst), &lt;a href=&#34;https://www.linkedin.com/in/adriannakallis/&#34;&gt;Adrianna Kallis&lt;/a&gt; (Iowa State), and &lt;a href=&#34;https://www.linkedin.com/in/eva-tourangeau/&#34;&gt;Eva Tourangeau&lt;/a&gt; (Lawrence) were selected from a competitive, national pool of undergraduates.  Their primary task: to learn!  Their specific task was to partner with researchers at the &lt;a href=&#34;https://international.ipums.org/international/&#34;&gt;Integrated Public Use Microdata Series International (IPUMS-I)&lt;/a&gt; to develop data products and visualizations for IPUMS-I users.   Two students worked primarily on using multiple correspondence analysis to develop an index of household wealth, while the other two worked on an &lt;a href=&#34;https://public.tableau.com/views/IPUMS-IWorldInteractiveDashboard/Dashboard1?:embed=y&amp;amp;:display_count=yes&#34;&gt;interactive data visualization&lt;/a&gt; to summarize basic demographic information for countries of interest to IPUMS-I users.  Both projects required a lot of data cleaning after extracting the microdata from the &lt;a href=&#34;https://international.ipums.org/international-action/variables/group&#34;&gt;IPUMS-I query service&lt;/a&gt;!&lt;/p&gt;
-
-&lt;p&gt;Along with their research, the students took several professional development trips to learn about applications of data analytics in the workplace.  These included visits to &lt;a href=&#34;https://www.mayoclinic.org/&#34;&gt;Mayo Clinic&lt;/a&gt;, &lt;a href=&#34;https://bethematch.org/&#34;&gt;Be the Match&lt;/a&gt;, &lt;a href=&#34;https://www.optum.com/&#34;&gt;Optum&lt;/a&gt;, and the &lt;a href=&#34;https://www.wilder.org/Pages/default.aspx&#34;&gt;Wilder Foundation&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;But it wasn&amp;rsquo;t all work!  Fun included:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;figure&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/saints_game.jpg&#34; width=&#34;500&#34;/&gt;
-St. Paul Saints baseball game!&lt;br /&gt;
-&lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;figure&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/pizza_farm.jpg&#34; width=&#34;400&#34;/&gt;
-Suncrest pizza farm!&lt;br /&gt;
-&lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;At the end of the summer, the students traveled to Baltimore to present &lt;a href=&#34;http://driftlessdata.space/files/JSM-Poster.pdf&#34;&gt;their&lt;/a&gt; &lt;a href=&#34;http://driftlessdata.space/files/JSM_Poster_Presentation.jpg&#34;&gt;research&lt;/a&gt; at the &lt;a href=&#34;https://ww2.amstat.org/meetings/jsm/2017/&#34;&gt;2017 Joint Statistical Meetings&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The 10 weeks flew by!  The students were a joy to spend a summer with, and it is obvious that great things lie ahead for each of them.  The &lt;a href=&#34;https://drive.google.com/file/d/0B8hZWQ0xl_CkbTJHMFk5WTVicmc/view&#34;&gt;three REU sites for Summer 2018 are already selected&lt;/a&gt;, so go apply (or tell your students to apply)!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Homework 1</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw1/</link>
-      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw1/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Friday, 9/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;In class, we considered the case of rolling two dice, one red and one white. Let &lt;span class=&#34;math inline&#34;&gt;\(Y\equiv\)&lt;/span&gt; the minimum of the two rolls.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;Define the probability mass function (pmf) in tabular format. The table is started for you, below. Fill in the appropriate entries for &lt;span class=&#34;math inline&#34;&gt;\(p(y)\)&lt;/span&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(y\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(p(y)\)&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;p&gt;Graph this pmf.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(\mu \equiv E(Y)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(\sigma^2 \equiv Var(Y)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(M_Y(t)\)&lt;/span&gt;, and create a plot of &lt;span class=&#34;math inline&#34;&gt;\(M_Y(t)\)&lt;/span&gt; as a function of &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; over the interval &lt;span class=&#34;math inline&#34;&gt;\([-1,1]\)&lt;/span&gt;. (Hint: first, write a function &lt;code&gt;m(t)&lt;/code&gt; that takes as argument &lt;code&gt;t&lt;/code&gt; and returns &lt;span class=&#34;math inline&#34;&gt;\(M_Y(t)\)&lt;/span&gt;, for any input &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt;. Then, create a sequence of &lt;span class=&#34;math inline&#34;&gt;\(t-\)&lt;/span&gt;values over &lt;span class=&#34;math inline&#34;&gt;\([1,1]\)&lt;/span&gt; with the &lt;code&gt;seq()&lt;/code&gt; function, and use your function to evaluate &lt;span class=&#34;math inline&#34;&gt;\(M_Y(t)\)&lt;/span&gt; for each value in the sequence. Then plot this sequence with &lt;span class=&#34;math inline&#34;&gt;\(t\)&lt;/span&gt; on the x-axis and &lt;span class=&#34;math inline&#34;&gt;\(M_Y(t)\)&lt;/span&gt; on the y-axis. The function &lt;code&gt;exp(t)&lt;/code&gt; can be used to evaluate &lt;span class=&#34;math inline&#34;&gt;\(e^t\)&lt;/span&gt;.)&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Now write an &lt;code&gt;R&lt;/code&gt; function &lt;code&gt;one.Y()&lt;/code&gt; that simulates a single realization of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Using this function and &lt;code&gt;replicate()&lt;/code&gt;, generate 1000 realizations of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Graph the empirical pmf, and verify that is is similar to the theoretical one above.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find the empirical mean &lt;span class=&#34;math inline&#34;&gt;\(\bar Y\)&lt;/span&gt; and variance &lt;span class=&#34;math inline&#34;&gt;\(S^2\)&lt;/span&gt; (use &lt;code&gt;mean()&lt;/code&gt; and &lt;code&gt;var()&lt;/code&gt;). How do they compare to &lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma^2\)&lt;/span&gt;?&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Homework 1</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw1.knit/</link>
-      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw1.knit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Friday, 9/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted html, Word, or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In class, we considered the case of rolling two dice, one red and one white.  Let $Y\equiv$ the minimum of the two rolls.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Define the probability mass function (pmf) in tabular format.  The table is started for you, below.  Fill in the appropriate entries for $p(y)$.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$y$&lt;/th&gt;
-&lt;th&gt;$p(y)$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Graph this pmf.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $\mu \equiv E(Y)$.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $\sigma^2 \equiv Var(Y)$.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $M_Y(t)$, and create a plot of $M_Y(t)$ as a function of $t$ over the interval $[-1,1]$.  (Hint: first, write a function &lt;code&gt;m(t)&lt;/code&gt; that takes as argument &lt;code&gt;t&lt;/code&gt; and returns $M_Y(t)$, for any input $t$.  Then, create a sequence of $t-$values over $[1,1]$ with the &lt;code&gt;seq()&lt;/code&gt; function, and use your function to evaluate $M_Y(t)$ for each value in the sequence.  Then plot this sequence with $t$ on the x-axis and $M_Y(t)$ on the y-axis.  The function &lt;code&gt;exp(t)&lt;/code&gt; can be used to evaluate $e^t$.)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Now write an &lt;code&gt;R&lt;/code&gt; function &lt;code&gt;one.Y()&lt;/code&gt; that simulates a single realization of $Y$.  Using this function and &lt;code&gt;replicate()&lt;/code&gt;, generate 1000 realizations of $Y$.  Graph the empirical pmf, and verify that is is similar to the theoretical one above.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find the empirical mean $\bar Y$ and variance $S^2$ (use &lt;code&gt;mean()&lt;/code&gt; and &lt;code&gt;var()&lt;/code&gt;).  How do they compare to $\mu$ and $\sigma^2$?&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

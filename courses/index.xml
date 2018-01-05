@@ -7,8 +7,530 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Tue, 07 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/courses/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stat 110: Fundamentals of statistics (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;office-hours-gildemeister-124d&#34;&gt;Office hours (Gildemeister 124D)&lt;/h3&gt;
+
+&lt;p&gt;TBD&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://silasbergen.github.io/Tinkerplots.pdf&#34;&gt;Tinkerplots installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;Tutoring services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/85xnt7xk9jjtt14/BinomialProbabilities.xlsx?dl=0&#34;&gt;Binomial spreadsheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;schedule-of-upcoming-events&#34;&gt;Schedule of upcoming events&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Done by class&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;In class&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;1/9&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;First day!&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Syllabus;   Install JMP&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/11&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NO CLASS&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;NO CLASS&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/16&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Lectures 1 &amp;amp; 2 videos and D2L practice quizzes&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Practice problems &amp;amp; in-class quiz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1/18&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Homework 1 (in groups)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;p&gt;Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)&lt;/p&gt;
+
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture 1: Introduction to data | &lt;a href=&#34;https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-Lecture+1A+Introduction+to+data+-+Quiz/0_y7j9h9ml&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 2: Summarizing a single variable | &lt;a href=&#34;https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-Lecture+2A+Summarizing+a+single+variable+-+Quiz/0_erqal4x1&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;h3 id=&#34;practice-problems&#34;&gt;Practice problems&lt;/h3&gt;
+
+&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Birthweight.jmp&#34;&gt;Birth weight
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/se0fo4xi45zab5v/Body_Image.jmp?dl=0&#34;&gt;Body Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/lbqr85a1to664n9/BRFSS.jmp?dl=0&#34;&gt;BRFSS
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/x22xv6aljppse5b/CA_Expenditures.jmp?dl=0&#34;&gt;California expenditures data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wl0ms087o0mqv2/kid_calories.jmp?dl=0&#34;&gt;Calories data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wbpr5zkvvyti45/HypoCommute2.jmp?dl=0&#34;&gt;Commute times&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/FEVdata.jmp&#34;&gt;FEV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zzqqp6cv96me99r/Gun-data.jmp?dl=0&#34;&gt;Gun data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/HIV-Antiretroviral.jmp&#34;&gt;HIV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/IraqWar.jmp&#34;&gt;Iraq War
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Lions.jmp&#34;&gt;Lions
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Lower back pain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/atthasd2ce0xt7f/Drink-Smoke-Cancer.jmp?dl=0&#34;&gt;Lung cancer data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/LymphNodes.jmp&#34;&gt;Lymphedenopathy
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Pancreatic_Cancer_Data.jmp&#34;&gt;Pancreatic cancer
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/otx5y9p8b1zi14d/Parents_Attitudes.jmp?dl=0&#34;&gt;Parental attitude data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ehdrph7ki0ikhzl/Parole_Prediction.jmp?dl=0&#34;&gt;Parole prediction data&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/PewFacebookData.jmp&#34;&gt;Pew research
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Smiles.jmp&#34;&gt;Smiles
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/aqd6cvhs2ebagz0/StudentSurveyFall2017.jmp?dl=0&#34;&gt;Student Survey
+Data (Fall 2017)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/subarus.jmp&#34;&gt;Subaru
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Titanic.jmp&#34;&gt;Titanic
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/trombone.jmp&#34;&gt;Trombone
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-110-fundamentals-of-statistics-stat110-home&#34;&gt;&lt;a href=&#34;../stat110-home/&#34;&gt;Stat 110: Fundamentals of statistics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Required software&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JMP -&lt;/strong&gt; available from WSU network for free. &lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tinkerplots&lt;/strong&gt; - costs $7. &lt;a href=&#34;https://silasbergen.github.io/Tinkerplots.pdf&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Optional text&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no text required for this course. However, if you would like to
+refer to a textbook, a good reference is &lt;em&gt;Unlocking the Power of Data&lt;/em&gt;
+by Lock, Lock, Lock, Lock, and Lock.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Prerequisites&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Qualifying score on the mathematics placement exam or MATH 050.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Basic Skills Learning Outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This course can be used to satisfy the University Studies Program&amp;rsquo;s
+requirements for Basic Skills in Mathematics or Goal Area 4 under the
+new General Education Program. This includes requirements and learning
+activities that will promote your abilities to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Illustrate historical and contemporary applications of
+mathematical/logical systems;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clearly express mathematical/logical ideas in writing;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explain what constitutes a valid mathematical/logical argument
+(proof); and&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply higher-order problem-solving and/or modeling strategies.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Additional learning outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The successful Stat 110 student will be able to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use logical reasoning by studying mathematical patterns and
+relationships&lt;/strong&gt; One of the major goals of statistics is to find patterns and
+relationships in datasets. Hence almost all lectures, homework
+problems, and test questions in the course have the study of
+patterns for variables and relationships between variables as their
+basis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use mathematical models to describe real-world phenomena and to
+solve real-world problems - as well as understand the limitations of
+models in making predictions and drawing conclusions&lt;/strong&gt;
+In all of the textbooks and course notes used in STAT 110 the
+majority of the problems are real-world based and are &amp;ldquo;word&amp;rdquo;
+problems. Further, all instructors require the students when doing
+such problems to write conclusions and discuss limitations.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;organize data, communicate the essential features of the data, and
+interpret the data in a meaningful way&lt;/strong&gt;
+This is the heart of STAT 110. The topics covered are chosen so
+that students who complete the course can organize data, communicate
+essential features of the data both numerically and graphically and
+provide interpretations/conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;do a critical analysis of scientific and other research&lt;/strong&gt;
+The scientific method is discussed early in the course. The logic
+of hypothesis testing is discussed in detail. Further, on tests and
+written assignments the students are expected to go beyond a simple
+analysis and provide implications, interpretations, and conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;extract correct information from tables and common graphical
+displays, such as line graphs, scatter plots, histograms, and
+frequency tables&lt;/strong&gt;
+All of these topics are explicitly taught in STAT 110 and are on
+the course outline. Please note that &amp;ldquo;line graphs&amp;rdquo; is subsumed under
+&amp;ldquo;Frequency distributions and histograms&amp;rdquo;. Also, please note that
+&amp;ldquo;scatter plots&amp;rdquo; are more formally called &amp;ldquo;Bivariate displays&amp;rdquo; by
+statisticians.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;express the relationships illustrated in graphical displays and
+tables clearly and correctly in words&lt;/strong&gt;
+As can be seen from the course outline, graphical displays and
+tables cover a significant portion of the course content. As
+discussed above, interpretation in words is expected by all
+instructors on homework and tests.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use appropriate technology to describe and solve quantitative
+problems.&lt;/strong&gt;
+As stated on the course outline, &amp;ldquo;It is required that at least one
+assignment using an appropriate computer package be included in the
+course.&amp;rdquo; In this section of STAT 110, we will primarily use a
+statistical software package called JMP.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Assessment tasks&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The following assessments will be used to gauge growth in the Basic
+Skills and additional learning outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quizzes (10%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The section of Stat 110 you are taking is &lt;em&gt;flipped&lt;/em&gt;.  This means that the PowerPoint lectures are all recorded on video that you watch on your own outside of class, and class time is spent on additional problem solving, concept review, and completing homework.  The video lectures have practice quiz questions embedded along the way, just to help keep the video interactive and help you assess your understanding along the way.  There will also be practice D2L practice quizzes that you can take an unlimited number of times.  The video quiz and D2L practice quizzes are just for practice; you are not graded on these.  After watching the videos and taking the practice quizzes, we will have &lt;em&gt;in-class quizzes&lt;/em&gt; that you can take &lt;strong&gt;up to two times&lt;/strong&gt;.  Your score on the quiz will be the highest of the attempts.  Your cumulative score on these quizzes will account for 10% of your final grade.  Your single lowest quiz score will be dropped.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Attendance (5%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Attending class is very important. Lots of learning happens in class, including group discussions; problem solving; and review of important concepts.  Accordingly, 5% of your final grade is based on our simple attendance, which I will take at some point during each class period.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Group homework assignments (35%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Roughly half of the in-class time will be spent doing group
+homework assignments. There are a number of benefits to in-class group
+assignments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No (or at least, very little) homework outside of class!&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You get to explain concepts to, and hear explanations from, your
+classmates. It&amp;rsquo;s very likely that I will explain a concept in a way
+you did not understand, but a classmate will explain it to you in a
+way that you can understand.&lt;/li&gt;
+&lt;li&gt;Those of you who &lt;em&gt;do&lt;/em&gt; understand a concept will understand it &lt;em&gt;ever
+better&lt;/em&gt; when you try to explain it to a classmate!&lt;/li&gt;
+&lt;li&gt;I am there in class with you, so as to better answer your questions
+as they arise.
+But don&amp;rsquo;t take my word for it!  Here&amp;rsquo;s a word cloud of responses to the question &amp;ldquo;What did you like BEST about in-class group homework&amp;rdquo; I asked on the previous two semeters&amp;rsquo; course evaluations:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+ &lt;img src=&#34;../../../img/group-best-wordcloud.png&#34; width=&#34;500&#34;&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+I will alternate between randomly assigning you into groups (usually of 3), and
+allowing you to select your own groups.  Students will submit their assignments to
+ D2L, and all students in a group will get the same homework grade. The
+ homework practice concepts learned in class. Homework assignment will
+ often require use of JMP or Tinkerplots. &lt;strong&gt;Homework that is submitted
+ after I have uploaded a key will receive a 0.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Two midterm exams (30%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These exams will require you to demonstrate your &lt;em&gt;understanding&lt;/em&gt; of the
+material as opposed to your ability to &lt;em&gt;memorize&lt;/em&gt; certain concepts. The
+format will primarily be a combination of short answer, multiple choice,
+and T/F. Exam dates will be announced at least one week in advance.
+Rescheduling of an exam will be permitted only if there is a
+family/medical emergency. Also, &lt;strong&gt;you must contact me before the exam is
+to be taken&lt;/strong&gt;. Arrangements will be made for the exam to be taken at an
+earlier time, if at all possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Final exam (20%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This exam will include material covered since the second midterm exam as
+well as material learned over the course of the entire semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final grades&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Final grades will be a percent that accounts for work on homework and
+exams. Final grades will be assigned as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;90-100%: A&lt;/li&gt;
+&lt;li&gt;80-89%: Guaranteed at least a B&lt;/li&gt;
+&lt;li&gt;70-79%: Guaranteed at least a C&lt;/li&gt;
+&lt;li&gt;60-69%: Guaranteed at least a D&lt;/li&gt;
+&lt;li&gt;&amp;lt;60%: No lower than F&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Laptops&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I encourage you to bring your laptop to class every day so that our
+classroom can function as a computer lab. I expect you to use your laptop in class for &lt;strong&gt;ACADEMIC
+PURPOSES ONLY&lt;/strong&gt;!  Also having a FULL BATTERY (or nearly full) is really beneficial!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Academic integrity policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;Academic Integrity
+Policy&lt;/a&gt;. Note that both copying
+another student&amp;rsquo;s work and allowing someone to copy your work are clear violations of this
+policy. If there is reasonable evidence of copying another individual&amp;rsquo;s work, it will be construed as
+an act of plagiarism. The first occurrence of violating the academic integrity policy will result
+in a significant loss of points on that specific homework assignment or exam; the second occurrence will
+result in failure of the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Expectations&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In this course, I expect each of you:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;to genuinely try your hardest and to demand the best of yourself.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;to seek help if you are confused or if you are starting to fall
+behind. Please make use of my office hours or the tutoring available
+via WSU Tutoring Services.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;to be an active learner. This involves ATTENDING and PARTICIPATING
+in class.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In return, you can expect the following from me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;a sincere desire for you to learn and an effort to support you in
+your learning.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;an honest attempt to be fair to everyone in the class.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;an effort to make the learning atmosphere productive and enjoyable.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Free tutoring is available via tutoring services. You can schedule
+appointments with tutors during times that fit with your schedule.
+See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Two good places to help you find resources of all kinds on campus
+are &lt;em&gt;&lt;a href=&#34;https://www.winona.edu/studentsupportservices/&#34;&gt;Student
+Support&lt;/a&gt;.&lt;/em&gt; This is
+essentially &amp;ldquo;home base&amp;rdquo; for student services, and can direct you to
+other more specific resources. Examples of resources at Student
+Support:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic advising&lt;/li&gt;
+&lt;li&gt;Help exploring major and minor options&lt;/li&gt;
+&lt;li&gt;Career exploration&lt;/li&gt;
+&lt;li&gt;Assistance in navigating the Financial Aid system&lt;/li&gt;
+&lt;li&gt;Budget and money management skills&lt;/li&gt;
+&lt;li&gt;Tutoring and/or supplemental instruction&lt;/li&gt;
+&lt;li&gt;Study skills coaching&lt;/li&gt;
+&lt;li&gt;Time management training&lt;/li&gt;
+&lt;li&gt;Leadership skill development&lt;/li&gt;
+&lt;li&gt;Support for students with documented disabilities&lt;/li&gt;
+&lt;li&gt;Support for students who are parents&lt;/li&gt;
+&lt;li&gt;Assistance preparing for graduate and professional programs&lt;/li&gt;
+&lt;li&gt;Assistance with writing resumes and cover letters&lt;/li&gt;
+&lt;li&gt;Cultural and social enrichment opportunities&lt;/li&gt;
+&lt;li&gt;Referrals to on-campus and off-campus resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you have a disability, the &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/accessservices/&#34;&gt;Access
+Services&lt;/a&gt;&lt;/em&gt; office can
+document it for your professors and facilitate accommodations. If
+you have a documented disability that requires accommodation, please
+contact Access Services as soon as possible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;College can be very stressful. &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/counselingservices/&#34;&gt;Counseling
+Services&lt;/a&gt;&lt;/em&gt; offices on
+both campuses are here to help you with a wide range of
+difficulties, ranging from sexual assault, depression, and grief
+after the loss of a loved one to stress management, anxiety, general
+adjustment to college, and many others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;https://www.winona.edu/inclusion-diversity/KEAP.asp&#34;&gt;&lt;em&gt;KEAP
+Center&lt;/em&gt;&lt;/a&gt; in
+Kryszko 162 works in partnership with the Inclusion and Diversity
+Office to create a safe space and an inclusive atmosphere for
+diverse persons, organizations and groups. This includes people with
+issues related to:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Race, Ethnicity and National Origin&lt;/li&gt;
+&lt;li&gt;Gender&lt;/li&gt;
+&lt;li&gt;Age&lt;/li&gt;
+&lt;li&gt;Religion and Beliefs&lt;/li&gt;
+&lt;li&gt;Ability Levels&lt;/li&gt;
+&lt;li&gt;Economic Status&lt;/li&gt;
+&lt;li&gt;Gender and Sexual Identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To find out about web registration, placement tests, program
+requirements and support tools to help students succeed, visit the
+&lt;em&gt;Advising Services&lt;/em&gt; office and website for answers to all your
+questions!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Commitment to inclusive excellence&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;WSU recognizes that our individual differences can deepen our
+understanding of one another and the world around us, rather than divide
+us. In this class, people of all ethnicities, genders, religions, ages,
+sexual orientations, disabilities, socioeconomic backgrounds, regions,
+and nationalities are strongly encouraged to share their rich array of
+perspectives and experiences. If you feel your differences may in some
+way isolate you from WSU&amp;rsquo;s community or if you have a need of any
+specific accommodations, please speak with the instructor early in the
+semester about your concerns and what we can do together to help you
+become an active and engaged member of our class and community.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tentative course outline&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Introduction to data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Descriptive Methods for a Single Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Barplots, counts, percents&lt;/p&gt;
+
+&lt;p&gt;b.  Histograms, mean/median, quantiles, standard deviation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Describing associations between 2 variables&lt;/p&gt;
+
+&lt;p&gt;a.  Mosaic plots&lt;/p&gt;
+
+&lt;p&gt;b.  Boxplots&lt;/p&gt;
+
+&lt;p&gt;c.  Scatterplots&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Multivariable thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Confounding&lt;/p&gt;
+
+&lt;p&gt;b.  Confounding adjustment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduction to inferential thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Introduction to Statistical Thinking&lt;/p&gt;
+
+&lt;p&gt;b.  Some Definitions&lt;/p&gt;
+
+&lt;p&gt;c.  The Importance of Random Sampling&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for a Single Categorical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  Discussion of Sample-to-Sample Variation&lt;/p&gt;
+
+&lt;p&gt;c.  Using the Binomial Probability Model to Make Decisions&lt;/p&gt;
+
+&lt;p&gt;d.  Formal Statistical Inference (Binomial Exact Test, Confidence
+    Interval for a Single Proportion, Chi-Square Goodness of Fit Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Categorical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  More Descriptive Methods: Relative Risk and Odds Ratios&lt;/p&gt;
+
+&lt;p&gt;c.  Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of
+    Proportions)&lt;/p&gt;
+
+&lt;p&gt;d.  Understanding the Basics of Experimental Design and Correlation
+     vs. Causation&lt;/p&gt;
+
+&lt;p&gt;e.  Inferences for Comparing Several Proportions Across Another
+     Variable (Chi-Square Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inferential Methods for a Single Numerical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Inference for a Single Mean (t-test and confidence interval for
+    a single mean)&lt;/p&gt;
+
+&lt;p&gt;b.  Inference for Comparing Two Means with Dependent Groups (paired
+    t-test, confidence interval for a mean difference)&lt;/p&gt;
+
+&lt;p&gt;c.  Inference for Comparing Two Means with Independent Groups
+    (t-test for independent samples, confidence interval for a
+    difference in means)&lt;/p&gt;
+
+&lt;p&gt;d.  Inference for Comparing Several Group Means (ANOVA)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Numerical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods (correlation, scatterplots)&lt;/p&gt;
+
+&lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Play Day Task</title>
@@ -845,77 +1367,6 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
     </item>
     
     <item>
-      <title>R Homework 1</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw1.knit/</link>
-      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw1.knit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Friday, 9/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted html, Word, or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In class, we considered the case of rolling two dice, one red and one white.  Let $Y\equiv$ the minimum of the two rolls.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Define the probability mass function (pmf) in tabular format.  The table is started for you, below.  Fill in the appropriate entries for $p(y)$.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$y$&lt;/th&gt;
-&lt;th&gt;$p(y)$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Graph this pmf.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $\mu \equiv E(Y)$.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $\sigma^2 \equiv Var(Y)$.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find $M_Y(t)$, and create a plot of $M_Y(t)$ as a function of $t$ over the interval $[-1,1]$.  (Hint: first, write a function &lt;code&gt;m(t)&lt;/code&gt; that takes as argument &lt;code&gt;t&lt;/code&gt; and returns $M_Y(t)$, for any input $t$.  Then, create a sequence of $t-$values over $[1,1]$ with the &lt;code&gt;seq()&lt;/code&gt; function, and use your function to evaluate $M_Y(t)$ for each value in the sequence.  Then plot this sequence with $t$ on the x-axis and $M_Y(t)$ on the y-axis.  The function &lt;code&gt;exp(t)&lt;/code&gt; can be used to evaluate $e^t$.)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Now write an &lt;code&gt;R&lt;/code&gt; function &lt;code&gt;one.Y()&lt;/code&gt; that simulates a single realization of $Y$.  Using this function and &lt;code&gt;replicate()&lt;/code&gt;, generate 1000 realizations of $Y$.  Graph the empirical pmf, and verify that is is similar to the theoretical one above.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Find the empirical mean $\bar Y$ and variance $S^2$ (use &lt;code&gt;mean()&lt;/code&gt; and &lt;code&gt;var()&lt;/code&gt;).  How do they compare to $\mu$ and $\sigma^2$?&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
       <link>http://driftlessdata.space/courses/dsci310/dsci310-home/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
@@ -1480,225 +1931,6 @@ and visualizations that communicate the answers to those questions. The data set
 &lt;li&gt;View filtering&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stat 365: Experimental design and analysis (Spring 2017)</title>
-      <link>http://driftlessdata.space/courses/stat365/stat365-home/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat365/stat365-home/</guid>
-      <description>
-
-&lt;h3 id=&#34;course-materials&#34;&gt;Course materials&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/suv1gym3stchwcj/Stat%20365%20Syllabus%20-%20Spring%202017.docx?dl=0&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;R cran&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/&#34;&gt;R studio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://tryr.codeschool.com/&#34;&gt;&amp;ldquo;Try R&amp;rdquo; tutorial (for R beginners)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=eBJ9Yo6flsM&amp;amp;list=PLDWCGvw0A7lUIKbsM-6BHpS8KfXFT9JSt&#34;&gt;Intro to R Studio tutorial
-video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/cumf8gr8zqtoscz/Ref-modify.docx?dl=0&#34;&gt;&amp;ldquo;Ref-modify.docx&amp;rdquo; style document called in .Rmd
-files&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;handouts&#34;&gt;Handouts&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wttsmxwxmdrq9ck/1_-_Review_of_modeling.docx?dl=0&#34;&gt;Handout 1: Review of
-modeling&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/iy5ebz59fpyorlq/Real.Estate.csv?dl=0&#34;&gt;House price data
-(.csv)&lt;/a&gt;
-| &lt;a href=&#34;https://mediaspace.mnscu.edu/media/Stat+365+-+Handout+1+completion/0_vkxyvrf9&#34;&gt;Video of completed Handout
-1&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/9ts94hot9m1t45f/1%20-%20Review%20of%20modeling.Rmd?dl=0&#34;&gt;R Markdown (.Rmd)
-file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/497wxgw41ergghx/2%20-%20Intro%20to%20exp%20designs.docx?dl=0&#34;&gt;Handout 2: Intro to experimental
-design&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/db57pebkmp93o9k/3_-Review_of_inference.docx?dl=0&#34;&gt;Handout 3: Review of inference in the context of experimental
-design&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/7wv5k1orjtzf0uy/3%20-%20Review%20of%20inference.Rmd?dl=0&#34;&gt;.Rmd
-file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rvl1shvc1niiqn5/4_-_CRD_Part1.docx?dl=0&#34;&gt;Handout 4: Completely randomized designs (CRDs), part
-1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/n2jpzyv754t118k/5_-_CRD_Part2.docx?dl=0&#34;&gt;Handout 5: CRDs part 2: Matrix representation of
-model&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/ayhjrntwwc0iqsr/5%20-%20CRD_Part2.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3cjcujwgh4r2aoe/6_-_Treatment_contrasts.docx?dl=0&#34;&gt;Handout 6: Treatment
-comparisons&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/09utm0714d8fjbe/6%20-%20Treatment%20contrasts.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/uhqlrpflcx1knfa/7_-_Model_diagnostics_and_remedial_measures.docx?dl=0&#34;&gt;Handout 7: Model diagnostics and remedial
-measures&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/ykqxo8z5wi2juwf/7%20-%20Model%20diagnostics%20and%20remedial%20measures.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wz7b3aorj0q65o/8_-_power.docx?dl=0&#34;&gt;Handout 8:
-Power&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/f2ut7h4pq7ffosq/8%20-%20power.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/err5rw3ejxd7wkb/9-Factorial_Designs.docx?dl=0&#34;&gt;Handout 9: Factorial
-designs&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/zsnzw3lrppvcnug/9-Factorial%20Designs.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qm2e3vwe1yinn4m/10-Randomized_complete_block_designs.docx?dl=0&#34;&gt;Handout 10: Randomized complete block
-designs&lt;/a&gt;|
-&lt;a href=&#34;https://www.dropbox.com/s/8egkd59hqt5uac8/10-Randomized%20complete%20block%20designs.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/gs8d7lsmvczats7/11-ANCOVA.docx?dl=0&#34;&gt;Handout 11:
-ANCOVA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/75jvqzp4swxxmxq/12-Mixed_models.docx?dl=0&#34;&gt;Handout 12: Mixed effects
-models&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/utehl8y2jqgoq69/12-Mixed%20models.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fqo166ba3mqoa2l/13-Sums-of-square-types.docx?dl=0&#34;&gt;Handout 13: Sums-of-squares
-types&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/fninjgujd8udl68/13-Sums-of-square-types.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/yqej84d0i2jbxr6/14-Repeated_Measures.docx?dl=0&#34;&gt;Handout 14: Repeated
-measures&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/p668wbo0666019c/14-Repeated%20Measures.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6lrvgp23bnro1oh/15-Nested_designs.docx?dl=0&#34;&gt;Handout 15: Nested
-designs&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/efbsgglbw0j0fc8/15-Nested%20designs.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3x9qccaq1axiwzr/16-Analysis_decisions.docx?dl=0&#34;&gt;Handout 16: Choosing the right
-analysis&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/5vj7tv8hod89n9m/Code%20for%20Handout%2016%20examples.R?dl=0&#34;&gt;R
-code&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/85cwc27juy4hsx4/HW1.docx?dl=0&#34;&gt;Homework
-1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/400lvj24y0l47y8/HW2.docx?dl=0&#34;&gt;Homework 2
-(.docx)&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/iaz8u38vwljno8n/HW2.Rmd?dl=0&#34;&gt;Homework 2
-(.Rmd)&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/2xaova8xr4a9vys/HW2-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4fma4g90db1dxx2/HW3.docx?dl=0&#34;&gt;Homework 3
-(.docx)&lt;/a&gt;|
-&lt;a href=&#34;https://www.dropbox.com/s/zj0uac7f9zeoe4q/HW3.Rmd?dl=0&#34;&gt;(.Rmd)&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/yeacjsjmj359hvx/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Homework 4 |
-&lt;a href=&#34;https://www.dropbox.com/s/h3tpacudzpv6t5g/HW4.docx?dl=0&#34;&gt;Word&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/qcq16he7lvve2uy/HW4.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;
-|&lt;a href=&#34;https://www.dropbox.com/s/k4j6ucqiqni6bmu/HW4-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;|
-&lt;a href=&#34;https://www.dropbox.com/s/sgtm9gmquxw97xs/HW4-KEY.Rmd?dl=0&#34;&gt;KEY
-Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/cjuuw9bm8mt7e3t/HW5.docx?dl=0&#34;&gt;Homework
-5&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/1464ntf0a1ve3fi/BordenEtAl.pdf?dl=0&#34;&gt;&lt;em&gt;AJSM&lt;/em&gt;
-article&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/nw2fssh52ha4qys/HW5-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/51rlqj1gr7uj2d8/HW5-KEY.Rmd?dl=0&#34;&gt;KEY
-Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Homework 6 |
-&lt;a href=&#34;https://www.dropbox.com/s/42o1v26hdspctw4/HW6.docx?dl=0&#34;&gt;Word&lt;/a&gt; |
-&lt;a href=&#34;https://www.dropbox.com/s/82wubixlv9ixxi3/HW6.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt; |
-&lt;a href=&#34;http://journals.sagepub.com/doi/pdf/10.1038/jcbfm.2010.95&#34;&gt;&lt;em&gt;JCBFM&lt;/em&gt;
-article&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/2xwusvbmwfx2a07/HW6-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/vb5oxiseus606f2/HW6-KEY.Rmd?dl=0&#34;&gt;KEY
-Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Homework 7 | &lt;a href=&#34;https://www.dropbox.com/s/gtnsgr0fbb37x94/HW7.docx?dl=0&#34;&gt;Word
-|&lt;/a&gt;&lt;a href=&#34;https://www.dropbox.com/s/yp1aoqxoipblxze/HW7.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/o9vvvn115p01srt/LandyEtAl_Beauty_is_talent.pdf?dl=0&#34;&gt;Relevant article for Question
-2&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/2xpjkxcjyn67v2j/HW7-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/wfipddj2lasge8s/HW7-KEY.Rmd?dl=0&#34;&gt;KEY
-Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;data-sets&#34;&gt;Data sets&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/tpgf7ql28qs4gtt/Asparagus.csv?dl=0&#34;&gt;Aparagus
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1ug8vc9hrcazqer/Auditory.csv?dl=0&#34;&gt;Auditory
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6fvwe3i8q88uu4i/Beauty.csv?dl=0&#34;&gt;Beauty&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/56jiu91y11u1uhm/beefwater.csv?dl=0&#34;&gt;Beef water
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hz9vtoe53ywpxgm/caffeine.csv?dl=0&#34;&gt;Caffeine
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/jz4pwe4xwr67hvp/dental.csv?dl=0&#34;&gt;Dental&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/j61nvsar1awm2bg/marker-display.csv?dl=0&#34;&gt;Display (felt-tipped marker)
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/mlpy2wu3vmptd8c/Glucose-readings.csv?dl=0&#34;&gt;Glucose
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/j3m8emdmn0prvnc/HeartTransplant.csv?dl=0&#34;&gt;Heart transplant
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/o36llyf9t21blry/helmet.csv?dl=0&#34;&gt;Helmet data for
-midterm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/p0rgc7iullduw2e/infarct.csv?dl=0&#34;&gt;Infarction
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9p1ug4gfj3nsn33/jealousysubset.csv?dl=0&#34;&gt;Jealousy
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ee4nz9il7e9poiv/meniscus.csv?dl=0&#34;&gt;Meniscus
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kuig4zxuqeuwhap/MLBStandings-2016.csv?dl=0&#34;&gt;MLB
-(.csv)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ioiezjimjtd9rd0/moneythink.csv?dl=0&#34;&gt;Money puzzle times data
-(.csv)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kuyrlm0isxk9ci0/PigFeed.csv?dl=0&#34;&gt;Pig feed data set
-(.csv)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3tcghoknoymtdqv/rogaine.csv?dl=0&#34;&gt;Rogaine
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2te9kbmv7r345r9/Shrimp.csv?dl=0&#34;&gt;Shrimp data
-(.csv)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/cz6zsltoi9qkq9s/Treadmill.csv?dl=0&#34;&gt;Treadmill
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/7l66nnju60s78gi/trombone.csv?dl=0&#34;&gt;Trombone
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s4up9u6ulj3wh2c/Weightlifting.csv?dl=0&#34;&gt;Weightlifting
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u417g4za41bs225/wheatdata.csv?dl=0&#34;&gt;Wheat&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;labs&#34;&gt;Labs&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/oyeuvw6gt7zp1lp/Lab1%20%28Factorial%20CRD%29.docx?dl=0&#34;&gt;Lab
-1&lt;/a&gt;
-| &lt;a href=&#34;https://winona.az1.qualtrics.com/jfe/form/SV_2sKiKPvRczKBT3n&#34;&gt;Peer evaluation
-survey&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ahie1h0euooll3q/RCBD-activity.docx?dl=0&#34;&gt;Lab 2
-(RCBD)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0a5r7sfgblks8lz/Lab%203%20%28Mixed%20model%29.docx?dl=0&#34;&gt;Lab 3 (mixed
-model)&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/6cz0ho0ospp8rti/Lab_3_Assignment.docx?dl=0&#34;&gt;Assignment&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/9b2zsy85q7zjm67/Tangrams2017-clean.csv?dl=0&#34;&gt;Data&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/do585btl2bhi02b/Lab_3_KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/29dar9rtcxnh7ui/Lab%20FINAL.docx?dl=0&#34;&gt;FINAL
-PROJECT&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/si0ssa27v0jivnq/Group4-presentation.pptx?dl=0&#34;&gt;Example slides
-1&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/roebuifa064qz7h/Group1-Presentation.pptx?dl=0&#34;&gt;Example slides
-2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Midterm exam |
-&lt;a href=&#34;https://www.dropbox.com/s/g1zn43p5r1qcc9i/Exam1-S17.docx?dl=0&#34;&gt;Word&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/hnknxlha9r9f5ze/Exam1-S17.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;
-|
-&lt;a href=&#34;https://www.dropbox.com/s/4adm98ygypjckrh/Exam1-S17-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/88uxpxeygyddbzw/Exam2-S17.docx?dl=0&#34;&gt;Final
-exam&lt;/a&gt;
-| &lt;a href=&#34;https://www.dropbox.com/s/yda96w17dr703uz/Inversion.csv?dl=0&#34;&gt;Inversion data set for
-Q3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

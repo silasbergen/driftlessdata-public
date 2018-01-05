@@ -11,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="/courses/stat450/schedule.knit/">
+  <link rel="alternate" hreflang="en-us" href="/courses/stat450/r_hw2.knit/">
 
   
   
@@ -70,13 +70,13 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/courses/stat450/schedule.knit/">
+  <link rel="canonical" href="/courses/stat450/r_hw2.knit/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="/courses/stat450/schedule.knit/">
-  <meta property="og:title" content="Semester schedule | Driftless Data">
+  <meta property="og:url" content="/courses/stat450/r_hw2.knit/">
+  <meta property="og:title" content="R Homework 2 | Driftless Data">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
@@ -86,7 +86,7 @@
 
   
 
-  <title>Semester schedule | Driftless Data</title>
+  <title>R Homework 2 | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -234,7 +234,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Semester schedule</h1>
+      <h1 itemprop="name">R Homework 2</h1>
 
       
 
@@ -265,7 +265,233 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p><img src="https://silasbergen.github.io/img/schedule.PNG" alt="" /></p>
+        <p><strong>Due Wednesday, 9/20 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted html, Word, or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.</strong></p>
+
+<p>(Modified from <em>Introduction to Scientific Programming and Simulation Using R</em> by Owen Jones et al).</p>
+
+<p>A roulette wheel has 37 slots.  18 of these are colored red, 18 are black, and 1 slot (numbered 0) is colored green.  The red and black slots are numbered from 1 to 36.  There are four possible &ldquo;games&rdquo; or &ldquo;systems&rdquo; you can use when playing roulette.  Different games offer different playing experiences.  Some allow you to win more often than you lose, some let you play longer, some cost more to play, and some risk greater losses for a greater reward.  The games we will consider here are as follows.</p>
+
+<p>A. <strong><em>Betting on red</em></strong></p>
+
+<p>This game involves a single bet.  You always bet on red, and you always bet \$1.  If the ball lands on red you win \$1, otherwise you lose.</p>
+
+<p>B. <strong><em>Betting on a number</em></strong></p>
+
+<p>This game also involves a single bet.  You bet \$1 on a single number, say 17.  If the ball lands on that number you win \$35, otherwise you lose.</p>
+
+<p>C. <strong><em>Martingale system</em></strong></p>
+
+<p>In this game you start by betting \$1 on red.  If you lose, you double your previous bet; if you win, your next bet is \$1.  Regardless, you continue to bet on red.  The game continues until your net winnings equal \$10, or the bet exceeds \$100 (you only have a finite amount of wealth!).</p>
+
+<p>D. <strong><em>Labouchere System</em></strong></p>
+
+<p>In this game you start with the list of numbers (1,2,3,4).  To begin, you bet the sum of the first and last numbers on red (initially, \$5).  If you win you delete the first and last numbers from the list (so if you win the list becomes (2,3)), otherwise you add the loss to the end of the list (so if you lose your first bet the list becomes (1,2,3,4,5)).  Repeat until your list is empty, or the bet exceeds \$100.  If only one number is left on the list, you bet that number.</p>
+
+<p>E. <strong><em>Fibonacci System</em></strong></p>
+
+<p>This system is intended to use Nature to win Money.  The Fibonacci Sequence are the numbers:</p>
+
+<p>0, 1, 1, 2, 3, 5, 8, 13, 21, 34&hellip;</p>
+
+<p>In this sequence, each number is the sum of the preceding two numbers.</p>
+
+<p>To use the Fibonacci System, you always bet on red.  Your first bet is the first non-zero number in the sequence, \$ %&gt;% 1.  If you lose, you bet the next number in the sequence, and continue moving along the sequence as long as you continue losing.  If you win, you revert to the previous number in the sequence for your next bet.</p>
+
+<p>An example, with the bet number; bet amount; and bet outcome:</p>
+
+<ul>
+<li>Bet 1:  \$1; loss.</li>
+<li>Bet 2: \$1; loss.</li>
+<li>Bet 3: \$2; loss.</li>
+<li>Bet 4: \$3; loss.</li>
+<li>Bet 5: \$5; win.</li>
+<li>Bet 6: \$3; loss.<br />
+&hellip;etc.</li>
+</ul>
+
+<p>You continue to play until your next bet is \$0; or your next bet would exceed \$100.</p>
+
+<p>Thus the following game would be complete:</p>
+
+<ul>
+<li>Bet 1: \$1; loss.</li>
+<li>Bet 2: \$1; win (move back to the &ldquo;first&rdquo; 1)</li>
+<li>Bet 3: \$1; win</li>
+</ul>
+
+<p>Game over, since your next bet would be \$0.</p>
+
+<p>Games C-E are intended to cover previous losses by increasing bet size.</p>
+
+<p>The purpose of this problem is to compare the following qualities of the four games:</p>
+
+<ol>
+<li>Expected winnings per game;</li>
+<li>Proportion of games you win (i.e., make money);</li>
+<li>Expected playing time per game, measured by the number of bets made;</li>
+<li>The maximum amount you can win;</li>
+<li>The maximum amount you can lose.</li>
+</ol>
+
+<p>###Part 1: Theoretical</p>
+
+<p>I. For the first four games, find the theoretical values of the maximum amount you could win in a single play of the game. (This amount is very difficult to determine for Game E).  Enter these in the table below.</p>
+
+<table>
+<thead>
+<tr>
+<th>Game</th>
+<th>(4) Max win</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>B</td>
+<td></td>
+</tr>
+
+<tr>
+<td>C</td>
+<td></td>
+</tr>
+
+<tr>
+<td>D</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>II. For all games, find the theoretical values of the maximum amount you could lose in a single play of the game.  Enter these in the table below.</p>
+
+<table>
+<thead>
+<tr>
+<th>Game</th>
+<th>(5) Max loss</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>A</td>
+<td></td>
+</tr>
+
+<tr>
+<td>B</td>
+<td></td>
+</tr>
+
+<tr>
+<td>C</td>
+<td></td>
+</tr>
+
+<tr>
+<td>D</td>
+<td></td>
+</tr>
+
+<tr>
+<td>E</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>###Part 2: Simulation</p>
+
+<p>For each game write a function (with no arguments) that plays the game once and returns a vector of length 2 consisting of the amount won/lost and how many bets were made.  Using these functions and the <code>replicate()</code> function, simulate 100,000 &ldquo;playings&rdquo; of each game.  For Games C-E, you may want to consider the use of a <code>while()</code> loop.  Fill in the table below with your simulated results, verifying that columns 4 and 5 are similar to the theoretical (if they are not, something is wrong with your functions!)</p>
+
+<table>
+<thead>
+<tr>
+<th>Game</th>
+<th>(1) Expected winnings</th>
+<th>(2) Proportion of games won</th>
+<th>(3) Expected playing time</th>
+<th>(4) Max win</th>
+<th>(5) Max loss</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>A</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>B</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>C</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>D</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>E</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>Additionally, using <code>sd()</code> and the results of your 100,000 &ldquo;playings&rdquo; of each game, answer the following questions:</p>
+
+<ul>
+<li>For which game is the amount won most variable?</li>
+<li>For which game is the expected playing time most variable?<br /></li>
+</ul>
+
+<p>To get you started, here is the shell of a function for Game C.  Similarly for Games D-E, you will need to set initial values of bet, money, and nplays.  Set the <code>while()</code> loop condition&ndash;and update the values of <code>bet</code>, <code>money</code>, and <code>nplays</code>&ndash; according to the rules of each game.</p>
+
+<pre><code class="language-r">gameC &lt;- function() {
+  bet &lt;- 1
+  money &lt;- 0
+  nplays &lt;- 0
+  while(money &lt;  10 &amp; bet &lt;= 100) {
+    #Spin the wheel, record outcome (win or loss)
+    #Update money depending on wheel outcome
+    #Update bet depending on wheel outcome
+    #Update nplays
+  }
+  return(c(money,nplays))
+}
+</code></pre>
 
       </div>
 

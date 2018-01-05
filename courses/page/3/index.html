@@ -240,6 +240,22 @@
   
   
   <div>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/">IPUMS visualization in ggplot2</a></h2>
+    <div class="article-style">
+      
+      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2)
+ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
+usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+facet_grid(.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="http://driftlessdata.space/courses/stat450/r_hw2/">R Homework 2</a></h2>
     <div class="article-style">
       
@@ -252,13 +268,6 @@ A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 
   
   <div>
     <h2><a href="http://driftlessdata.space/courses/stat450/schedule/">Semester schedule</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/schedule.knit/">Semester schedule</a></h2>
     <div class="article-style">
       
     </div>
