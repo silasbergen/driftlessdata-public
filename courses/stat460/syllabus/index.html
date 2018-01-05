@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -13,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/stat460/syllabus/">
 
   
   
@@ -64,30 +62,32 @@
   
 
   
-  <link rel="alternate" href="http://driftlessdata.space/courses/index.xml" type="application/rss+xml" title="Driftless Data">
-  <link rel="feed" href="http://driftlessdata.space/courses/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="alternate" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
+  <link rel="feed" href="http://driftlessdata.space/index.xml" type="application/rss+xml" title="Driftless Data">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://driftlessdata.space/courses/">
+  <link rel="canonical" href="http://driftlessdata.space/courses/stat460/syllabus/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="http://driftlessdata.space/courses/">
-  <meta property="og:title" content="Courses | Driftless Data">
-  <meta property="og:description" content="Assistant professor of statistics and data science">
+  <meta property="og:url" content="http://driftlessdata.space/courses/stat460/syllabus/">
+  <meta property="og:title" content="Syllabus | Driftless Data">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
+  <meta property="article:published_time" content="2018-01-05T00:00:00&#43;00:00">
   
+  <meta property="article:modified_time" content="2018-01-05T00:00:00&#43;00:00">
   
 
   
 
-  <title>Courses | Driftless Data</title>
+  <title>Syllabus | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -228,104 +228,133 @@
 </nav>
 
 
-
-
-
-<div class="universal-wrapper">
-
-  <h1>Courses</h1>
+<article class="article" itemscope itemtype="http://schema.org/Article">
 
   
 
-  
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/critique2/">Critique 2</a></h2>
-    <div class="article-style">
-      
-      As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and excerpts from Chapter 8 (sales dashboard examples) from Stephen Few&rsquo;s 2006 book Information Dashboard Design. I have scanned the relevant chapters for you.
-After reading Chapter 3 and 7, look at the eight sample sales dashboards from Chapter 8. Prepare 3 bullet points critiquing each dashboard (so 24 bullet points total), using the ideas from Chapters 3 and 7, and submit these to D2L.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/flexdash-example/">Example flex dash</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key/">IPUMS visualization in ggplot2</a></h2>
-    <div class="article-style">
-      
-      Code for tasks:
-library(dplyr);library(ggplot2)
-ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
-usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
-#head(usa)
-ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
-geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
-facet_grid(.~Year) + scale_color_discrete(name=&#39;Highest education attained&#39;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&#39;Count (in millions)&#39;, labels = function(x) paste(x / 1000000,&#39;M&#39;))
-With percents instead of counts:
-usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count))
-#head(usa2)
-ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
-geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
-facet_grid(.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/">IPUMS visualization in ggplot2</a></h2>
-    <div class="article-style">
-      
-      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
-library(dplyr);library(ggplot2)
-ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
-usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
-#head(usa)
-ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
-geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
-facet_grid(.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/r_hw2/">R Homework 2</a></h2>
-    <div class="article-style">
-      
-      Due Wednesday, 9/20 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
-(Modified from Introduction to Scientific Programming and Simulation Using R by Owen Jones et al).
-A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 slot (numbered 0) is colored green.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/schedule/">Semester schedule</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
 
-  
-<nav>
-  <ul class="pager">
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">Syllabus</h1>
+
+      
+
+<div class="article-metadata">
+
+  <span class="article-date">
     
-    <li><a href="/courses/page/2/">&lt;</a></li>
-    
-    
-  </ul>
-</nav>
+    <time datetime="2018-01-05 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 5, 2018
+    </time>
+  </span>
 
+  
 
+  
+  
+
+  
+
+  
+  
+
+  
 
 </div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        
+
+<h3 id="stat-460-mathematical-statistics-ii-stat460-home"><a href="../stat460-home/">STAT 460: Mathematical statistics II</a></h3>
+
+<h3 id="spring-2018">Spring 2018</h3>
+
+<h3 id="prerequisite">Prerequisite:</h3>
+
+<ul>
+<li>Stat 450</li>
+</ul>
+
+<h3 id="course-summary">Course summary</h3>
+
+<p>STAT 460 is a continuation of the mathematical statistics sequence.  Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference.  R will be of even greater use to us in this semester.</p>
+
+<h3 id="course-text">Course text</h3>
+
+<p>The required text for this course is Mathematical Statistics with Applications by Wackerly, Mendenhall, &amp; Scheaffer, 7th edition (WMS7).  Students may share copies of this book, although students planning on continuing to graduate school are encouraged to have their own copy.</p>
+
+<ul>
+<li><a href="https://www.amazon.com/Mathematical-Statistics-Applications-Dennis-Wackerly/dp/0495110817/ref=sr_1_1?ie=UTF8&amp;qid=1471463588&amp;sr=8-1&amp;keywords=mathematical+statistics+wackerly">Amazon link</a></li>
+<li><a href="http://web.csulb.edu/~okoroste/wackerly.pdf">Kindle version</a></li>
+</ul>
+
+<h3 id="course-outline">Course outline</h3>
+
+<ul>
+<li>Ch. 7 - Sampling Distributions and the CLT<br /></li>
+<li>Ch. 8 - Estimation<br /></li>
+<li>Ch. 9 - Properties of Point Estimators and Methods of Estimation<br /></li>
+<li>Ch. 10 - Hypothesis Testing<br /></li>
+<li>Ch. 16 - Introduction to Bayesian Methods for Inference</li>
+<li>Other Chapters and Topics (time permitting)  Selected topics and sections from Ch. 11 - 15 and others not included in the text, e.g. resampling methods.</li>
+</ul>
+
+<h2 id="statistical-computing">Statistical computing</h2>
+
+<p>We will use the open-source R programming language extensively throughout this course, both in the course notes and through regular R-specific assignments.   Please download R and R studio using the links below.</p>
+
+<ul>
+<li><a href="https://cran.r-project.org/">Base R</a></li>
+<li><a href="https://www.rstudio.com/home/">R Studio</a></li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf">ggplot2 cheat sheet</a><br /></li>
+<li><a href="https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf">R Markdown cheat sheet</a></li>
+</ul>
+
+<h2 id="assignments">Assignments</h2>
+
+<p>Your final grade will be determined based on the following criteria:</p>
+
+<p><strong><em>Presentations (10%)</em></strong></p>
+
+<p>On a regular basis throughout the semester, I will assign problems that you will be required to present to the class.  These may be either problems from the textbook, or additional problems that I assign.  You will have at least 2 days to work on the problem before presenting.</p>
+
+<p><strong><em>Homework (40%)</em></strong></p>
+
+<p>Submitted homework will be comprised of two parts:</p>
+
+<ol>
+<li><em>Theoretical problems:</em> These will primarily be problems assigned from WMS7.  Students are encouraged, but not required, to submit these homework solutions using R Markdown/LaTeX.<br /></li>
+<li><em>Investigative problems:</em> In addition to the theoretical problems, there will be regular problems that require the use of R to investigate some aspect of the content covered in class.  <strong><em>Solutions to these assignments must be submitted as a knitted html document.</em></strong></li>
+</ol>
+
+<p><strong><em>Midterm exam (25%)</em></strong></p>
+
+<p>The Midterm exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.</p>
+
+<p><strong><em>Final exam (25%)</em></strong></p>
+
+<p>Similar to the Midterm, the Final exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.</p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -408,6 +437,4 @@ A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 
 
   </body>
 </html>
-
-
 
