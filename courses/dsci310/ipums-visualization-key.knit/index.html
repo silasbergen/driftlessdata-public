@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -13,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/tags/students/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.knit/">
 
   
   
@@ -72,22 +70,23 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://driftlessdata.space/tags/students/">
+  <link rel="canonical" href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.knit/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="http://driftlessdata.space/tags/students/">
-  <meta property="og:title" content="Students | Driftless Data">
-  <meta property="og:description" content="Assistant professor of statistics and data science">
+  <meta property="og:url" content="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.knit/">
+  <meta property="og:title" content="IPUMS visualization in ggplot2 | Driftless Data">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-01-05T00:00:00&#43;00:00">
+  
+  
   
 
   
 
-  <title>Students | Driftless Data</title>
+  <title>IPUMS visualization in ggplot2 | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -228,62 +227,94 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
 
 
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">IPUMS visualization in ggplot2</h1>
 
-<div class="universal-wrapper">
+      
 
-  <h1>Students</h1>
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+        Last updated on
+    
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 1, 0001
+    </time>
+  </span>
 
   
 
   
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/group-homework/">What students have to say about group homework</a></h2>
-    <div class="article-style">
-      
-      The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why <em>I</em> think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the students think. I think it’s quite striking!
-First, though, I do need to provide a couple quick details about how I manage group homework.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/policedatachallenge/">And the winner is...</a></h2>
-    <div class="article-style">
-      
-      The midterm project for my data visualization course this past fall required students to submit to the ASA&rsquo;s Police Data Challenge. The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle). I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.
-Several weeks later, we received the exciting news that one of the teams won &ldquo;Best Overall&rdquo; among undergraduate teams!
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/minnemudac/">Minne MUDAC 2017</a></h2>
-    <div class="article-style">
-      
-      Winona State University undergraduates made a great impression at the 2017 MinneMUDAC data analytics competition<br />
-On November 3-4, Winona State statistics and data science students participated in the fantastic MinneMUDAC 2017 data analytics competition. Students worked in teams of up to five students for one month analyzing de-identified administrative medical and pharmacy claims data provided by Optum. The competition required students to analyze complicated data on health insurance claims made by Type-II diabetics.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/winstats/">A summer REU at Winona State</a></h2>
-    <div class="article-style">
-      
-      This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU). Winona State was awarded the REU by the American Statistical Association, which had received a grant from the NSF to fund four students at each of nine sites over the course of three years (three different sites per year).
-Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Iowa State), and Eva Tourangeau (Lawrence) were selected from a competitive, national pool of undergraduates.
-      
-    </div>
-  </div>
   
 
   
 
+  
+  
+
+  
 
 </div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p>Code for tasks:</p>
+
+<pre><code class="language-r">library(dplyr);library(ggplot2)
+ipums &lt;- read.csv('C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv')
+usa &lt;- ipums %&gt;% filter(Country=='United States')
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+  geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+  facet_grid(.~Year) + 
+  scale_color_discrete(name='Highest education attained') + 
+  theme(axis.text.x = element_text(angle=90)) + 
+  scale_y_continuous(name='Count (in millions)', labels = function(x) paste(x / 1000000,'M')) 
+</code></pre>
+
+<p><img src="IPUMS-visualization-KEY_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+
+<p>With percents instead of counts:</p>
+
+<pre><code class="language-r">usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count))
+#head(usa2)
+ggplot(data = usa2) + 
+  geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
+  geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
+  facet_grid(.~Year) + 
+  scale_color_discrete(name='Highest education attained') +
+  ylab('Percent of population') + 
+    theme(axis.text.x = element_text(angle=90))
+</code></pre>
+
+<p><img src="IPUMS-visualization-KEY_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -366,6 +397,4 @@ Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Io
 
   </body>
 </html>
-
-
 

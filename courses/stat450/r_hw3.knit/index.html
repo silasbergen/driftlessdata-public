@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
@@ -13,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/tags/students/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/courses/stat450/r_hw3.knit/">
 
   
   
@@ -72,22 +70,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://driftlessdata.space/tags/students/">
+  <link rel="canonical" href="http://driftlessdata.space/courses/stat450/r_hw3.knit/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Driftless Data">
-  <meta property="og:url" content="http://driftlessdata.space/tags/students/">
-  <meta property="og:title" content="Students | Driftless Data">
-  <meta property="og:description" content="Assistant professor of statistics and data science">
+  <meta property="og:url" content="http://driftlessdata.space/courses/stat450/r_hw3.knit/">
+  <meta property="og:title" content="R Homework 3 | Driftless Data">
+  <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-01-05T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2017-10-20T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2017-10-20T00:00:00&#43;00:00">
   
 
   
 
-  <title>Students | Driftless Data</title>
+  <title>R Homework 3 | Driftless Data</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -228,62 +228,285 @@
 </nav>
 
 
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
 
 
+  <div class="article-container">
+    <div class="article-inner">
+      <h1 itemprop="name">R Homework 3</h1>
 
-<div class="universal-wrapper">
+      
 
-  <h1>Students</h1>
+<div class="article-metadata">
+
+  <span class="article-date">
+    
+    <time datetime="2017-10-20 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Oct 20, 2017
+    </time>
+  </span>
 
   
 
   
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/group-homework/">What students have to say about group homework</a></h2>
-    <div class="article-style">
-      
-      The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why <em>I</em> think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the students think. I think it’s quite striking!
-First, though, I do need to provide a couple quick details about how I manage group homework.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/policedatachallenge/">And the winner is...</a></h2>
-    <div class="article-style">
-      
-      The midterm project for my data visualization course this past fall required students to submit to the ASA&rsquo;s Police Data Challenge. The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle). I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.
-Several weeks later, we received the exciting news that one of the teams won &ldquo;Best Overall&rdquo; among undergraduate teams!
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/minnemudac/">Minne MUDAC 2017</a></h2>
-    <div class="article-style">
-      
-      Winona State University undergraduates made a great impression at the 2017 MinneMUDAC data analytics competition<br />
-On November 3-4, Winona State statistics and data science students participated in the fantastic MinneMUDAC 2017 data analytics competition. Students worked in teams of up to five students for one month analyzing de-identified administrative medical and pharmacy claims data provided by Optum. The competition required students to analyze complicated data on health insurance claims made by Type-II diabetics.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/post/winstats/">A summer REU at Winona State</a></h2>
-    <div class="article-style">
-      
-      This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU). Winona State was awarded the REU by the American Statistical Association, which had received a grant from the NSF to fund four students at each of nine sites over the course of three years (three different sites per year).
-Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Iowa State), and Eva Tourangeau (Lawrence) were selected from a competitive, national pool of undergraduates.
-      
-    </div>
-  </div>
   
 
   
 
+  
+  
+
+  
 
 </div>
+
+
+      <div class="article-style" itemprop="articleBody">
+        <p><strong>Due Wednesday, 11/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted Word doc or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.</strong></p>
+
+<ol>
+<li>In Math-Stat, all of the pmfs/pdfs we have discussed are truly <em>models</em>.  This means they are proposed mathematical frameworks for explaining behavior of actual data.  We consier one proposed model for some actual data in this problem.  Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution.  Specifically, with $X =1$ if the cell is malignant and $X = 0$ if the cell is benign:</li>
+</ol>
+
+<p>$$P(X = x)= 0.4^x 0.6^{1-x}.$$</p>
+
+<p>Suppose that the radius of the cell in microns, $Y$, depends on $X$ and can be well-modeled with the following conditional pdf:</p>
+
+<p>$$ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &lt; y &lt; \infty
+$$</p>
+
+<p>A.  Find $\mu_Y = E(Y)$.</p>
+
+<p>B.  Find $\sigma^2_Y = Var(Y)$.</p>
+
+<p>C.  The data set BreastCancerSample.csv contains data on 569 cells.  Plot bar graphs of $X$, and histograms of $Y$ for each $X$.  Does the proposed model appear reasonable?</p>
+
+<p>D.  Find $\hat\mu_Y = \hat E(Y)$ and $\hat\sigma^2_Y = \widehat{Var}(Y)$, the empirical (i.e., observed) mean and variance of the cell radii.  Verify that they well-approximate the theoretical quantitities.</p>
+
+<p>E.  Now use the data to fill out the following table:</p>
+
+<table>
+<thead>
+<tr>
+<th>x</th>
+<th>$\hat p(x)$</th>
+<th>$\hat E(Y\mid X)$</th>
+<th>$\widehat{Var}(Y\mid X)$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+<p>Use the quantities in this table to find $\hat \mu_Y$ and $\hat\sigma^2_Y$.  Verify that they match your answers to part D.</p>
+
+<ol>
+<li>As discussed in class, if $(X,Y)$ follow a bivariate normal distribution then:</li>
+</ol>
+
+<p>$$ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)$$</p>
+
+<p>$$Var(Y|X) = \sigma^2_Y( 1-\rho^2)$$</p>
+
+<p>This implies that under bivariate normality, the conditional mean of $Y$ given $X$ is linear, and the form of the  intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal.  In this problem we study this further.</p>
+
+<p>Consider the following combinations of parameterizations, for $\mu_Y = \mu_X = 10$ and $\sigma_X = 2$:</p>
+
+<table>
+<thead>
+<tr>
+<th>$\rho$</th>
+<th>$\sigma_Y/\sigma_X$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0.1</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>0.5</td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>1</td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>2</td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+
+<p>Using the function <code>mvrnorm()</code> from the <code>MASS</code> package, simulate 100 $(X,Y)$ pairs for each row of the table above.</p>
+
+<p>A.  Plot the 9 data sets, including the best-fit linear regression line (use <code>geom_smooth(method='lm')</code> if using <code>ggplot</code>).</p>
+
+<p>B.  By describing the scatterplots, briefly explain how the combinations of $\rho$ and $\sigma_Y/\sigma_X$ affect $\widehat{Var}(Y|X)$.</p>
+
+<p>C.  Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using <code>lm()</code> on each of the 9 simulated data sets.</p>
+
+<table>
+<thead>
+<tr>
+<th>$\rho$</th>
+<th>$\sigma_Y/\sigma_X$</th>
+<th>$\beta_0$</th>
+<th>$\beta_1$</th>
+<th>$\hat\beta_0$</th>
+<th>$\hat\beta_1$</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>0.1</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>0.5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>1</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.1</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.5</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+
+<tr>
+<td>0.8</td>
+<td>2</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+      </div>
+
+      
+
+    </div>
+  </div>
+
+</article>
+
+
+
+
+
+
+<div class="article-container">
+  
+
+</div>
+
 <footer class="site-footer">
   <div class="container">
     <p class="powered-by">
@@ -363,9 +586,14 @@ Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Io
 
     
     
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
 
   </body>
 </html>
-
-
 

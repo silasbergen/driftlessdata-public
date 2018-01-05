@@ -82,7 +82,7 @@
   <meta property="og:description" content="Assistant professor of statistics and data science">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2017-08-20T00:00:00&#43;00:00">
+  <meta property="og:updated_time" content="2017-08-27T00:00:00&#43;00:00">
   
 
   
@@ -240,6 +240,17 @@
   
   
   <div>
+    <h2><a href="http://driftlessdata.space/courses/stat450/r_hw1/">R Homework 1</a></h2>
+    <div class="article-style">
+      
+      Due Friday, 9/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
+In class, we considered the case of rolling two dice, one red and one white. Let (Y\equiv) the minimum of the two rolls.
+Define the probability mass function (pmf) in tabular format. The table is started for you, below.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="http://driftlessdata.space/courses/dsci310/dsci310-home/">Data Science 310: Data summarization and visualization (Fall 2017)</a></h2>
     <div class="article-style">
       
@@ -324,28 +335,6 @@ After reading Chapter 3 and 7, look at the eight sample sales dashboards from Ch
   <div>
     <h2><a href="http://driftlessdata.space/courses/dsci310/flexdash-example/">Example flex dash</a></h2>
     <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key/">IPUMS visualization in ggplot2</a></h2>
-    <div class="article-style">
-      
-      Code for tasks:
-library(dplyr);library(ggplot2)
-ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
-usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
-#head(usa)
-ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
-geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
-facet_grid(.~Year) + scale_color_discrete(name=&#39;Highest education attained&#39;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&#39;Count (in millions)&#39;, labels = function(x) paste(x / 1000000,&#39;M&#39;))
-With percents instead of counts:
-usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count))
-#head(usa2)
-ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
-geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
-facet_grid(.
       
     </div>
   </div>

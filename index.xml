@@ -538,9 +538,9 @@ become an active and engaged member of our class and community.&lt;/p&gt;
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/post/group-homework/</guid>
-      <description>&lt;p&gt;The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could on at length about why *I* think group homework is beneficial, but that’s not the point of this post. This post is what I learned from the &lt;em&gt;students&lt;/em&gt; telling me about their group homework experience.&lt;/p&gt;
-&lt;p&gt;First, though, I do need to provide a couple quick details about how I manage group homework. They occur approximately once a week, and I alternate between randomly assigning the students into groups of three, and letting them choose their own groups. When students chose their own, I encouraged groups of three but allowed four (no higher).&lt;/p&gt;
-&lt;p&gt;On end-of-semester course evaluations, I asked the following questions:&lt;/p&gt;
+      <description>&lt;p&gt;The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why *I* think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the &lt;em&gt;students&lt;/em&gt; think. I think it’s quite striking!&lt;/p&gt;
+&lt;p&gt;First, though, I do need to provide a couple quick details about how I manage group homework. They occur approximately once a week, and I alternate between randomly assigning the students into groups of three and letting them choose their own groups. When students choose their own, I encourage groups of three but allow four (no higher).&lt;/p&gt;
+&lt;p&gt;On end-of-semester course evaluations the past two semesters, I asked the following questions:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
 &lt;li&gt;&lt;em&gt;What do you like BEST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
@@ -552,7 +552,7 @@ become an active and engaged member of our class and community.&lt;/p&gt;
 &lt;p&gt;There are a lot of words in here that I’m glad to see! (And that echo my motivation for implementing group homework.) Students can &lt;em&gt;ask questions&lt;/em&gt;; &lt;em&gt;work&lt;/em&gt; with &lt;em&gt;people&lt;/em&gt;; &lt;em&gt;talk&lt;/em&gt; with &lt;em&gt;others&lt;/em&gt;; etc. &lt;em&gt;Professor&lt;/em&gt; shows up in the cloud too; I’m always present and able to help problem-solve, or ask redirecting questions if students are off-topic.&lt;/p&gt;
 &lt;p&gt;Well and good. But even more striking is the word cloud for student reponses to what they liked &lt;em&gt;LEAST&lt;/em&gt; about group homework:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;If you’ve ever seen a more telling word cloud, I want to see it!! It’s pretty obvious what I need to work on this semester regarding group homework. One possibility to encourage universal participation: I assign the “scribe” of the group (the person writing down and submitting the group’s answers to be graded), and make sure it’s someone different each week. Maybe simply paying better attention to students who are “staring off” and gently encouraging them to participate.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;People didn’t work sometimes&lt;/em&gt;&lt;/strong&gt;…it’s even grammatically correct! It’s pretty obvious what I need to work on this semester regarding group homework. One possibility to encourage universal participation: I assign the “scribe” of the group (the person writing down and submitting the group’s answers to be graded), and make sure it’s someone different each week. Maybe simply paying better attention to students who are “staring off” and gently encouraging them to participate.&lt;/p&gt;
 &lt;p&gt;Also not surprising, given the groans when I announce it’s “random assignment week”, are the words &lt;em&gt;assigned&lt;/em&gt;, &lt;em&gt;random&lt;/em&gt;, and &lt;em&gt;randomly&lt;/em&gt;. Students aren’t fond of being randomly assigned to groups, although it’s not something I see myself dropping. It’s important to mix up the voices; give international and domestic students a chance to work together; and give students experience working in a team with people they don’t necessarily choose (that’s real life after all!)&lt;/p&gt;
 </description>
     </item>
@@ -1366,6 +1366,238 @@ write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
     </item>
     
     <item>
+      <title>R Homework 3</title>
+      <link>http://driftlessdata.space/courses/stat450/r_hw3.knit/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/r_hw3.knit/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Due Wednesday, 11/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted Word doc or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;In Math-Stat, all of the pmfs/pdfs we have discussed are truly &lt;em&gt;models&lt;/em&gt;.  This means they are proposed mathematical frameworks for explaining behavior of actual data.  We consier one proposed model for some actual data in this problem.  Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution.  Specifically, with $X =1$ if the cell is malignant and $X = 0$ if the cell is benign:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;$$P(X = x)= 0.4^x 0.6^{1-x}.$$&lt;/p&gt;
+
+&lt;p&gt;Suppose that the radius of the cell in microns, $Y$, depends on $X$ and can be well-modeled with the following conditional pdf:&lt;/p&gt;
+
+&lt;p&gt;$$ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &amp;lt; y &amp;lt; \infty
+$$&lt;/p&gt;
+
+&lt;p&gt;A.  Find $\mu_Y = E(Y)$.&lt;/p&gt;
+
+&lt;p&gt;B.  Find $\sigma^2_Y = Var(Y)$.&lt;/p&gt;
+
+&lt;p&gt;C.  The data set BreastCancerSample.csv contains data on 569 cells.  Plot bar graphs of $X$, and histograms of $Y$ for each $X$.  Does the proposed model appear reasonable?&lt;/p&gt;
+
+&lt;p&gt;D.  Find $\hat\mu_Y = \hat E(Y)$ and $\hat\sigma^2_Y = \widehat{Var}(Y)$, the empirical (i.e., observed) mean and variance of the cell radii.  Verify that they well-approximate the theoretical quantitities.&lt;/p&gt;
+
+&lt;p&gt;E.  Now use the data to fill out the following table:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;x&lt;/th&gt;
+&lt;th&gt;$\hat p(x)$&lt;/th&gt;
+&lt;th&gt;$\hat E(Y\mid X)$&lt;/th&gt;
+&lt;th&gt;$\widehat{Var}(Y\mid X)$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Use the quantities in this table to find $\hat \mu_Y$ and $\hat\sigma^2_Y$.  Verify that they match your answers to part D.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;As discussed in class, if $(X,Y)$ follow a bivariate normal distribution then:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;$$ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)$$&lt;/p&gt;
+
+&lt;p&gt;$$Var(Y|X) = \sigma^2_Y( 1-\rho^2)$$&lt;/p&gt;
+
+&lt;p&gt;This implies that under bivariate normality, the conditional mean of $Y$ given $X$ is linear, and the form of the  intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal.  In this problem we study this further.&lt;/p&gt;
+
+&lt;p&gt;Consider the following combinations of parameterizations, for $\mu_Y = \mu_X = 10$ and $\sigma_X = 2$:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;$\rho$&lt;/th&gt;
+&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Using the function &lt;code&gt;mvrnorm()&lt;/code&gt; from the &lt;code&gt;MASS&lt;/code&gt; package, simulate 100 $(X,Y)$ pairs for each row of the table above.&lt;/p&gt;
+
+&lt;p&gt;A.  Plot the 9 data sets, including the best-fit linear regression line (use &lt;code&gt;geom_smooth(method=&#39;lm&#39;)&lt;/code&gt; if using &lt;code&gt;ggplot&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;B.  By describing the scatterplots, briefly explain how the combinations of $\rho$ and $\sigma_Y/\sigma_X$ affect $\widehat{Var}(Y|X)$.&lt;/p&gt;
+
+&lt;p&gt;C.  Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using &lt;code&gt;lm()&lt;/code&gt; on each of the 9 simulated data sets.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;$\rho$&lt;/th&gt;
+&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
+&lt;th&gt;$\beta_0$&lt;/th&gt;
+&lt;th&gt;$\beta_1$&lt;/th&gt;
+&lt;th&gt;$\hat\beta_0$&lt;/th&gt;
+&lt;th&gt;$\hat\beta_1$&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.5&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;0.8&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Play Day Task</title>
       <link>http://driftlessdata.space/courses/dsci310/playday3/</link>
       <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
@@ -1638,23 +1870,6 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
 &lt;li&gt;Reagan Buske&lt;/li&gt;
 &lt;li&gt;Ross Krueger&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Play Day Task</title>
-      <link>http://driftlessdata.space/courses/dsci310/playday1/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/dsci310/playday1/</guid>
-      <description>&lt;p&gt;Consider the &lt;a href=&#34;https://www.dropbox.com/s/yaqv5afaz1rp9j6/MLB-Standings-2016-2017.xlsx?dl=0&#34;&gt;Major League Baseball Standings data&lt;/a&gt;.  There are two worksheets in this Excel file: one with 2016 standings, and one with 2017 standings.  The important variables in each are the team names &amp;trade;; actual winning percentage (W-L%); and predicted winning percentage (pythWPct), which is each team&amp;rsquo;s predicted winning percentage based on the number of points (&amp;ldquo;runs&amp;rdquo;) scored by and against that team.&lt;/p&gt;
-
-&lt;p&gt;Questions to be answered (no restrictions!):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Which teams&amp;rsquo; winning percentages most improved the most from 2016-2017?  Which teams got much worse?&lt;/li&gt;
-&lt;li&gt;Which teams are most underperforming and overperforming their predicted winning percentage in 2017?&lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
