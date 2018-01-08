@@ -11,6 +11,280 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat 310: Intermediate statistics (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat310/stat310-home/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat310/stat310-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;office-hours&#34;&gt;Office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF: 9-12; TH: 11-12&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/bdc2kr69gwbno1l/BinomialScript.jsl?dl=0&#34;&gt;JMP script for calculating binomial probabilities&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/523fe7wbu08r42s/Handout%201%20-%20Review.docx?dl=0&#34;&gt;Handout 1: Review of statistical concepts&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Breast cancer data | &lt;a href=&#34;https://www.dropbox.com/s/nmp5pb22o7213l8/BreastCancer.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Calorie data | &lt;a href=&#34;https://www.dropbox.com/s/1zmda8omc6nbdqi/kid_calories.jmp?dl=0&#34;&gt;JMP&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/af61nwvao0q88wg/kid_calories.csv?dl=0&#34;&gt;CSV&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat310/syllabus/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat310/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-310-intermediate-statistics-stat310-home&#34;&gt;&lt;a href=&#34;../stat310-home/&#34;&gt;STAT 310: Intermediate Statistics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;textbook&#34;&gt;Textbook&lt;/h3&gt;
+
+&lt;p&gt;There is no required text for this class. A recommended text for student
+reference is &lt;em&gt;Stat 2: Building Models for a World of Data&lt;/em&gt; by Cannon et
+al. This text is well-written and has some nice problems for additional
+student practice. However, it can get technical at times. You will not
+need this text to complete the homework or succeed on exams.&lt;/p&gt;
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
+
+&lt;p&gt;Stat 110, STAT 210, STAT 303, STAT 305, PSY231, or equivalent.&lt;/p&gt;
+
+&lt;h3 id=&#34;technology&#34;&gt;Technology&lt;/h3&gt;
+
+&lt;p&gt;We will make extensive use of JMP to perform most
+statistical analyses in this course. Instructions for downloading JMP
+onto your laptop are on the course webpage.&lt;/p&gt;
+
+&lt;h3 id=&#34;learning-outcomes&#34;&gt;Learning Outcomes&lt;/h3&gt;
+
+&lt;p&gt;STAT 310 will reinforce topics from your first course in statistics,
+including the logic of inference, and the proper scope of conclusions
+drawn from research studies. We will also learn about the concept of a
+statistical model. This course will promote your abilities to&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;identify research questions that may be answered using various
+statistical models and to translate these questions into the
+appropriate analysis procedure. A successful student will be a
+knowledgeable consumer of the statistical methods presented, and be
+able to properly obtain and use these methods.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;model and solve real-world problems, as well as understand
+limitations of models making predictions and drawing conclusions.
+Almost all the problems we will encounter are real-world examples. A
+successful student will be able to answer research questions with
+statistical models and to approach such problems with confidence.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;recognize underlying model assumptions and employ methods for
+checking these assumptions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;analyze data and summarize the results in a meaningful way. You
+should have acquired some of these skills in your introductory
+statistics course, but in this class you will focus even more on
+effectively communicating results.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;use appropriate technology to carry out analyses.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;assessment-tasks&#34;&gt;Assessment tasks&lt;/h3&gt;
+
+&lt;p&gt;The following assessments will be used to gauge growth in the above
+learning outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Participation (0%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Although you will not be graded on participation, attending class is
+essential to succeed in this course. Class time will often be spent completing
+group activities that mimic homework assignments.  If you are not in class, you are missing out these valuable
+learning experiences that will help you do well on your homework and on exams.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Homework (35%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Homework will be assigned regularly throughout the semester. These
+assignments will almost always involve the use of JMP to analyze real
+data and will require you to communicate your results in clearly written
+interpretations and conclusions. You are encouraged to work together on
+your homework, but &lt;strong&gt;each student must turn in their own original
+copy with answers in their own words&lt;/strong&gt;.
+&lt;strong&gt;Late homework will be penalized, and any homework submitted after the key is posted will receive a 0.&lt;/strong&gt;
+Aim to get your homework done 24 hours before it is due to
+minimize the chance of unforeseen circumstances delaying its completion.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Two midterm exams (20% each)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Midterm exam dates will be announced at least one week in advance. The
+exams will require you to apply what you learn from homework and lecture
+to accurately interpret data summaries and statistical output. Make-up
+exams will only be given in cases of extreme personal or family
+emergency. I must be notified in advance of the exam date if you wish to
+schedule a make-up exam; failure to comply may result in a grade of 0 on
+that exam.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Final exam (25%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Final exam dates are set by the university. This exam will require you to apply what you learn from
+homework and lecture to accurately interpret data summaries and
+statistical output. Make-up exams will only be given in cases of extreme
+personal or family emergency. I must be notified in advance of the exam
+date if you wish to schedule a make-up exam; failure to comply may
+result in a grade of 0 on that exam.&lt;/p&gt;
+
+&lt;h3 id=&#34;writing-intensive&#34;&gt;Writing intensive&lt;/h3&gt;
+
+&lt;p&gt;Stat 310 satisfies the GEP Writing Intensive.  To qualify as a writing intensive, students must:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;practice the processes and procedures for creating and completing successful writing in their fields;&lt;/li&gt;
+&lt;li&gt;understand the main features and uses of writing in their fields;&lt;/li&gt;
+&lt;li&gt;adapt their writing to the general expectations of readers in their field;&lt;/li&gt;
+&lt;li&gt;make use of technologies commonly used for research and writing in their fields;&lt;/li&gt;
+&lt;li&gt;learn the conventions of evidence, format, usage, and documentation in their fields.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A substantial portion of each exam will be take-home,  and you will be graded according to a writing rubric on each of these take-home portions.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-grade&#34;&gt;Final Grade&lt;/h3&gt;
+
+&lt;p&gt;Final grades will be assigned as follows:&lt;/p&gt;
+
+&lt;p&gt;90-100%: A&lt;br /&gt;
+80-89%: Guaranteed at least a B&lt;br /&gt;
+70-79%: Guaranteed at least a C&lt;br /&gt;
+60-69%: Guaranteed at least a D&lt;/p&gt;
+
+&lt;h3 id=&#34;academic-integrity-policy&#34;&gt;Academic integrity policy&lt;/h3&gt;
+
+&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s Academic Integrity
+Policy: &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;http://www.winona.edu/sld/academicintegrity.asp&lt;/a&gt;. Note that both
+copying another student&amp;rsquo;s work and allowing someone to copy your work
+are clear violations of this policy. If there is reasonable evidence of
+copying another individual&amp;rsquo;s work, it will be construed as an act of
+plagiarism. The first occurrence of violating the academic integrity
+policy will result in a significant loss of points on that specific
+homework assignment or exam; the second occurrence will result in
+failure of the course.&lt;/p&gt;
+
+&lt;h3 id=&#34;tentative-outline-of-topics&#34;&gt;Tentative outline of topics&lt;/h3&gt;
+
+&lt;p&gt;I.  Review of statistical concepts&lt;/p&gt;
+
+&lt;p&gt;a.  Definitions&lt;br /&gt;
+  b.  Hypothesis testing and p-values&lt;br /&gt;
+  c.  Binomial exact test&lt;br /&gt;
+  d.  2-sample t-test&lt;/p&gt;
+
+&lt;p&gt;II. Statistical power&lt;/p&gt;
+
+&lt;p&gt;a.  Type-I and Type-II Error&lt;br /&gt;
+  b.  What affects power?&lt;br /&gt;
+  c.  Power calculations&lt;br /&gt;
+  d.  Effect sizes&lt;/p&gt;
+
+&lt;p&gt;III. Introduction to modeling&lt;/p&gt;
+
+&lt;p&gt;a.  The $Data = Model + Error$ framework&lt;br /&gt;
+  b.  Different models for different data types&lt;br /&gt;
+  c.  Viewing the t-test through the lens of a model&lt;/p&gt;
+
+&lt;p&gt;IV. Linear regression&lt;/p&gt;
+
+&lt;p&gt;a.  Simple linear regression&lt;br /&gt;
+  b.  Different intercepts: controlling for a binary variable&lt;br /&gt;
+  c.  Different slopes: interactions with a binary variable&lt;/p&gt;
+
+&lt;p&gt;V.  ANOVA&lt;/p&gt;
+
+&lt;p&gt;a.  One-way ANOVA&lt;br /&gt;
+  b.  Adjusting for multiple comparisons&lt;br /&gt;
+  c.  Two-way ANOVA: Main effects&lt;br /&gt;
+  d.  Two-way ANOVA: Interaction&lt;/p&gt;
+
+&lt;p&gt;VI. Design strategies&lt;/p&gt;
+
+&lt;p&gt;a.  Randomization&lt;br /&gt;
+  b.  Blocking&lt;br /&gt;
+  c.  Factorial designs&lt;/p&gt;
+
+&lt;p&gt;VII. Logistic regression&lt;/p&gt;
+
+&lt;p&gt;a.  Introduction to the odds ratio&lt;br /&gt;
+  b.  Simple logistic regression model&lt;br /&gt;
+  c.  Multiple logistic regression&lt;/p&gt;
+
+&lt;h3 id=&#34;commitment-to-inclusive-excellence&#34;&gt;Commitment to Inclusive Excellence&lt;/h3&gt;
+
+&lt;p&gt;WSU recognizes that our individual differences can deepen our
+understanding of one another and the world around us, rather than divide
+us. In this class, people of all ethnicities, genders and gender
+identities, religions, ages, sexual orientations, disabilities,
+socioeconomic backgrounds, regions, and nationalities are strongly
+encouraged to share their rich array of perspectives and experiences.
+If you feel your differences may in some way isolate you from WSU&amp;rsquo;s
+community or if you have a need of any specific accommodations, please
+speak with me early in the semester about your concerns and what we can
+do together to help you become an active and engaged member of our class
+and community.&lt;/p&gt;
+
+&lt;h3 id=&#34;details-about-campus-resources&#34;&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Two good places to help you find resources of all kinds on campus
+are &lt;em&gt;Student Support/Campus Services&lt;/em&gt; and the &lt;em&gt;Inclusion and
+Diversity Office&lt;/em&gt;. Both offices are dedicated to helping students of
+all races, ethnicities, economic backgrounds, nationalities, and
+sexual orientations. They can facilitate tutoring and point you to a
+wide range of resources.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If you have a disability, the &lt;em&gt;Access Services&lt;/em&gt; office can document
+it for your professors and facilitate accommodations. If you have a
+documented disability that requires accommodation, please contact
+Access Services as soon as possible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;College can be very stressful. &lt;em&gt;Counseling&lt;/em&gt; offices on both campuses
+are here to help you with a wide range of difficulties, ranging from
+sexual assault, depression, and grief after the loss of a loved one
+to stress management, anxiety, general adjustment to college, and
+many others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;em&gt;GLBTA Advocate&lt;/em&gt; can direct people to GLBT resources on and off
+campus. In addition, the advocate is responsible for documenting
+homophobic and transphobic incidents on campus and working with the
+appropriate channels to get these incidents resolved.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;To find out about web registration, placement tests, program
+requirements and support tools to help students succeed, visit the
+&lt;em&gt;Advising Services&lt;/em&gt; office and website for answers to all your
+questions!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;On the Rochester campus, the &lt;em&gt;UCR Learning Center&lt;/em&gt; provides help
+with both the development and the writing of papers&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Free tutoring is available via tutoring services. You can schedule
+appointments with tutors during times that fit with your schedule.
+See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stat 110: Fundamentals of statistics (Spring 2018)</title>
       <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
@@ -144,6 +418,10 @@ data&lt;/a&gt;&lt;/li&gt;
 
 &lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
 
+&lt;h3 id=&#34;office-hours&#34;&gt;Office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF: 9-12; TH: 11-12&lt;/p&gt;
+
 &lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -157,69 +435,16 @@ data&lt;/a&gt;&lt;/li&gt;
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Chapter 3: Discrete random variables | &lt;a href=&#34;https://www.dropbox.com/s/dez6w5nqgepexs7/Chapter_3-Discrete.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2w69winr1hza613/Chapter%203-Discrete.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 4: Continuous random variables | &lt;a href=&#34;https://www.dropbox.com/s/ao4gsywmreh47hz/Chapter4-continuous.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/7rfb8ovsoplfqnr/Chapter4-continuous.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 5: Joint distributions | &lt;a href=&#34;https://www.dropbox.com/s/49fvh6czirwj0kj/Chapter5-joint.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/49fvh6czirwj0kj/Chapter5-joint.pdf?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Chapter 6: Transformations | &lt;a href=&#34;https://www.dropbox.com/s/exqv4o5p6qjlri2/Chapter6-transformations.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/dtjhdymk43m4562/Chapter6-transformations.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 7: Sampling distributions | &lt;a href=&#34;https://www.dropbox.com/s/66tkibubchl32o0/Chapter_7_-_Intro_to_sampling_distributions.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/1b3amfgypeuzdjs/Chapter%207%20-%20Intro%20to%20sampling%20distributions.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
 
 &lt;p&gt;This &lt;a href=&#34;https://www.dropbox.com/s/0n0vheg0ucg1tln/Writing%20Rubric-2018.docx?dl=0&#34;&gt;writing rubric&lt;/a&gt; will be applied to all take-home exams that require the use of R Markdown.  Of your entire midterm grade, 10% of your will come from your score on this rubric; 50% from your score on the take-home portion; and 40% from your score on the in-class portion.&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/sov203yn8i9p6yj/MathStatI-Midterm-Fall2016.docx?dl=0&#34;&gt;Practice midterm&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Take-home midterm (due 10/25) | &lt;a href=&#34;https://www.dropbox.com/s/tcap7bhtf6tfhn7/Stat450-TakeHomeMidterm-Fall2017.docx?dl=0&#34;&gt;Word doc&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/lmp8syvoo0xvnzc/Stat450-TakeHomeMidterm-Fall2017.Rmd?dl=0&#34;&gt;Source file&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Take-home final (due 12/8) | &lt;a href=&#34;https://www.dropbox.com/s/ilalv552wp65ili/Stat450-TakehomeFinal-F17.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/o0uohzn1k5arnuy/Stat450-TakehomeFinal-F17.Rmd?dl=0&#34;&gt;Source file&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;presentations&#34;&gt;Presentations&lt;/h3&gt;
 
-&lt;p&gt;For Wednesday, 11/30, the following from Chapter 6.  I will randomly assign one of the following problems to each student.
-&amp;lt;!&amp;ndash;
-* 77, 92
-* 79, 93
-* 95, 114
-* 136, 141&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;7, 25, 51&lt;/li&gt;
-&lt;li&gt;9, 27, 53&lt;/li&gt;
-&lt;li&gt;11, 29, 55&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;14, 32, 58
-&amp;ndash;&amp;gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;10, 14, 34, 37, 46, 74, 80, 81.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw1/&#34;&gt;R Homework 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/4zsa47cr0031429/R_HW1.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw2/&#34;&gt;R Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/8angsdzqcetqbc6/R_HW2.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../r_hw3/&#34;&gt;R Homework 3&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/mpxrssfn93e38u8/R_HW3.Rmd?dl=0&#34;&gt;.Rmd&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/b1k99n05s22njvi/BreastCancerSample.csv?dl=0&#34;&gt;Breast cancer data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The following problems from the textbook are due Friday, 12/1. Hand in solutions at beginning of class.  All of the following are from Chapter 6:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;2, 8, 15, 20,&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;26, 31&lt;/li&gt;
-&lt;li&gt;48, 50, 57, 58&lt;/li&gt;
-&lt;li&gt;65, 68, 71&lt;/li&gt;
-&lt;li&gt;76, 77, 78, 79&lt;/li&gt;
-&lt;li&gt;92, 94, 95, 103, 111, 114&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!--
-* 6, 15
-* 23, 34, 35
-* 42
-* 80
-* 89, 96 (use R on part d.), 111, 112
-* 160, 165, 167, 173, 185, 188, 190, 197, 198, 200
---&gt;
 </description>
     </item>
     
@@ -243,7 +468,7 @@ data&lt;/a&gt;&lt;/li&gt;
 
 &lt;h3 id=&#34;course-summary&#34;&gt;Course summary&lt;/h3&gt;
 
-&lt;p&gt;STAT 460 is a continuation of the mathematical statistics sequence.  Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference.  R will be of even greater use to us in this semester.&lt;/p&gt;
+&lt;p&gt;STAT 460 is a continuation of the mathematical statistics sequence.  Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference.  Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum   R will be of even greater use to us in this semester.&lt;/p&gt;
 
 &lt;h3 id=&#34;course-text&#34;&gt;Course text&lt;/h3&gt;
 
@@ -521,20 +746,16 @@ your learning.&lt;/p&gt;&lt;/li&gt;
 &lt;p&gt;&lt;strong&gt;&lt;em&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Free tutoring is available via tutoring services. You can schedule
+&lt;li&gt;&lt;p&gt;Free tutoring is available via tutoring services. You can schedule
 appointments with tutors during times that fit with your schedule.
-See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/li&gt;
-&lt;/ul&gt;
+See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/p&gt;&lt;/li&gt;
 
-&lt;!-- --&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Two good places to help you find resources of all kinds on campus
+&lt;li&gt;&lt;p&gt;Two good places to help you find resources of all kinds on campus
 are &lt;em&gt;&lt;a href=&#34;https://www.winona.edu/studentsupportservices/&#34;&gt;Student
 Support&lt;/a&gt;.&lt;/em&gt; This is
 essentially &amp;ldquo;home base&amp;rdquo; for student services, and can direct you to
 other more specific resources. Examples of resources at Student
-Support:&lt;/li&gt;
+Support:&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- --&gt;
@@ -1531,255 +1752,6 @@ write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Homework 3</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw3.knit/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw3.knit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Wednesday, 11/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted Word doc or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;In Math-Stat, all of the pmfs/pdfs we have discussed are truly &lt;em&gt;models&lt;/em&gt;.  This means they are proposed mathematical frameworks for explaining behavior of actual data.  We consier one proposed model for some actual data in this problem.  Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution.  Specifically, with $X =1$ if the cell is malignant and $X = 0$ if the cell is benign:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$$P(X = x)= 0.4^x 0.6^{1-x}.$$&lt;/p&gt;
-
-&lt;p&gt;Suppose that the radius of the cell in microns, $Y$, depends on $X$ and can be well-modeled with the following conditional pdf:&lt;/p&gt;
-
-&lt;p&gt;$$ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &amp;lt; y &amp;lt; \infty
-$$&lt;/p&gt;
-
-&lt;p&gt;A.  Find $\mu_Y = E(Y)$.&lt;/p&gt;
-
-&lt;p&gt;B.  Find $\sigma^2_Y = Var(Y)$.&lt;/p&gt;
-
-&lt;p&gt;C.  The data set BreastCancerSample.csv contains data on 569 cells.  Plot bar graphs of $X$, and histograms of $Y$ for each $X$.  Does the proposed model appear reasonable?&lt;/p&gt;
-
-&lt;p&gt;D.  Find $\hat\mu_Y = \hat E(Y)$ and $\hat\sigma^2_Y = \widehat{Var}(Y)$, the empirical (i.e., observed) mean and variance of the cell radii.  Verify that they well-approximate the theoretical quantitities.&lt;/p&gt;
-
-&lt;p&gt;E.  Now use the data to fill out the following table:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;x&lt;/th&gt;
-&lt;th&gt;$\hat p(x)$&lt;/th&gt;
-&lt;th&gt;$\hat E(Y\mid X)$&lt;/th&gt;
-&lt;th&gt;$\widehat{Var}(Y\mid X)$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Use the quantities in this table to find $\hat \mu_Y$ and $\hat\sigma^2_Y$.  Verify that they match your answers to part D.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;As discussed in class, if $(X,Y)$ follow a bivariate normal distribution then:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$$ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)$$&lt;/p&gt;
-
-&lt;p&gt;$$Var(Y|X) = \sigma^2_Y( 1-\rho^2)$$&lt;/p&gt;
-
-&lt;p&gt;This implies that under bivariate normality, the conditional mean of $Y$ given $X$ is linear, and the form of the  intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal.  In this problem we study this further.&lt;/p&gt;
-
-&lt;p&gt;Consider the following combinations of parameterizations, for $\mu_Y = \mu_X = 10$ and $\sigma_X = 2$:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$\rho$&lt;/th&gt;
-&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Using the function &lt;code&gt;mvrnorm()&lt;/code&gt; from the &lt;code&gt;MASS&lt;/code&gt; package, simulate 100 $(X,Y)$ pairs for each row of the table above.&lt;/p&gt;
-
-&lt;p&gt;A.  Plot the 9 data sets, including the best-fit linear regression line (use &lt;code&gt;geom_smooth(method=&#39;lm&#39;)&lt;/code&gt; if using &lt;code&gt;ggplot&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;B.  By describing the scatterplots, briefly explain how the combinations of $\rho$ and $\sigma_Y/\sigma_X$ affect $\widehat{Var}(Y|X)$.&lt;/p&gt;
-
-&lt;p&gt;C.  Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using &lt;code&gt;lm()&lt;/code&gt; on each of the 9 simulated data sets.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$\rho$&lt;/th&gt;
-&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
-&lt;th&gt;$\beta_0$&lt;/th&gt;
-&lt;th&gt;$\beta_1$&lt;/th&gt;
-&lt;th&gt;$\hat\beta_0$&lt;/th&gt;
-&lt;th&gt;$\hat\beta_1$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Play Day Task</title>
-      <link>http://driftlessdata.space/courses/dsci310/playday3/</link>
-      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/dsci310/playday3/</guid>
-      <description>&lt;p&gt;Consider the following data on &lt;a href=&#34;https://www.dropbox.com/s/f8t1p37kkueizom/migration.csv?dl=0&#34;&gt;World Migration&lt;/a&gt; from the United Nations, Department of Economic and Social Affairs, Population Division, Trends in International Migrant Stock.&lt;/p&gt;
-
-&lt;p&gt;Questions to be answered visually (no restrictions!):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Which countries and regions have the most people leaving?  Where do they go?&lt;/li&gt;
-&lt;li&gt;Which countries and regions have the most people entering?  Where do they come from?&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
