@@ -11,6 +11,79 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Notes from Liberal Arts Data Science Workshop</title>
+      <link>http://driftlessdata.space/post/lads/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/lads/</guid>
+      <description>
+
+&lt;p&gt;When temperatures hit 0&amp;deg;F in Minnesota, what better remedy than to head to Florida and talk data science curriculum!  The 2-day workshop was held at the New College of Florida in Sarasota, FL.  This post reflects some of the ideas circulated at the workshop that stood out to me.&lt;/p&gt;
+
+&lt;h3 id=&#34;multivariate-thinking-and-the-introductory-statistics-and-data-science-course-preparing-students-to-make-sense-of-a-world-of-observational-data-nick-horton&#34;&gt;Multivariate thinking and the introductory statistics and data science course: preparing students to make sense of a world of observational data (Nick Horton)&lt;/h3&gt;
+
+&lt;p&gt;In this talk, Dr. Horton emphasized the fact that most data nowadays is &amp;ldquo;found data&amp;rdquo; of the observational nature.  In other words, studies where careful randomization into groups in order to account for confounding variables are rare.
+In light of this, he made the following suggestions.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In introductory statistics classes, focus less on technical assumptions of 2-sample t-test (for example sample size and degrees-of-freedom), and more on issues of confounding and randomization.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Bring multivariate thinking into the course early.  One easy way this can be done is to introduce data visualization from Day 1.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Introductory classes should emphasize writing, projects, and visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;He also gave several examples of confounding; one can never have too many in their repertoire!  An example I really liked:  if a study finds that people who use sunscreen tend to have higher rates of skin cancer, would this imply that sunscreen is dangerous to use?  The confounding variable in this case would be sun exposure.  Of course, people who are using sunscreen are probably experiencing greater sun exposure, which is a risk factor for skin cancer.&lt;/p&gt;
+
+&lt;h3 id=&#34;projects-first-in-an-interdisciplinary-data-science-curriculum-jessen-havill&#34;&gt;Projects first in an interdisciplinary data science curriculum (Jessen Havill)&lt;/h3&gt;
+
+&lt;p&gt;Dr. Havill gave an overview of the new Data Analytics major at Denison University.  The major is intentionally &lt;em&gt;not&lt;/em&gt; named Data Science to emphasize  the liberal arts nature of the major.  It is extremely cross-disciplinary (the two new upper-level Data Analytics courses are taught by an &lt;a href=&#34;https://denison.edu/people/sarah-supp&#34;&gt;ecologist&lt;/a&gt; and an &lt;a href=&#34;https://denison.edu/people/anthony-bonifonte&#34;&gt;operations researcher&lt;/a&gt;).  It was interesting to hear about the program at Denison and the thought they put into it.  Check out the &lt;a href=&#34;https://denison.edu/academics/data-analytics&#34;&gt;program website&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h3 id=&#34;computer-science-in-the-data-science-curriculum-panel&#34;&gt;Computer science in the data science curriculum (Panel)&lt;/h3&gt;
+
+&lt;p&gt;This panel included Jessen Havill of Denison University; Dennis F.X. Mathaisel of Babson College; Julie Medero of Harvey Mudd College; and Imad Rahal of St. John&amp;rsquo;s University and The College of St. Benededict.  Some pertinent features of the workshop:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;What CS skills are essential for data science?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The single most important thing, according to Dr. Havill, is &lt;strong&gt;&lt;em&gt;abstraction&lt;/em&gt;&lt;/strong&gt;.  This concept is more important than the argument of whether this language is better than that language, and is something that can be taught in CS courses from Day 1.&lt;/li&gt;
+&lt;li&gt;Computational thinking that translates a problem into a computational solution, according to Dr. Medero.&lt;/li&gt;
+&lt;li&gt;How to even represent data that comes in nonstandard form, according to Dr. Rahal.  The ability to work with data of large Volume, Velocity, and in a wide Varieties of structure.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Are more proprietary tools or more general purpose tools more important?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The ability to learn something new is more important than expertise in a specific tool, according to Dr. Medero.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;We will never keep up with all the proprietary tools.  The languages I want to use are those that are best for teaching.  Choosing a tool because it&amp;rsquo;s hot right now is not necessarily wise, according to Dr. Havill.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;florida-panthers-consulting-projects-brian-macdonald&#34;&gt;Florida Panthers consulting projects (Brian Macdonald)&lt;/h3&gt;
+
+&lt;p&gt;Probably my favorite presentation!  Brian is the Director of Hockey Analytics for the Florida Panthers, transitioning toward DIrector of Data Science and Research for the Panthers.  In this talk, Brian discussed some fascinating projects he&amp;rsquo;s worked on with students pursuing master&amp;rsquo;s degrees in business analytics.&lt;/p&gt;
+
+&lt;p&gt;In the first project, he described a model for predicting attendance for games using only information known before tickets go on sale.  This will help answer questions like, which games should be in which tiers for variable pricing?  What kinds of requests should the team make when the league is developing the schedule?  For example, does it make better sense from a sales standpoint to schedule good teams on a Saturday and a bad team during the week, or vice versa?&lt;/p&gt;
+
+&lt;p&gt;This project used data on announced attendance from nhl.com.  Predictors of attendance included day of week, holiday, month, opponent.  Interesting nuggets: nobody wants to go to games on Halloween or Easter; and people like to go to games against the &amp;ldquo;original 6&amp;rdquo; NHL teams.&lt;/p&gt;
+
+&lt;p&gt;The second project centered on understanding what influences season ticket renewal.  In short, people who attend more high-scoring, close games that their team wins, are more likely to renew.&lt;/p&gt;
+
+&lt;p&gt;Brian also discussed skills he looks for in interns.  He emphasized skills in data management and merging and data visualization more than analysis skills.  Coding experience is non-negotiable.&lt;/p&gt;
+
+&lt;h3 id=&#34;and-of-course&#34;&gt;And, of course&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;&amp;hellip;there was beach time.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+ &lt;figure&gt;
+ &lt;img src=&#34;http://driftlessdata.space/img/beach2.jpg&#34; width=&#34;750&#34;&gt;
+ &lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stat 310: Intermediate statistics (Spring 2018)</title>
       <link>http://driftlessdata.space/courses/stat310/stat310-home/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
@@ -34,6 +107,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/523fe7wbu08r42s/Handout%201%20-%20Review.docx?dl=0&#34;&gt;Handout 1: Review of statistical concepts&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dovpwzgo1vuybvo/Handout%202%20-%20Decision%20errors%20and%20power.docx?dl=0&#34;&gt;Handout 2: Decision errors and statistical power&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
@@ -1559,200 +1633,6 @@ write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
 &lt;p&gt;See This Blog: 30 places to find open data on the web for some ideas &lt;a href=&#34;http://blog.visual.ly/data-sources/&#34;&gt;http://blog.visual.ly/data-sources/&lt;/a&gt;.  Some sources above are mentioned in this blog.&lt;/p&gt;
 
 &lt;p&gt;You are, of course, free to use other data sources than those mentioned above, or to scrape data using &lt;code&gt;rvest&lt;/code&gt; or some other tool.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Homework 3</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw3/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw3/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Wednesday, 11/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted Word doc or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;In Math-Stat, all of the pmfs/pdfs we have discussed are truly &lt;em&gt;models&lt;/em&gt;. This means they are proposed mathematical frameworks for explaining behavior of actual data. We consier one proposed model for some actual data in this problem. Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution. Specifically, with &lt;span class=&#34;math inline&#34;&gt;\(X =1\)&lt;/span&gt; if the cell is malignant and &lt;span class=&#34;math inline&#34;&gt;\(X = 0\)&lt;/span&gt; if the cell is benign:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[P(X = x)= 0.4^x 0.6^{1-x}.\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Suppose that the radius of the cell in microns, &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;, depends on &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; and can be well-modeled with the following conditional pdf:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &amp;lt; y &amp;lt; \infty
-\]&lt;/span&gt;&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(\mu_Y = E(Y)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(\sigma^2_Y = Var(Y)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;The data set BreastCancerSample.csv contains data on 569 cells. Plot bar graphs of &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;, and histograms of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; for each &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt;. Does the proposed model appear reasonable?&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Find &lt;span class=&#34;math inline&#34;&gt;\(\hat\mu_Y = \hat E(Y)\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\hat\sigma^2_Y = \widehat{Var}(Y)\)&lt;/span&gt;, the empirical (i.e., observed) mean and variance of the cell radii. Verify that they well-approximate the theoretical quantitities.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Now use the data to fill out the following table:&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;x&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat p(x)\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat E(Y\mid X)\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\widehat{Var}(Y\mid X)\)&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Use the quantities in this table to find &lt;span class=&#34;math inline&#34;&gt;\(\hat \mu_Y\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\hat\sigma^2_Y\)&lt;/span&gt;. Verify that they match your answers to part D.&lt;/p&gt;
-&lt;ol start=&#34;2&#34; style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;As discussed in class, if &lt;span class=&#34;math inline&#34;&gt;\((X,Y)\)&lt;/span&gt; follow a bivariate normal distribution then:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Var(Y|X) = \sigma^2_Y( 1-\rho^2)\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;This implies that under bivariate normality, the conditional mean of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt; given &lt;span class=&#34;math inline&#34;&gt;\(X\)&lt;/span&gt; is linear, and the form of the intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal. In this problem we study this further.&lt;/p&gt;
-&lt;p&gt;Consider the following combinations of parameterizations, for &lt;span class=&#34;math inline&#34;&gt;\(\mu_Y = \mu_X = 10\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma_X = 2\)&lt;/span&gt;:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\rho\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\sigma_Y/\sigma_X\)&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;Using the function &lt;code&gt;mvrnorm()&lt;/code&gt; from the &lt;code&gt;MASS&lt;/code&gt; package, simulate 100 &lt;span class=&#34;math inline&#34;&gt;\((X,Y)\)&lt;/span&gt; pairs for each row of the table above.&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: upper-alpha&#34;&gt;
-&lt;li&gt;&lt;p&gt;Plot the 9 data sets, including the best-fit linear regression line (use &lt;code&gt;geom_smooth(method=&#39;lm&#39;)&lt;/code&gt; if using &lt;code&gt;ggplot&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;By describing the scatterplots, briefly explain how the combinations of &lt;span class=&#34;math inline&#34;&gt;\(\rho\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma_Y/\sigma_X\)&lt;/span&gt; affect &lt;span class=&#34;math inline&#34;&gt;\(\widehat{Var}(Y|X)\)&lt;/span&gt;.&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using &lt;code&gt;lm()&lt;/code&gt; on each of the 9 simulated data sets.&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr class=&#34;header&#34;&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\rho\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\sigma_Y/\sigma_X\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\beta_0\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\beta_1\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat\beta_0\)&lt;/span&gt;&lt;/th&gt;
-&lt;th&gt;&lt;span class=&#34;math inline&#34;&gt;\(\hat\beta_1\)&lt;/span&gt;&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
 </description>
     </item>
     

@@ -11,6 +11,79 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Notes from Liberal Arts Data Science Workshop</title>
+      <link>http://driftlessdata.space/post/lads/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/lads/</guid>
+      <description>
+
+&lt;p&gt;When temperatures hit 0&amp;deg;F in Minnesota, what better remedy than to head to Florida and talk data science curriculum!  The 2-day workshop was held at the New College of Florida in Sarasota, FL.  This post reflects some of the ideas circulated at the workshop that stood out to me.&lt;/p&gt;
+
+&lt;h3 id=&#34;multivariate-thinking-and-the-introductory-statistics-and-data-science-course-preparing-students-to-make-sense-of-a-world-of-observational-data-nick-horton&#34;&gt;Multivariate thinking and the introductory statistics and data science course: preparing students to make sense of a world of observational data (Nick Horton)&lt;/h3&gt;
+
+&lt;p&gt;In this talk, Dr. Horton emphasized the fact that most data nowadays is &amp;ldquo;found data&amp;rdquo; of the observational nature.  In other words, studies where careful randomization into groups in order to account for confounding variables are rare.
+In light of this, he made the following suggestions.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;In introductory statistics classes, focus less on technical assumptions of 2-sample t-test (for example sample size and degrees-of-freedom), and more on issues of confounding and randomization.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Bring multivariate thinking into the course early.  One easy way this can be done is to introduce data visualization from Day 1.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Introductory classes should emphasize writing, projects, and visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;He also gave several examples of confounding; one can never have too many in their repertoire!  An example I really liked:  if a study finds that people who use sunscreen tend to have higher rates of skin cancer, would this imply that sunscreen is dangerous to use?  The confounding variable in this case would be sun exposure.  Of course, people who are using sunscreen are probably experiencing greater sun exposure, which is a risk factor for skin cancer.&lt;/p&gt;
+
+&lt;h3 id=&#34;projects-first-in-an-interdisciplinary-data-science-curriculum-jessen-havill&#34;&gt;Projects first in an interdisciplinary data science curriculum (Jessen Havill)&lt;/h3&gt;
+
+&lt;p&gt;Dr. Havill gave an overview of the new Data Analytics major at Denison University.  The major is intentionally &lt;em&gt;not&lt;/em&gt; named Data Science to emphasize  the liberal arts nature of the major.  It is extremely cross-disciplinary (the two new upper-level Data Analytics courses are taught by an &lt;a href=&#34;https://denison.edu/people/sarah-supp&#34;&gt;ecologist&lt;/a&gt; and an &lt;a href=&#34;https://denison.edu/people/anthony-bonifonte&#34;&gt;operations researcher&lt;/a&gt;).  It was interesting to hear about the program at Denison and the thought they put into it.  Check out the &lt;a href=&#34;https://denison.edu/academics/data-analytics&#34;&gt;program website&lt;/a&gt; for more details.&lt;/p&gt;
+
+&lt;h3 id=&#34;computer-science-in-the-data-science-curriculum-panel&#34;&gt;Computer science in the data science curriculum (Panel)&lt;/h3&gt;
+
+&lt;p&gt;This panel included Jessen Havill of Denison University; Dennis F.X. Mathaisel of Babson College; Julie Medero of Harvey Mudd College; and Imad Rahal of St. John&amp;rsquo;s University and The College of St. Benededict.  Some pertinent features of the workshop:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;What CS skills are essential for data science?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The single most important thing, according to Dr. Havill, is &lt;strong&gt;&lt;em&gt;abstraction&lt;/em&gt;&lt;/strong&gt;.  This concept is more important than the argument of whether this language is better than that language, and is something that can be taught in CS courses from Day 1.&lt;/li&gt;
+&lt;li&gt;Computational thinking that translates a problem into a computational solution, according to Dr. Medero.&lt;/li&gt;
+&lt;li&gt;How to even represent data that comes in nonstandard form, according to Dr. Rahal.  The ability to work with data of large Volume, Velocity, and in a wide Varieties of structure.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Are more proprietary tools or more general purpose tools more important?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The ability to learn something new is more important than expertise in a specific tool, according to Dr. Medero.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;We will never keep up with all the proprietary tools.  The languages I want to use are those that are best for teaching.  Choosing a tool because it&amp;rsquo;s hot right now is not necessarily wise, according to Dr. Havill.
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;florida-panthers-consulting-projects-brian-macdonald&#34;&gt;Florida Panthers consulting projects (Brian Macdonald)&lt;/h3&gt;
+
+&lt;p&gt;Probably my favorite presentation!  Brian is the Director of Hockey Analytics for the Florida Panthers, transitioning toward DIrector of Data Science and Research for the Panthers.  In this talk, Brian discussed some fascinating projects he&amp;rsquo;s worked on with students pursuing master&amp;rsquo;s degrees in business analytics.&lt;/p&gt;
+
+&lt;p&gt;In the first project, he described a model for predicting attendance for games using only information known before tickets go on sale.  This will help answer questions like, which games should be in which tiers for variable pricing?  What kinds of requests should the team make when the league is developing the schedule?  For example, does it make better sense from a sales standpoint to schedule good teams on a Saturday and a bad team during the week, or vice versa?&lt;/p&gt;
+
+&lt;p&gt;This project used data on announced attendance from nhl.com.  Predictors of attendance included day of week, holiday, month, opponent.  Interesting nuggets: nobody wants to go to games on Halloween or Easter; and people like to go to games against the &amp;ldquo;original 6&amp;rdquo; NHL teams.&lt;/p&gt;
+
+&lt;p&gt;The second project centered on understanding what influences season ticket renewal.  In short, people who attend more high-scoring, close games that their team wins, are more likely to renew.&lt;/p&gt;
+
+&lt;p&gt;Brian also discussed skills he looks for in interns.  He emphasized skills in data management and merging and data visualization more than analysis skills.  Coding experience is non-negotiable.&lt;/p&gt;
+
+&lt;h3 id=&#34;and-of-course&#34;&gt;And, of course&amp;hellip;&lt;/h3&gt;
+
+&lt;p&gt;&amp;hellip;there was beach time.&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+ &lt;figure&gt;
+ &lt;img src=&#34;http://driftlessdata.space/img/beach2.jpg&#34; width=&#34;750&#34;&gt;
+ &lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>What students have to say about group homework</title>
       <link>http://driftlessdata.space/post/group-homework/</link>
       <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
