@@ -11,6 +11,24 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data set gold mine</title>
+      <link>http://driftlessdata.space/post/ufl/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/ufl/</guid>
+      <description>&lt;p&gt;Quick one here. As a statistics educator I am always on the lookout for interesting, real, digestable data that illustrate important statistical concepts. That’s a tall order!&lt;/p&gt;
+&lt;p&gt;One site that I visit again and again is this excellent repository hosted at University of Florida. &lt;a href=&#34;http://www.stat.ufl.edu/~winner/datasets.html&#34;&gt;Here’s the link.&lt;/a&gt; I regularly ping this website for classes ranging from intro stats to experimental design to regression analysis. Not only are they varied in scope and organized by topic, they also have brief descriptions and citations of original sources. It’s a gold mine! Hat tip to my colleague &lt;a href=&#34;http://course1.winona.edu/bdeppa/&#34;&gt;Brant Deppa&lt;/a&gt; aka Data Hound for originally cluing me in to this website.&lt;/p&gt;
+&lt;p&gt;Just an example, here’s one on modeling math scores as a function of LSD concentration I recently used in a &lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;homework assignment&lt;/a&gt; for my &lt;a href=&#34;../courses/stat310-home/&#34;&gt;intermediate statistics course&lt;/a&gt; (spoiler alert: taking LSD is &lt;em&gt;not&lt;/em&gt; recommended to improve math test score.)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+df &amp;lt;- read.table(&amp;#39;http://www.stat.ufl.edu/~winner/data/lsd.dat&amp;#39;,header=FALSE,col.names=c(&amp;#39;LSD&amp;#39;,&amp;#39;Score&amp;#39;))
+ggplot(data = df,aes(x = LSD, y = Score)) + 
+  geom_point() + geom_smooth(method=&amp;quot;lm&amp;quot;) + 
+  xlab(&amp;#39;LSD concentration (mcg/kg)&amp;#39;) + ylab(&amp;#39;Math score (out of 100)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/UFL_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Notes from Liberal Arts Data Science Workshop</title>
       <link>http://driftlessdata.space/post/lads/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 -0600</pubDate>

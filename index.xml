@@ -11,6 +11,24 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data set gold mine</title>
+      <link>http://driftlessdata.space/post/ufl/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/ufl/</guid>
+      <description>&lt;p&gt;Quick one here. As a statistics educator I am always on the lookout for interesting, real, digestable data that illustrate important statistical concepts. That’s a tall order!&lt;/p&gt;
+&lt;p&gt;One site that I visit again and again is this excellent repository hosted at University of Florida. &lt;a href=&#34;http://www.stat.ufl.edu/~winner/datasets.html&#34;&gt;Here’s the link.&lt;/a&gt; I regularly ping this website for classes ranging from intro stats to experimental design to regression analysis. Not only are they varied in scope and organized by topic, they also have brief descriptions and citations of original sources. It’s a gold mine! Hat tip to my colleague &lt;a href=&#34;http://course1.winona.edu/bdeppa/&#34;&gt;Brant Deppa&lt;/a&gt; aka Data Hound for originally cluing me in to this website.&lt;/p&gt;
+&lt;p&gt;Just an example, here’s one on modeling math scores as a function of LSD concentration I recently used in a &lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;homework assignment&lt;/a&gt; for my &lt;a href=&#34;../courses/stat310-home/&#34;&gt;intermediate statistics course&lt;/a&gt; (spoiler alert: taking LSD is &lt;em&gt;not&lt;/em&gt; recommended to improve math test score.)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
+df &amp;lt;- read.table(&amp;#39;http://www.stat.ufl.edu/~winner/data/lsd.dat&amp;#39;,header=FALSE,col.names=c(&amp;#39;LSD&amp;#39;,&amp;#39;Score&amp;#39;))
+ggplot(data = df,aes(x = LSD, y = Score)) + 
+  geom_point() + geom_smooth(method=&amp;quot;lm&amp;quot;) + 
+  xlab(&amp;#39;LSD concentration (mcg/kg)&amp;#39;) + ylab(&amp;#39;Math score (out of 100)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/UFL_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Notes from Liberal Arts Data Science Workshop</title>
       <link>http://driftlessdata.space/post/lads/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 -0600</pubDate>
@@ -115,6 +133,7 @@ In light of this, he made the following suggestions.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9vw0flphhmmxiav/Handout%205%20-%20Simple%20linear%20regression%2C%20part%202.docx?dl=0&#34;&gt;Handout 5: Introduction to simple linear regression (part 2)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0bc7wnc59kdzi6i/Handout%206%20-%20Multiple%20linear%20regression.docx?dl=0&#34;&gt;Handout 6: Introduction to multiple linear regression&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/moe5e9jqwqnlst3/Handout%207%20-%20Interactions.docx?dl=0&#34;&gt;Handout 7: Interactions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4z46eo2lykm5cgy/Handout%208%20-Cross%20validation%20and%20model%20violations.docx?dl=0&#34;&gt;Handout 8: cross validation and model violation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;
@@ -131,6 +150,12 @@ In light of this, he made the following suggestions.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4uj6s0iav5ok090/HW3.docx?dl=0&#34;&gt;Homework 3 (Due 2/8)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/vvu9jwc7btq4ys8/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Homework 4 (Due 2/15)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jp5zwwl1zzg7yf7/HW4-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zddet3dbfgdawev/HW5.docx?dl=0&#34;&gt;Homework 5 (Due 2/22)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fev3nd6ti4zmdha/Practice-Exam1.docx?dl=0&#34;&gt;Practice Exam 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
@@ -1466,257 +1491,6 @@ write.csv(cleantable,file=&#39;WPA_Game6_2011_all.csv&#39;,row.names=FALSE)
 &lt;p&gt;From this graph, we can see the four points on the right that lie below the reference line.  These indicate that the top four most exciting events in Game 6, 2011 were &lt;em&gt;more exciting&lt;/em&gt; than the top four most exciting events from Game 5, 2017.  On the other hand, the top 5-10 most exciting events in Game 5, 2017 lie above the reference line, indicating they were more exciting than the events with WPA ranked 5-10 in Game 6, 2011.  The rest of the events ranked 11-20 in WPA go back to lying below the line.&lt;/p&gt;
 
 &lt;p&gt;So, it does appear that Game 6, 2011 was truly a more thrilling game than Game 5, 2017!   The total WPA of Game 6, 2011 was greater than the total WPA in Game 5, 2017, and of the top-20 &amp;ldquo;most exciting&amp;rdquo; events, they tended to be &lt;em&gt;more exciting&lt;/em&gt; in 2011. Oh well, Game 5, 2017 was still worth losing a few hours of sleep!  I think&amp;hellip;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Final project</title>
-      <link>http://driftlessdata.space/courses/dsci310/final/</link>
-      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/dsci310/final/</guid>
-      <description>
-
-&lt;h3 id=&#34;description&#34;&gt;Description&lt;/h3&gt;
-
-&lt;p&gt;For your final project, you are to find your own data source(s) and create a &amp;ldquo;visual story&amp;rdquo; visualizing insights from the data.  Your visual story should consist of at least 1 but no more than 3 dashboards visualizing these data.  This project is &amp;ldquo;tool agnostic&amp;rdquo;: you may create your visualizations using Tableau, or R, or any other visualization software.  &lt;strong&gt;&lt;em&gt;The only requirement is that whatever software you use produces a final dashboard product that is ready-to-publish on the Internet.&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;If using R, check out &lt;a href=&#34;http://rmarkdown.rstudio.com/flexdashboard/index.html&#34;&gt;flexdashboards&lt;/a&gt;.  This is an easy template for creating dashboards using R Markdown.  Flexdashboards allow you to create ready-to-publish html page.&lt;/p&gt;
-
-&lt;p&gt;Each visual story should include one (1) &amp;ldquo;introductory&amp;rdquo; dashboard.  This should include text/images explaining:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Data source;&lt;/li&gt;
-&lt;li&gt;any prerequisite data cleaning;&lt;/li&gt;
-&lt;li&gt;questions to be asked of the data and answered in subsequent visualizations.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;This &amp;ldquo;introductory&amp;rdquo; dashboard &lt;strong&gt;&lt;em&gt;is in addition to&lt;/em&gt;&lt;/strong&gt; your 1-3 dashboards with actual data visualizations.&lt;/p&gt;
-
-&lt;p&gt;All students will give a 10-12 minute presentation to the class showcasing their visual story.&lt;/p&gt;
-
-&lt;h3 id=&#34;timeline&#34;&gt;Timeline&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Monday, October 30&lt;/strong&gt;: Description of data source(s) (including link(s)) with at least three (3) draft questions you will ask of the data source due to D2L.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Friday, November 17&lt;/strong&gt;: Oral presentations of visual stories begin.  All students must have final dashboards uploaded to D2L by this date.  We will use the final exam slot on Monday, December 4 from 3:30-5:30 pm to complete presentations.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&#34;grading&#34;&gt;Grading&lt;/h3&gt;
-
-&lt;p&gt;Your final grade will consist of the following:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6seigmxr2f3pef6/Fall%202017%20Rubric.docx?dl=0&#34;&gt;Visual story rubric (75%)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/htstmyy49j2esu3/Oral%20Rubric.docx?dl=0&#34;&gt;Oral rubric (25%)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;presentation-order&#34;&gt;Presentation order&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Order&lt;/th&gt;
-&lt;th&gt;Student&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/kapil.khanal#!/vizhome/WinonaAreaPublicSchoolsDataCleaningandVisualization/SecondDashboard?publish=yes&#34;&gt;Khanal, Kapil&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/mariah7628#!/vizhome/310Final/Dashboard3?publish=yes&#34;&gt;Quam, Mariah S&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;3&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/akif5393#!/vizhome/FinalProjectDraft_1/EnrollmentandExpenditureAmongdifferentfacilities?publish=yes&#34;&gt;Khan, Akif A&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;4&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/mchale.dye#!/vizhome/FINALPROJECTIPUMMENTALHEALTH/Insights?publish=yes&#34;&gt;Dye, McHale T&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;5&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/yulun.xu#!/vizhome/final_144/Introduction?publish=yes&#34;&gt;Xu, Yulun&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;6&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/ross.krueger#!/vizhome/DSCI310FinalProjectAnAnalysisofDrugDeathsintheUS/IntroSheet&#34;&gt;Krueger, Ross L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;7&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/jack.barta#!/&#34;&gt;Barta, Jack A&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;8&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/austin.ellingworth1102#!/vizhome/FINALPROJECTGOOD/Intro?publish=yes&#34;&gt;Ellingworth, Austin J&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;9&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/catherine.nead#!/vizhome/RioOlympicGames2016/Introduction&#34;&gt;Nead, Catherine M&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;10&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/tom.gathje#!/&#34;&gt;Gathje, Thomas J&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;11&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/views/DataScienceFinal/Intro?:embed=y&amp;amp;:display_count=yes&amp;amp;publish=yes&#34;&gt;Willkom, Lauren M&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;12&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/matthew2057#!/vizhome/DSci310FinalProject/IntroDash?publish=yes&#34;&gt;Ladin, Matthew F&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;13&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/stacey.miertschin#!/vizhome/Africa_Final/Intro&#34;&gt;Miertschin, Stacey L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;14&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/bradley.erickson#!/&#34;&gt;Erickson, Bradley W&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;15&lt;/td&gt;
-&lt;td&gt;Smith, Nathan R&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;16&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/adam.clemens#!/&#34;&gt;Clemens, Adam J&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;17&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/waheed.khan#!/vizhome/ForPublic/VisualizationofAccidentsinMinnesota?publish=yes&#34;&gt;Khan, Waheed&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;18&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/sam.dokkebakken#!/vizhome/GoldenStateWarriors/Dashboard4&#34;&gt;Dokkebakken, Sam C&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;19&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/views/DSCI310-FinalProject/Introductiontodata?:embed=y&amp;amp;:display_count=yes&amp;amp;publish=yes&#34;&gt;Stampley, David L&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;20&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/max.oelerking#!/vizhome/BaseballDataStory_0/Intro&#34;&gt;Oelerking, Maxwell S&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;21&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/jimmy.hickey#!/vizhome/UsingDatatoBetterUnderstandMentalHealth/Title&#34;&gt;Hickey, James J&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;22&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/samantha.meyer#!/&#34;&gt;Meyer, Samantha&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;23&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/reagan.buske#!/&#34;&gt;Buske, Reagan N&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;24&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/paul.boelter#!/vizhome/NBA14-17Statisitcs/IntroductionDashboard&#34;&gt;Boelter, Paul G&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;25&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/salman.quraishi#!/vizhome/DSCI310FinalProject/IntroductoryDashboard&#34;&gt;Quraishi, Salman M&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;26&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/william.diedrick#!/&#34;&gt;Diedrick, William J&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;27&lt;/td&gt;
-&lt;td&gt;Nguyen, Linh H&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;28&lt;/td&gt;
-&lt;td&gt;&lt;a href=&#34;https://public.tableau.com/profile/fengrui.xue#!/vizhome/310my/Introduction&#34;&gt;Xue, Fengrui&lt;/a&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;example-data-sources&#34;&gt;Example data sources&lt;/h3&gt;
-
-&lt;p&gt;Winona Area Public Schools:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://drive.google.com/open?id=0BzinIRj-gi7tYm5JWmxUdFBVYzQ&#34;&gt;Google folder with questions and data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Government:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Data.gov&lt;/li&gt;
-&lt;li&gt;Census.gov&lt;/li&gt;
-&lt;li&gt;BJS.gov (Bureau of Justice Statistics)&lt;/li&gt;
-&lt;li&gt;noaa.gov&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Education:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://collegescorecard.ed.gov/data/&#34;&gt;https://collegescorecard.ed.gov/data/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.data.gov/education/&#34;&gt;http://www.data.gov/education/&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sports:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://community.amstat.org/sis/sportsdataresources&#34;&gt;http://community.amstat.org/sis/sportsdataresources&lt;/a&gt; for a list of data sources by sport&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Fangraphs.com&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Misc:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.start.umd.edu/gtd/&#34;&gt;Global terrorism database&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.acleddata.com/&#34;&gt;ACLED (Armed Conflict Location &amp;amp; Event Data Project)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://data.worldbank.org/&#34;&gt;World Bank (economic development)&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Twitter API (see the twittR R package)&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.ipums.org/&#34;&gt;Integrated public-use microdata series (IPUMS)&lt;/a&gt;, including:
-
-&lt;ul&gt;
-&lt;li&gt;IPUMS USA (U.S. Census data)&lt;/li&gt;
-&lt;li&gt;Demographic and Health Surveys&lt;/li&gt;
-&lt;li&gt;National Health Interview Survey&lt;/li&gt;
-&lt;li&gt;Higher education&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.kaggle.com/&#34;&gt;Kaggle&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://data.world/&#34;&gt;Data world&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;See This Blog: 30 places to find open data on the web for some ideas &lt;a href=&#34;http://blog.visual.ly/data-sources/&#34;&gt;http://blog.visual.ly/data-sources/&lt;/a&gt;.  Some sources above are mentioned in this blog.&lt;/p&gt;
-
-&lt;p&gt;You are, of course, free to use other data sources than those mentioned above, or to scrape data using &lt;code&gt;rvest&lt;/code&gt; or some other tool.&lt;/p&gt;
 </description>
     </item>
     

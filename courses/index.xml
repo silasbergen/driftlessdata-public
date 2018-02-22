@@ -42,6 +42,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9vw0flphhmmxiav/Handout%205%20-%20Simple%20linear%20regression%2C%20part%202.docx?dl=0&#34;&gt;Handout 5: Introduction to simple linear regression (part 2)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0bc7wnc59kdzi6i/Handout%206%20-%20Multiple%20linear%20regression.docx?dl=0&#34;&gt;Handout 6: Introduction to multiple linear regression&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/moe5e9jqwqnlst3/Handout%207%20-%20Interactions.docx?dl=0&#34;&gt;Handout 7: Interactions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4z46eo2lykm5cgy/Handout%208%20-Cross%20validation%20and%20model%20violations.docx?dl=0&#34;&gt;Handout 8: cross validation and model violation&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;
@@ -58,6 +59,12 @@
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4uj6s0iav5ok090/HW3.docx?dl=0&#34;&gt;Homework 3 (Due 2/8)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/vvu9jwc7btq4ys8/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Homework 4 (Due 2/15)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jp5zwwl1zzg7yf7/HW4-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zddet3dbfgdawev/HW5.docx?dl=0&#34;&gt;Homework 5 (Due 2/22)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fev3nd6ti4zmdha/Practice-Exam1.docx?dl=0&#34;&gt;Practice Exam 1&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
@@ -1493,238 +1500,6 @@ become an active and engaged member of our class and community.&lt;/p&gt;
     </item>
     
     <item>
-      <title>R Homework 3</title>
-      <link>http://driftlessdata.space/courses/stat450/r_hw3.knit/</link>
-      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/r_hw3.knit/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Due Wednesday, 11/8 by 11:59pm.  Prepare your submission with R Markdown.  Submit fully-knitted Word doc or pdf to D2L by due date.  You are encouraged to use this .Rmd file as your starting point for your submission.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;In Math-Stat, all of the pmfs/pdfs we have discussed are truly &lt;em&gt;models&lt;/em&gt;.  This means they are proposed mathematical frameworks for explaining behavior of actual data.  We consier one proposed model for some actual data in this problem.  Suppose the type of breast cancer cells (malignant or benign) follow a Bernoulli distribution.  Specifically, with $X =1$ if the cell is malignant and $X = 0$ if the cell is benign:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$$P(X = x)= 0.4^x 0.6^{1-x}.$$&lt;/p&gt;
-
-&lt;p&gt;Suppose that the radius of the cell in microns, $Y$, depends on $X$ and can be well-modeled with the following conditional pdf:&lt;/p&gt;
-
-&lt;p&gt;$$ f(y|x) = \frac{1}{\sqrt{2\pi (3.2+7.1x)}}e^{-\frac{1}{2}\frac{(y- (12 +5x))^2}{3.2+7.1x}}; -\infty &amp;lt; y &amp;lt; \infty
-$$&lt;/p&gt;
-
-&lt;p&gt;A.  Find $\mu_Y = E(Y)$.&lt;/p&gt;
-
-&lt;p&gt;B.  Find $\sigma^2_Y = Var(Y)$.&lt;/p&gt;
-
-&lt;p&gt;C.  The data set BreastCancerSample.csv contains data on 569 cells.  Plot bar graphs of $X$, and histograms of $Y$ for each $X$.  Does the proposed model appear reasonable?&lt;/p&gt;
-
-&lt;p&gt;D.  Find $\hat\mu_Y = \hat E(Y)$ and $\hat\sigma^2_Y = \widehat{Var}(Y)$, the empirical (i.e., observed) mean and variance of the cell radii.  Verify that they well-approximate the theoretical quantitities.&lt;/p&gt;
-
-&lt;p&gt;E.  Now use the data to fill out the following table:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;x&lt;/th&gt;
-&lt;th&gt;$\hat p(x)$&lt;/th&gt;
-&lt;th&gt;$\hat E(Y\mid X)$&lt;/th&gt;
-&lt;th&gt;$\widehat{Var}(Y\mid X)$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Use the quantities in this table to find $\hat \mu_Y$ and $\hat\sigma^2_Y$.  Verify that they match your answers to part D.&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;As discussed in class, if $(X,Y)$ follow a bivariate normal distribution then:&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;$$ E(Y|X) = \mu_Y + \rho \frac{\sigma_Y}{\sigma_X} (X-\mu_X)$$&lt;/p&gt;
-
-&lt;p&gt;$$Var(Y|X) = \sigma^2_Y( 1-\rho^2)$$&lt;/p&gt;
-
-&lt;p&gt;This implies that under bivariate normality, the conditional mean of $Y$ given $X$ is linear, and the form of the  intercept and slope defining the linear relationship are explicitly determined by the means, variances, and correlation that parameterize the bivariate normal.  In this problem we study this further.&lt;/p&gt;
-
-&lt;p&gt;Consider the following combinations of parameterizations, for $\mu_Y = \mu_X = 10$ and $\sigma_X = 2$:&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$\rho$&lt;/th&gt;
-&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;Using the function &lt;code&gt;mvrnorm()&lt;/code&gt; from the &lt;code&gt;MASS&lt;/code&gt; package, simulate 100 $(X,Y)$ pairs for each row of the table above.&lt;/p&gt;
-
-&lt;p&gt;A.  Plot the 9 data sets, including the best-fit linear regression line (use &lt;code&gt;geom_smooth(method=&#39;lm&#39;)&lt;/code&gt; if using &lt;code&gt;ggplot&lt;/code&gt;).&lt;/p&gt;
-
-&lt;p&gt;B.  By describing the scatterplots, briefly explain how the combinations of $\rho$ and $\sigma_Y/\sigma_X$ affect $\widehat{Var}(Y|X)$.&lt;/p&gt;
-
-&lt;p&gt;C.  Fill out the table below, indicating the theoretical quantities of the regression coefficients, as well as the estimated coefficients from using &lt;code&gt;lm()&lt;/code&gt; on each of the 9 simulated data sets.&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;$\rho$&lt;/th&gt;
-&lt;th&gt;$\sigma_Y/\sigma_X$&lt;/th&gt;
-&lt;th&gt;$\beta_0$&lt;/th&gt;
-&lt;th&gt;$\beta_1$&lt;/th&gt;
-&lt;th&gt;$\hat\beta_0$&lt;/th&gt;
-&lt;th&gt;$\hat\beta_1$&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;1&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.1&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.5&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;0.8&lt;/td&gt;
-&lt;td&gt;2&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Play Day Task</title>
       <link>http://driftlessdata.space/courses/dsci310/playday3/</link>
       <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
@@ -2071,6 +1846,105 @@ ggplot(data = df) + geom_point(aes(x = A,y=B, shape = D,color=D), size = 4) +
 &lt;li&gt;&lt;p&gt;Now write an &lt;code&gt;R&lt;/code&gt; function &lt;code&gt;one.Y()&lt;/code&gt; that simulates a single realization of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Using this function and &lt;code&gt;replicate()&lt;/code&gt;, generate 1000 realizations of &lt;span class=&#34;math inline&#34;&gt;\(Y\)&lt;/span&gt;. Graph the empirical pmf, and verify that is is similar to the theoretical one above.&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;Find the empirical mean &lt;span class=&#34;math inline&#34;&gt;\(\bar Y\)&lt;/span&gt; and variance &lt;span class=&#34;math inline&#34;&gt;\(S^2\)&lt;/span&gt; (use &lt;code&gt;mean()&lt;/code&gt; and &lt;code&gt;var()&lt;/code&gt;). How do they compare to &lt;span class=&#34;math inline&#34;&gt;\(\mu\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\sigma^2\)&lt;/span&gt;?&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
+      <link>http://driftlessdata.space/courses/dsci310/dsci310-home/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/dsci310-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;midterm-project-midterm&#34;&gt;&lt;a href=&#34;../midterm/&#34;&gt;Midterm project&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Presentations to begin 10/27.&lt;/p&gt;
+
+&lt;h3 id=&#34;final-project-final&#34;&gt;&lt;a href=&#34;../final/&#34;&gt;Final project&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Presentations to begin 11/13.&lt;/p&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/awpa7c916y6li13/1%20-%20Principles%20of%20data%20visualization.pptx?dl=0&#34;&gt;Principles of data visualization&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/e8yp85lamhq1gwr/2%20-%20Intro%20to%20Tableau-F17.docx?dl=0&#34;&gt;Intro to Tableau&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/7jy0mpimp94gyj0/3%20-%20Univariate%20visualizations-F17.docx?dl=0&#34;&gt;Univariate visualizations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/68aul6yh1im6mt8/4%20-%20Multivariate%20visualizations%20-%20F17.docx?dl=0&#34;&gt;Multivariate visualizations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ooqwo2ml7i3mctx/5%20-%20three-way%20scatterplots%20and%20maps%20-%20F17.docx?dl=0&#34;&gt;3-way scatterplots and maps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/jz98g08jnkhvzli/6%20-%20Interactive%20dashboards%20-%20F17.docx?dl=0&#34;&gt;Interactive Dashboards&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Intro_to_ggplot2.html&#34;&gt;Data visualization in R with ggplot2&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Additional courses on R provided by &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mediaspace.mnscu.edu/media/CrowdGrader+Instructions/0_6sfxk3a6&#34;&gt;CrowdGrader instructional video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kumcs4y9tfoxjl7/VisCom-Composition-EyeBrain%20%28002%29.ppt?dl=0&#34;&gt;Dr. Tom Grier&amp;rsquo;s visual communication notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/bvbdjkhzgtwk628/Images_For_Eastman.pptx?dl=0&#34;&gt;Slides for Dr. Eastman&amp;rsquo;s critiques&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;critiques&#34;&gt;Critiques&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;{{ &amp;lt;relref&amp;gt; &amp;quot;Critique1.md&amp;quot; }}&#34;&gt;Critique #1 (due Wednesday, 8/30 by 11:59pm)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/t911qfc8uihftzg/DT1-comments-F17.pptx?dl=0&#34;&gt;Discussion slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;{{ &amp;lt;relref&amp;gt; &amp;quot;Critique2.md&amp;quot; }}&#34;&gt;Critique #2 (due Sunday 10/8 by 11:59pm)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rfqx5zjdqxday2x/DT3-comments-F17.pptx?dl=0&#34;&gt;Practice critique of Design Task 3 submissions, using the midterm rubric&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;design-tasks&#34;&gt;Design tasks&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/14k8e9ncl7ydxat/DT1-F17.docx?dl=0&#34;&gt;Design Task 1&lt;/a&gt; | First draft to CrowdGrader: 9/3 (&lt;a href=&#34;https://www.crowdgrader.org/crowdgrader/venues/join/3338/wyseba_dytybo_dynumi_cywyro&#34;&gt;link to CrowdGrader assignment&lt;/a&gt;) | Critiques due: 9/7 | Final draft to D2L: 9/10
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rmcquke12hnbe4o/Bacteria-comments-F17.pptx?dl=0&#34;&gt;Comments/Critiques ppt&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/odnpm4t5kdjl15n/Bacteria_Sigmoid_Final.twbx?dl=0&#34;&gt;My design&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/68ahri9xnnabce4/Bacteria-sigmoid-howto.docx?dl=0&#34;&gt;My design how-to&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qh9t5ac9du0b50t/DT2-F17.docx?dl=0&#34;&gt;Design Task 2&lt;/a&gt; | First draft to CrowdGrader: 9/15 (midnight) (&lt;a href=&#34;https://www.crowdgrader.org/crowdgrader/venues/join/3350/nycysa_nupugi_mosety_bufasi&#34;&gt;link to CrowdGrader assignment&lt;/a&gt;) | Critiques due: 9/18 (noon) | Final draft to D2L: 9/20 (midnight)
+
+&lt;ul&gt;
+&lt;li&gt;In-class critiques: at each table, assess one of the visualizations below. Answer the following:
+
+&lt;ol&gt;
+&lt;li&gt;For each design task question: A. Is it answered; B. How is it answered (what comparisons must be made to answer the question)?&lt;/li&gt;
+&lt;li&gt;What is clearly communicated?  What information is difficult to extract?&lt;/li&gt;
+&lt;li&gt;Look at legends/labels/annotations.  What is effective?  What shows room for improvement?&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/khmg1mktvsdu4bb/DT2-F17-Example1.twbx?dl=0&#34;&gt;Example 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/docbpkhaf1q20hs/DT2-F17-Example2.twbx?dl=0&#34;&gt;Example 2&lt;/a&gt; |  &lt;a href=&#34;https://www.dropbox.com/s/0497cxeaplw99j9/DT2-F17-Example3.twbx?dl=0&#34;&gt;Example 3&lt;/a&gt; |  &lt;a href=&#34;https://www.dropbox.com/s/pdy441zgkmi1pvq/DT2-F17-Example4.twbx?dl=0&#34;&gt;Example 4&lt;/a&gt; |  &lt;a href=&#34;https://www.dropbox.com/s/jdqzls09dw7zs4y/DT2-F17-Example5.twbx?dl=0&#34;&gt;Example 5&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/97t30jyy1wvnaxz/DT2-F17-Example6.twbx?dl=0&#34;&gt;Example 6&lt;/a&gt; |  &lt;a href=&#34;https://www.dropbox.com/s/15ikjvjrra5pjqp/DT2-F17-Example7.twbx?dl=0&#34;&gt;Example 7&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/vtiu1g106qs13zg/DT2-F17-Example8.twbx?dl=0&#34;&gt;Example 8&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/gkmypt2si0nmage/DT2-F17-Example9.twbx?dl=0&#34;&gt;Example 9&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/i10tx0rm2t56md0/DT2-F17-Example10.twbx?dl=0&#34;&gt;Example 10&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/sa919ast913vdpi/DT2-F17-Example11.twbx?dl=0&#34;&gt;Example 11&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/nhp1fsauhgfpj72/DT3-F17.docx?dl=0&#34;&gt;Design Task 3&lt;/a&gt; | First draft to CrowdGrader: 9/27 (midnight) | Critiques due: 10/1 (midnight) | Final draft to D2L: 10/4 (midnight)
+
+&lt;ul&gt;
+&lt;li&gt;Consider the following example submissions  for Design Task 3.  Assess them according to the &lt;a href=&#34;https://www.dropbox.com/s/7h03rx03aqfuibz/GroupProjectRubric-Fall2017.docx?dl=0&#34;&gt;midterm rubric&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rfqx5zjdqxday2x/DT3-comments-F17.pptx?dl=0&#34;&gt;Static images&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/jvubikaztfs0upu/DT3-F17-Example1.twbx?dl=0&#34;&gt;Example 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/lu1mgmrpiegg4ov/DT3-F17-Example2.twbx?dl=0&#34;&gt;Example 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/x7iwemlhbs2eyok/DT3-F17-Example3.twbx?dl=0&#34;&gt;Example 3&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jf6lj6sqvmgwinc/DT3-F17-Example4.twbx?dl=0&#34;&gt;Example 4&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/i82dks79zkm0hnt/DT3-F17-Example5.twbx?dl=0&#34;&gt;Example 5&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/i82dks79zkm0hnt/DT3-F17-Example5.twbx?dl=0&#34;&gt;Example 6&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/sk694bgby8um9dj/DT3-F17-Example7.twbx?dl=0&#34;&gt;Example 7&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;play-days&#34;&gt;Play days!&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../playday1/&#34;&gt;Play day 1&lt;/a&gt;, begins 9/13&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../ipums-visualization-ggplot/&#34;&gt;Play day 2&lt;/a&gt; | &lt;a href=&#34;../ipums-visualization-key/&#34;&gt;R code for plots&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../playday3/&#34;&gt;Play day 3&lt;/a&gt;, begins 10/16&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../playday4/&#34;&gt;Play day 4&lt;/a&gt;, begins 11/6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/y3uyg808m0y0zii/Bacteria.csv?dl=0&#34;&gt;Burtin&amp;rsquo;s bacteria data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9kb7zxe9p2jb24c/CDC-Teenage-fertility-data-imputed.csv?dl=0&#34;&gt;CDC teenage fertility rate data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ftid3df9962i2il/IPUMS-Sex-Age.csv?dl=0&#34;&gt;IPUMS-Sex-Age&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/tojah0h83cmypnd/IPUMS-Sex-EdAttain.csv?dl=0&#34;&gt;IPUMS-Sex-EdAttain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/tvoeu4dwsgzmg75/Vox.csv?dl=0&#34;&gt;Vox data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0m28op23nou0xaj/worldbankregions.csv?dl=0&#34;&gt;World bank regions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dqp1wlha7h578fp/WorldBank-clean.csv?dl=0&#34;&gt;World bank indicators&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
