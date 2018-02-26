@@ -589,11 +589,17 @@ data&lt;/a&gt;&lt;/li&gt;
 &lt;ul&gt;
 &lt;li&gt;Chapter 7: Sampling distributions | &lt;a href=&#34;https://www.dropbox.com/s/66tkibubchl32o0/Chapter_7_-_Intro_to_sampling_distributions.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/1b3amfgypeuzdjs/Chapter%207%20-%20Intro%20to%20sampling%20distributions.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Chapter 8: Properties of estimators | &lt;a href=&#34;https://www.dropbox.com/s/q5py1wmln8m069a/Chapter_8_-_Estimation_and_properties_of_estimators.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/c33yx92rrnm6zng/Chapter%208%20-%20Estimation%20and%20properties%20of%20estimators.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 9: Methods of estimation | &lt;a href=&#34;https://www.dropbox.com/s/n07ljfertlsxb95/Chapter_9_-_More_properties_of_and_methods_of_finding_estimators.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/nedz1gdxl27b0qk/Chapter%209%20-%20More%20properties%20of%20and%20methods%20of%20finding%20estimators.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 10: Hypothesis testing | &lt;a href=&#34;https://www.dropbox.com/s/9uof55z5ku0z3u1/Chapter_10_-_Hypothesis_testing.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/pt257lv3851nuki/Chapter%2010%20-%20Hypothesis%20testing.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
 
 &lt;p&gt;This &lt;a href=&#34;https://www.dropbox.com/s/0n0vheg0ucg1tln/Writing%20Rubric-2018.docx?dl=0&#34;&gt;writing rubric&lt;/a&gt; will be applied to all take-home exams that require the use of R Markdown.  Of your entire midterm grade, 10% of your will come from your score on this rubric; 50% from your score on the take-home portion; and 40% from your score on the in-class portion.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;In-class midterm exam&lt;/strong&gt; will be Friday, March 16. | &lt;a href=&#34;https://www.dropbox.com/s/hilf2ur2jm6tq0t/PracticeMidterm.docx?dl=0&#34;&gt;Practice in-class midterm&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;presentations&#34;&gt;Presentations&lt;/h3&gt;
 
@@ -639,7 +645,14 @@ To be presented in class Friday, 2/9, from Chapter 8 (one bullet = one student&#
 &lt;li&gt;&lt;p&gt;The following from Ch 8 (Due 2/23):&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;3, 5, 6, 7, 10, 16, 18, 19, 20, 36, 37, 38, 48, 127, 129, 130, 131, 132&lt;/li&gt;
+&lt;li&gt;3, 5, 6, 7, 10, 16, 18, 19, 20, 36, 37, 38, 48, 127, 129, 130, 131, 132
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The following from Ch 9 (Due 3/16):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;24, 26, 27, 50, 54, 60, 74, 75, 98, 99, 101, 103, 104&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
