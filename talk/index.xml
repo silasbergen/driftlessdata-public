@@ -11,6 +11,15 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Great public data sources with social justice applications</title>
+      <link>http://driftlessdata.space/talk/stolaf/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/talk/stolaf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ASA REU Experiences at Winona State University</title>
       <link>http://driftlessdata.space/talk/reu-jsm/</link>
       <pubDate>Sun, 30 Jul 2017 00:00:00 -0500</pubDate>
