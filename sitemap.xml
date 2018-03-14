@@ -14,6 +14,15 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/project/social-justice-data/</loc>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/post/ufl/</loc>
       <lastmod>2018-02-21T00:00:00+00:00</lastmod>
     </url>
@@ -457,17 +466,7 @@
     <url>
     
       <loc>http://driftlessdata.space/tags/data-visualization/</loc>
-      <lastmod>2017-12-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://driftlessdata.space/</loc>
-      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -477,7 +476,7 @@
     <url>
     
       <loc>http://driftlessdata.space/tags/education/</loc>
-      <lastmod>2018-02-21T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -511,7 +510,7 @@
     <url>
     
       <loc>http://driftlessdata.space/project/</loc>
-      <lastmod>2016-04-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-03-14T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -559,6 +558,16 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/stat450/schedule/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/</loc>
+      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
+      <priority>0</priority>
     </url>
     
   

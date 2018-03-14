@@ -1,14 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Driftless Data</title>
+    <title>Projects on Silas Bergen</title>
     <link>http://driftlessdata.space/project/</link>
-    <description>Recent content in Projects on Driftless Data</description>
+    <description>Recent content in Projects on Silas Bergen</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Wed, 27 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Public data sources with social justice applications</title>
+      <link>http://driftlessdata.space/project/social-justice-data/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/social-justice-data/</guid>
+      <description>
+
+&lt;p&gt;Recently, I and some WSU student volunteers gave a &lt;a href=&#34;../../talk/stolaf/&#34;&gt;talk at St. Olaf&lt;/a&gt; on great public data sources I have been using as sources of investigating &amp;ldquo;social justice&amp;rdquo; applications.  Most of the ways I&amp;rsquo;ve used the data have been for class projects or assignments. That talk was an impetus to compile all the resources I&amp;rsquo;ve been using over the years, along with some example class projects using pre-aggregated data.&lt;/p&gt;
+
+&lt;h3 id=&#34;integrated-public-use-microdata-series-ipums&#34;&gt;Integrated Public Use Microdata Series (IPUMS)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.ipums.org/&#34;&gt;IPUMS&lt;/a&gt; is one of my favorite data sources.  The great folks at the &lt;a href=&#34;https://pop.umn.edu/&#34;&gt;Minnesota Population Center&lt;/a&gt; have done fabulous work collecting, harmonizing, and producing data from the &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt;, the &lt;a href=&#34;https://www.census.gov/programs-surveys/cps.html&#34;&gt;Current Population Survey&lt;/a&gt;, and the &lt;a href=&#34;https://www.cdc.gov/nchs/nhis/index.htm&#34;&gt;National Health Interview Survey&lt;/a&gt;, among others.  The group at IPUMS-International even &lt;a href=&#34;../../post/winstats/&#34;&gt;collaborated with us on an REU&lt;/a&gt; during Summer 2017.  Once you get the hang of their data query system, you have an enormous wealth of data available to you.  In December 2017, they even released &lt;a href=&#34;https://cran.r-project.org/web/packages/ipumsr/vignettes/ipums.html&#34;&gt;ipumsr&lt;/a&gt;, an R package that facilitates wrangling their data extracts with R.&lt;/p&gt;
+
+&lt;p&gt;As the M in IPUMS indicates, data extracted from IPUMS are microdata.  This means each row is an individual observation, which makes IPUMS data especially interesting.  All sensible IPUMS data analyses require consideration of the PERWT variable, which indicates how many individuals in the population each row represents.  IPUMS has extensive documentation on PERWT (e.g. &lt;a href=&#34;https://usa.ipums.org/usa-action/variables/PERWT#description_section&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://usa.ipums.org/usa/repwt.shtml&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
+
+&lt;h4 id=&#34;example-student-projects-using-ipums-data&#34;&gt;Example student projects using IPUMS data&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intro Stat final project: investigating historic poverty rates, median income, and high-school completion by race using aggregated data from &lt;a href=&#34;https://cps.ipums.org/cps/&#34;&gt;IPUMS CPS&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2jzl2beycp45xa7/Stat%20210%20Final%20Project-Spring2016.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hoce7k8hi7agn1g/ACS-NC.csv?dl=0&#34;&gt;ACS data on North Carolina&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s1gcroyd9gz8yqv/NC%20Birth.csv?dl=0&#34;&gt;North Carolina births&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/vm11r751pv7f5mr/IPUMS-Historic.csv?dl=0&#34;&gt;Aggregated IPUMS CPS data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hndpmqukj20ra73/CDC-Historic.csv?dl=0&#34;&gt;Aggregated CDC WONDER data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Data visualization assignment: population shifts, trend in educational attainment gaps
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qh9t5ac9du0b50t/DT2-F17.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/5dhykg7t4aa8cqb/IPUMS-Sex-Empstat.csv?dl=0&#34;&gt;Sex-Empstat Data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ftid3df9962i2il/IPUMS-Sex-Age.csv?dl=0&#34;&gt;Sex-Age data&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Tableau visualization of STEM and gender using &lt;a href=&#34;https://highered.ipums.org/highered/&#34;&gt;IPUMS Higher-Ed&lt;/a&gt; by &lt;a href=&#34;https://www.linkedin.com/in/reagan-buske-945570150/&#34;&gt;Reagan Buske&lt;/a&gt; (DSCI 310 final project; Fall 2017)&lt;br /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://public.tableau.com/profile/reagan.buske#!/vizhome/STEM_8/Intro&#34;&gt;Link to Tableau Public dashboard&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;cdc-wonder&#34;&gt;CDC WONDER&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://wonder.cdc.gov/&#34;&gt;WONDER&lt;/a&gt; database operated by the Centers for Disease Control and Prevention provide a rich query system for analysis of public health data.  All data is aggregated.  If too few counts are available at the requested level of aggregation, WONDER typically suppresses those counts.  The databases I most often use are the &lt;a href=&#34;https://wonder.cdc.gov/natality.html&#34;&gt;Natality&lt;/a&gt; and &lt;a href=&#34;https://wonder.cdc.gov/natality.html&#34;&gt;Mortality&lt;/a&gt; queries.&lt;/p&gt;
+
+&lt;h4 id=&#34;example-student-projects-using-wonder-data&#34;&gt;Example student projects using WONDER data&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Data visuaization assignment: Teenage fertility rates by race, state, year
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/nhp1fsauhgfpj72/DT3-F17.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9kb7zxe9p2jb24c/CDC-Teenage-fertility-data-imputed.csv?dl=0&#34;&gt;Aggregated data&lt;/a&gt; (suppressed rates imputed using teenage fertility rates at the Census Division level)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://public.tableau.com/profile/silas.bergen#!/vizhome/TeenPregnancyintheU_S_/Dash&#34;&gt;Example visualization&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Intro stat assignment (correlation/regression): gun deaths and gun ownership
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9biho5oh17riezc/HW11.docx?dl=0&#34;&gt;Prompt (question 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6yfliq1bdgxa7av/Gun-data.csv?dl=0&#34;&gt;Data&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;mn-department-of-education&#34;&gt;MN Department of Education&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://w20.education.state.mn.us/MDEAnalytics/Data.jsp&#34;&gt;Minnesota Department of Education&amp;rsquo;s Data Center&lt;/a&gt; has a wealth of data, though not nearly as nice a query system as IPUMS or WONDER.  Queries must often be by year, with separate Excel/CSV files for each year.  Looking at trends for 10 years, then, requires downloading 10 separate data files and aggregating manually.  Not fun! But there are a lot of data sources here for those interested in looking at staffing, ACT scores, school enrollment, etc.  I spent some time aggregating &lt;a href=&#34;http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=133&#34;&gt;data on disciplinary actions&lt;/a&gt; for the Winona Area Public School district.  I&amp;rsquo;ve turned it into a &lt;a href=&#34;https://public.tableau.com/profile/silas.bergen#!/vizhome/WAPS-infographic/Dash&#34;&gt;Tableau visualization&lt;/a&gt; and also used it as an assigment for my intermediate statistics (&amp;ldquo;Stat 2&amp;rdquo;) class.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Intermediate statistics assignment: modeling racial disparity in disciplinary action rate using data from Winona Area Public Schools
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xxwv8lchnoeqc0b/Exam%201%20%28take%20home%29.docx?dl=0&#34;&gt;Prompt (question 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/5esaj7aq882o643/WAPS-discipline-data.csv?dl=0&#34;&gt;Data&lt;/a&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;police-data-initiative&#34;&gt;Police Data Initiative&lt;/h3&gt;
+
+&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/post/policedatachallenge/&#34;&gt;Police Data Initiative&lt;/a&gt; contains data on 911 calls for over 20 different U.S. cities.  The data are relatively clean, but the variables available vary greatly from city-to-city.  A recent group of students from my data visualization class &lt;a href=&#34;../../post/policedatachallenge/&#34;&gt;did very well&lt;/a&gt; visualizing the calls from Seattle.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Web scraping and data visualization with Python and Tableau</title>

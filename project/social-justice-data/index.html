@@ -11,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/project/uscots2017-workshop/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/project/social-justice-data/">
 
   
   
@@ -70,24 +70,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://driftlessdata.space/project/uscots2017-workshop/">
+  <link rel="canonical" href="http://driftlessdata.space/project/social-justice-data/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Silas Bergen">
-  <meta property="og:url" content="http://driftlessdata.space/project/uscots2017-workshop/">
-  <meta property="og:title" content="Web scraping and data visualization with Python and Tableau | Silas Bergen">
+  <meta property="og:url" content="http://driftlessdata.space/project/social-justice-data/">
+  <meta property="og:title" content="Public data sources with social justice applications | Silas Bergen">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-04-27T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-03-14T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2016-04-27T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-03-14T00:00:00&#43;00:00">
   
 
-  <title>Web scraping and data visualization with Python and Tableau | Silas Bergen</title>
+  
+
+  <title>Public data sources with social justice applications | Silas Bergen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -236,7 +236,7 @@
   <div class="article-container">
 
     <div class="pub-title">
-      <h1 itemprop="name">Web scraping and data visualization with Python and Tableau</h1>
+      <h1 itemprop="name">Public data sources with social justice applications</h1>
       <span class="pub-authors" itemprop="author">&nbsp;</span>
       <span class="pull-right">
         
@@ -245,11 +245,85 @@
     </div>
 
     
-    <a class="btn btn-primary btn-outline" href="https://github.com/WSU-DataScience/USCOTS2017_workshop" target="_blank" rel="noopener">Go to Project Site</a>
-    
 
     <div class="article-style" itemprop="articleBody">
       
+
+<p>Recently, I and some WSU student volunteers gave a <a href="../../talk/stolaf/">talk at St. Olaf</a> on great public data sources I have been using as sources of investigating &ldquo;social justice&rdquo; applications.  Most of the ways I&rsquo;ve used the data have been for class projects or assignments. That talk was an impetus to compile all the resources I&rsquo;ve been using over the years, along with some example class projects using pre-aggregated data.</p>
+
+<h3 id="integrated-public-use-microdata-series-ipums">Integrated Public Use Microdata Series (IPUMS)</h3>
+
+<p><a href="https://www.ipums.org/">IPUMS</a> is one of my favorite data sources.  The great folks at the <a href="https://pop.umn.edu/">Minnesota Population Center</a> have done fabulous work collecting, harmonizing, and producing data from the <a href="https://www.census.gov/programs-surveys/acs/">American Community Survey</a>, the <a href="https://www.census.gov/programs-surveys/cps.html">Current Population Survey</a>, and the <a href="https://www.cdc.gov/nchs/nhis/index.htm">National Health Interview Survey</a>, among others.  The group at IPUMS-International even <a href="../../post/winstats/">collaborated with us on an REU</a> during Summer 2017.  Once you get the hang of their data query system, you have an enormous wealth of data available to you.  In December 2017, they even released <a href="https://cran.r-project.org/web/packages/ipumsr/vignettes/ipums.html">ipumsr</a>, an R package that facilitates wrangling their data extracts with R.</p>
+
+<p>As the M in IPUMS indicates, data extracted from IPUMS are microdata.  This means each row is an individual observation, which makes IPUMS data especially interesting.  All sensible IPUMS data analyses require consideration of the PERWT variable, which indicates how many individuals in the population each row represents.  IPUMS has extensive documentation on PERWT (e.g. <a href="https://usa.ipums.org/usa-action/variables/PERWT#description_section">here</a> and <a href="https://usa.ipums.org/usa/repwt.shtml">here</a>).</p>
+
+<h4 id="example-student-projects-using-ipums-data">Example student projects using IPUMS data</h4>
+
+<ul>
+<li>Intro Stat final project: investigating historic poverty rates, median income, and high-school completion by race using aggregated data from <a href="https://cps.ipums.org/cps/">IPUMS CPS</a>
+
+<ul>
+<li><a href="https://www.dropbox.com/s/2jzl2beycp45xa7/Stat%20210%20Final%20Project-Spring2016.docx?dl=0">Prompt</a></li>
+<li><a href="https://www.dropbox.com/s/hoce7k8hi7agn1g/ACS-NC.csv?dl=0">ACS data on North Carolina</a></li>
+<li><a href="https://www.dropbox.com/s/s1gcroyd9gz8yqv/NC%20Birth.csv?dl=0">North Carolina births</a></li>
+<li><a href="https://www.dropbox.com/s/vm11r751pv7f5mr/IPUMS-Historic.csv?dl=0">Aggregated IPUMS CPS data</a></li>
+<li><a href="https://www.dropbox.com/s/hndpmqukj20ra73/CDC-Historic.csv?dl=0">Aggregated CDC WONDER data</a></li>
+</ul></li>
+<li>Data visualization assignment: population shifts, trend in educational attainment gaps
+
+<ul>
+<li><a href="https://www.dropbox.com/s/qh9t5ac9du0b50t/DT2-F17.docx?dl=0">Prompt</a></li>
+<li><a href="https://www.dropbox.com/s/5dhykg7t4aa8cqb/IPUMS-Sex-Empstat.csv?dl=0">Sex-Empstat Data</a></li>
+<li><a href="https://www.dropbox.com/s/ftid3df9962i2il/IPUMS-Sex-Age.csv?dl=0">Sex-Age data</a></li>
+</ul></li>
+<li>Tableau visualization of STEM and gender using <a href="https://highered.ipums.org/highered/">IPUMS Higher-Ed</a> by <a href="https://www.linkedin.com/in/reagan-buske-945570150/">Reagan Buske</a> (DSCI 310 final project; Fall 2017)<br />
+
+<ul>
+<li><a href="https://public.tableau.com/profile/reagan.buske#!/vizhome/STEM_8/Intro">Link to Tableau Public dashboard</a></li>
+</ul></li>
+</ul>
+
+<h3 id="cdc-wonder">CDC WONDER</h3>
+
+<p>The <a href="https://wonder.cdc.gov/">WONDER</a> database operated by the Centers for Disease Control and Prevention provide a rich query system for analysis of public health data.  All data is aggregated.  If too few counts are available at the requested level of aggregation, WONDER typically suppresses those counts.  The databases I most often use are the <a href="https://wonder.cdc.gov/natality.html">Natality</a> and <a href="https://wonder.cdc.gov/natality.html">Mortality</a> queries.</p>
+
+<h4 id="example-student-projects-using-wonder-data">Example student projects using WONDER data</h4>
+
+<ul>
+<li>Data visuaization assignment: Teenage fertility rates by race, state, year
+
+<ul>
+<li><a href="https://www.dropbox.com/s/nhp1fsauhgfpj72/DT3-F17.docx?dl=0">Prompt</a></li>
+<li><a href="https://www.dropbox.com/s/9kb7zxe9p2jb24c/CDC-Teenage-fertility-data-imputed.csv?dl=0">Aggregated data</a> (suppressed rates imputed using teenage fertility rates at the Census Division level)</li>
+<li><a href="https://public.tableau.com/profile/silas.bergen#!/vizhome/TeenPregnancyintheU_S_/Dash">Example visualization</a><br /></li>
+</ul></li>
+<li>Intro stat assignment (correlation/regression): gun deaths and gun ownership
+
+<ul>
+<li><a href="https://www.dropbox.com/s/9biho5oh17riezc/HW11.docx?dl=0">Prompt (question 2)</a></li>
+<li><a href="https://www.dropbox.com/s/6yfliq1bdgxa7av/Gun-data.csv?dl=0">Data</a>
+<br /></li>
+</ul></li>
+</ul>
+
+<h3 id="mn-department-of-education">MN Department of Education</h3>
+
+<p>The <a href="http://w20.education.state.mn.us/MDEAnalytics/Data.jsp">Minnesota Department of Education&rsquo;s Data Center</a> has a wealth of data, though not nearly as nice a query system as IPUMS or WONDER.  Queries must often be by year, with separate Excel/CSV files for each year.  Looking at trends for 10 years, then, requires downloading 10 separate data files and aggregating manually.  Not fun! But there are a lot of data sources here for those interested in looking at staffing, ACT scores, school enrollment, etc.  I spent some time aggregating <a href="http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=133">data on disciplinary actions</a> for the Winona Area Public School district.  I&rsquo;ve turned it into a <a href="https://public.tableau.com/profile/silas.bergen#!/vizhome/WAPS-infographic/Dash">Tableau visualization</a> and also used it as an assigment for my intermediate statistics (&ldquo;Stat 2&rdquo;) class.</p>
+
+<ul>
+<li>Intermediate statistics assignment: modeling racial disparity in disciplinary action rate using data from Winona Area Public Schools
+
+<ul>
+<li><a href="https://www.dropbox.com/s/xxwv8lchnoeqc0b/Exam%201%20%28take%20home%29.docx?dl=0">Prompt (question 2)</a></li>
+<li><a href="https://www.dropbox.com/s/5esaj7aq882o643/WAPS-discipline-data.csv?dl=0">Data</a>
+<br /></li>
+</ul></li>
+</ul>
+
+<h3 id="police-data-initiative">Police Data Initiative</h3>
+
+<p>The <a href="/post/policedatachallenge/">Police Data Initiative</a> contains data on 911 calls for over 20 different U.S. cities.  The data are relatively clean, but the variables available vary greatly from city-to-city.  A recent group of students from my data visualization class <a href="../../post/policedatachallenge/">did very well</a> visualizing the calls from Seattle.</p>
+
     </div>
 
     
@@ -257,11 +331,9 @@
 
 <div class="article-tags">
   
+  <a class="btn btn-primary btn-outline" href="/tags/education">education</a>
+  
   <a class="btn btn-primary btn-outline" href="/tags/data-visualization">data visualization</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/python">Python</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/tableau">Tableau</a>
   
 </div>
 
@@ -291,10 +363,10 @@
   <nav>
   <ul class="pager">
     
-
+    <li class="previous"><a href="http://driftlessdata.space/project/uscots2017-workshop/"><span
+      aria-hidden="true">&larr;</span> Web scraping and data visualization with Python and Tableau</a></li>
     
-    <li class="next"><a href="http://driftlessdata.space/project/social-justice-data/">Public data sources with social justice applications <span
-      aria-hidden="true">&rarr;</span></a></li>
+
     
   </ul>
 </nav>
