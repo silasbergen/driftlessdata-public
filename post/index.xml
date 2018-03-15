@@ -11,6 +11,18 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Public data resources with social justice applications</title>
+      <link>http://driftlessdata.space/post/about-social-justice/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/about-social-justice/</guid>
+      <description>&lt;p&gt;Yesterday, several students and I traveled to St. Olaf to &lt;a href=&#34;../../talk/stolaf/&#34;&gt;illustrate several uses&lt;/a&gt; of interesting, publicly-available data that can be used to investigate &amp;ldquo;social justice&amp;rdquo; issues.  I&amp;rsquo;ve long been meaning to compile all the data sources and some example projects I&amp;rsquo;ve developed over the years, and this talk provided just the right motivation.   Accordingly, I have &lt;a href=&#34;../../project/social-justice-data/&#34;&gt;compiled a list&lt;/a&gt; of some of my favorite data sources and example projects and student work.  It takes some time to gather, wrangle, and aggregate some of these data sources. Part of my goal is to share some of the work I have already done to clean some of the messier data sets and pare them down to a more ready-to-use format.&lt;/p&gt;
+
+&lt;p&gt;Much thanks goes to Dr. Julie Legler from St. Olaf for reaching out and inviting us to dialogue with her students, and for encouraging me to actually put in the work to compile all these resources!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Data set gold mine</title>
       <link>http://driftlessdata.space/post/ufl/</link>
       <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>

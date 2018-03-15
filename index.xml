@@ -11,6 +11,18 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Public data resources with social justice applications</title>
+      <link>http://driftlessdata.space/post/about-social-justice/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/about-social-justice/</guid>
+      <description>&lt;p&gt;Yesterday, several students and I traveled to St. Olaf to &lt;a href=&#34;../../talk/stolaf/&#34;&gt;illustrate several uses&lt;/a&gt; of interesting, publicly-available data that can be used to investigate &amp;ldquo;social justice&amp;rdquo; issues.  I&amp;rsquo;ve long been meaning to compile all the data sources and some example projects I&amp;rsquo;ve developed over the years, and this talk provided just the right motivation.   Accordingly, I have &lt;a href=&#34;../../project/social-justice-data/&#34;&gt;compiled a list&lt;/a&gt; of some of my favorite data sources and example projects and student work.  It takes some time to gather, wrangle, and aggregate some of these data sources. Part of my goal is to share some of the work I have already done to clean some of the messier data sets and pare them down to a more ready-to-use format.&lt;/p&gt;
+
+&lt;p&gt;Much thanks goes to Dr. Julie Legler from St. Olaf for reaching out and inviting us to dialogue with her students, and for encouraging me to actually put in the work to compile all these resources!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Great public data sources with social justice applications</title>
       <link>http://driftlessdata.space/talk/stolaf/</link>
       <pubDate>Wed, 14 Mar 2018 00:00:00 -0500</pubDate>
@@ -237,6 +249,7 @@ In light of this, he made the following suggestions.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rgco495f3mhy9my/Vitruvian%20man.docx?dl=0&#34;&gt;Vitruvian man activity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0rihivv2iwutt92/Vitruvian%20man%20interactions.docx?dl=0&#34;&gt;Interaction activity&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/txwije7cdht42oy/ANOVA%20group%20work.docx?dl=0&#34;&gt;ANOVA activity&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wmjlepi57w2poy1/pairwise%20diffs%20group%20work.docx?dl=0&#34;&gt;Pairwise comparisons activity&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
@@ -247,6 +260,7 @@ In light of this, he made the following suggestions.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4uj6s0iav5ok090/HW3.docx?dl=0&#34;&gt;Homework 3 (Due 2/8)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/vvu9jwc7btq4ys8/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Homework 4 (Due 2/15)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jp5zwwl1zzg7yf7/HW4-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zddet3dbfgdawev/HW5.docx?dl=0&#34;&gt;Homework 5 (Due 2/22)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/axre4jpawbfolci/HW5-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/j8jq7wib08vn6ur/HW6.docx?dl=0&#34;&gt;Homework 6 (Due 3/22)&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
@@ -267,6 +281,7 @@ In light of this, he made the following suggestions.&lt;/p&gt;
 &lt;li&gt;DIEP data | &lt;a href=&#34;https://www.dropbox.com/s/rm27k94xs3a2wb0/breast_diep.jmp?dl=0&#34;&gt;JMP&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/7xhefpi9xi7l97h/breast_diep.csv?dl=0&#34;&gt;CSV&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;FEV data | &lt;a href=&#34;https://www.dropbox.com/s/tyi1tzc82bi5cpr/FEVdata.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Fruit fly data | &lt;a href=&#34;https://www.dropbox.com/s/ck4hhxexo7v3j6o/FruitFlies.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hawk data | &lt;a href=&#34;https://www.dropbox.com/s/6l10dx9tniezl0q/Subset%20of%20Hawks.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Haystack data | &lt;a href=&#34;https://www.dropbox.com/s/vu54aqi4q8hswn7/Haystacks.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;MLB standings data | &lt;a href=&#34;https://www.dropbox.com/s/qy7048hfybg5w7v/MLBStandings2017.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Real estate data | &lt;a href=&#34;https://www.dropbox.com/s/tagopmu4gnr51rh/Real.Estate.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
@@ -1470,55 +1485,6 @@ ggplot(data = stemdata) +
       <description>&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/midterm/&#34;&gt;midterm project for my data visualization course&lt;/a&gt; this past fall required students to submit to the &lt;a href=&#34;http://thisisstatistics.org/policedatachallenge/&#34;&gt;ASA&amp;rsquo;s Police Data Challenge&lt;/a&gt;.  The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle).  I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.&lt;/p&gt;
 
 &lt;p&gt;Several weeks later, we received the exciting news that one of the teams won &lt;a href=&#34;http://thisisstatistics.org/police-data-challenge-congratulations-to-our-winners/&#34;&gt;&amp;ldquo;Best Overall&amp;rdquo;&lt;/a&gt; among undergraduate teams!  Congratulations to Winona State students &lt;a href=&#34;https://www.linkedin.com/in/jimmyjhickey/&#34;&gt;Jimmy Hickey&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/kapil-khanal/&#34;&gt;Kapil Khanal&lt;/a&gt;, and Luke Peacock for their excellent work.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Minne MUDAC 2017</title>
-      <link>http://driftlessdata.space/post/minnemudac/</link>
-      <pubDate>Fri, 10 Nov 2017 00:00:00 -0600</pubDate>
-      
-      <guid>http://driftlessdata.space/post/minnemudac/</guid>
-      <description>&lt;p&gt;&lt;center&gt;
-&lt;figure&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/all-teams.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
- &lt;b&gt; Winona State University undergraduates made a great impression at the 2017 &lt;a href=&#34;http://minneanalytics.org/minnemudac&#34;&gt; MinneMUDAC data analytics competition &lt;/a&gt; &lt;/b&gt;
-&lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;On November 3-4, Winona State statistics and data science students participated in the fantastic &lt;a href=&#34;http://minneanalytics.org/minnemudac/&#34;&gt;MinneMUDAC 2017&lt;/a&gt; data analytics competition.  Students worked
-in teams of up to five students for one month analyzing de-identified administrative medical and pharmacy claims data provided by &lt;a href=&#34;https://www.optum.com/&#34;&gt;Optum&lt;/a&gt;.  The competition
-required students to analyze complicated data on health insurance claims made by Type-II diabetics.  The event was hosted by &lt;a href=&#34;http://minneanalytics.org/&#34;&gt;MinneAnalytics&lt;/a&gt; at the Optum campus in Bloomington, Minnesota.&lt;/p&gt;
-
-&lt;p&gt;The event began the evening of November 3. MinneAnalytics provided dinner and a professional Q&amp;amp;A panel of data scientists.  The event kicked off in earnest on Saturday, November 4.  Students gave
-their 5-minute presentations to teams of judges, and  were scored on a variety of criteria ranging from analytic acumen; presentation organization; and team synergy.  Some weight
-was also given by how accurately teams could predict the top-6000 most expensive Type-II diabetics for the next calendar year for a held-out target data set of patients for
-which the actual insurance costs were known only to the event organizers.&lt;/p&gt;
-
-&lt;p&gt;The top five teams from the first round went on to present to all judges in a final round.  From this final round, teams were given awards for &amp;ldquo;Best overall&amp;rdquo;; &amp;ldquo;Analytic acumen&amp;rdquo;; and
-&amp;ldquo;Serendipitous discovery.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;There were 22 total undergraduate teams who participated.  We were very excited that of the top five teams to proceed to the final round,
-three were from Winona State!  Of these three, one won &amp;ldquo;Best overall&amp;rdquo; and another the award for &amp;ldquo;Analytic acumen.&amp;rdquo;  We were very proud of all our students
-who participated.  Each one of them took time out of their busy semesters to gain fantastic professional development experience.  From real-life data analysis
-of a very messy and complicated data set to presenting their results to panels of industry and academic professionals, it will be an experience that will serve them all very well.&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;center&gt;
-&lt;figure&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/best-overall.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
-&lt;b&gt; The &amp;ldquo;Best Overall&amp;rdquo; team at MinneMUDAC 2017, from Winona State University.
-From left to right: Sam Meyer; Sam Dokkebakken; Eddie Schmitt; Austin Ellingworth; and Jack Barta &lt;/b&gt;
-&lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;figure&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/analytic-acumen.jpg&#34; alt=&#34;placeholder&#34; title=&#34;test&#34; height=&#34;400&#34; width=&#34;600&#34; /&gt;
- &lt;b&gt; The &amp;ldquo;Analytic Acumen&amp;rdquo; award went to this team from Winona State University.
-From left to right: Reagan Buske; Chris Humbert; Mariah Quam; David Stampley Jr; and McHale Dye. &lt;/b&gt;
-&lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
 </description>
     </item>
     
