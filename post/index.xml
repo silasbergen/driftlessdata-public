@@ -38,6 +38,56 @@
     </item>
     
     <item>
+      <title>Modeling the Vitruvian Man</title>
+      <link>http://driftlessdata.space/post/vitruvian/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/vitruvian/</guid>
+      <description>&lt;p&gt;This post describes an activity I developed for Stat 310: Intermediate Statistics. This course is the second course on statistics at Winona State. I like to think of it as our “introduction to modeling” course, and this activity does just that: introduces students to the idea of a statistical model, including model assessment and fitting. The activity actually comes in two parts, administered at different times in the semester. In the first part, I am trying to get students to think about how to assess and compare proposed models using residuals. In the second, students need to fit their own models, and compare performance of fitted models.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rgco495f3mhy9my/Vitruvian%20man.docx?dl=0&#34;&gt;Link to Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Link to Part 2 (Question 3)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;em&gt;Vitruvian Man&lt;/em&gt; is a well-known drawing and study by Leonardo DaVinci:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/vitruvian-man.jpg&#34; alt=&#34;Figure Source:  https://en.wikipedia.org/wiki/Vitruvian_Man&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure Source: &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34;&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34; class=&#34;uri&#34;&gt;https://en.wikipedia.org/wiki/Vitruvian_Man&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This work is sometimes referred to as &lt;em&gt;Canon of Proportions&lt;/em&gt;, and is essentially a series of proposed proportions. My activity focuses on two of these proportions:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;the length of the outspread arms is equal to the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;the distance from the elbow to the tip of the hand is a quarter of the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;part-1-comparing-proposed-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part 1: comparing proposed models&lt;/h2&gt;
+&lt;p&gt;These proportions proposed by DaVinci are essentially two proposed statistical models! We can test these models by collecting some data. This I did by having the students pair up and measure the following three quantities:&lt;/p&gt;
+&lt;p&gt;A. Height;&lt;br /&gt;
+B. “Wingspan” (length of the outspread arms);&lt;br /&gt;
+C. “Elbow-tip” (the distance from the elbow to the tip of the hand).&lt;/p&gt;
+&lt;p&gt;With these three measurements, we can assess which of DaVinci’s proposed proportions is “best!” Notice that his first proportion is like fitting the model:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times Wingspan + \epsilon\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this model, both the intercept and the slope are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The second model is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times ElbowTip + \epsilon\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Again in this model, the model parameters are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 4\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So which model is better?! This motivates finding the modeled &lt;span class=&#34;math inline&#34;&gt;\(\widehat{Height}\)&lt;/span&gt; given each equation, and comparing the sum of squared residuals, &lt;em&gt;SSError&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;But first, let’s visualize! Here is a scatterplot of Height vs Wingspan using the data collected by the 22 students in my Spring 2018 section of Stat 310. The line indicates the proposed model with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The model is about perfect for two students; but clearly imperfect for the other 20. What about Elbow-Tip?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Clearly, this fit looks worse. We can quantify this by computing SSError, which equals 156 using wingspan and 504 using Elbow-Tip.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-2-fitting-simple-linear-regression-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part 2: Fitting simple linear regression models&lt;/h2&gt;
+&lt;p&gt;So, DaVinci’s proposed model using Wingspan wasn’t horrible, but the proposal using Elbow-Tip was. Can we improve these proposed proportions by fitting simple linear regression models, and if so, which &lt;em&gt;fitted&lt;/em&gt; model is best?&lt;/p&gt;
+&lt;p&gt;The figure below shows the actual height plotted versus the fitted heights from the two mdoels, along with the (0,1) line:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;It’s difficult to tell which model performs best! Here we really do need the SSErrors, which are 117.8 using wingspan and 122.4 using Elbow-Tip. So, close! But Wingspan slightly out-performs Elbow-Tip as a predictor of height. (Of course, these are in-sample SSErrors; a more accurate comparison would cross-validate which we discuss later in the course.)&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public data resources with social justice applications</title>
       <link>http://driftlessdata.space/post/about-social-justice/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>
