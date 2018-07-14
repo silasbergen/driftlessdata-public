@@ -7,8 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Wed, 14 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 +0000</lastBuildDate>
     <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
+      <link>http://driftlessdata.space/project/icots-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web scraping and data visualization with Python and Tableau</title>
+      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Public data sources with social justice applications</title>
@@ -93,15 +111,6 @@
 
 &lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/post/policedatachallenge/&#34;&gt;Police Data Initiative&lt;/a&gt; contains data on 911 calls for over 20 different U.S. cities.  The data are relatively clean, but the variables available vary greatly from city-to-city.  A recent group of students from my data visualization class &lt;a href=&#34;../../post/policedatachallenge/&#34;&gt;did very well&lt;/a&gt; visualizing the calls from Seattle.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Web scraping and data visualization with Python and Tableau</title>
-      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
-      <description></description>
     </item>
     
   </channel>

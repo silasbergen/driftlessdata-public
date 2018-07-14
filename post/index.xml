@@ -11,6 +11,33 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data vizzing in Japan</title>
+      <link>http://driftlessdata.space/post/icots/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/icots/</guid>
+      <description>&lt;p&gt;This July, my colleage Todd Iverson and I had the incredible opportunity to lead a &lt;a href=&#34;https://icots.info/10/?workshop=E&#34;&gt;pre-conference workshop&lt;/a&gt; at &lt;a href=&#34;https://icots.info/10/&#34;&gt;ICOTS 10&lt;/a&gt; in Kyoto, Japan.  Our workshop was titled &lt;em&gt;Data visualization: best practices and principles using Tableau Public and Python.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our workshop began by covering &lt;a href=&#34;https://www.springer.com/us/book/9780387245447&#34;&gt;Leland Wilkinson&amp;rsquo;s grammar of graphics&lt;/a&gt;.  Most data visualization software (Tableau, Python, R, JMP) employ some version of this grammar, and with a firm understanding it becomes easy to transition between them.  We focused primarily on Tableau and Python in our workshop.  All the workshop materials are available at the designated &lt;a href=&#34;https://github.com/WSU-DataScience/ICOTS10_Data_Visualization&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was an engaging four hours that felt more like one hour, with participants from all over the world!  Our fantastic crew:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+ &lt;figure&gt;
+    &lt;img width=&#34;500&#34; src=&#34;http://driftlessdata.space/img/icots.jpg&#34;&gt;
+ &lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;ICOTS 10 itself was fantastic, including keynotes from Chris Wild, Hillary Parker, and Anna Rosling R&amp;ouml;nnlund. And of course, we made time to explore and sample the local cuisine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/img/fushimi.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/ramen.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;clear: both;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Public data resources with social justice applications</title>
       <link>http://driftlessdata.space/post/about-social-justice/</link>
       <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>

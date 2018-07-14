@@ -11,6 +11,51 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Data vizzing in Japan</title>
+      <link>http://driftlessdata.space/post/icots/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/icots/</guid>
+      <description>&lt;p&gt;This July, my colleage Todd Iverson and I had the incredible opportunity to lead a &lt;a href=&#34;https://icots.info/10/?workshop=E&#34;&gt;pre-conference workshop&lt;/a&gt; at &lt;a href=&#34;https://icots.info/10/&#34;&gt;ICOTS 10&lt;/a&gt; in Kyoto, Japan.  Our workshop was titled &lt;em&gt;Data visualization: best practices and principles using Tableau Public and Python.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our workshop began by covering &lt;a href=&#34;https://www.springer.com/us/book/9780387245447&#34;&gt;Leland Wilkinson&amp;rsquo;s grammar of graphics&lt;/a&gt;.  Most data visualization software (Tableau, Python, R, JMP) employ some version of this grammar, and with a firm understanding it becomes easy to transition between them.  We focused primarily on Tableau and Python in our workshop.  All the workshop materials are available at the designated &lt;a href=&#34;https://github.com/WSU-DataScience/ICOTS10_Data_Visualization&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was an engaging four hours that felt more like one hour, with participants from all over the world!  Our fantastic crew:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+ &lt;figure&gt;
+    &lt;img width=&#34;500&#34; src=&#34;http://driftlessdata.space/img/icots.jpg&#34;&gt;
+ &lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;ICOTS 10 itself was fantastic, including keynotes from Chris Wild, Hillary Parker, and Anna Rosling R&amp;ouml;nnlund. And of course, we made time to explore and sample the local cuisine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/img/fushimi.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/ramen.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;clear: both;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
+      <link>http://driftlessdata.space/project/icots-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web scraping and data visualization with Python and Tableau</title>
+      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
       <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
       <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
@@ -1721,227 +1766,6 @@ become an active and engaged member of our class and community.&lt;/p&gt;
 
 &lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What students have to say about group homework</title>
-      <link>http://driftlessdata.space/post/group-homework/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/group-homework/</guid>
-      <description>&lt;p&gt;The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why *I* think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the &lt;em&gt;students&lt;/em&gt; think. I think it’s quite striking!&lt;/p&gt;
-&lt;p&gt;First, though, I do need to provide a couple quick details about how I manage group homework. They occur approximately once a week, and I alternate between randomly assigning the students into groups of three and letting them choose their own groups. When students choose their own, I encourage groups of three but allow four (no higher).&lt;/p&gt;
-&lt;p&gt;On end-of-semester course evaluations the past two semesters, I asked the following questions:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;em&gt;What do you like BEST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;What did you like LEAST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here is a word cloud of the responses to the first question (what did you like BEST?):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;There are a lot of words in here that I’m glad to see! (And that echo my motivation for implementing group homework.) Students can &lt;em&gt;ask questions&lt;/em&gt;; &lt;em&gt;work&lt;/em&gt; with &lt;em&gt;people&lt;/em&gt;; &lt;em&gt;talk&lt;/em&gt; with &lt;em&gt;others&lt;/em&gt;; etc. &lt;em&gt;Professor&lt;/em&gt; shows up in the cloud too; I’m always present and able to help problem-solve, or ask redirecting questions if students are off-topic.&lt;/p&gt;
-&lt;p&gt;Well and good. But even more striking is the word cloud for student reponses to what they liked &lt;em&gt;LEAST&lt;/em&gt; about group homework:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;People didn’t work sometimes&lt;/em&gt;&lt;/strong&gt;…it’s even grammatically correct! It’s pretty obvious what I need to work on this semester regarding group homework. One possibility to encourage universal participation: I assign the “scribe” of the group (the person writing down and submitting the group’s answers to be graded), and make sure it’s someone different each week. Maybe simply paying better attention to students who are “staring off” and gently encouraging them to participate.&lt;/p&gt;
-&lt;p&gt;Also not surprising, given the groans when I announce it’s “random assignment week”, are the words &lt;em&gt;assigned&lt;/em&gt;, &lt;em&gt;random&lt;/em&gt;, and &lt;em&gt;randomly&lt;/em&gt;. Students aren’t fond of being randomly assigned to groups, although it’s not something I see myself dropping. It’s important to mix up the voices; give international and domestic students a chance to work together; and give students experience working in a team with people they don’t necessarily choose (that’s real life after all!)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On elementary perceptual tasks</title>
-      <link>http://driftlessdata.space/post/on-epts/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/on-epts/</guid>
-      <description>&lt;p&gt;One of the first concepts I talk about in my &lt;a href=&#34;../../courses/dsci310/dsci310-home/&#34;&gt;data visualization course&lt;/a&gt; is the idea of the &lt;a href=&#34;http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf&#34;&gt;&lt;em&gt;elementary perceptual task&lt;/em&gt;&lt;/a&gt; (EPT), an idea explored in depth by visualization pioneers William S. Cleveland and Robert McGill. Essentially, EPTs are visual building blocks for comparing quantities. The EPTs are summarized nicely in Figure 1 from &lt;a href=&#34;http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf&#34;&gt;&lt;em&gt;Graphical Perception: Theory, Experiementation, and Application to the Development of Graphical Methods&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
-&lt;center&gt;
-&lt;figure&gt;
-&lt;img src = &#34;../../img/ept.JPG&#34; width=&#34;500&#34;&gt;
-&lt;/figure&gt;
-&lt;/center&gt;
-&lt;p&gt;For example, looking at the two dots in the upper-left pane, we perceive that the top dot represents a larger quantity than the bottom dot, because it is &lt;em&gt;higher on a common scale&lt;/em&gt; than the bottom dot. In the middle panel (“Angle”), we perceive that the angle on the right represents a larger quantity than the angle on the left, since it is a larger angle.&lt;/p&gt;
-&lt;p&gt;A fundamental finding from the article is that, as humans, we are better at some elementary perceptual tasks than at others. We more accurately and easily compare quantities if they are mapped using &lt;strong&gt;&lt;em&gt;position on a common scale&lt;/em&gt;&lt;/strong&gt; than if they are mapped using &lt;strong&gt;&lt;em&gt;length&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;angle&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;em&gt;size&lt;/em&gt;&lt;/strong&gt;. In fact, Cleveland and McGill came up with the following ranking of EPTs we perform most efficiently when visually comparing quantities:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Position along a common scale;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Position along misaligned scales;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Length;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Angles;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Size;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Color&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Recently, I wrote &lt;a href=&#34;../income-gestalt/&#34;&gt;a post&lt;/a&gt; discussing a few of the Gestalt principles and illustrating them with some ACS data on income, sex, and field of degree. The Gestalt principles describe how we perceive patterns, while the EPTs describe how we most efficiently compare quantities. In this post, we continue to use income data from the American Community Survey to illustrate EPTs.&lt;/p&gt;
-&lt;div id=&#34;case-study-employment-level-by-sex&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Case study: employment level by sex&lt;/h3&gt;
-&lt;p&gt;In my &lt;a href=&#34;../income-gestalt/&#34;&gt;previous post&lt;/a&gt;, it was apparent that a gender gap in average annual income persisted even when accounting for year, highest degree, and field of degree. Another important factor that explains income is level of employment, as measured by average hours worked per week. The data for this example are once again &lt;a href=&#34;https://www.dropbox.com/s/0wmr2brny428lo3/ACS-income-data-aggregated.csv?dl=0&#34;&gt;aggregated ACS data&lt;/a&gt; from the &lt;a href=&#34;https://usa.ipums.org/usa-action/variables/group&#34;&gt;IPUMS USA&lt;/a&gt; extract system, filtered to include only employed individuals with at least a Bachelor’s degree.&lt;/p&gt;
-&lt;p&gt;Let’s start by sticking yet another pitchfork in the favorite straw man of data visualization: the pie chart. With an understanding of EPTs, we can begin to understand why pie charts are &lt;a href=&#34;http://www.businessinsider.com/pie-charts-are-the-worst-2013-6&#34;&gt;so&lt;/a&gt; &lt;a href=&#34;https://blog.funnel.io/why-we-dont-use-pie-charts-and-some-tips-on-better-data-visualizations&#34;&gt;maligned&lt;/a&gt; in the data visualization community. Take a look at the graph below, and try to determine how the percent of females working full time changes over the years:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Pie charts are fine for visualizing &lt;em&gt;parts of a single whole&lt;/em&gt; (it is easy to tell that, in any given year, a majority of women work full time), but they make it difficult to compare parts of &lt;em&gt;different wholes&lt;/em&gt; (how the percent working full time changes over the years). This comparison is difficult to make because we are comparing &lt;strong&gt;&lt;em&gt;angles&lt;/em&gt;&lt;/strong&gt;, an elementary perceptual task that we do not perform very efficiently or well. Here are the same data, different graph:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;480&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Notice that it’s now much easier to discern that the percent of females working 40 or more hours per week is increasing over time, while the percent of females working part-time is decreasing. We now compare the &lt;strong&gt;&lt;em&gt;position&lt;/em&gt;&lt;/strong&gt; of the quantities denoted by points along a common scale (the vertical Y-axis), rather than the &lt;strong&gt;&lt;em&gt;angle&lt;/em&gt;&lt;/strong&gt;. We can also still clearly see that in each year, a majority of women work full time, by comparing the points along the common vertical scale within a single year.&lt;/p&gt;
-&lt;p&gt;Let’s turn now to comparing the hours worked for females to males, in 2016 alone. We’ll use a bar chart for this: &lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;What EPT are we using to compare the percents? It is &lt;a href=&#34;http://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/&#34;&gt;tempting to think&lt;/a&gt; that when we compare quantities in bar charts, we are comparing &lt;strong&gt;&lt;em&gt;lengths&lt;/em&gt;&lt;/strong&gt; of the bars. But this is not the primary EPT we are using, here. We are really comparing &lt;strong&gt;&lt;em&gt;position along a comon scale&lt;/em&gt;&lt;/strong&gt; once again. This is clearer if we represent the quantities not as bars, but as points. We are carrying out the same exact elementary perceptual task to compare the percents:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This “point chart” has a much better &lt;a href=&#34;http://www.infovis-wiki.net/index.php/Data-Ink_Ratio&#34;&gt;&lt;em&gt;data-to-ink ratio&lt;/em&gt;&lt;/a&gt; than the bar chart, a concept coined by &lt;a href=&#34;https://www.edwardtufte.com/tufte/&#34;&gt;Edward Tufte&lt;/a&gt;. One could argue that it is cleaner and more succinct; better emphasizes the data; and exploits the same exact EPT as the bar chart. Why, then, are bar charts so pervasive while these “point charts” are not? I think the reason is two-fold. First, we just have a comfort level with bar charts. The point of a data visualization is communication: if we can communicate quicker with a more familiar medium, that has advantages. Second, perhaps more importantly, when we see points we immediately start looking for trends. &lt;strong&gt;&lt;em&gt;Direction&lt;/em&gt;&lt;/strong&gt; is one of Cleveland and McGill’s EPTs; we are more inclined to try to visually connect points than the tops of bars. However, we shouldn’t always connect points, especially if the categories on the horizontal have no sense of ordering (for example, if “race,” which has no ordering, was on the horizontal instead of employment level).&lt;/p&gt;
-&lt;p&gt;For these reasons, let’s go back to the bar chart.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;What comparison does this encourage us to make? Because of the two separate panels for females and males (the &lt;a href=&#34;../income-gestalt/&#34;&gt;Gestalt principle&lt;/a&gt; of &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt;), the encouraged comparisons seem to be &lt;em&gt;within&lt;/em&gt; sex: among females, a much greater percent of them work 40 or more hours a week than are in the other 3 categories; the same can be said for males. It is more likely that we want to compare &lt;em&gt;across&lt;/em&gt; sex: assess differences between males and females in work time. How can we better encourage this comparison? One approach is to group by hours worked, rather than sex:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This better encourages us to compare females to males, but it still requires us to jump from panel to panel to make that comparison for each employment level. Another major problem with the above graph is that the percents are calculated by conditioning &lt;em&gt;on sex&lt;/em&gt;, whereas the facets make it appear the conditioning is &lt;em&gt;on employment level&lt;/em&gt;. For example, when we see two bars representing percents in a single panel, we are tempted to think that the total height of the two bars is 100%, which is clearly not the case. The “whole” out of which the percents are taken is not at all clear.&lt;/p&gt;
-&lt;p&gt;Here’s one last take: a &lt;em&gt;stacked bar chart&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This accomplishes two objectives previous visualizations lacked: A) making the most important comparison obvious (comparing females to males), and B) making obvious “the whole” out of which the percents are taken. Note that when comparing females to males, we use &lt;strong&gt;&lt;em&gt;position along the common (vertical) axis&lt;/em&gt;&lt;/strong&gt; to compare the percents who work 40 or more hours (by determining which dark blue bar extends &lt;em&gt;highest&lt;/em&gt; on the vertical); and to compare the percents who work 20 or fewer hours (by determining which white bar extends &lt;em&gt;lowest&lt;/em&gt; on the vertical). However, to compare the percent who work 21-30 or 31-39 across sex, we use &lt;strong&gt;&lt;em&gt;length&lt;/em&gt;&lt;/strong&gt;, since the middle bars do not share a common baseline. Although we sacrifice making comparisons using &lt;strong&gt;&lt;em&gt;position along a common scale&lt;/em&gt;&lt;/strong&gt; with the stacked bar chart for two of the employment levels, we make up for it with fewer facets; more succinct presentation; and more obvious important comparisons.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;data-notes&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Data notes&lt;/h3&gt;
-&lt;p&gt;Some of the averages in the &lt;a href=&#34;https://www.dropbox.com/s/0wmr2brny428lo3/ACS-income-data-aggregated.csv?dl=0&#34;&gt;data set&lt;/a&gt; I used for this post (for example, average income for Alabaman males with a doctoral degree in 2009) are based on very few observations, and should be taken with a very large grain of salt. Another brief data note: to aggregate this data set further, it is important to weight by the &lt;code&gt;N&lt;/code&gt; column, which indicates how many individuals in the population the average for that row represents.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;r-code&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;R code&lt;/h3&gt;
-&lt;p&gt;If interested, here is the R code for creating the bar charts.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-library(dplyr)
-
-#Read in the data; assuming current working directory houses the .csv file
-tmp &amp;lt;- read.csv(&amp;#39;ACS-income-data-aggregated.csv&amp;#39;)
-
-#Filter to only 2016; aggregate incomes
-df &amp;lt;- tmp%&amp;gt;%
- filter(Year == 2016) %&amp;gt;%
-  group_by(Sex,Hours.work) %&amp;gt;%
-  summarize(count = sum(N), avg.income = weighted.mean(avg.income, N)) %&amp;gt;%
-  filter(Hours.work != &amp;quot;&amp;quot;)%&amp;gt;%
-  mutate(pct = count/sum(count))
-
-#Side by side; faceted by sex:
-ggplot(data = df) + 
- geom_bar(aes(x = Hours.work, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(palette=&amp;#39;Blues&amp;#39;) +
-  guides(fill=FALSE) +
-  theme_dark()+
-   ggtitle(&amp;#39;Employment level by sex: Bar chart&amp;#39;) +
- facet_wrap(~Sex)+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))
-
-#Side by side; faceted by employment level:
-ggplot(data = df) + 
- geom_bar(aes(x = Sex, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(palette=&amp;#39;Blues&amp;#39;) +
-  guides(fill=FALSE) +
-  theme_dark()+
- facet_grid(.~Hours.work)+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))
-
-#Stacked:
-ggplot(data = df) + 
- geom_bar(aes(x = Sex, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(name=&amp;#39;Employment level&amp;#39;,palette=&amp;#39;Blues&amp;#39;) +
-  theme_dark()+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Gestalt principles and income inequality</title>
-      <link>http://driftlessdata.space/post/income-gestalt/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/income-gestalt/</guid>
-      <description>&lt;p&gt;The fall semester is over and final grades are in, which means it’s time to reflect on what just took place and how to grow from here. Today, I reflect on my third time teaching the &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/home/&#34;&gt;data visualization course&lt;/a&gt;. This course has come a long way since the first time I taught it in Fall 2015, and yet there are still so many improvements to make! One of the concepts I want to greater emphasize next time I teach the course are the &lt;em&gt;Gestalt principles&lt;/em&gt;, which Gestalt psychologist Kurt Koffka summarizes as the idea that &lt;a href=&#34;https://www.interaction-design.org/literature/topics/gestalt-principles&#34;&gt;“The whole is &lt;em&gt;other&lt;/em&gt; than the sum of the parts.”&lt;/a&gt;. I like to think of the Gestalt principles as ground rules for how to create meaningful patterns out of chaos.&lt;/p&gt;
-&lt;p&gt;Twain Taylor has an &lt;a href=&#34;https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/&#34;&gt;excellent post&lt;/a&gt; on how the Gestalt principles manifest in data visualization. He summarizes the principles in this chart:&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;https://www.fusioncharts.com/blog/wp-content/uploads/2014/03/illustrations.jpg&#34; /&gt;
-
-&lt;/div&gt;
-&lt;p&gt;Quoting from his &lt;a href=&#34;https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/&#34;&gt;post&lt;/a&gt;;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Here is what we notice from each of the illustrations:&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Proximity&lt;/strong&gt;: We see three rows of dots instead of four columns of dots because they are closer horizontally than vertically.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Similarity&lt;/strong&gt;: We see similar looking objects as part of the same group.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enclosure&lt;/strong&gt;: We group the first four and and last four dots as two rows instead of eight dots.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Symmetry&lt;/strong&gt;: We see three pairs of symmetrical brackets rather than six individual brackets.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Closure&lt;/strong&gt;: We automatically close the square and circle instead of seeing three disconnected paths.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Continuity&lt;/strong&gt;: We see one continuous path instead of three arbitrary ones.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Connection&lt;/strong&gt;: We group the connected dots as belonging to the same group.&lt;br /&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Figure &amp;amp; ground&lt;/strong&gt;: We either notice the two faces, or the vase. Whichever we notice becomes the figure, and the other the ground&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;In my experience visualizing data, it seems the most pervasive principles are &lt;em&gt;proximity&lt;/em&gt;, &lt;em&gt;similarity&lt;/em&gt;, &lt;em&gt;enclosure&lt;/em&gt;, and &lt;em&gt;connection&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;I was struck by the ubiquitousness of these principles as I was reviewing my students’ final visualization projects. One &lt;a href=&#34;https://public.tableau.com/views/STEM_8/Salary?:embed=y&amp;amp;:display_count=yes&#34;&gt;very fine project in particular&lt;/a&gt; inspired me to write this post. Next time I teach the visualization course, I hope to include the following example to illustrate these principles to my students.&lt;/p&gt;
-&lt;div id=&#34;illustrating-the-gestalt-principles-with-acs-income-data&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Illustrating the Gestalt principles with ACS income data&lt;/h3&gt;
-&lt;p&gt;As an example data set, I settled on data over 2009-2016 from the &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt;, which I requested from the &lt;a href=&#34;https://usa.ipums.org/usa/index.shtml&#34;&gt;IPUMS USA&lt;/a&gt; data request system. I specifically requested incomes by year, sex, educational attainment, and field of degree. I filtered the data to only include those with a Bachelor’s degree or higher who were currently employed at the time of sampling, and created a new variable to indicate whether or not the field was a STEM field (using a combination of &lt;a href=&#34;http://mentornet.org/service/stem_fields.html&#34;&gt;this source&lt;/a&gt; and &lt;a href=&#34;http://stemdegreelist.com/&#34;&gt;this source&lt;/a&gt; to help me determine).&lt;/p&gt;
-&lt;p&gt;The primary question I want to visualize is: &lt;strong&gt;&lt;em&gt;What is the inequality in average income comparing males to females?&lt;/em&gt;&lt;/strong&gt; Of course, average income depends on many other factors, including field of degree, type of degree, and year, to name just a few. We’ll focus on visualizing the gender income gap adjusting for these other factors as well.&lt;/p&gt;
-&lt;p&gt;Here’s a quick look at the first six rows of the data set.&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;##   Year    Sex              Educ    Field avg.income
-## 1 2009 Female Bachelor&amp;#39;s degree Non-STEM   47440.41
-## 2 2009 Female Bachelor&amp;#39;s degree     STEM   51423.20
-## 3 2009 Female   Doctoral degree Non-STEM   77378.22
-## 4 2009 Female   Doctoral degree     STEM   87257.88
-## 5 2009 Female   Master&amp;#39;s degree Non-STEM   60549.57
-## 6 2009 Female   Master&amp;#39;s degree     STEM   65621.16&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Notably, the data set consists of one row per year/sex/education/field category, with &lt;code&gt;avg.income&lt;/code&gt; indicating the average income for that combination.&lt;/p&gt;
-&lt;p&gt;So let’s visualize! We want to investigate the gender income gap, so here’s a first go:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;288&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Mostly, this is chaos! But we do see the Gestalt principle of &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; manifest itself: we perceive the incomes on the left (belonging to females) as a group, and the incomes on the right (belonging to males) as a group. Let’s incorporate &lt;strong&gt;Year&lt;/strong&gt; on the horizontal, since we are accustomed to identifying trends across time:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;384&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;We now see year groupings by way of the &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; principle, and sex groupings via color-coding with the &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; principle. There’s still too much chaos, however. Let’s try again:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The amount of chaos is reduced dramatically, all by way of implementing the &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt; principle, specifically enclosing the highest level of educational attainments together in separate panels. This particular type of enclosure is often referred to as &lt;em&gt;faceting&lt;/em&gt; in the data visualization realm. The drastic reduction in chaos, and improvement of clarity, is due to the fact that there were four educational attainment groupings. We would not have improved the clarity as much if we had, say, grouped by field of degree instead, which only has two groups:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Faceting by educational attainment is better, so let’s continue working with that one, now indicating field of degree:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The new principle is &lt;strong&gt;&lt;em&gt;connection&lt;/em&gt;&lt;/strong&gt;. Clearly, we perceive each line as an entity, representing now a Sex/Field combination (Male/STEM, for example). Another instance of &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; is in play, since the lines for STEM fields are dashed, while the lines for non-STEM fields are solid.&lt;/p&gt;
-&lt;p&gt;So, here we have it, a visualization that illustrates the principles of &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt;, and &lt;strong&gt;&lt;em&gt;connection&lt;/em&gt;&lt;/strong&gt;. We’ve implemented these principles to significantly reduce chaos and improve clarity. But there’s still an issue with this visualization. Remember the intent of the visualization is to explore &lt;strong&gt;gender income inequality&lt;/strong&gt;. If we take another look at the above visualization, this is not the most obvious comparison to make. Rather, due to the &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;similarity&lt;/em&gt;&lt;/strong&gt; of the lines within each sex (they are close together, and of the same color), the comparison our brain is encouraged to make is to compare incomes of STEM to non-STEM, &lt;em&gt;within&lt;/em&gt; sex. That’s not the most important comparison! It makes most sense to compare males to females, &lt;em&gt;within&lt;/em&gt; field.&lt;/p&gt;
-&lt;p&gt;This brings us to a related concept: &lt;em&gt;not all means of introducing similarity are created equal&lt;/em&gt;. When we group by similarity, we tend to first recognize similarities in &lt;em&gt;color&lt;/em&gt;, then in &lt;em&gt;shape&lt;/em&gt;. Angela Wright, a color psychologist, states that &lt;a href=&#34;http://businessadvance.com/wp-content/uploads/2015/04/white-paper-sequence-of-cognition.pdf&#34;&gt;“color is noticed by the brain before shapes or wording.”&lt;/a&gt; Thus if we want the encourage the viewer to compare the sexes, we should probably color-code by field instead, so we compare income by gender &lt;em&gt;within&lt;/em&gt; field. Here’s how that looks:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;I’m still not convinced that this encourages the brain to first compare the sexes to each other. The &lt;strong&gt;&lt;em&gt;proximity&lt;/em&gt;&lt;/strong&gt; of the STEM and non-STEM lines is too hard to overcome! We might need to introduce another layer of &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt; (by way of faceting) to make the important comparison the most obvious:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/income-gestalt_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;details-on-data-collection-and-visualization&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Details on data collection and visualization&lt;/h3&gt;
-&lt;p&gt;IPUMS stands for &lt;em&gt;Integrated Public-Use Microdata Series&lt;/em&gt;. The suite of &lt;a href=&#34;https://www.ipums.org/&#34;&gt;IPUMS tools&lt;/a&gt; is an excellent source of varied data, from health to education to international census data. I aggregated the data for this example from the microdata extract, and you can download a &lt;a href=&#34;https://www.dropbox.com/s/r729zbwjjxoboy1/ACS-stem-aggregated.csv?dl=0&#34;&gt;.csv of the aggregated data here&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;R code for creating the “final two” visualizations is below:&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-#Assuming file is in current working directory:
-stemdata &amp;lt;- read.csv(&amp;quot;ACS-stem-aggregated.csv&amp;quot;)
-stemdata$Educ &amp;lt;- factor(stemdata$Educ, levels = c(&amp;quot;Bachelor&amp;#39;s degree&amp;quot;,&amp;quot;Master&amp;#39;s degree&amp;quot;,&amp;quot;Doctoral degree&amp;quot;,&amp;quot;Professional degree&amp;quot;))
-
-#Faceting by education;
-#color-coding by field;
-#different lines for Sex:
-ggplot(data = stemdata) + 
-   geom_point(aes(x = Year, y = avg.income/1000,color=Field)) +
-     geom_line(aes(x = Year, y = avg.income/1000,color=Field,linetype=Sex)) +
-                facet_grid(.~Educ)+
-  ylab(&amp;#39;Average income (in thousand $)&amp;#39;)
-
-
-#Double faceting:
-ggplot(data = stemdata) + 
-  #geom_point(aes(x = Year, y = avg.income/1000, shape=Sex)) +
-     geom_line(aes(x = Year, y = avg.income/1000,linetype=Sex)) +
-                facet_grid(Field~ Educ)+
-  ylab(&amp;#39;Average income (in thousand $)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
 </description>
     </item>
     
