@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Education on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/education/</link>
+    <description>Recent content in Education on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/education/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modeling the Vitruvian Man</title>
+      <link>http://driftlessdata.space/post/vitruvian/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/vitruvian/</guid>
+      <description>This post describes an activity I developed for Stat 310: Intermediate Statistics. This course is the second course on statistics at Winona State. I like to think of it as our “introduction to modeling” course, and this activity does just that: introduces students to the idea of a statistical model, including model assessment and fitting. The activity actually comes in two parts, administered at different times in the semester. In the first part, I am trying to get students to think about how to assess and compare proposed models using residuals.</description>
+    </item>
+    
+    <item>
+      <title>Public data resources with social justice applications</title>
+      <link>http://driftlessdata.space/post/about-social-justice/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/about-social-justice/</guid>
+      <description>Yesterday, several students and I traveled to St. Olaf to illustrate several uses of interesting, publicly-available data that can be used to investigate &amp;ldquo;social justice&amp;rdquo; issues. I&amp;rsquo;ve long been meaning to compile all the data sources and some example projects I&amp;rsquo;ve developed over the years, and this talk provided just the right motivation. Accordingly, I have compiled a list of some of my favorite data sources and example projects and student work.</description>
+    </item>
+    
+    <item>
+      <title>Public data sources with social justice applications</title>
+      <link>http://driftlessdata.space/project/social-justice-data/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/social-justice-data/</guid>
+      <description>Recently, I and some WSU student volunteers gave a talk at St. Olaf on great public data sources I have been using as sources of investigating &amp;ldquo;social justice&amp;rdquo; applications. Most of the ways I&amp;rsquo;ve used the data have been for class projects or assignments. That talk was an impetus to compile all the resources I&amp;rsquo;ve been using over the years, along with some example class projects using pre-aggregated data.</description>
+    </item>
+    
+    <item>
+      <title>Data set gold mine</title>
+      <link>http://driftlessdata.space/post/ufl/</link>
+      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/ufl/</guid>
+      <description>Quick one here. As a statistics educator I am always on the lookout for interesting, real, digestable data that illustrate important statistical concepts. That’s a tall order!
+One site that I visit again and again is this excellent repository hosted at University of Florida. Here’s the link. I regularly ping this website for classes ranging from intro stats to experimental design to regression analysis. Not only are they varied in scope and organized by topic, they also have brief descriptions and citations of original sources.</description>
+    </item>
+    
+    <item>
+      <title>Notes from Liberal Arts Data Science Workshop</title>
+      <link>http://driftlessdata.space/post/lads/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/lads/</guid>
+      <description>When temperatures hit 0&amp;deg;F in Minnesota, what better remedy than to head to Florida and talk data science curriculum! The 2-day workshop was held at the New College of Florida in Sarasota, FL. This post reflects some of the ideas circulated at the workshop that stood out to me.
+Multivariate thinking and the introductory statistics and data science course: preparing students to make sense of a world of observational data (Nick Horton) In this talk, Dr.</description>
+    </item>
+    
+    <item>
+      <title>What students have to say about group homework</title>
+      <link>http://driftlessdata.space/post/group-homework/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/group-homework/</guid>
+      <description>The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why *I* think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the students think. I think it’s quite striking!
+First, though, I do need to provide a couple quick details about how I manage group homework.</description>
+    </item>
+    
+  </channel>
+</rss>

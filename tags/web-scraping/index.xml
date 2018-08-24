@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web-scraping on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/web-scraping/</link>
+    <description>Recent content in Web-scraping on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Tue, 31 Oct 2017 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/web-scraping/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Quantifying thrill</title>
+      <link>http://driftlessdata.space/post/viz-worldseries-wpa/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-worldseries-wpa/</guid>
+      <description>Monday morning, October 30, found me groggy and sandy-eyed. The culprit was the 5-hour and 17-minute, 10-inning thriller between the LA Dodgers and Houston Astros in Game 5 of the 2017 the night before. Thanks to living in the Central Time Zone, I went to bed around 1am. The Astros ended up defeating the Dodgers 13-12, but the game was insane, featuring three comebacks from deficits of 3 runs or more.</description>
+    </item>
+    
+    <item>
+      <title>#OscarsSoWhite</title>
+      <link>http://driftlessdata.space/post/viz-oscars/</link>
+      <pubDate>Sun, 28 Feb 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-oscars/</guid>
+      <description>As I was watching Chris Rock host the 2016 Oscars, I decided to finally scratch my curiosity itch and learn R&amp;rsquo;s Twitter API, twitteR. The 2016 Oscars were controversial, due to the fact that all the actors and actresses nominated were white for the second year in a row. Chris Rock made sure to point this out in his opening monologue, and tweets began using the hashtag #OscarsSoWhite to advance the conversation.</description>
+    </item>
+    
+  </channel>
+</rss>

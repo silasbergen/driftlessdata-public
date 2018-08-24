@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data visualization on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/data-visualization/</link>
+    <description>Recent content in Data visualization on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/data-visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data vizzing in Japan</title>
+      <link>http://driftlessdata.space/post/icots/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/icots/</guid>
+      <description>This July, my colleage Todd Iverson and I had the incredible opportunity to lead a pre-conference workshop at ICOTS 10 in Kyoto, Japan. Our workshop was titled Data visualization: best practices and principles using Tableau Public and Python.
+Our workshop began by covering Leland Wilkinson&amp;rsquo;s grammar of graphics. Most data visualization software (Tableau, Python, R, JMP) employ some version of this grammar, and with a firm understanding it becomes easy to transition between them.</description>
+    </item>
+    
+    <item>
+      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
+      <link>http://driftlessdata.space/project/icots-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web scraping and data visualization with Python and Tableau</title>
+      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Public data sources with social justice applications</title>
+      <link>http://driftlessdata.space/project/social-justice-data/</link>
+      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/social-justice-data/</guid>
+      <description>Recently, I and some WSU student volunteers gave a talk at St. Olaf on great public data sources I have been using as sources of investigating &amp;ldquo;social justice&amp;rdquo; applications. Most of the ways I&amp;rsquo;ve used the data have been for class projects or assignments. That talk was an impetus to compile all the resources I&amp;rsquo;ve been using over the years, along with some example class projects using pre-aggregated data.</description>
+    </item>
+    
+    <item>
+      <title>On elementary perceptual tasks</title>
+      <link>http://driftlessdata.space/post/on-epts/</link>
+      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/on-epts/</guid>
+      <description>One of the first concepts I talk about in my data visualization course is the idea of the elementary perceptual task (EPT), an idea explored in depth by visualization pioneers William S. Cleveland and Robert McGill. Essentially, EPTs are visual building blocks for comparing quantities. The EPTs are summarized nicely in Figure 1 from Graphical Perception: Theory, Experiementation, and Application to the Development of Graphical Methods:
+For example, looking at the two dots in the upper-left pane, we perceive that the top dot represents a larger quantity than the bottom dot, because it is higher on a common scale than the bottom dot.</description>
+    </item>
+    
+    <item>
+      <title>Gestalt principles and income inequality</title>
+      <link>http://driftlessdata.space/post/income-gestalt/</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/income-gestalt/</guid>
+      <description>The fall semester is over and final grades are in, which means it’s time to reflect on what just took place and how to grow from here. Today, I reflect on my third time teaching the data visualization course. This course has come a long way since the first time I taught it in Fall 2015, and yet there are still so many improvements to make! One of the concepts I want to greater emphasize next time I teach the course are the Gestalt principles, which Gestalt psychologist Kurt Koffka summarizes as the idea that “The whole is other than the sum of the parts.</description>
+    </item>
+    
+    <item>
+      <title>And the winner is...</title>
+      <link>http://driftlessdata.space/post/policedatachallenge/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/policedatachallenge/</guid>
+      <description>The midterm project for my data visualization course this past fall required students to submit to the ASA&amp;rsquo;s Police Data Challenge. The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle). I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.
+Several weeks later, we received the exciting news that one of the teams won &amp;ldquo;Best Overall&amp;rdquo; among undergraduate teams!</description>
+    </item>
+    
+    <item>
+      <title>Quantifying thrill</title>
+      <link>http://driftlessdata.space/post/viz-worldseries-wpa/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-worldseries-wpa/</guid>
+      <description>Monday morning, October 30, found me groggy and sandy-eyed. The culprit was the 5-hour and 17-minute, 10-inning thriller between the LA Dodgers and Houston Astros in Game 5 of the 2017 the night before. Thanks to living in the Central Time Zone, I went to bed around 1am. The Astros ended up defeating the Dodgers 13-12, but the game was insane, featuring three comebacks from deficits of 3 runs or more.</description>
+    </item>
+    
+    <item>
+      <title>Racial disparity in Winona Area Public School District</title>
+      <link>http://driftlessdata.space/post/viz-waps-disparity/</link>
+      <pubDate>Thu, 29 Dec 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-waps-disparity/</guid>
+      <description>This visualization project was inspired by the excellent This American Life episode,  Is This Working?   The entire episode is well worth a listen, but the gist of the episode was that racial inequity in disciplinary action translates into racial inequity in academic outcomes. I was curious to see if this association held up, in the Winona Area Public Schools, using publicly available data from the Minnesota Department of Education Data Center.</description>
+    </item>
+    
+    <item>
+      <title>#OscarsSoWhite</title>
+      <link>http://driftlessdata.space/post/viz-oscars/</link>
+      <pubDate>Sun, 28 Feb 2016 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/viz-oscars/</guid>
+      <description>As I was watching Chris Rock host the 2016 Oscars, I decided to finally scratch my curiosity itch and learn R&amp;rsquo;s Twitter API, twitteR. The 2016 Oscars were controversial, due to the fact that all the actors and actresses nominated were white for the second year in a row. Chris Rock made sure to point this out in his opening monologue, and tweets began using the hashtag #OscarsSoWhite to advance the conversation.</description>
+    </item>
+    
+  </channel>
+</rss>

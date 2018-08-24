@@ -8,7 +8,83 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="http://driftlessdata.space/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>http://driftlessdata.space/home/hero/</link>
+      <pubDate>Sun, 15 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/home/hero/</guid>
+      <description>
+(function defer() { if (window.jQuery) { jQuery(document).ready(function(){ GetLatestReleaseInfo(); }); } else { setTimeout(function() { defer() }, 50); } })(); function GetLatestReleaseInfo() { $.getJSON(&#39;https://api.github.com/repos/gcushen/hugo-academic/tags&#39;).done(function (json) { let release = json[0]; // let downloadURL = release.zipball_url; $(&#39;#academic-release&#39;).text(&#39;Latest release &#39; + release.name); }); }  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://driftlessdata.space/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/about/</guid>
+      <description>About me  I am an assistant professor of statistics and data science at Winona State University, located in the heart of the Mississippi River driftless region in Winona, MN. My passion is teaching: specifically how to understand data and its limitations; generally how to think hard and carefully in this post-truth era. Other professional interests include statistical consulting and data visualization best principles and practice. Check out my Tableau Public profile  for examples of my own and student visualizations.</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>http://driftlessdata.space/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/teaching/</guid>
+      <description>Courses I am teaching or have previously taught:
+ STAT 110: Fundamentals of statistics STAT 310: Intermediate statistics STAT 370: Statistical consulting and communication DSCI 310: Data summarization and visualization STAT 365: Experimental design and analysis STAT 450: Mathematical statistics I STAT 460: Mathematical statistics II  </description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>http://driftlessdata.space/home/posts/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Past presentations</title>
+      <link>http://driftlessdata.space/home/talks/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>http://driftlessdata.space/home/projects/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tags</title>
+      <link>http://driftlessdata.space/home/tags/</link>
+      <pubDate>Wed, 20 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/home/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>http://driftlessdata.space/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

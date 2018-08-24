@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/python/</link>
+    <description>Recent content in Python on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Sat, 14 Jul 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
+      <link>http://driftlessdata.space/project/icots-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web scraping and data visualization with Python and Tableau</title>
+      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

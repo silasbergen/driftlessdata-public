@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/</link>
+    <description>Recent content in Tags on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Content tagged as &#39;Academic&#39;</title>
+      <link>http://driftlessdata.space/tags/academic/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/academic/</guid>
+      <description>Here is a list of all the content that has been tagged as academic.</description>
+    </item>
+    
+    <item>
+      <title>Baseball</title>
+      <link>http://driftlessdata.space/tags/baseball/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/baseball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data visualization</title>
+      <link>http://driftlessdata.space/tags/data-visualization/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/data-visualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Education</title>
+      <link>http://driftlessdata.space/tags/education/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://driftlessdata.space/tags/python/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>http://driftlessdata.space/tags/r/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Students</title>
+      <link>http://driftlessdata.space/tags/students/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/students/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tableau</title>
+      <link>http://driftlessdata.space/tags/tableau/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/tableau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web-scraping</title>
+      <link>http://driftlessdata.space/tags/web-scraping/</link>
+      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/web-scraping/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

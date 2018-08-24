@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Students on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/students/</link>
+    <description>Recent content in Students on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/students/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Modeling the Vitruvian Man</title>
+      <link>http://driftlessdata.space/post/vitruvian/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/vitruvian/</guid>
+      <description>This post describes an activity I developed for Stat 310: Intermediate Statistics. This course is the second course on statistics at Winona State. I like to think of it as our “introduction to modeling” course, and this activity does just that: introduces students to the idea of a statistical model, including model assessment and fitting. The activity actually comes in two parts, administered at different times in the semester. In the first part, I am trying to get students to think about how to assess and compare proposed models using residuals.</description>
+    </item>
+    
+    <item>
+      <title>What students have to say about group homework</title>
+      <link>http://driftlessdata.space/post/group-homework/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/group-homework/</guid>
+      <description>The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why *I* think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the students think. I think it’s quite striking!
+First, though, I do need to provide a couple quick details about how I manage group homework.</description>
+    </item>
+    
+    <item>
+      <title>And the winner is...</title>
+      <link>http://driftlessdata.space/post/policedatachallenge/</link>
+      <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/policedatachallenge/</guid>
+      <description>The midterm project for my data visualization course this past fall required students to submit to the ASA&amp;rsquo;s Police Data Challenge. The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle). I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.
+Several weeks later, we received the exciting news that one of the teams won &amp;ldquo;Best Overall&amp;rdquo; among undergraduate teams!</description>
+    </item>
+    
+    <item>
+      <title>Minne MUDAC 2017</title>
+      <link>http://driftlessdata.space/post/minnemudac/</link>
+      <pubDate>Fri, 10 Nov 2017 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/minnemudac/</guid>
+      <description>Winona State University undergraduates made a great impression at the 2017 MinneMUDAC data analytics competition    
+On November 3-4, Winona State statistics and data science students participated in the fantastic MinneMUDAC 2017 data analytics competition. Students worked in teams of up to five students for one month analyzing de-identified administrative medical and pharmacy claims data provided by Optum. The competition required students to analyze complicated data on health insurance claims made by Type-II diabetics.</description>
+    </item>
+    
+    <item>
+      <title>A summer REU at Winona State</title>
+      <link>http://driftlessdata.space/post/winstats/</link>
+      <pubDate>Sun, 10 Sep 2017 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/winstats/</guid>
+      <description>This past summer, I along with my colleagues Chris Malone and Brant Deppa had the fantastic opportunity to host four students for a 10-week summer research experience for undergraduates (REU). Winona State was awarded the REU by the American Statistical Association, which had received a grant from the NSF to fund four students at each of nine sites over the course of three years (three different sites per year).
+Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Iowa State), and Eva Tourangeau (Lawrence) were selected from a competitive, national pool of undergraduates.</description>
+    </item>
+    
+  </channel>
+</rss>
