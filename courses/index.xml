@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://driftlessdata.space/courses/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>Office hours (Gildemeister 124D) MWF: 9:30-11:30; Tue/Th 8:30-10:30
+Upcoming    Date Done by class In class     Tues 8/28 NA Welcome! &amp;amp; install JMP   Thurs 8/30 NA Surprise!   Tues 9/4 Lectures 1 &amp;amp; 2 videos, D2L practice quizzes Practice problems, in-class D2L quiz   Thurs 9/6 NA HW 1 (random groups)    Resources  Syllabus JMP installation instructions Tutoring services  Lectures  Lecture 1: Introduction to data | PPT | PDF | Video Lecture 2: Summarizing a single variable | PPT | PDF | Video 1 | Video 2  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!</description>
+    </item>
+    
+    <item>
+      <title>Stat 303: Intro to engineering statistics (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat303/stat303-home/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat303/stat303-home/</guid>
+      <description> Fall 2018 Office hours MWF 9:30-11:30; Tues/Th 8:30-10:30
+Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio  Lectures  Lecture 1: Intro to probability  Homework  Homework 1 (getting up and running with R and R Markdown)  </description>
+    </item>
     
     <item>
       <title>Stat 370: Statistical consulting and communication</title>
@@ -28,16 +48,6 @@
       
       <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
       <description>STAT 450: Mathematical statistics I Fall 2018 INSTRUCTOR: Dr. Silas Bergen OFFICE: Gildemeister 124D Prerequisites:  Math 312 (Multivariable calculus) Math 337 (Probability); concurrent enrollment OK Eng 111  Course summary STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution.</description>
-    </item>
-    
-    <item>
-      <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
-      <description>Resources  Welcome video! Syllabus JMP installation instructions Binomial JMP script  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)
- -- Data  Backpack data Back pain data Birth weight data Body Image Body temp data BRFSS data California expenditures data Calories data Civil Rights Act Vote Commute times Confederate Flag data Deodorant data Dog explosives data Ear effusion data FEV data Gun data HIV data Iraq War data Kidney Stone data Lions data Lower back pain LSD math score data Lung cancer data Lymphedenopathy data Nicotine lozenge data Pancreatic cancer data Parent attitude data Parole prediction data</description>
     </item>
     
     <item>
@@ -108,10 +118,11 @@ Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2
       
       <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
       <description>Stat 110: Fundamentals of statistics Required software
- JMP - available from WSU network for free. Download instructions Tinkerplots - costs $7. Download instructions  Optional text
+ JMP - available from WSU network for free. Download instructions  Optional text
 There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
 Prerequisites
-Qualifying score on the mathematics placement exam or MATH 050.</description>
+Qualifying score on the mathematics placement exam or MATH 050.
+Basic Skills Learning Outcomes</description>
     </item>
     
     <item>
@@ -228,7 +239,8 @@ Notes  Principles of data visualization Intro to Tableau Univariate visualizatio
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat450/stat450-home/</guid>
-      <description> Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio ggplot2 cheat sheet
+      <description> Fall 2018 Office hours MWF 9:30-11:30; Tues/Th 8:30-10:30
+Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio ggplot2 cheat sheet
  R Markdown cheat sheet  Notes  Chapter 2: Review of probability | pdf | Rmd  Homework  Homework 0 (getting up and running with R and R Markdown)  </description>
     </item>
     

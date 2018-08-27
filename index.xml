@@ -11,279 +11,75 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Stat 370: Statistical consulting and communication</title>
-      <link>http://driftlessdata.space/courses/stat370/stat370-home/</link>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat370/stat370-home/</guid>
-      <description>
-
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ajt0ucyt7j5nv2p/syllabus-F18.docx?dl=0&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/sh/20o07cwxzxdgfan/AABbyVKBrvjuYdSaxJnDx7v1a?dl=0&#34;&gt;Dropbox folder (password sent via email)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;calendar-of-events&#34;&gt;Calendar of events&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Events&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Mon 8/27&lt;/td&gt;
-&lt;td&gt;Elizabeth Larson (3:10 via Adobe Connect); Mary Fawcett (4:00)&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u66uoi5fk2o9qp5/What%20is%20a%20statistical%20consultant.pptx?dl=0&#34;&gt;What is a statistical consultant?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://driftlessdata.space/courses/stat450/syllabus/</link>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
-      <description>
-
-&lt;h3 id=&#34;stat-450-mathematical-statistics-i-stat450-home&#34;&gt;&lt;a href=&#34;../stat450-home/&#34;&gt;STAT 450: Mathematical statistics I&lt;/a&gt;&lt;/h3&gt;
-
-&lt;h3 id=&#34;fall-2018&#34;&gt;Fall 2018&lt;/h3&gt;
-
-&lt;h3 id=&#34;instructor-dr-silas-bergen&#34;&gt;INSTRUCTOR: Dr. Silas Bergen&lt;/h3&gt;
-
-&lt;h3 id=&#34;office-gildemeister-124d&#34;&gt;OFFICE: Gildemeister 124D&lt;/h3&gt;
-
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Math 312 (Multivariable calculus)&lt;/li&gt;
-&lt;li&gt;Math 337 (Probability); concurrent enrollment OK&lt;/li&gt;
-&lt;li&gt;Eng 111&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;course-summary&#34;&gt;Course summary&lt;/h3&gt;
-
-&lt;p&gt;STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution. The successful student in STAT 460 will leave the course with a basic understanding of many of the important foundational concepts in statistical inference, namely estimation (with confidence) and hypothesis testing. In addition, students will be comfortable using a wide variety of mathematical tools for solving statistical inference problems.&lt;/p&gt;
-
-&lt;p&gt;Along the way, students will also become adept at using R to investigate and solve statistical problems.&lt;/p&gt;
-
-&lt;h3 id=&#34;course-text&#34;&gt;Course text&lt;/h3&gt;
-
-&lt;p&gt;The required text for this course is Mathematical Statistics with Applications by Wackerly, Mendenhall, &amp;amp; Scheaffer, 7th edition (WMS7).  Students may share copies of this book, although students planning on continuing to graduate school are encouraged to have their own copy.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Mathematical-Statistics-Applications-Dennis-Wackerly/dp/0495110817/ref=sr_1_1?ie=UTF8&amp;amp;qid=1471463588&amp;amp;sr=8-1&amp;amp;keywords=mathematical+statistics+wackerly&#34;&gt;Amazon link&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://web.csulb.edu/~okoroste/wackerly.pdf&#34;&gt;Kindle version&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;course-outline&#34;&gt;Course outline&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Ch. 1 - What is Statistics? (review)&lt;/li&gt;
-&lt;li&gt;Ch. 2 - Probability (review)&lt;/li&gt;
-&lt;li&gt;Ch. 3 - Discrete Random Variables (review)&lt;/li&gt;
-&lt;li&gt;Ch. 4 - Continuous Random Variables (review)&lt;/li&gt;
-&lt;li&gt;Ch. 5 - Bivariate and Multivariate Distributions&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 6 - Functions of Random Variables&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 7 - Sampling Distributions and the CLT&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 8 - Estimation&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 9 - Properties of Point Estimators and Methods of Estimation&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 10 - Hypothesis Testing&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Ch. 16 - Introduction to Bayesian Methods for Inference&lt;/li&gt;
-&lt;li&gt;Other Chapters and Topics (time permitting)  Selected topics and sections from Ch. 11 - 15 and others not included in the text, e.g. resampling methods.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;statistical-computing&#34;&gt;Statistical computing&lt;/h2&gt;
-
-&lt;p&gt;We will use the open-source R programming language extensively throughout this course, both in the course notes and through regular R-specific assignments.   Please download R and R studio using the links below.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;writing-intensive&#34;&gt;Writing intensive&lt;/h2&gt;
-
-&lt;p&gt;This course is a Writing Intensive Course in the General Education Program. This promotes your abilities to&amp;hellip;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Practice the processes and procedures for creating and completing successful writing in their fields&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Understand the main features and uses of writing in their fields&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Adapt their writing to the general expectations of readers in their fields&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Make use of the technologies commonly used for research and writing in their fields&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Learn the conventions of evidence, format, usage, and documentation in their fields&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
-
-&lt;p&gt;Your final grade will be determined based on the following criteria:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Presentations (10%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;On a regular basis throughout the semester, I will assign problems that you will be required to present to the class.  These may be either problems from the textbook, or additional problems that I assign.  You will have at least 2 days to work on the problem before presenting.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homework (30%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Submitted homework will be comprised of two parts:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;em&gt;Theoretical problems:&lt;/em&gt; These will primarily be problems assigned from WMS7.  Students are encouraged, but not required, to submit these homework solutions using R Markdown/LaTeX.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Investigative problems:&lt;/em&gt; In addition to the theoretical problems, there will be regular problems that require the use of R to investigate some aspect of the content covered in class.  &lt;strong&gt;&lt;em&gt;Solutions to these assignments must be submitted as a knitted html document.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Writing project (10%)&lt;/em&gt;&lt;/strong&gt;
-This  will require the use of &lt;code&gt;R Markdown&lt;/code&gt; and LaTeX to submit a written solved problem investigated using both an analytically and mathematically rigorous approach and a simulation approach to problem-solving.  Both are examples of writing that are relevant to the field of statistics. You will peer-critique each other&amp;rsquo;s work and have a chance to revise the project before submitting a final draft.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Midterm exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The Midterm exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Similar to the Midterm, the Final exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data vizzing in Japan</title>
-      <link>http://driftlessdata.space/post/icots/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
-      
-      <guid>http://driftlessdata.space/post/icots/</guid>
-      <description>&lt;p&gt;This July, my colleage Todd Iverson and I had the incredible opportunity to lead a &lt;a href=&#34;https://icots.info/10/?workshop=E&#34;&gt;pre-conference workshop&lt;/a&gt; at &lt;a href=&#34;https://icots.info/10/&#34;&gt;ICOTS 10&lt;/a&gt; in Kyoto, Japan.  Our workshop was titled &lt;em&gt;Data visualization: best practices and principles using Tableau Public and Python.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Our workshop began by covering &lt;a href=&#34;https://www.springer.com/us/book/9780387245447&#34;&gt;Leland Wilkinson&amp;rsquo;s grammar of graphics&lt;/a&gt;.  Most data visualization software (Tableau, Python, R, JMP) employ some version of this grammar, and with a firm understanding it becomes easy to transition between them.  We focused primarily on Tableau and Python in our workshop.  All the workshop materials are available at the designated &lt;a href=&#34;https://github.com/WSU-DataScience/ICOTS10_Data_Visualization&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It was an engaging four hours that felt more like one hour, with participants from all over the world!  Our fantastic crew:&lt;/p&gt;
-
-&lt;p&gt;&lt;center&gt;
- &lt;figure&gt;
-    &lt;img width=&#34;500&#34; src=&#34;http://driftlessdata.space/img/icots.jpg&#34;&gt;
- &lt;/figure&gt;
-&lt;/center&gt;&lt;/p&gt;
-
-&lt;p&gt;ICOTS 10 itself was fantastic, including keynotes from Chris Wild, Hillary Parker, and Anna Rosling R&amp;ouml;nnlund. And of course, we made time to explore and sample the local cuisine.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/img/fushimi.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/ramen.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;p style=&#34;clear: both;&#34;&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
-      <link>http://driftlessdata.space/project/icots-workshop/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Web scraping and data visualization with Python and Tableau</title>
-      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Modeling the Vitruvian Man</title>
-      <link>http://driftlessdata.space/post/vitruvian/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/vitruvian/</guid>
-      <description>&lt;p&gt;This post describes an activity I developed for Stat 310: Intermediate Statistics. This course is the second course on statistics at Winona State. I like to think of it as our “introduction to modeling” course, and this activity does just that: introduces students to the idea of a statistical model, including model assessment and fitting. The activity actually comes in two parts, administered at different times in the semester. In the first part, I am trying to get students to think about how to assess and compare proposed models using residuals. In the second, students need to fit their own models, and compare performance of fitted models.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rgco495f3mhy9my/Vitruvian%20man.docx?dl=0&#34;&gt;Link to Part 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Link to Part 2 (Question 3)&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The &lt;em&gt;Vitruvian Man&lt;/em&gt; is a well-known drawing and study by Leonardo DaVinci:&lt;/p&gt;
-&lt;div class=&#34;figure&#34;&gt;
-&lt;img src=&#34;http://driftlessdata.space/img/vitruvian-man.jpg&#34; alt=&#34;Figure Source:  https://en.wikipedia.org/wiki/Vitruvian_Man&#34; /&gt;
-&lt;p class=&#34;caption&#34;&gt;Figure Source: &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34;&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34; class=&#34;uri&#34;&gt;https://en.wikipedia.org/wiki/Vitruvian_Man&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;This work is sometimes referred to as &lt;em&gt;Canon of Proportions&lt;/em&gt;, and is essentially a series of proposed proportions. My activity focuses on two of these proportions:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;the length of the outspread arms is equal to the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;the distance from the elbow to the tip of the hand is a quarter of the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div id=&#34;part-1-comparing-proposed-models&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Part 1: comparing proposed models&lt;/h2&gt;
-&lt;p&gt;These proportions proposed by DaVinci are essentially two proposed statistical models! We can test these models by collecting some data. This I did by having the students pair up and measure the following three quantities:&lt;/p&gt;
-&lt;p&gt;A. Height;&lt;br /&gt;
-B. “Wingspan” (length of the outspread arms);&lt;br /&gt;
-C. “Elbow-tip” (the distance from the elbow to the tip of the hand).&lt;/p&gt;
-&lt;p&gt;With these three measurements, we can assess which of DaVinci’s proposed proportions is “best!” Notice that his first proportion is like fitting the model:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times Wingspan + \epsilon\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;In this model, both the intercept and the slope are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;The second model is:&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times ElbowTip + \epsilon\]&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Again in this model, the model parameters are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 4\)&lt;/span&gt;.&lt;/p&gt;
-&lt;p&gt;So which model is better?! This motivates finding the modeled &lt;span class=&#34;math inline&#34;&gt;\(\widehat{Height}\)&lt;/span&gt; given each equation, and comparing the sum of squared residuals, &lt;em&gt;SSError&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;But first, let’s visualize! Here is a scatterplot of Height vs Wingspan using the data collected by the 22 students in my Spring 2018 section of Stat 310. The line indicates the proposed model with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;The model is about perfect for two students; but clearly imperfect for the other 20. What about Elbow-Tip?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Clearly, this fit looks worse. We can quantify this by computing SSError, which equals 156 using wingspan and 504 using Elbow-Tip.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;part-2-fitting-simple-linear-regression-models&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Part 2: Fitting simple linear regression models&lt;/h2&gt;
-&lt;p&gt;So, DaVinci’s proposed model using Wingspan wasn’t horrible, but the proposal using Elbow-Tip was. Can we improve these proposed proportions by fitting simple linear regression models, and if so, which &lt;em&gt;fitted&lt;/em&gt; model is best?&lt;/p&gt;
-&lt;p&gt;The figure below shows the actual height plotted versus the fitted heights from the two mdoels, along with the (0,1) line:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;It’s difficult to tell which model performs best! Here we really do need the SSErrors, which are 117.8 using wingspan and 122.4 using Elbow-Tip. So, close! But Wingspan slightly out-performs Elbow-Tip as a predictor of height. (Of course, these are in-sample SSErrors; a more accurate comparison would cross-validate which we discuss later in the course.)&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
       <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
-      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
       <description>
 
-&lt;!--
-### Office hours (Gildemeister 124D)
-MWF: 9-12; TH: 11-12
+&lt;h3 id=&#34;office-hours-gildemeister-124d&#34;&gt;Office hours (Gildemeister 124D)&lt;/h3&gt;
 
+&lt;p&gt;MWF: 9:30-11:30; Tue/Th 8:30-10:30&lt;/p&gt;
+
+&lt;!--
 ### Course evaluation
 
 Complete the course evaluation by [following this link](https://winona.az1.qualtrics.com/jfe/form/SV_29KvCdECpznGJJb).  Upload screenshot of confirmation message at the end of the survey for 1% extra credit added on to your overall grade!
 --&gt;
 
+&lt;h3 id=&#34;upcoming&#34;&gt;Upcoming&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Done by class&lt;/th&gt;
+&lt;th&gt;In class&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Tues 8/28&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;td&gt;Welcome! &amp;amp; install JMP&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thurs 8/30&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;td&gt;Surprise!&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Tues 9/4&lt;/td&gt;
+&lt;td&gt;Lectures 1 &amp;amp; 2 videos, D2L practice quizzes&lt;/td&gt;
+&lt;td&gt;Practice problems, in-class D2L quiz&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thurs 9/6&lt;/td&gt;
+&lt;td&gt;NA&lt;/td&gt;
+&lt;td&gt;HW 1 (random groups)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
 &lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://mediaspace.minnstate.edu/media/welcome+video.mp4/0_zqjvrmm9&#34;&gt;Welcome video!&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;../syllabus-summer2018/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c9jxaao3isbgq2a/JMP-installation-instructions.pdf?dl=0&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/amjwf4c0mv6xg6a/BinomialScript.jsl?dl=0&#34;&gt;Binomial JMP script&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;Tutoring services&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- 
-* [Tutoring services](http://www.winona.edu/tutoring/)
---&gt;
+&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture 1: Introduction to data | &lt;a href=&#34;https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+1A+Intro+to+data+-+Quiz/0_fjx8jaqx&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 2: Summarizing a single variable | &lt;a href=&#34;https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+1%29+-+Quiz/0_7aowpg43&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+2%29/0_jd2i1qw1&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;!--
 
@@ -625,6 +421,288 @@ data&lt;/a&gt;&lt;/li&gt;
 data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stat 303: Intro to engineering statistics (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat303/stat303-home/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat303/stat303-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;fall-2018-office-hours&#34;&gt;Fall 2018 Office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF 9:30-11:30; Tues/Th 8:30-10:30&lt;/p&gt;
+
+&lt;h3 id=&#34;syllabus-https-www-dropbox-com-s-4imy2nt9xcq2zds-stat303-20syllabus-20f18-docx-dl-0&#34;&gt;&lt;a href=&#34;https://www.dropbox.com/s/4imy2nt9xcq2zds/STAT303%20Syllabus%20F18.docx?dl=0&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/free-introduction-to-r&#34;&gt;Free Intro to R course on Data Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial&#34;&gt;Writing R functions tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/7uo8919m7kl1msx/1%20-%20Intro%20to%20Probability.pptx?dl=0&#34;&gt;Lecture 1: Intro to probability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/mn1dpu0vu7u8m1n/HW1.pdf?dl=0&#34;&gt;Homework 1 (getting up and running with &lt;code&gt;R&lt;/code&gt; and &lt;code&gt;R Markdown&lt;/code&gt;)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stat 370: Statistical consulting and communication</title>
+      <link>http://driftlessdata.space/courses/stat370/stat370-home/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat370/stat370-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ajt0ucyt7j5nv2p/syllabus-F18.docx?dl=0&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/sh/20o07cwxzxdgfan/AABbyVKBrvjuYdSaxJnDx7v1a?dl=0&#34;&gt;Dropbox folder (password sent via email)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;calendar-of-events&#34;&gt;Calendar of events&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Events&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Mon 8/27&lt;/td&gt;
+&lt;td&gt;Elizabeth Larson (3:10 via Adobe Connect); Mary Fawcett (4:00)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u66uoi5fk2o9qp5/What%20is%20a%20statistical%20consultant.pptx?dl=0&#34;&gt;What is a statistical consultant?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat450/syllabus/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-450-mathematical-statistics-i-stat450-home&#34;&gt;&lt;a href=&#34;../stat450-home/&#34;&gt;STAT 450: Mathematical statistics I&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;fall-2018&#34;&gt;Fall 2018&lt;/h3&gt;
+
+&lt;h3 id=&#34;instructor-dr-silas-bergen&#34;&gt;INSTRUCTOR: Dr. Silas Bergen&lt;/h3&gt;
+
+&lt;h3 id=&#34;office-gildemeister-124d&#34;&gt;OFFICE: Gildemeister 124D&lt;/h3&gt;
+
+&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Math 312 (Multivariable calculus)&lt;/li&gt;
+&lt;li&gt;Math 337 (Probability); concurrent enrollment OK&lt;/li&gt;
+&lt;li&gt;Eng 111&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;course-summary&#34;&gt;Course summary&lt;/h3&gt;
+
+&lt;p&gt;STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution. The successful student in STAT 460 will leave the course with a basic understanding of many of the important foundational concepts in statistical inference, namely estimation (with confidence) and hypothesis testing. In addition, students will be comfortable using a wide variety of mathematical tools for solving statistical inference problems.&lt;/p&gt;
+
+&lt;p&gt;Along the way, students will also become adept at using R to investigate and solve statistical problems.&lt;/p&gt;
+
+&lt;h3 id=&#34;course-text&#34;&gt;Course text&lt;/h3&gt;
+
+&lt;p&gt;The required text for this course is Mathematical Statistics with Applications by Wackerly, Mendenhall, &amp;amp; Scheaffer, 7th edition (WMS7).  Students may share copies of this book, although students planning on continuing to graduate school are encouraged to have their own copy.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Mathematical-Statistics-Applications-Dennis-Wackerly/dp/0495110817/ref=sr_1_1?ie=UTF8&amp;amp;qid=1471463588&amp;amp;sr=8-1&amp;amp;keywords=mathematical+statistics+wackerly&#34;&gt;Amazon link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.csulb.edu/~okoroste/wackerly.pdf&#34;&gt;Kindle version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;course-outline&#34;&gt;Course outline&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ch. 1 - What is Statistics? (review)&lt;/li&gt;
+&lt;li&gt;Ch. 2 - Probability (review)&lt;/li&gt;
+&lt;li&gt;Ch. 3 - Discrete Random Variables (review)&lt;/li&gt;
+&lt;li&gt;Ch. 4 - Continuous Random Variables (review)&lt;/li&gt;
+&lt;li&gt;Ch. 5 - Bivariate and Multivariate Distributions&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 6 - Functions of Random Variables&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 7 - Sampling Distributions and the CLT&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 8 - Estimation&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 9 - Properties of Point Estimators and Methods of Estimation&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 10 - Hypothesis Testing&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 16 - Introduction to Bayesian Methods for Inference&lt;/li&gt;
+&lt;li&gt;Other Chapters and Topics (time permitting)  Selected topics and sections from Ch. 11 - 15 and others not included in the text, e.g. resampling methods.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;statistical-computing&#34;&gt;Statistical computing&lt;/h2&gt;
+
+&lt;p&gt;We will use the open-source R programming language extensively throughout this course, both in the course notes and through regular R-specific assignments.   Please download R and R studio using the links below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;writing-intensive&#34;&gt;Writing intensive&lt;/h2&gt;
+
+&lt;p&gt;This course is a Writing Intensive Course in the General Education Program. This promotes your abilities to&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Practice the processes and procedures for creating and completing successful writing in their fields&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Understand the main features and uses of writing in their fields&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Adapt their writing to the general expectations of readers in their fields&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Make use of the technologies commonly used for research and writing in their fields&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Learn the conventions of evidence, format, usage, and documentation in their fields&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+
+&lt;p&gt;Your final grade will be determined based on the following criteria:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Presentations (10%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On a regular basis throughout the semester, I will assign problems that you will be required to present to the class.  These may be either problems from the textbook, or additional problems that I assign.  You will have at least 2 days to work on the problem before presenting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homework (30%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Submitted homework will be comprised of two parts:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Theoretical problems:&lt;/em&gt; These will primarily be problems assigned from WMS7.  Students are encouraged, but not required, to submit these homework solutions using R Markdown/LaTeX.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Investigative problems:&lt;/em&gt; In addition to the theoretical problems, there will be regular problems that require the use of R to investigate some aspect of the content covered in class.  &lt;strong&gt;&lt;em&gt;Solutions to these assignments must be submitted as a knitted html document.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Writing project (10%)&lt;/em&gt;&lt;/strong&gt;
+This  will require the use of &lt;code&gt;R Markdown&lt;/code&gt; and LaTeX to submit a written solved problem investigated using both an analytically and mathematically rigorous approach and a simulation approach to problem-solving.  Both are examples of writing that are relevant to the field of statistics. You will peer-critique each other&amp;rsquo;s work and have a chance to revise the project before submitting a final draft.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Midterm exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Midterm exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Similar to the Midterm, the Final exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data vizzing in Japan</title>
+      <link>http://driftlessdata.space/post/icots/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
+      
+      <guid>http://driftlessdata.space/post/icots/</guid>
+      <description>&lt;p&gt;This July, my colleage Todd Iverson and I had the incredible opportunity to lead a &lt;a href=&#34;https://icots.info/10/?workshop=E&#34;&gt;pre-conference workshop&lt;/a&gt; at &lt;a href=&#34;https://icots.info/10/&#34;&gt;ICOTS 10&lt;/a&gt; in Kyoto, Japan.  Our workshop was titled &lt;em&gt;Data visualization: best practices and principles using Tableau Public and Python.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Our workshop began by covering &lt;a href=&#34;https://www.springer.com/us/book/9780387245447&#34;&gt;Leland Wilkinson&amp;rsquo;s grammar of graphics&lt;/a&gt;.  Most data visualization software (Tableau, Python, R, JMP) employ some version of this grammar, and with a firm understanding it becomes easy to transition between them.  We focused primarily on Tableau and Python in our workshop.  All the workshop materials are available at the designated &lt;a href=&#34;https://github.com/WSU-DataScience/ICOTS10_Data_Visualization&#34;&gt;Github repository&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It was an engaging four hours that felt more like one hour, with participants from all over the world!  Our fantastic crew:&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+ &lt;figure&gt;
+    &lt;img width=&#34;500&#34; src=&#34;http://driftlessdata.space/img/icots.jpg&#34;&gt;
+ &lt;/figure&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;ICOTS 10 itself was fantastic, including keynotes from Chris Wild, Hillary Parker, and Anna Rosling R&amp;ouml;nnlund. And of course, we made time to explore and sample the local cuisine.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/img/fushimi.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/ramen.jpg&#34;  style=&#34;float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;&#34;&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;p style=&#34;clear: both;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Data visualization: Principles and Practice with Tableau Public and Python</title>
+      <link>http://driftlessdata.space/project/icots-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/icots-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Web scraping and data visualization with Python and Tableau</title>
+      <link>http://driftlessdata.space/project/uscots2017-workshop/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2017-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling the Vitruvian Man</title>
+      <link>http://driftlessdata.space/post/vitruvian/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/vitruvian/</guid>
+      <description>&lt;p&gt;This post describes an activity I developed for Stat 310: Intermediate Statistics. This course is the second course on statistics at Winona State. I like to think of it as our “introduction to modeling” course, and this activity does just that: introduces students to the idea of a statistical model, including model assessment and fitting. The activity actually comes in two parts, administered at different times in the semester. In the first part, I am trying to get students to think about how to assess and compare proposed models using residuals. In the second, students need to fit their own models, and compare performance of fitted models.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rgco495f3mhy9my/Vitruvian%20man.docx?dl=0&#34;&gt;Link to Part 1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Link to Part 2 (Question 3)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The &lt;em&gt;Vitruvian Man&lt;/em&gt; is a well-known drawing and study by Leonardo DaVinci:&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;http://driftlessdata.space/img/vitruvian-man.jpg&#34; alt=&#34;Figure Source:  https://en.wikipedia.org/wiki/Vitruvian_Man&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Figure Source: &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34;&gt; &lt;a href=&#34;https://en.wikipedia.org/wiki/Vitruvian_Man&#34; class=&#34;uri&#34;&gt;https://en.wikipedia.org/wiki/Vitruvian_Man&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;This work is sometimes referred to as &lt;em&gt;Canon of Proportions&lt;/em&gt;, and is essentially a series of proposed proportions. My activity focuses on two of these proportions:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;the length of the outspread arms is equal to the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;em&gt;the distance from the elbow to the tip of the hand is a quarter of the height of a man&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div id=&#34;part-1-comparing-proposed-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part 1: comparing proposed models&lt;/h2&gt;
+&lt;p&gt;These proportions proposed by DaVinci are essentially two proposed statistical models! We can test these models by collecting some data. This I did by having the students pair up and measure the following three quantities:&lt;/p&gt;
+&lt;p&gt;A. Height;&lt;br /&gt;
+B. “Wingspan” (length of the outspread arms);&lt;br /&gt;
+C. “Elbow-tip” (the distance from the elbow to the tip of the hand).&lt;/p&gt;
+&lt;p&gt;With these three measurements, we can assess which of DaVinci’s proposed proportions is “best!” Notice that his first proportion is like fitting the model:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times Wingspan + \epsilon\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;In this model, both the intercept and the slope are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The second model is:&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;math display&#34;&gt;\[Height = \beta_0 + \beta_1 \times ElbowTip + \epsilon\]&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Again in this model, the model parameters are fixed with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 4\)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;So which model is better?! This motivates finding the modeled &lt;span class=&#34;math inline&#34;&gt;\(\widehat{Height}\)&lt;/span&gt; given each equation, and comparing the sum of squared residuals, &lt;em&gt;SSError&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;But first, let’s visualize! Here is a scatterplot of Height vs Wingspan using the data collected by the 22 students in my Spring 2018 section of Stat 310. The line indicates the proposed model with &lt;span class=&#34;math inline&#34;&gt;\(\beta_0 = 0\)&lt;/span&gt; and &lt;span class=&#34;math inline&#34;&gt;\(\beta_1 = 1\)&lt;/span&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;The model is about perfect for two students; but clearly imperfect for the other 20. What about Elbow-Tip?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Clearly, this fit looks worse. We can quantify this by computing SSError, which equals 156 using wingspan and 504 using Elbow-Tip.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;part-2-fitting-simple-linear-regression-models&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Part 2: Fitting simple linear regression models&lt;/h2&gt;
+&lt;p&gt;So, DaVinci’s proposed model using Wingspan wasn’t horrible, but the proposal using Elbow-Tip was. Can we improve these proposed proportions by fitting simple linear regression models, and if so, which &lt;em&gt;fitted&lt;/em&gt; model is best?&lt;/p&gt;
+&lt;p&gt;The figure below shows the actual height plotted versus the fitted heights from the two mdoels, along with the (0,1) line:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/vitruvian_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;It’s difficult to tell which model performs best! Here we really do need the SSErrors, which are 117.8 using wingspan and 122.4 using Elbow-Tip. So, close! But Wingspan slightly out-performs Elbow-Tip as a predictor of height. (Of course, these are in-sample SSErrors; a more accurate comparison would cross-validate which we discuss later in the course.)&lt;/p&gt;
+&lt;/div&gt;
 </description>
     </item>
     
@@ -1389,118 +1467,6 @@ In light of this, he made the following suggestions.&lt;/p&gt;
  &lt;img src=&#34;http://driftlessdata.space/img/beach2.jpg&#34; width=&#34;750&#34;&gt;
  &lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stat 310: Intermediate statistics (Spring 2018)</title>
-      <link>http://driftlessdata.space/courses/stat310/stat310-home/</link>
-      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat310/stat310-home/</guid>
-      <description>
-
-&lt;h3 id=&#34;office-hours-gildemeister-124d&#34;&gt;Office hours (Gildemeister 124D)&lt;/h3&gt;
-
-&lt;p&gt;MWF: 9-12; TH: 11-12&lt;/p&gt;
-
-&lt;p&gt;REMINDER: Arthur Benjamin March 14-15.  &lt;a href=&#34;https://www.dropbox.com/s/aw6irozzqjkgw50/Arthur%20Benjamin%20Distinguished%20Lecture%20poster%20full%20bio.pdf?dl=0&#34;&gt;Link to promo&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c9jxaao3isbgq2a/JMP-installation-instructions.pdf?dl=0&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/bdc2kr69gwbno1l/BinomialScript.jsl?dl=0&#34;&gt;JMP script for calculating binomial probabilities&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/523fe7wbu08r42s/Handout%201%20-%20Review.docx?dl=0&#34;&gt;Handout 1: Review of statistical concepts&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/dovpwzgo1vuybvo/Handout%202%20-%20Decision%20errors%20and%20power.docx?dl=0&#34;&gt;Handout 2: Decision errors and statistical power&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/l282g3561nmuyux/Handout%203%20-%20Introduction%20to%20statistical%20models.docx?dl=0&#34;&gt;Handout 3: Introduction to modeling&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/7pime2ndrv0mpf1/Handout%204%20-%20Simple%20linear%20regression.docx?dl=0&#34;&gt;Handout 4: Introduction to simple linear regression&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9vw0flphhmmxiav/Handout%205%20-%20Simple%20linear%20regression%2C%20part%202.docx?dl=0&#34;&gt;Handout 5: Introduction to simple linear regression (part 2)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0bc7wnc59kdzi6i/Handout%206%20-%20Multiple%20linear%20regression.docx?dl=0&#34;&gt;Handout 6: Introduction to multiple linear regression&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/moe5e9jqwqnlst3/Handout%207%20-%20Interactions.docx?dl=0&#34;&gt;Handout 7: Interactions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4z46eo2lykm5cgy/Handout%208%20-Cross%20validation%20and%20model%20violations.docx?dl=0&#34;&gt;Handout 8: cross validation and model violation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/cdh7gxwcllqd8os/Handout%209%20-%20Oneway%20ANOVA.docx?dl=0&#34;&gt;Handout 9: One-way ANOVA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ljwuzmyabit4hus/Handout%2010%20-%20Factorial%20ANOVA.docx?dl=0&#34;&gt;Handout 10: Factorial ANOVA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9x0b5as31lymiq2/Handout%2011%20-%20ANCOVA.docx?dl=0&#34;&gt;Handout 11: ANCOVA&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/76abnfc7tewhuig/Handout%2012%20-%20Logistic%20regression.docx?dl=0&#34;&gt;Handout 12: Intro to logistic regression&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/86jmzwt9ozmjtle/Handout%2013%20-%20Assessing%20predictive%20ability%20of%20logistic%20regression%20models.docx?dl=0&#34;&gt;Handout 13: Assessing predictive ability of logistic regression models&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/rgco495f3mhy9my/Vitruvian%20man.docx?dl=0&#34;&gt;Vitruvian man activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0rihivv2iwutt92/Vitruvian%20man%20interactions.docx?dl=0&#34;&gt;Interaction activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/txwije7cdht42oy/ANOVA%20group%20work.docx?dl=0&#34;&gt;ANOVA activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wmjlepi57w2poy1/pairwise%20diffs%20group%20work.docx?dl=0&#34;&gt;Pairwise comparisons activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/v3sdx2ihyxr1wyn/Factorial%20Anova%20group%20work.docx?dl=0&#34;&gt;Factorial ANOVA activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/n7ocdbt9i2dn7x5/ANCOVA%20group%20work.docx?dl=0&#34;&gt;ANCOVA activity&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4v7ufv1upxfothb/logistic_transformation.docx?dl=0&#34;&gt;Logistic regression activity&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/sh2zbvo9jeq7e7i/HW1.docx?dl=0&#34;&gt;Homework 1 (Due 1/25)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/sazc1brct0n2z0a/HW1-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ap59rbsgmxc6tfa/HW2.docx?dl=0&#34;&gt;Homework 2 (Due 2/1)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ze5uyoitjda2h3z/HW2-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4uj6s0iav5ok090/HW3.docx?dl=0&#34;&gt;Homework 3 (Due 2/8)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/vvu9jwc7btq4ys8/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;Homework 4 (Due 2/15)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jp5zwwl1zzg7yf7/HW4-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zddet3dbfgdawev/HW5.docx?dl=0&#34;&gt;Homework 5 (Due 2/22)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/axre4jpawbfolci/HW5-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/j8jq7wib08vn6ur/HW6.docx?dl=0&#34;&gt;Homework 6 (Due 3/22)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ltnokzwrrq3j40x/HW6-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/h5secfnph2rb0y5/HW7.docx?dl=0&#34;&gt;Homework 7 (Due 4/26)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ur9i654qnswuorb/HW7-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;writing-assignment&#34;&gt;Writing Assignment&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fj3k2688as40c6u/Prompt.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wh2rn5ll49knw68/Beauty.jmp?dl=0&#34;&gt;Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.crowdgrader.org/crowdgrader/venues/join/3702/qysavy_bysypu_vewyfo_meqobi&#34;&gt;CrowdGrader link&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fev3nd6ti4zmdha/Practice-Exam1.docx?dl=0&#34;&gt;Practice Exam 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c6gmt9f8igcfbxw/2nd%20Practice-Exam1.docx?dl=0&#34;&gt;2nd Practice Exam 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xxwv8lchnoeqc0b/Exam%201%20%28take%20home%29.docx?dl=0&#34;&gt;Exam 1 (Take home portion)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/yudw0aa6y66lpq3/Trump%20Vote%20in%20MN.jmp?dl=0&#34;&gt;Trump vote data&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ov4lmaimfl2pknn/WAPS-discipline-data.jmp?dl=0&#34;&gt;WAPS data&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ne57n4c8f3z2jm6/Cedar.jmp?dl=0&#34;&gt;Cedar data &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/mllilp1olgtab3a/Practice%20Exam%202.docx?dl=0&#34;&gt;Practice Exam 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/4mr3wnsvoblwk25/Practice%20Exam%202%20-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ueesbgfk69jd75u/PracticeProblems-FinalExam.docx?dl=0&#34;&gt;Practice final&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/yo8zsr8ocbdycqh/PracticeProblems-FinalExam-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/059d9qcouyufmod/Take-home%20Final.docx?dl=0&#34;&gt;Take home final exam&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/p62k8faytcqpb7f/Sitting.jmp?dl=0&#34;&gt;Sitting data for Q1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/7su1r4w507dq50u/Species.jmp?dl=0&#34;&gt;Species data for Q2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/nmp5pb22o7213l8/BreastCancer.jmp?dl=0&#34;&gt;Breast cancer cell data for Q3&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Birth weight data | &lt;a href=&#34;https://www.dropbox.com/s/wxr44cbhmd6vw6p/Birthweight.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Breast cancer cell data | &lt;a href=&#34;https://www.dropbox.com/s/nmp5pb22o7213l8/BreastCancer.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Calorie data | &lt;a href=&#34;https://www.dropbox.com/s/1zmda8omc6nbdqi/kid_calories.jmp?dl=0&#34;&gt;JMP&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/af61nwvao0q88wg/kid_calories.csv?dl=0&#34;&gt;CSV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Car data | &lt;a href=&#34;https://www.dropbox.com/s/4yijdq187so1d7w/mtcars.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;DIEP data | &lt;a href=&#34;https://www.dropbox.com/s/rm27k94xs3a2wb0/breast_diep.jmp?dl=0&#34;&gt;JMP&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/7xhefpi9xi7l97h/breast_diep.csv?dl=0&#34;&gt;CSV&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;FEV data | &lt;a href=&#34;https://www.dropbox.com/s/tyi1tzc82bi5cpr/FEVdata.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Fruit fly data | &lt;a href=&#34;https://www.dropbox.com/s/ck4hhxexo7v3j6o/FruitFlies.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Hawk data | &lt;a href=&#34;https://www.dropbox.com/s/6l10dx9tniezl0q/Subset%20of%20Hawks.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Haystack data | &lt;a href=&#34;https://www.dropbox.com/s/vu54aqi4q8hswn7/Haystacks.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Levee data | &lt;a href=&#34;https://www.dropbox.com/s/7px0zeeq7fskjq3/levee_data.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Med GPA data | &lt;a href=&#34;https://www.dropbox.com/s/mtghhd4sj8gwxqy/MedGPA.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;MLB standings data | &lt;a href=&#34;https://www.dropbox.com/s/qy7048hfybg5w7v/MLBStandings2017.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;New York Times/Globe data | &lt;a href=&#34;https://www.dropbox.com/s/1kgcs95q4k8zlyy/NYT-Globe.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Pig data | &lt;a href=&#34;https://www.dropbox.com/s/6gc5yqgx975nuqp/PigFeed.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;PIMA diabetes data | &lt;a href=&#34;https://www.dropbox.com/s/vhwp9xks8j4csbc/PIMA-diabetes.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Poison data | &lt;a href=&#34;https://www.dropbox.com/s/gy368bg5dafyaav/poison-data.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Real estate data | &lt;a href=&#34;https://www.dropbox.com/s/tagopmu4gnr51rh/Real.Estate.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Silly little data | &lt;a href=&#34;https://www.dropbox.com/s/hv2wb024iokuouc/Silly%20Fake%20Data.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Student Survey Data | &lt;a href=&#34;https://www.dropbox.com/s/jfq2sj2ckw63xxc/StudentSurveyData.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Trombone data | &lt;a href=&#34;https://www.dropbox.com/s/vv6g8o82mexk4if/trombone.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Vitruvian man data | &lt;a href=&#34;https://www.dropbox.com/s/hcxnfx9vt063pz9/VitruvianData.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;World bank data | &lt;a href=&#34;https://www.dropbox.com/s/okozd91iu15k0n3/WorldBank-2011.jmp?dl=0&#34;&gt;JMP&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     
