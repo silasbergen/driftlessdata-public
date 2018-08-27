@@ -18,7 +18,7 @@
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat370/stat370-home/</guid>
-      <description> Resources  Syllabus  Calendar of events    Date Events     Mon 8/27 Elizabeth Larson (3:10 via Adobe Connect); Mary Fawcett (4:00)    Lectures  What is a statistical consultant?  </description>
+      <description> Resources  Syllabus Dropbox folder (password sent via email)  Calendar of events    Date Events     Mon 8/27 Elizabeth Larson (3:10 via Adobe Connect); Mary Fawcett (4:00)    Lectures  What is a statistical consultant?  </description>
     </item>
     
     <item>
@@ -27,7 +27,7 @@
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
-      <description>STAT 450: Mathematical statistics I Fall 2017 INSTRUCTOR: Dr. Silas Bergen OFFICE: Gildemeister 124D Prerequisites:  Math 312 (Multivariable calculus) Math 337 (Probability); concurrent enrollment OK Eng 111  Course summary STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution.</description>
+      <description>STAT 450: Mathematical statistics I Fall 2018 INSTRUCTOR: Dr. Silas Bergen OFFICE: Gildemeister 124D Prerequisites:  Math 312 (Multivariable calculus) Math 337 (Probability); concurrent enrollment OK Eng 111  Course summary STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution.</description>
     </item>
     
     <item>
@@ -223,13 +223,13 @@ Notes  Principles of data visualization Intro to Tableau Univariate visualizatio
     </item>
     
     <item>
-      <title>Stat 450: Mathematical statistics I (Fall 2017)</title>
+      <title>Stat 450: Mathematical statistics I (Fall 2018)</title>
       <link>http://driftlessdata.space/courses/stat450/stat450-home/</link>
       <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat450/stat450-home/</guid>
-      <description> Syllabus Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2 cheat sheet
- R Markdown cheat sheet  Notes  Chapter 3: Discrete random variables | pdf | Rmd Chapter 4: Continuous random variables | pdf | Rmd Chapter 5: Joint distributions | pdf | Rmd Chapter 6: Transformations | pdf | Rmd  </description>
+      <description> Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio ggplot2 cheat sheet
+ R Markdown cheat sheet  Notes  Chapter 2: Review of probability | pdf | Rmd  Homework  Homework 0 (getting up and running with R and R Markdown)  </description>
     </item>
     
     <item>
