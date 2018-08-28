@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Mon, 27 Aug 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://driftlessdata.space/courses/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Syllabus (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>Stat 110: Fundamentals of statistics Required software
+ JMP - available from WSU network for free. Download instructions  Optional text
+There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
+Prerequisites
+Qualifying score on the mathematics placement exam or MATH 050.
+Basic Skills Learning Outcomes</description>
+    </item>
     
     <item>
       <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
@@ -19,7 +33,7 @@
       
       <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
       <description>Office hours (Gildemeister 124D) MWF: 9:30-11:30; Tue/Th 8:30-10:30
-Upcoming    Date Done by class In class     Tues 8/28 NA Welcome! &amp;amp; install JMP   Thurs 8/30 NA Surprise!   Tues 9/4 Lectures 1 &amp;amp; 2 videos, D2L practice quizzes Practice problems, in-class D2L quiz   Thurs 9/6 NA HW 1 (random groups)    Resources  Syllabus JMP installation instructions Tutoring services  Lectures  Lecture 1: Introduction to data | PPT | PDF | Video Lecture 2: Summarizing a single variable | PPT | PDF | Video 1 | Video 2  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!</description>
+Upcoming    Date Done by class In class     Tues 8/28 NA Welcome! &amp;amp; install JMP   Thurs 8/30 Lecture 1 video Surprise!   Tues 9/4 Lecture 2 videos, D2L practice quizzes Practice problems, in-class D2L quiz   Thurs 9/6 NA HW 1 (random groups)    Resources  Syllabus JMP installation instructions Tutoring services Photo guessing slides  Lectures  Lecture 1: Introduction to data | PPT | PDF | Video Lecture 2: Summarizing a single variable | PPT | PDF | Video 1 | Video 2  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!</description>
     </item>
     
     <item>
@@ -38,7 +52,7 @@ Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tuto
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/courses/stat370/stat370-home/</guid>
-      <description> Resources  Syllabus Dropbox folder (password sent via email)  Calendar of events    Date Events     Mon 8/27 Elizabeth Larson (3:10 via Adobe Connect); Mary Fawcett (4:00)    Lectures  What is a statistical consultant?  </description>
+      <description> Resources  Syllabus Dropbox folder (password sent via email)  Calendar of events    Date Events     Mon 8/27 Elizabeth Larsen (3:10 via Adobe Connect); Mary Fawcett (4:00)    Lectures  What is a statistical consultant? Aspects of a successful statistical consultant  Meetings  Video recording of meeting with Elizabeth Larsen  </description>
     </item>
     
     <item>
@@ -109,20 +123,6 @@ Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2
       
       <guid>http://driftlessdata.space/courses/stat460/syllabus/</guid>
       <description>STAT 460: Mathematical statistics II Spring 2018 Prerequisite:  Stat 450  Course summary STAT 460 is a continuation of the mathematical statistics sequence. Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference. Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum R will be of even greater use to us in this semester.</description>
-    </item>
-    
-    <item>
-      <title>Syllabus (Spring 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
-      <description>Stat 110: Fundamentals of statistics Required software
- JMP - available from WSU network for free. Download instructions  Optional text
-There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
-Prerequisites
-Qualifying score on the mathematics placement exam or MATH 050.
-Basic Skills Learning Outcomes</description>
     </item>
     
     <item>

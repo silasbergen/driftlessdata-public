@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/courses/stat110/syllabus/</loc>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/courses/stat110/stat110-home/</loc>
       <lastmod>2018-08-27T00:00:00+00:00</lastmod>
     </url>
@@ -168,15 +177,6 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/stat460/syllabus/</loc>
-      <lastmod>2018-01-05T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>http://driftlessdata.space/courses/stat110/syllabus/</loc>
       <lastmod>2018-01-05T00:00:00+00:00</lastmod>
     </url>
     
@@ -504,7 +504,7 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/</loc>
-      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+      <lastmod>2018-08-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
