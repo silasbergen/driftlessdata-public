@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Silas Bergen</title>
+    <link>http://driftlessdata.space/courses/</link>
+    <description>Recent content in Courses on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Tue, 28 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Syllabus (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>Stat 110: Fundamentals of statistics Required software
+ JMP - available from WSU network for free. Download instructions  Optional text
+There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
+Prerequisites
+Qualifying score on the mathematics placement exam or MATH 050.
+Basic Skills Learning Outcomes</description>
+    </item>
+    
+    <item>
+      <title>Stat 110: Fundamentals of statistics (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>Office hours (Gildemeister 124D) MWF: 9:30-11:30; Tue/Th 8:30-10:30
+Upcoming    Date Done by class In class     Thurs 9/13 NA HW 2 (pick your own groups)   Tues 9/18 Lectures 5 &amp;amp; 6 videos, practice D2L quizzes Practice problems, D2L quiz   Thurs 9/20 NA HW 3 (random groups)    Resources  Syllabus JMP installation instructions Tutoring services Photo guessing slides Handedness slides  Lectures  Lecture 1: Introduction to data | PPT | PDF | Video Lecture 2: Summarizing a single variable | PPT | PDF | Video 1 | Video 2 Lecture 3: Associations between two variables | PPT | PDF | Video 1 | Video 2 Lecture 4: Confounding and study types | PPT | PDF | Video Lecture 5: Populations, parameters, samples, statistics | PPT | PDF | Video Lecture 6: Introduction to inferential thinking | PPT | PDF | Video  Practice sets  Practice set 1 Practice set 2 Practice set 3  Homework  Homework 1 | KEY Homework 2 | KEY Homework 3  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!</description>
+    </item>
+    
+    <item>
+      <title>Stat 303: Intro to engineering statistics (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat303/stat303-home/</link>
+      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat303/stat303-home/</guid>
+      <description> Fall 2018 Office hours MWF 9:30-11:30; Tues/Th 8:30-10:30
+Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio  Lectures  Lecture 1: Intro to probability Lecture 2: Counting methods Lecture 3: Conditional probability and independence Lecture 4: discrete random variables  Homework  Homework 1 (getting up and running with R and R Markdown) | KEY Homework 2 (Due 9/20)  Practice problems  Probability practice problems  </description>
+    </item>
+    
+    <item>
+      <title>Stat 370: Statistical consulting and communication</title>
+      <link>http://driftlessdata.space/courses/stat370/stat370-home/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat370/stat370-home/</guid>
+      <description> Resources  Syllabus Dropbox folder (password sent via email)  Lectures  What is a statistical consultant? Aspects of a successful statistical consultant Nonverbal communication Asking good questions Common statistical techniques  Homework  Homework 1 Homework 2 Homework 3  </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat450/syllabus/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/syllabus/</guid>
+      <description>STAT 450: Mathematical statistics I Fall 2018 INSTRUCTOR: Dr. Silas Bergen OFFICE: Gildemeister 124D Prerequisites:  Math 312 (Multivariable calculus) Math 337 (Probability); concurrent enrollment OK Eng 111  Course summary STAT 450 and 460 are courses in mathematical statistics intended for upper-level undergraduate students in the mathematical sciences. The goal in STAT 450 is provide a solid foundation in the theory of random variables, probability distributions, and convergence in probability and distribution.</description>
+    </item>
+    
+    <item>
+      <title>Stat 110: Fundamentals of statistics (Summer 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-summer2018/</link>
+      <pubDate>Fri, 04 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-summer2018/</guid>
+      <description>Resources  Welcome video! Syllabus JMP installation instructions Binomial JMP script  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)
+ -- Data  Backpack data Back pain data Birth weight data Body Image Body temp data BRFSS data California expenditures data Calories data Civil Rights Act Vote Commute times Confederate Flag data Deodorant data Dog explosives data Ear effusion data FEV data Gun data HIV data Iraq War data Kidney Stone data Lions data Lower back pain LSD math score data Lung cancer data Lymphedenopathy data Nicotine lozenge data Pancreatic cancer data Parent attitude data Parole prediction data</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Summer 2018)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus-summer2018/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus-summer2018/</guid>
+      <description>Stat 110: Fundamentals of statistics Required software  JMP - available from WSU network for free, or via email (if not using WSU laptop). Download instructions for WSU laptops  Optional text There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
+Prerequisites Qualifying score on the mathematics placement exam or MATH 050.</description>
+    </item>
+    
+    <item>
+      <title>Stat 310: Intermediate statistics (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat310/stat310-home/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat310/stat310-home/</guid>
+      <description> Office hours (Gildemeister 124D) MWF: 9-12; TH: 11-12
+REMINDER: Arthur Benjamin March 14-15. Link to promo
+Resources  Syllabus JMP installation instructions JMP script for calculating binomial probabilities  Notes  Handout 1: Review of statistical concepts Handout 2: Decision errors and statistical power Handout 3: Introduction to modeling Handout 4: Introduction to simple linear regression Handout 5: Introduction to simple linear regression (part 2) Handout 6: Introduction to multiple linear regression Handout 7: Interactions Handout 8: cross validation and model violation Handout 9: One-way ANOVA Handout 10: Factorial ANOVA Handout 11: ANCOVA Handout 12: Intro to logistic regression Handout 13: Assessing predictive ability of logistic regression models  Activities  Vitruvian man activity Interaction activity ANOVA activity Pairwise comparisons activity Factorial ANOVA activity ANCOVA activity Logistic regression activity  Homework  Homework 1 (Due 1/25) | KEY Homework 2 (Due 2/1) | KEY Homework 3 (Due 2/8) | KEY Homework 4 (Due 2/15) | KEY Homework 5 (Due 2/22) | KEY Homework 6 (Due 3/22) | KEY Homework 7 (Due 4/26) | KEY  Writing Assignment  Prompt Data CrowdGrader link  Exams  Practice Exam 1 2nd Practice Exam 1 Exam 1 (Take home portion) | Trump vote data | WAPS data | Cedar data  Practice Exam 2 | KEY Practice final | KEY Take home final exam | Sitting data for Q1 | Species data for Q2 | Breast cancer cell data for Q3  Data  Birth weight data | JMP Breast cancer cell data | JMP Calorie data | JMP | CSV Car data | JMP DIEP data | JMP | CSV FEV data | JMP Fruit fly data | JMP Hawk data | JMP Haystack data | JMP Levee data | JMP Med GPA data | JMP MLB standings data | JMP New York Times/Globe data | JMP Pig data | JMP PIMA diabetes data | JMP Poison data | JMP Real estate data | JMP Silly little data | JMP Student Survey Data | JMP Trombone data | JMP Vitruvian man data | JMP World bank data | JMP  </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat310/syllabus/</link>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat310/syllabus/</guid>
+      <description>STAT 310: Intermediate Statistics Textbook There is no required text for this class. A recommended text for student reference is Stat 2: Building Models for a World of Data by Cannon et al. This text is well-written and has some nice problems for additional student practice. However, it can get technical at times. You will not need this text to complete the homework or succeed on exams.
+Prerequisites Stat 110, STAT 210, STAT 303, STAT 305, PSY231, or equivalent.</description>
+    </item>
+    
+    <item>
+      <title>Stat 460: Mathematical statistics II (Spring 2018)</title>
+      <link>http://driftlessdata.space/courses/stat460/stat460-home/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat460/stat460-home/</guid>
+      <description> Syllabus Office hours MWF: 9-12; TH: 11-12
+Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2 cheat sheet
+ R Markdown cheat sheet  Notes  Chapter 7: Sampling distributions | pdf | Rmd Chapter 8: Properties of estimators | pdf | Rmd Chapter 9: Methods of estimation | pdf | Rmd Chapter 10: Hypothesis testing | pdf | Rmd Chapcter 16: Bayesian methods | pdf | Rmd Chapter 15: Nonparametric methods | pdf | Rmd  </description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat460/syllabus/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat460/syllabus/</guid>
+      <description>STAT 460: Mathematical statistics II Spring 2018 Prerequisite:  Stat 450  Course summary STAT 460 is a continuation of the mathematical statistics sequence. Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference. Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum R will be of even greater use to us in this semester.</description>
+    </item>
+    
+    <item>
+      <title>Play Day Task</title>
+      <link>http://driftlessdata.space/courses/dsci310/playday4/</link>
+      <pubDate>Tue, 07 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/playday4/</guid>
+      <description>This play day is modified from a similar assignment by Jerzy Wieczorek of CivilStat.com specifically this one.
+Consider data tablulated from the 2010 Digest of Education Statistics, tables 308 to 330.. The intent of this data is to answer:
+ In what fields are more women entering college? How is each field&amp;rsquo;s gender balance changing?
+ Is there a difference in gender balance comparing STEM to non-STEM fields?
+ How has the gender balance in STEM fields changed relative to the balance in non-STEM fields over time?</description>
+    </item>
+    
+    <item>
+      <title>Final project</title>
+      <link>http://driftlessdata.space/courses/dsci310/final/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/final/</guid>
+      <description>Description For your final project, you are to find your own data source(s) and create a &amp;ldquo;visual story&amp;rdquo; visualizing insights from the data. Your visual story should consist of at least 1 but no more than 3 dashboards visualizing these data. This project is &amp;ldquo;tool agnostic&amp;rdquo;: you may create your visualizations using Tableau, or R, or any other visualization software. The only requirement is that whatever software you use produces a final dashboard product that is ready-to-publish on the Internet.</description>
+    </item>
+    
+    <item>
+      <title>R Homework 3</title>
+      <link>http://driftlessdata.space/courses/stat450/r_hw3/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/r_hw3/</guid>
+      <description>Due Wednesday, 11/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted Word doc or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
+In Math-Stat, all of the pmfs/pdfs we have discussed are truly models. This means they are proposed mathematical frameworks for explaining behavior of actual data. We consier one proposed model for some actual data in this problem.</description>
+    </item>
+    
+    <item>
+      <title>Play Day Task</title>
+      <link>http://driftlessdata.space/courses/dsci310/playday3/</link>
+      <pubDate>Mon, 16 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/playday3/</guid>
+      <description>Consider the following data on World Migration from the United Nations, Department of Economic and Social Affairs, Population Division, Trends in International Migrant Stock.
+Questions to be answered visually (no restrictions!):
+ Which countries and regions have the most people leaving? Where do they go? Which countries and regions have the most people entering? Where do they come from?  </description>
+    </item>
+    
+    <item>
+      <title>Introduction to data visualization in R using ggplot2</title>
+      <link>http://driftlessdata.space/courses/dsci310/intro_to_ggplot2/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/intro_to_ggplot2/</guid>
+      <description>OverviewBasic grammarHadley’s Grammar of Graphics is outlined in detail in this article. Here, he illustrates his principles using a small data set similar to the following:
+df &amp;lt;- data.frame(A = c(2,1,4,9),B = c(4,1,15,80),C = c(1,2,3,4),D = c(&amp;#39;far&amp;#39;,&amp;#39;far&amp;#39;,&amp;#39;near&amp;#39;,&amp;#39;near&amp;#39;))head(df)## A B C D## 1 2 4 1 far## 2 1 1 2 far## 3 4 15 3 near## 4 9 80 4 nearTo visualize any data set using the Grammar of Graphics, it helps to understand the 3 components of which any graph is comprised:</description>
+    </item>
+    
+    <item>
+      <title>Midterm project</title>
+      <link>http://driftlessdata.space/courses/dsci310/midterm/</link>
+      <pubDate>Mon, 09 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/midterm/</guid>
+      <description>For this semester&amp;rsquo;s midterm project, we will be participating in the American Statistical Association&amp;rsquo;s Police Data Challenge. Read the information on the website for many more details. For the midterm project, all students should visualize the Seattle data set.
+ Detailed version of the rules.
+ Fill out declaration of intent form by Friday, October 6. Only one team member needs to submit the form. List me (Silas Bergen) as your sponsor.</description>
+    </item>
+    
+    <item>
+      <title>Play Day Task</title>
+      <link>http://driftlessdata.space/courses/dsci310/playday1/</link>
+      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/playday1/</guid>
+      <description>Consider the Major League Baseball Standings data. There are two worksheets in this Excel file: one with 2016 standings, and one with 2017 standings. The important variables in each are the team names &amp;trade;; actual winning percentage (W-L%); and predicted winning percentage (pythWPct), which is each team&amp;rsquo;s predicted winning percentage based on the number of points (&amp;ldquo;runs&amp;rdquo;) scored by and against that team.
+Questions to be answered (no restrictions!):
+ Which teams&amp;rsquo; winning percentages most improved the most from 2016-2017?</description>
+    </item>
+    
+    <item>
+      <title>R Homework 1</title>
+      <link>http://driftlessdata.space/courses/stat450/r_hw1/</link>
+      <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/r_hw1/</guid>
+      <description>Due Friday, 9/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
+In class, we considered the case of rolling two dice, one red and one white. Let \(Y\equiv\) the minimum of the two rolls.
+Define the probability mass function (pmf) in tabular format. The table is started for you, below.</description>
+    </item>
+    
+    <item>
+      <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
+      <link>http://driftlessdata.space/courses/dsci310/dsci310-home/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/dsci310-home/</guid>
+      <description>Syllabus Midterm project Presentations to begin 10/27.
+Final project Presentations to begin 11/13.
+Notes  Principles of data visualization Intro to Tableau Univariate visualizations Multivariate visualizations 3-way scatterplots and maps Interactive Dashboards Data visualization in R with ggplot2  Resources  Additional courses on R provided by Data Camp CrowdGrader instructional video Dr. Tom Grier&amp;rsquo;s visual communication notes Slides for Dr. Eastman&amp;rsquo;s critiques  Critiques  Critique #1 (due Wednesday, 8/30 by 11:59pm) | Discussion slides Critique #2 (due Sunday 10/8 by 11:59pm) Practice critique of Design Task 3 submissions, using the midterm rubric  Design tasks  Design Task 1 | First draft to CrowdGrader: 9/3 (link to CrowdGrader assignment) | Critiques due: 9/7 | Final draft to D2L: 9/10  Comments/Critiques ppt | My design | My design how-to  Design Task 2 | First draft to CrowdGrader: 9/15 (midnight) (link to CrowdGrader assignment) | Critiques due: 9/18 (noon) | Final draft to D2L: 9/20 (midnight)  In-class critiques: at each table, assess one of the visualizations below.</description>
+    </item>
+    
+    <item>
+      <title>Data Science 310: Data summarization and visualization (Fall 2017)</title>
+      <link>http://driftlessdata.space/courses/dsci310/home/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/home/</guid>
+      <description>Syllabus Midterm project Presentations to begin 10/27.
+Final project Presentations to begin 11/13.
+Notes  Principles of data visualization Intro to Tableau Univariate visualizations Multivariate visualizations 3-way scatterplots and maps Interactive Dashboards Data visualization in R with ggplot2  Resources  Additional courses on R provided by Data Camp CrowdGrader instructional video Dr. Tom Grier&amp;rsquo;s visual communication notes Slides for Dr. Eastman&amp;rsquo;s critiques  Critiques  Critique #1 (due Wednesday, 8/30 by 11:59pm) | Discussion slides Critique #2 (due Sunday 10/8 by 11:59pm) Practice critique of Design Task 3 submissions, using the midterm rubric  Design tasks  Design Task 1 | First draft to CrowdGrader: 9/3 (link to CrowdGrader assignment) | Critiques due: 9/7 | Final draft to D2L: 9/10  Comments/Critiques ppt | My design | My design how-to  Design Task 2 | First draft to CrowdGrader: 9/15 (midnight) (link to CrowdGrader assignment) | Critiques due: 9/18 (noon) | Final draft to D2L: 9/20 (midnight)  In-class critiques: at each table, assess one of the visualizations below.</description>
+    </item>
+    
+    <item>
+      <title>Stat 450: Mathematical statistics I (Fall 2018)</title>
+      <link>http://driftlessdata.space/courses/stat450/stat450-home/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/stat450-home/</guid>
+      <description>Fall 2018 Office hours MWF 9:30-11:30; Tues/Th 8:30-10:30
+Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio ggplot2 cheat sheet
+ R Markdown cheat sheet  Notes  Chapter 2: Review of probability | pdf | Rmd Chapter 3: Discrete random variables | pdf | Rmd  Homework  Homework 0 (getting up and running with R and R Markdown) Homework 1 | Knitted word doc (.</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Fall 2017)</title>
+      <link>http://driftlessdata.space/courses/dsci310/syllabus/</link>
+      <pubDate>Sun, 20 Aug 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/syllabus/</guid>
+      <description>Data summarization and visualization (Fall 2017) Course overview The amount and extent of data in our world is growing extremely rapidly. As such there is an increasing need for analysts skilled in summarizing data. Visualizations are an immensely popular way of summarizing data, as they allow viewers to efficiently translate data into information. Modern visualizations are either static or interactive, with a growing trend towards the latter. In this course we will discuss how we perceive information visually, how to identify and avoid data visualization pitfalls, and how to create effective static and interactive visualizations.</description>
+    </item>
+    
+    <item>
+      <title>Stat 365: Experimental design and analysis (Spring 2017)</title>
+      <link>http://driftlessdata.space/courses/stat365/stat365-home/</link>
+      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat365/stat365-home/</guid>
+      <description>Course materials  Syllabus R cran R studio &amp;ldquo;Try R&amp;rdquo; tutorial (for R beginners) Intro to R Studio tutorial video &amp;ldquo;Ref-modify.docx&amp;rdquo; style document called in .Rmd files  Handouts  Handout 1: Review of modeling | House price data (.csv) | Video of completed Handout 1 | R Markdown (.Rmd) file Handout 2: Intro to experimental design Handout 3: Review of inference in the context of experimental design | .</description>
+    </item>
+    
+    <item>
+      <title>Critique #1</title>
+      <link>http://driftlessdata.space/courses/dsci310/critique1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/critique1/</guid>
+      <description>Charles Joseph Minard&amp;rsquo;s famous visualization of Napoleon&amp;rsquo;s disastrous march on Russia in 1812 earned Ed Tufte&amp;rsquo;s glowing praise: &amp;ldquo;Probably the best statistical graphic ever drawn.&amp;rdquo;
+Read this excellent description and analysis by Joanne Cheng, then submit your answers to the following questions on D2L:
+ What are the variables that are encoded in this visualization?
+ For each, state whether it is categorical nominal; categorical ordinal; or quantitative.
+ What elementary perceptual tasks are used to encode each variable?</description>
+    </item>
+    
+    <item>
+      <title>Critique 2</title>
+      <link>http://driftlessdata.space/courses/dsci310/critique2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/critique2/</guid>
+      <description>As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and excerpts from Chapter 8 (sales dashboard examples) from Stephen Few&amp;rsquo;s 2006 book Information Dashboard Design. I have scanned the relevant chapters for you.
+After reading Chapter 3 and 7, look at the eight sample sales dashboards from Chapter 8. Prepare 3 bullet points critiquing each dashboard (so 24 bullet points total), using the ideas from Chapters 3 and 7, and submit these to D2L.</description>
+    </item>
+    
+    <item>
+      <title>Example flex dash</title>
+      <link>http://driftlessdata.space/courses/dsci310/flexdash-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/flexdash-example/</guid>
+      <description>RowChart 1plot(cars)RowChart 2plot(pressure)Chart 3plot(airmiles)</description>
+    </item>
+    
+    <item>
+      <title>IPUMS visualization in ggplot2</title>
+      <link>http://driftlessdata.space/courses/dsci310/ipums-visualization-key/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/ipums-visualization-key/</guid>
+      <description>Code for tasks:
+library(dplyr);library(ggplot2)ipums &amp;lt;- read.csv(&amp;#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&amp;#39;)usa &amp;lt;- ipums %&amp;gt;% filter(Country==&amp;#39;United States&amp;#39;)#head(usa)ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +facet_grid(.~Year) + scale_color_discrete(name=&amp;#39;Highest education attained&amp;#39;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&amp;#39;Count (in millions)&amp;#39;, labels = function(x) paste(x / 1000000,&amp;#39;M&amp;#39;)) With percents instead of counts:
+usa2 &amp;lt;- usa%&amp;gt;%group_by(Year,Sex)%&amp;gt;%mutate(pct = 100*Count/sum(Count))#head(usa2)ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +facet_grid(.</description>
+    </item>
+    
+    <item>
+      <title>IPUMS visualization in ggplot2</title>
+      <link>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/</guid>
+      <description>Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2)ipums &amp;lt;- read.csv(&amp;#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&amp;#39;)usa &amp;lt;- ipums %&amp;gt;% filter(Country==&amp;#39;United States&amp;#39;)#head(usa)ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +facet_grid(.</description>
+    </item>
+    
+    <item>
+      <title>R Homework 2</title>
+      <link>http://driftlessdata.space/courses/stat450/r_hw2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/r_hw2/</guid>
+      <description>Due Wednesday, 9/20 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
+(Modified from Introduction to Scientific Programming and Simulation Using R by Owen Jones et al).
+A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 slot (numbered 0) is colored green.</description>
+    </item>
+    
+    <item>
+      <title>Semester schedule</title>
+      <link>http://driftlessdata.space/courses/stat450/schedule/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat450/schedule/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
