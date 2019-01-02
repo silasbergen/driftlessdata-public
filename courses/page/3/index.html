@@ -348,12 +348,11 @@ facet_grid(.
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/r_hw2/">R Homework 2</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.knit/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
-      Due Wednesday, 9/20 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted html, Word, or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
-(Modified from Introduction to Scientific Programming and Simulation Using R by Owen Jones et al).
-A roulette wheel has 37 slots. 18 of these are colored red, 18 are black, and 1 slot (numbered 0) is colored green.
+      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.
       
     </div>
   </div>

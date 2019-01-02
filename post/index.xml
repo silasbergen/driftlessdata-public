@@ -22,15 +22,6 @@
     </item>
     
     <item>
-      <title>Stat consulting: a data science playground</title>
-      <link>http://driftlessdata.space/post/dsci-consulting.utf8/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/dsci-consulting.utf8/</guid>
-      <description>This past semester I taught our STAT 370 (statistical consulting and communication) for the first time. This course gave student experience consulting for real clients from the university and community and focused on communicating with a client as well as report and presentation preparation best practices. Most of the required analyses were simple: paired t-tests, simple linear regression, etc. What struck me was the nontrivality of the data tidying process!</description>
-    </item>
-    
-    <item>
       <title>Data vizzing in Japan</title>
       <link>http://driftlessdata.space/post/icots/</link>
       <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>
@@ -99,15 +90,6 @@ First, though, I do need to provide a couple quick details about how I manage gr
     </item>
     
     <item>
-      <title>Gestalt principles and income inequality</title>
-      <link>http://driftlessdata.space/post/income-gestalt/</link>
-      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/income-gestalt/</guid>
-      <description>The fall semester is over and final grades are in, which means it’s time to reflect on what just took place and how to grow from here. Today, I reflect on my third time teaching the data visualization course. This course has come a long way since the first time I taught it in Fall 2015, and yet there are still so many improvements to make! One of the concepts I want to greater emphasize next time I teach the course are the Gestalt principles, which Gestalt psychologist Kurt Koffka summarizes as the idea that “The whole is other than the sum of the parts.</description>
-    </item>
-    
-    <item>
       <title>And the winner is...</title>
       <link>http://driftlessdata.space/post/policedatachallenge/</link>
       <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
@@ -162,6 +144,15 @@ Megan Aadland (South Dakota State), Jenn Halbleib (Amherst), Adrianna Kallis (Io
       
       <guid>http://driftlessdata.space/post/viz-oscars/</guid>
       <description>As I was watching Chris Rock host the 2016 Oscars, I decided to finally scratch my curiosity itch and learn R&amp;rsquo;s Twitter API, twitteR. The 2016 Oscars were controversial, due to the fact that all the actors and actresses nominated were white for the second year in a row. Chris Rock made sure to point this out in his opening monologue, and tweets began using the hashtag #OscarsSoWhite to advance the conversation.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://driftlessdata.space/post/income-gestalt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/income-gestalt/</guid>
+      <description>The fall semester is over and final grades are in, which means it’s time to reflect on what just took place and how to grow from here. Today, I reflect on my third time teaching the data visualization course. This course has come a long way since the first time I taught it in Fall 2015, and yet there are still so many improvements to make! One of the concepts I want to greater emphasize next time I teach the course are the Gestalt principles, which Gestalt psychologist Kurt Koffka summarizes as the idea that “The whole is other than the sum of the parts.</description>
     </item>
     
   </channel>
