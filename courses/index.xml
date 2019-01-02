@@ -316,6 +316,16 @@ library(dplyr);library(ggplot2)ipums &amp;lt;- read.csv(&amp;#39;C:/Users/rt187
     </item>
     
     <item>
+      <title>IPUMS visualization in ggplot2</title>
+      <link>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.utf8/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.utf8/</guid>
+      <description>Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2) ipums &amp;lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;) usa &amp;lt;- ipums %&amp;gt;% filter(Country==&#39;United States&#39;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.</description>
+    </item>
+    
+    <item>
       <title>R Homework 2</title>
       <link>http://driftlessdata.space/courses/stat450/r_hw2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

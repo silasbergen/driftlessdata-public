@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/post/dsci-consulting/</loc>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/courses/stat110/syllabus/</loc>
       <lastmod>2018-08-28T00:00:00+00:00</lastmod>
     </url>
@@ -539,8 +548,18 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/tags/dplyr/</loc>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/tags/education/</loc>
-      <lastmod>2018-05-23T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -557,6 +576,16 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/tags/ggplot/</loc>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-key/</loc>
     </url>
     
@@ -566,6 +595,14 @@
     <url>
     
       <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.utf8/</loc>
     </url>
     
   
@@ -604,7 +641,7 @@
     <url>
     
       <loc>http://driftlessdata.space/tags/r/</loc>
-      <lastmod>2017-10-31T00:00:00-05:00</lastmod>
+      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

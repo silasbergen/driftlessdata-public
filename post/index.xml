@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Stat consulting: a data science playground</title>
+      <link>http://driftlessdata.space/post/dsci-consulting/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/dsci-consulting/</guid>
+      <description>This past semester I taught our STAT 370 (statistical consulting and communication) for the first time. This course gave student experience consulting for real clients from the university and community and focused on communicating with a client as well as report and presentation preparation best practices. Most of the required analyses were simple: paired t-tests, simple linear regression, etc. What struck me was the nontrivality of the data tidying process! While STAT 370 is taken mostly by our statistics majors, so many of the examples we encountered would be beautiful case studies for our introductory DSCI (data science) curriculum.</description>
+    </item>
+    
+    <item>
       <title>Data vizzing in Japan</title>
       <link>http://driftlessdata.space/post/icots/</link>
       <pubDate>Sat, 14 Jul 2018 00:00:00 -0500</pubDate>

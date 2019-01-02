@@ -11,6 +11,162 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat consulting: a data science playground</title>
+      <link>http://driftlessdata.space/post/dsci-consulting/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/dsci-consulting/</guid>
+      <description>&lt;p&gt;This past semester I taught our &lt;a href=&#34;../../courses/stat370/stat370-home/&#34;&gt;STAT 370 (statistical consulting and communication)&lt;/a&gt; for the first time. This course gave student experience consulting for real clients from the university and community and focused on communicating with a client as well as report and presentation preparation best practices. Most of the required analyses were simple: paired t-tests, simple linear regression, etc. What struck me was the nontrivality of the data tidying process! While STAT 370 is taken mostly by our statistics majors, so many of the examples we encountered would be beautiful case studies for our introductory DSCI (data science) curriculum. In this post I present an actual example from a client that illustrates this.&lt;/p&gt;
+&lt;p&gt;The data here concerned undergraduate nursing students in one of four terms of the nursing program. Of interest was measuring the students’ resiliency as measured by the Connor-Davidson Resiliency Scale (CDRS), both prior to and following impelementation of a Stress Management and Resiliency Training (SMART). The client was interested in determining for which of the four terms was there a significant change in resilience.&lt;/p&gt;
+&lt;p&gt;Here are the data we’re working with (&lt;a href=&#34;../../files/cdrs_data_pre.csv&#34;&gt;link to pre&lt;/a&gt; | &lt;a href=&#34;../../files/cdrs_data_post.csv&#34;&gt;link to post&lt;/a&gt;). &lt;code&gt;id&lt;/code&gt; stands for a unique student identifier. We also have responses to 18 of the CDRS items (each on a 5-point Likert scale). The &lt;code&gt;post&lt;/code&gt; data set also contains the student terms; notably this information is &lt;em&gt;not&lt;/em&gt; available in the &lt;code&gt;pre&lt;/code&gt; data set.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)
+library(tidyr)
+library(ggplot2)
+pre &amp;lt;- read.csv(&amp;#39;cdrs_data_pre.csv&amp;#39;)
+post &amp;lt;- read.csv(&amp;#39;cdrs_data_pre.csv&amp;#39;)
+head(post)
+names(pre) #missing term information!!&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    id  Term CDRS_Q1 CDRS_Q2 CDRS_Q3 CDRS_Q4 CDRS_Q5 CDRS_Q6 CDRS_Q7
+## 1  23 Term1       4       4       3       4       4       3       3
+## 2 183 Term1       3       4       4       3       4       3       4
+## 3  80 Term1       3       4       4       3       4       3       4
+## 4   1 Term1       3       4       4       3       3       2       4
+## 5 166 Term1       3       4       3       4       4       4       4
+## 6  15 Term1       3       3       2       3       3       2       3
+##   CDRS_Q8 CDRS_Q9 CDRS_Q10 CDRS_Q11 CDRS_Q12 CDRS_Q20 CDRS_Q21 CDRS_Q22
+## 1       4       4        4        4        3        2        3        3
+## 2       2       3        3        3        3        3        3        3
+## 3       3       4        4        4        4        4        4        4
+## 4       4       4        4        4        4        2        3        3
+## 5       4       4        4        4        4        3        4        4
+## 6       3       2        3        3        3        2        3        3
+##   CDRS_Q23 CDRS_Q24 CDRS_Q25
+## 1        3        4        4
+## 2        3        4        4
+## 3        3        4        4
+## 4        2        3        4
+## 5        4        4        4
+## 6        3        3        3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##  [1] &amp;quot;id&amp;quot;       &amp;quot;CDRS_Q1&amp;quot;  &amp;quot;CDRS_Q2&amp;quot;  &amp;quot;CDRS_Q3&amp;quot;  &amp;quot;CDRS_Q4&amp;quot;  &amp;quot;CDRS_Q5&amp;quot; 
+##  [7] &amp;quot;CDRS_Q6&amp;quot;  &amp;quot;CDRS_Q7&amp;quot;  &amp;quot;CDRS_Q8&amp;quot;  &amp;quot;CDRS_Q9&amp;quot;  &amp;quot;CDRS_Q10&amp;quot; &amp;quot;CDRS_Q11&amp;quot;
+## [13] &amp;quot;CDRS_Q12&amp;quot; &amp;quot;CDRS_Q20&amp;quot; &amp;quot;CDRS_Q21&amp;quot; &amp;quot;CDRS_Q22&amp;quot; &amp;quot;CDRS_Q23&amp;quot; &amp;quot;CDRS_Q24&amp;quot;
+## [19] &amp;quot;CDRS_Q25&amp;quot;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the data are not &lt;a href=&#34;https://www.jstatsoft.org/article/view/v059i10&#34;&gt;tidy&lt;/a&gt; in the sense that each row is a person, and we have variable information on the questions in columns. I’ll return to this in a bit.&lt;/p&gt;
+&lt;p&gt;Here ultimately is a visualization that we could use to determine for which terms are the SMART effects strongest, and for which terms is the effect statistically significant:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/dsci-consulting_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;576&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;We can see that the average resilience pre-SMART was lower than average resilience post-SMART, and that these differences were most extreme for students in Terms 2 and 3 (which were also the only statistically significant differences). Additionally, students in Term 4 had very high pre- and post-SMART resilience (they’re seasoned veterans, after all!)&lt;/p&gt;
+&lt;p&gt;A simple plot, with a simple interpretation. But the path to get there is anything but! To create this plot we need:&lt;/p&gt;
+&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
+&lt;li&gt;to average the 18 CDRS items for each student;&lt;/li&gt;
+&lt;li&gt;join the data sets;&lt;/li&gt;
+&lt;li&gt;compute paired t-tests for each term;&lt;/li&gt;
+&lt;li&gt;prepare data for plotting;&lt;/li&gt;
+&lt;li&gt;plot&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;So, let’s proceed!&lt;/p&gt;
+&lt;div id=&#34;average-the-cdrs-items&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Average the CDRS items&lt;/h2&gt;
+&lt;p&gt;This is perhaps the most interesting step in the process. As mentioned earlier, the data are not tidy in the sense that we have variable information in columns instead of rows. We could reshape (“gather” or “melt”) to average CDRS score by term. Doing this for the post data set:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;post_melt &amp;lt;- post %&amp;gt;% 
+  gather(key = &amp;#39;Question&amp;#39;,value=&amp;#39;Response&amp;#39;,CDRS_Q1:CDRS_Q25)
+head(post_melt)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    id  Term Question Response
+## 1  23 Term1  CDRS_Q1        4
+## 2 183 Term1  CDRS_Q1        3
+## 3  80 Term1  CDRS_Q1        3
+## 4   1 Term1  CDRS_Q1        3
+## 5 166 Term1  CDRS_Q1        3
+## 6  15 Term1  CDRS_Q1        3&lt;/code&gt;&lt;/pre&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;post_melt %&amp;gt;% 
+  group_by(id,Term) %&amp;gt;%
+  summarize(post_mean = mean(Response))&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 67 x 3
+## # Groups:   id [?]
+##       id Term  post_mean
+##    &amp;lt;int&amp;gt; &amp;lt;fct&amp;gt;     &amp;lt;dbl&amp;gt;
+##  1     1 Term1      3.33
+##  2     2 Term3      3   
+##  3     4 Term2      2.83
+##  4     8 Term2      3.11
+##  5     9 Term1      2.72
+##  6    13 Term4      2.72
+##  7    15 Term1      2.78
+##  8    20 Term1      3   
+##  9    23 Term1      3.5 
+## 10    26 Term4      2.56
+## # ... with 57 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;We could also forego the melting, since ultimately all we want is the average response for each student. We can use the original &lt;code&gt;post&lt;/code&gt; data set, and an application of the &lt;code&gt;rowMeans()&lt;/code&gt; function within which is nested the &lt;code&gt;select()&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;post2 &amp;lt;- post %&amp;gt;%
+  mutate(post_mean = rowMeans(select(.,CDRS_Q1:CDRS_Q25))) %&amp;gt;%
+  select(id, Term, post_mean)
+head(post2)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##    id  Term post_mean
+## 1  23 Term1  3.500000
+## 2 183 Term1  3.277778
+## 3  80 Term1  3.722222
+## 4   1 Term1  3.333333
+## 5 166 Term1  3.833333
+## 6  15 Term1  2.777778&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;One could argue that the first approach (using &lt;code&gt;gather()&lt;/code&gt;) is the best, since it first creates a “tidy” data set and is arguably more readable. But the second appears more succinct. I’ll use the second approach to carry out the same task on the &lt;code&gt;pre&lt;/code&gt; data:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;pre2 &amp;lt;- pre %&amp;gt;%
+  mutate(pre_mean = rowMeans(select(.,CDRS_Q1:CDRS_Q25))) %&amp;gt;%
+  select(id, pre_mean)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;join-pre-and-post&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Join pre and post&lt;/h2&gt;
+&lt;p&gt;This step is easy!&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;both &amp;lt;- inner_join(pre2,post2,by=&amp;#39;id&amp;#39;)
+head(both)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;##   id pre_mean  Term post_mean
+## 1  1 3.333333 Term1  3.333333
+## 2  2 2.944444 Term3  3.000000
+## 3  4 2.888889 Term2  2.833333
+## 4  8 2.944444 Term2  3.111111
+## 5  9 2.444444 Term1  2.722222
+## 6 13 2.944444 Term4  2.722222&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;carry-out-paired-t-tests-by-term&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Carry out paired t-tests by term&lt;/h2&gt;
+&lt;p&gt;Here is the lone “formal” statistical aspect of the whole problem! We can carry out paired t-tests by term as follows using some ugly base-R cod: the &lt;code&gt;by()&lt;/code&gt; command. I won’t show the output, but here we can see that only for Terms 2 and 3 is the SMART effect statistically significant:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;by(both, both$Term, function(df) t.test(df$pre_mean,df$post_mean,paired=TRUE))&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;prepare-data-for-plotting&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Prepare data for plotting&lt;/h2&gt;
+&lt;p&gt;Referring back to the figure, the geometric mapping includes four points for the four pre-SMART CDRS averages (one for each term); four points for the post-SMART CDRS averages (one for each term); and a line segment connecting them. We can use the joined data set to form our “plotting” data set.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;toplot &amp;lt;- both %&amp;gt;%
+  group_by(Term) %&amp;gt;%
+  summarize(avg_pre = mean(pre_mean),avg_post = mean(post_mean)) %&amp;gt;% 
+  mutate(sig = c(&amp;#39;no&amp;#39;,&amp;#39;yes&amp;#39;,&amp;#39;yes&amp;#39;,&amp;#39;no&amp;#39;))
+toplot&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 4 x 4
+##   Term  avg_pre avg_post sig  
+##   &amp;lt;fct&amp;gt;   &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;
+## 1 Term1    2.97     3.10 no   
+## 2 Term2    2.98     3.16 yes  
+## 3 Term3    2.95     3.26 yes  
+## 4 Term4    3.21     3.2  no&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note that the &lt;code&gt;avg_pre&lt;/code&gt; and &lt;code&gt;avg_post&lt;/code&gt; columns are in fact “means of means,” and we have manually added a column to indicate whether the difference was statistically significant.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;plot&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Plot!&lt;/h2&gt;
+&lt;p&gt;And now the fun begins! Here is ggplot code to create the original figure:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ggplot(data = toplot) + 
+  geom_point(aes(x = avg_pre, y = 1:4, shape=&amp;#39;a&amp;#39;,color=sig),size=2)  + 
+  geom_point(aes(x = avg_post, y = 1:4,shape=&amp;#39;b&amp;#39;,color=sig),size=2) + 
+  geom_segment(aes(x = avg_pre, xend = avg_post, y=1:4,yend=1:4,color=sig)) + 
+  scale_y_reverse() + xlab(&amp;#39;average CDRS&amp;#39;) + ylab(&amp;#39;Term&amp;#39;) + 
+  scale_shape_manual(name=&amp;#39;&amp;#39;,values=c(&amp;#39;a&amp;#39;=19,&amp;#39;b&amp;#39;=17),labels=c(&amp;#39;pre SMART&amp;#39;,&amp;#39;post SMART&amp;#39;)) + 
+  scale_color_discrete(name=&amp;#39;significant?&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/dsci-consulting_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;576&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;moral&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Moral&lt;/h2&gt;
+&lt;p&gt;Wow! The only truly “statistical” aspect of this whole process was a paired t-test. And even that was a bit tricky: figuring out how to carry out these t-tests by term! In reflecting back on the semester, I am struck that our data science students would do well to take our stat consulting course. They would be kept very interested in data “wrangling” tasks such as this. On the flip side, it’s an invaluable experience for our STAT majors (who comprise the usual audience of this course) to realize that the statistical test is ultimately the last in a long series of data wrangling steps.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Syllabus (Fall 2018)</title>
       <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
       <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
@@ -1631,24 +1787,6 @@ become an active and engaged member of our class and community.
 &lt;h3 id=&#34;police-data-initiative&#34;&gt;Police Data Initiative&lt;/h3&gt;
 
 &lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/post/policedatachallenge/&#34;&gt;Police Data Initiative&lt;/a&gt; contains data on 911 calls for over 20 different U.S. cities.  The data are relatively clean, but the variables available vary greatly from city-to-city.  A recent group of students from my data visualization class &lt;a href=&#34;../../post/policedatachallenge/&#34;&gt;did very well&lt;/a&gt; visualizing the calls from Seattle.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Data set gold mine</title>
-      <link>http://driftlessdata.space/post/ufl/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/ufl/</guid>
-      <description>&lt;p&gt;Quick one here. As a statistics educator I am always on the lookout for interesting, real, digestable data that illustrate important statistical concepts. That’s a tall order!&lt;/p&gt;
-&lt;p&gt;One site that I visit again and again is this excellent repository hosted at University of Florida. &lt;a href=&#34;http://www.stat.ufl.edu/~winner/datasets.html&#34;&gt;Here’s the link.&lt;/a&gt; I regularly ping this website for classes ranging from intro stats to experimental design to regression analysis. Not only are they varied in scope and organized by topic, they also have brief descriptions and citations of original sources. It’s a gold mine! Hat tip to my colleague &lt;a href=&#34;http://course1.winona.edu/bdeppa/&#34;&gt;Brant Deppa&lt;/a&gt; aka Data Hound for originally cluing me in to this website.&lt;/p&gt;
-&lt;p&gt;Just an example, here’s one on modeling math scores as a function of LSD concentration I recently used in a &lt;a href=&#34;https://www.dropbox.com/s/u8paynlm9gom22m/HW4.docx?dl=0&#34;&gt;homework assignment&lt;/a&gt; for my &lt;a href=&#34;../courses/stat310-home/&#34;&gt;intermediate statistics course&lt;/a&gt; (spoiler alert: taking LSD is &lt;em&gt;not&lt;/em&gt; recommended to improve math test score.)&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-df &amp;lt;- read.table(&amp;#39;http://www.stat.ufl.edu/~winner/data/lsd.dat&amp;#39;,header=FALSE,col.names=c(&amp;#39;LSD&amp;#39;,&amp;#39;Score&amp;#39;))
-ggplot(data = df,aes(x = LSD, y = Score)) + 
-  geom_point() + geom_smooth(method=&amp;quot;lm&amp;quot;) + 
-  xlab(&amp;#39;LSD concentration (mcg/kg)&amp;#39;) + ylab(&amp;#39;Math score (out of 100)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/UFL_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     

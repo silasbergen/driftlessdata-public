@@ -40,11 +40,29 @@
     </item>
     
     <item>
+      <title>Dplyr</title>
+      <link>http://driftlessdata.space/tags/dplyr/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/dplyr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Education</title>
       <link>http://driftlessdata.space/tags/education/</link>
-      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot</title>
+      <link>http://driftlessdata.space/tags/ggplot/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/tags/ggplot/</guid>
       <description></description>
     </item>
     
@@ -60,7 +78,7 @@
     <item>
       <title>R</title>
       <link>http://driftlessdata.space/tags/r/</link>
-      <pubDate>Tue, 31 Oct 2017 00:00:00 -0500</pubDate>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>http://driftlessdata.space/tags/r/</guid>
       <description></description>
