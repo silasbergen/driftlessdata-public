@@ -11,6 +11,138 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>A word in favor of summarytools</title>
+      <link>http://driftlessdata.space/post/summarytools/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/summarytools/</guid>
+      <description>&lt;p&gt;Yesterday, I was preparing material for STAT 405 (biostatistics) I am teaching this spring, and was on the prowl for something that is an improvement upon the base R &lt;code&gt;summary()&lt;/code&gt; function (it doesn’t even give standard deviations!). The ideal package would also improve upon the base R &lt;code&gt;table()&lt;/code&gt; method, for which getting row and/or column percents is a huge pain. Base function &lt;code&gt;xtabs()&lt;/code&gt; is great for getting arrays of contigency tables, but no percents. My first stop was the &lt;a href=&#34;https://cran.r-project.org/web/packages/Hmisc/Hmisc.pdf&#34;&gt;&lt;code&gt;Hmisc&lt;/code&gt; package&lt;/a&gt;, which has a good summary method via its &lt;code&gt;describe()&lt;/code&gt; function.&lt;br /&gt;
+To demonstrate I use the &lt;a href=&#34;http://www.biostat.ucsf.edu/vgsm/data.html&#34;&gt;Western Collaborative Group Survey (WCGS)&lt;/a&gt; data from Eric Vittingoff’s excellent book &lt;em&gt;Regression Methods in Biostatistics&lt;/em&gt;.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;Hmisc::describe(wcgs[,1:5])&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## wcgs[, 1:5] 
+## 
+##  5  Variables      3154  Observations
+## ---------------------------------------------------------------------------
+## age 
+##        n  missing distinct     Info     Mean      Gmd      .05      .10 
+##     3154        0       21    0.996    46.28    6.256       39       40 
+##      .25      .50      .75      .90      .95 
+##       42       45       50       55       57 
+## 
+## lowest : 39 40 41 42 43, highest: 55 56 57 58 59
+## ---------------------------------------------------------------------------
+## arcus 
+##        n  missing distinct     Info      Sum     Mean      Gmd 
+##     3152        2        2    0.628      941   0.2985    0.419 
+## 
+## ---------------------------------------------------------------------------
+## behpat 
+##        n  missing distinct 
+##     3154        0        4 
+##                                   
+## Value         A1    A2    B3    B4
+## Frequency    264  1325  1216   349
+## Proportion 0.084 0.420 0.386 0.111
+## ---------------------------------------------------------------------------
+## bmi 
+##        n  missing distinct     Info     Mean      Gmd      .05      .10 
+##     3154        0      679        1    24.52    2.803    20.59    21.52 
+##      .25      .50      .75      .90      .95 
+##    22.96    24.39    25.84    27.45    28.73 
+## 
+## lowest : 11.19061 15.66050 16.87200 17.21633 17.22242
+## highest: 36.04248 37.22973 37.24805 37.65281 38.94737
+## ---------------------------------------------------------------------------
+## chd69 
+##        n  missing distinct 
+##     3154        0        2 
+##                       
+## Value         No   Yes
+## Frequency   2897   257
+## Proportion 0.919 0.081
+## ---------------------------------------------------------------------------&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It also has a &lt;code&gt;summary&lt;/code&gt; method for objects of class &lt;code&gt;formula&lt;/code&gt; which ultimately can be used to create tables that are ready for markdown:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(chd69~agec, data = wcgs,method=&amp;#39;reverse&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## 
+## Descriptive Statistics by chd69
+## 
+## +------------+-----------+-----------+
+## |            |No         |Yes        |
+## |            |(N=2897)   |(N=257)    |
+## +------------+-----------+-----------+
+## |agec : 35-40|18%  ( 512)|12%  (  31)|
+## +------------+-----------+-----------+
+## |    41-45   |36%  (1036)|21%  (  55)|
+## +------------+-----------+-----------+
+## |    46-50   |23%  ( 680)|27%  (  70)|
+## +------------+-----------+-----------+
+## |    51-55   |16%  ( 463)|25%  (  65)|
+## +------------+-----------+-----------+
+## |    56-60   | 7%  ( 206)|14%  (  36)|
+## +------------+-----------+-----------+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It does not work as well as you would expect for additional dimensions, however:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;summary(chd69~agec+behpat, data = wcgs,method=&amp;#39;reverse&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## 
+## 
+## Descriptive Statistics by chd69
+## 
+## +------------+-----------+-----------+
+## |            |No         |Yes        |
+## |            |(N=2897)   |(N=257)    |
+## +------------+-----------+-----------+
+## |agec : 35-40|18%  ( 512)|12%  (  31)|
+## +------------+-----------+-----------+
+## |    41-45   |36%  (1036)|21%  (  55)|
+## +------------+-----------+-----------+
+## |    46-50   |23%  ( 680)|27%  (  70)|
+## +------------+-----------+-----------+
+## |    51-55   |16%  ( 463)|25%  (  65)|
+## +------------+-----------+-----------+
+## |    56-60   | 7%  ( 206)|14%  (  36)|
+## +------------+-----------+-----------+
+## |behpat : A1 | 8%  ( 234)|12%  (  30)|
+## +------------+-----------+-----------+
+## |    A2      |41%  (1177)|58%  ( 148)|
+## +------------+-----------+-----------+
+## |    B3      |40%  (1155)|24%  (  61)|
+## +------------+-----------+-----------+
+## |    B4      |11%  ( 331)| 7%  (  18)|
+## +------------+-----------+-----------+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Enter &lt;a href=&#34;https://cran.r-project.org/web/packages/summarytools/vignettes/Introduction.html&#34;&gt;summarytools&lt;/a&gt;, immediately appealing in its simplicity. Indeed it only has four primary functions, centered on its wonderful &lt;code&gt;dfSummary()&lt;/code&gt; function:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(summarytools)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;../../img/dfsummary1.PNG&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;This is the prettiest, most thorough output I’ve come across in a summary function, complete with ASCII bar graphs or histograms representing categorical or quantitative variables. You can prettify it even further in the browser with the &lt;code&gt;view()&lt;/code&gt; command:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;view(dfSummary(wcgs))&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;../../img/dfsummary2.PNG&#34; /&gt;
+
+&lt;/div&gt;
+&lt;p&gt;Two-way tables come by way of &lt;code&gt;ctable()&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;ctable(wcgs$agec,wcgs$chd69)&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;## Cross-Tabulation / Row Proportions   
+## Variables: agec * chd69     
+## Data Frame: wcgs   
+##    
+## ------- ------- --------------- -------------- ----------------
+##           chd69              No            Yes            Total
+##    agec                                                        
+##   35-40            512 (94.29%)    31 ( 5.71%)    543 (100.00%)
+##   41-45           1036 (94.96%)    55 ( 5.04%)   1091 (100.00%)
+##   46-50            680 (90.67%)    70 ( 9.33%)    750 (100.00%)
+##   51-55            463 (87.69%)    65 (12.31%)    528 (100.00%)
+##   56-60            206 (85.12%)    36 (14.88%)    242 (100.00%)
+##   Total           2897 (91.85%)   257 ( 8.15%)   3154 (100.00%)
+## ------- ------- --------------- -------------- ----------------&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;A couple drawbacks to &lt;code&gt;summarytools&lt;/code&gt;: (1) It is not very compatible with the tidyverse, as you can see with the above use of &lt;code&gt;ctable()&lt;/code&gt;. (2) Even the nice 2x2 table is not easily extentable to higher dimensions. You could use &lt;code&gt;by()&lt;/code&gt;, but…who wants to do that?&lt;/p&gt;
+&lt;p&gt;In finishing this post I see Adam Medcalf from Dabbling with Data has a &lt;a href=&#34;https://dabblingwithdata.wordpress.com/2018/01/02/my-favourite-r-package-for-summarising-data/&#34;&gt;nice post&lt;/a&gt; on Hmisc, summarytools, and a couple others as well. For my money, I’ll take summarytools, though I wish its beautiful 2x2 table displays were more easily extended and its &lt;code&gt;ctable()&lt;/code&gt; and &lt;code&gt;descr()&lt;/code&gt; functions more tidyverseable!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stat consulting: a data science playground</title>
       <link>http://driftlessdata.space/post/dsci-consulting/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
@@ -82,18 +214,18 @@ head(post_melt)&lt;/code&gt;&lt;/pre&gt;
   summarize(post_mean = mean(Response))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## # A tibble: 67 x 3
 ## # Groups:   id [?]
-##       id Term  post_mean
-##    &amp;lt;int&amp;gt; &amp;lt;fct&amp;gt;     &amp;lt;dbl&amp;gt;
-##  1     1 Term1      3.33
-##  2     2 Term3      3   
-##  3     4 Term2      2.83
-##  4     8 Term2      3.11
-##  5     9 Term1      2.72
-##  6    13 Term4      2.72
-##  7    15 Term1      2.78
-##  8    20 Term1      3   
-##  9    23 Term1      3.5 
-## 10    26 Term4      2.56
+##       id   Term post_mean
+##    &amp;lt;int&amp;gt; &amp;lt;fctr&amp;gt;     &amp;lt;dbl&amp;gt;
+##  1     1  Term1  3.333333
+##  2     2  Term3  3.000000
+##  3     4  Term2  2.833333
+##  4     8  Term2  3.111111
+##  5     9  Term1  2.722222
+##  6    13  Term4  2.722222
+##  7    15  Term1  2.777778
+##  8    20  Term1  3.000000
+##  9    23  Term1  3.500000
+## 10    26  Term4  2.555556
 ## # ... with 57 more rows&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;We could also forego the melting, since ultimately all we want is the average response for each student. We can use the original &lt;code&gt;post&lt;/code&gt; data set, and an application of the &lt;code&gt;rowMeans()&lt;/code&gt; function within which is nested the &lt;code&gt;select()&lt;/code&gt; command:&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;post2 &amp;lt;- post %&amp;gt;%
@@ -139,12 +271,12 @@ head(both)&lt;/code&gt;&lt;/pre&gt;
   mutate(sig = c(&amp;#39;no&amp;#39;,&amp;#39;yes&amp;#39;,&amp;#39;yes&amp;#39;,&amp;#39;no&amp;#39;))
 toplot&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## # A tibble: 4 x 4
-##   Term  avg_pre avg_post sig  
-##   &amp;lt;fct&amp;gt;   &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;
-## 1 Term1    2.97     3.10 no   
-## 2 Term2    2.98     3.16 yes  
-## 3 Term3    2.95     3.26 yes  
-## 4 Term4    3.21     3.2  no&lt;/code&gt;&lt;/pre&gt;
+##     Term  avg_pre avg_post   sig
+##   &amp;lt;fctr&amp;gt;    &amp;lt;dbl&amp;gt;    &amp;lt;dbl&amp;gt; &amp;lt;chr&amp;gt;
+## 1  Term1 2.965608 3.100529    no
+## 2  Term2 2.977778 3.161111   yes
+## 3  Term3 2.952675 3.255144   yes
+## 4  Term4 3.211111 3.200000    no&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Note that the &lt;code&gt;avg_pre&lt;/code&gt; and &lt;code&gt;avg_post&lt;/code&gt; columns are in fact “means of means,” and we have manually added a column to indicate whether the difference was statistically significant.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;plot&#34; class=&#34;section level2&#34;&gt;
@@ -1703,91 +1835,6 @@ become an active and engaged member of our class and community.
       
       <guid>http://driftlessdata.space/talk/stolaf/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Public data sources with social justice applications</title>
-      <link>http://driftlessdata.space/project/social-justice-data/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/project/social-justice-data/</guid>
-      <description>
-
-&lt;p&gt;Recently, I and some WSU student volunteers gave a &lt;a href=&#34;../../talk/stolaf/&#34;&gt;talk at St. Olaf&lt;/a&gt; on great public data sources I have been using as sources of investigating &amp;ldquo;social justice&amp;rdquo; applications.  Most of the ways I&amp;rsquo;ve used the data have been for class projects or assignments. That talk was an impetus to compile all the resources I&amp;rsquo;ve been using over the years, along with some example class projects using pre-aggregated data.&lt;/p&gt;
-
-&lt;h3 id=&#34;integrated-public-use-microdata-series-ipums&#34;&gt;Integrated Public Use Microdata Series (IPUMS)&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.ipums.org/&#34;&gt;IPUMS&lt;/a&gt; is one of my favorite data sources.  The great folks at the &lt;a href=&#34;https://pop.umn.edu/&#34;&gt;Minnesota Population Center&lt;/a&gt; have done fabulous work collecting, harmonizing, and producing data from the &lt;a href=&#34;https://www.census.gov/programs-surveys/acs/&#34;&gt;American Community Survey&lt;/a&gt;, the &lt;a href=&#34;https://www.census.gov/programs-surveys/cps.html&#34;&gt;Current Population Survey&lt;/a&gt;, and the &lt;a href=&#34;https://www.cdc.gov/nchs/nhis/index.htm&#34;&gt;National Health Interview Survey&lt;/a&gt;, among others.  The group at IPUMS-International even &lt;a href=&#34;../../post/winstats/&#34;&gt;collaborated with us on an REU&lt;/a&gt; during Summer 2017.  Once you get the hang of their data query system, you have an enormous wealth of data available to you.  In December 2017, they even released &lt;a href=&#34;https://cran.r-project.org/web/packages/ipumsr/vignettes/ipums.html&#34;&gt;ipumsr&lt;/a&gt;, an R package that facilitates wrangling their data extracts with R.&lt;/p&gt;
-
-&lt;p&gt;As the M in IPUMS indicates, data extracted from IPUMS are microdata.  This means each row is an individual observation, which makes IPUMS data especially interesting.  All sensible IPUMS data analyses require consideration of the PERWT variable, which indicates how many individuals in the population each row represents.  IPUMS has extensive documentation on PERWT (e.g. &lt;a href=&#34;https://usa.ipums.org/usa-action/variables/PERWT#description_section&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://usa.ipums.org/usa/repwt.shtml&#34;&gt;here&lt;/a&gt;).&lt;/p&gt;
-
-&lt;h4 id=&#34;example-student-projects-using-ipums-data&#34;&gt;Example student projects using IPUMS data&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Intro Stat final project: investigating historic poverty rates, median income, and high-school completion by race using aggregated data from &lt;a href=&#34;https://cps.ipums.org/cps/&#34;&gt;IPUMS CPS&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2jzl2beycp45xa7/Stat%20210%20Final%20Project-Spring2016.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hoce7k8hi7agn1g/ACS-NC.csv?dl=0&#34;&gt;ACS data on North Carolina&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s1gcroyd9gz8yqv/NC%20Birth.csv?dl=0&#34;&gt;North Carolina births&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/vm11r751pv7f5mr/IPUMS-Historic.csv?dl=0&#34;&gt;Aggregated IPUMS CPS data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hndpmqukj20ra73/CDC-Historic.csv?dl=0&#34;&gt;Aggregated CDC WONDER data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Data visualization assignment: population shifts, trend in educational attainment gaps
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qh9t5ac9du0b50t/DT2-F17.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/5dhykg7t4aa8cqb/IPUMS-Sex-Empstat.csv?dl=0&#34;&gt;Sex-Empstat Data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ftid3df9962i2il/IPUMS-Sex-Age.csv?dl=0&#34;&gt;Sex-Age data&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Tableau visualization of STEM and gender using &lt;a href=&#34;https://highered.ipums.org/highered/&#34;&gt;IPUMS Higher-Ed&lt;/a&gt; by &lt;a href=&#34;https://www.linkedin.com/in/reagan-buske-945570150/&#34;&gt;Reagan Buske&lt;/a&gt; (DSCI 310 final project; Fall 2017)&lt;br /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://public.tableau.com/profile/reagan.buske#!/vizhome/STEM_8/Intro&#34;&gt;Link to Tableau Public dashboard&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;cdc-wonder&#34;&gt;CDC WONDER&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;https://wonder.cdc.gov/&#34;&gt;WONDER&lt;/a&gt; database operated by the Centers for Disease Control and Prevention provide a rich query system for analysis of public health data.  All data is aggregated.  If too few counts are available at the requested level of aggregation, WONDER typically suppresses those counts.  The databases I most often use are the &lt;a href=&#34;https://wonder.cdc.gov/natality.html&#34;&gt;Natality&lt;/a&gt; and &lt;a href=&#34;https://wonder.cdc.gov/natality.html&#34;&gt;Mortality&lt;/a&gt; queries.&lt;/p&gt;
-
-&lt;h4 id=&#34;example-student-projects-using-wonder-data&#34;&gt;Example student projects using WONDER data&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Data visuaization assignment: Teenage fertility rates by race, state, year
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/nhp1fsauhgfpj72/DT3-F17.docx?dl=0&#34;&gt;Prompt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9kb7zxe9p2jb24c/CDC-Teenage-fertility-data-imputed.csv?dl=0&#34;&gt;Aggregated data&lt;/a&gt; (suppressed rates imputed using teenage fertility rates at the Census Division level)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://public.tableau.com/profile/silas.bergen#!/vizhome/TeenPregnancyintheU_S_/Dash&#34;&gt;Example visualization&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Intro stat assignment (correlation/regression): gun deaths and gun ownership
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9biho5oh17riezc/HW11.docx?dl=0&#34;&gt;Prompt (question 2)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6yfliq1bdgxa7av/Gun-data.csv?dl=0&#34;&gt;Data&lt;/a&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;mn-department-of-education&#34;&gt;MN Department of Education&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://w20.education.state.mn.us/MDEAnalytics/Data.jsp&#34;&gt;Minnesota Department of Education&amp;rsquo;s Data Center&lt;/a&gt; has a wealth of data, though not nearly as nice a query system as IPUMS or WONDER.  Queries must often be by year, with separate Excel/CSV files for each year.  Looking at trends for 10 years, then, requires downloading 10 separate data files and aggregating manually.  Not fun! But there are a lot of data sources here for those interested in looking at staffing, ACT scores, school enrollment, etc.  I spent some time aggregating &lt;a href=&#34;http://w20.education.state.mn.us/MDEAnalytics/DataTopic.jsp?TOPICID=133&#34;&gt;data on disciplinary actions&lt;/a&gt; for the Winona Area Public School district.  I&amp;rsquo;ve turned it into a &lt;a href=&#34;https://public.tableau.com/profile/silas.bergen#!/vizhome/WAPS-infographic/Dash&#34;&gt;Tableau visualization&lt;/a&gt; and also used it as an assigment for my intermediate statistics (&amp;ldquo;Stat 2&amp;rdquo;) class.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Intermediate statistics assignment: modeling racial disparity in disciplinary action rate using data from Winona Area Public Schools
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xxwv8lchnoeqc0b/Exam%201%20%28take%20home%29.docx?dl=0&#34;&gt;Prompt (question 2)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/5esaj7aq882o643/WAPS-discipline-data.csv?dl=0&#34;&gt;Data&lt;/a&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;police-data-initiative&#34;&gt;Police Data Initiative&lt;/h3&gt;
-
-&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/post/policedatachallenge/&#34;&gt;Police Data Initiative&lt;/a&gt; contains data on 911 calls for over 20 different U.S. cities.  The data are relatively clean, but the variables available vary greatly from city-to-city.  A recent group of students from my data visualization class &lt;a href=&#34;../../post/policedatachallenge/&#34;&gt;did very well&lt;/a&gt; visualizing the calls from Seattle.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

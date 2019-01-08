@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.31.1" />
   <meta name="author" content="Silas Bergen">
   <meta name="description" content="Assistant professor of statistics and data science">
 
@@ -332,6 +332,17 @@ facet_grid(.
   </div>
   
   <div>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.utf8/">IPUMS visualization in ggplot2</a></h2>
+    <div class="article-style">
+      
+      Code for tasks:
+library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.~Year) + scale_color_discrete(name=&lsquo;Highest education attained&rsquo;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&lsquo;Count (in millions)&rsquo;, labels = function(x) paste(x / 1000000,&rsquo;M&rsquo;))  With percents instead of counts:
+usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count)) #head(usa2) ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) + facet_grid(.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
@@ -343,16 +354,6 @@ usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
 ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
 geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
 facet_grid(.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.knit/">IPUMS visualization in ggplot2</a></h2>
-    <div class="article-style">
-      
-      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
-library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.
       
     </div>
   </div>

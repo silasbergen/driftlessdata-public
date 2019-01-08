@@ -8,9 +8,7 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="http://driftlessdata.space/talk/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Great public data sources with social justice applications</title>
@@ -27,7 +25,8 @@
       <pubDate>Sun, 30 Jul 2017 00:00:00 -0500</pubDate>
       
       <guid>http://driftlessdata.space/talk/reu-jsm/</guid>
-      <description>With Chris Malone; Brant Deppa; and Tisha Hooks</description>
+      <description>&lt;p&gt;With Chris Malone; Brant Deppa; and Tisha Hooks&lt;/p&gt;
+</description>
     </item>
     
     <item>

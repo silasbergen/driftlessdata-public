@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/post/summarytools/</loc>
+      <lastmod>2019-01-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/post/dsci-consulting/</loc>
       <lastmod>2019-01-02T00:00:00+00:00</lastmod>
     </url>
@@ -205,6 +214,15 @@
     
       <loc>http://driftlessdata.space/post/on-epts/</loc>
       <lastmod>2017-12-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>http://driftlessdata.space/post/income-gestalt/</loc>
+      <lastmod>2017-12-12T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -464,14 +482,6 @@
     
     <url>
     
-      <loc>http://driftlessdata.space/post/income-gestalt/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>http://driftlessdata.space/publication_types/1/</loc>
       <lastmod>2013-07-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -593,6 +603,14 @@
     
     <url>
     
+      <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-key.utf8/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/</loc>
     </url>
     
@@ -601,7 +619,7 @@
     
     <url>
     
-      <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.knit/</loc>
+      <loc>http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.utf8/</loc>
     </url>
     
   
@@ -640,7 +658,7 @@
     <url>
     
       <loc>http://driftlessdata.space/tags/r/</loc>
-      <lastmod>2019-01-02T00:00:00+00:00</lastmod>
+      <lastmod>2019-01-08T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

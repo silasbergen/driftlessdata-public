@@ -11,7 +11,7 @@
   <meta name="description" content="Assistant professor of statistics and data science">
 
   
-  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/post/viz-waps-disparity/">
+  <link rel="alternate" hreflang="en-us" href="http://driftlessdata.space/post/summarytools/">
 
   
   
@@ -70,24 +70,24 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="http://driftlessdata.space/post/viz-waps-disparity/">
+  <link rel="canonical" href="http://driftlessdata.space/post/summarytools/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Silas Bergen">
-  <meta property="og:url" content="http://driftlessdata.space/post/viz-waps-disparity/">
-  <meta property="og:title" content="Racial disparity in Winona Area Public School District | Silas Bergen">
+  <meta property="og:url" content="http://driftlessdata.space/post/summarytools/">
+  <meta property="og:title" content="A word in favor of summarytools | Silas Bergen">
   <meta property="og:description" content="">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2016-12-29T00:00:00-06:00">
+  <meta property="article:published_time" content="2019-01-08T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2016-12-29T00:00:00-06:00">
-  
-
+  <meta property="article:modified_time" content="2019-01-08T00:00:00&#43;00:00">
   
 
-  <title>Racial disparity in Winona Area Public School District | Silas Bergen</title>
+  
+
+  <title>A word in favor of summarytools | Silas Bergen</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
@@ -235,7 +235,7 @@
 
   <div class="article-container">
     <div class="article-inner">
-      <h1 itemprop="name">Racial disparity in Winona Area Public School District</h1>
+      <h1 itemprop="name">A word in favor of summarytools</h1>
 
       
 
@@ -243,8 +243,8 @@
 
   <span class="article-date">
     
-    <time datetime="2016-12-29 00:00:00 -0600 CST" itemprop="datePublished">
-      Dec 29, 2016
+    <time datetime="2019-01-08 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Jan 8, 2019
     </time>
   </span>
 
@@ -264,14 +264,129 @@
 
 
       <div class="article-style" itemprop="articleBody">
-        <p> This visualization project was inspired by the excellent This American Life episode, <em> <a href="https://www.thisamericanlife.org/radio-archives/episode/538/is-this-working"> Is This Working? </a> </em>  
- The entire episode is well worth a listen, but the gist of the episode was that racial inequity in disciplinary action translates into racial inequity in academic outcomes.  I was curious to see 
-if this association held up, in the Winona Area Public Schools, using publicly available data from the <a href="http://education.state.mn.us/MDE/Data/"> Minnesota Department of Education Data Center. </a>  Turns out, it does.   </p> 
+        <p>Yesterday, I was preparing material for STAT 405 (biostatistics) I am teaching this spring, and was on the prowl for something that is an improvement upon the base R <code>summary()</code> function (it doesn’t even give standard deviations!). The ideal package would also improve upon the base R <code>table()</code> method, for which getting row and/or column percents is a huge pain. Base function <code>xtabs()</code> is great for getting arrays of contigency tables, but no percents. My first stop was the <a href="https://cran.r-project.org/web/packages/Hmisc/Hmisc.pdf"><code>Hmisc</code> package</a>, which has a good summary method via its <code>describe()</code> function.<br />
+To demonstrate I use the <a href="http://www.biostat.ucsf.edu/vgsm/data.html">Western Collaborative Group Survey (WCGS)</a> data from Eric Vittingoff’s excellent book <em>Regression Methods in Biostatistics</em>.</p>
+<pre class="r"><code>Hmisc::describe(wcgs[,1:5])</code></pre>
+<pre><code>## wcgs[, 1:5] 
+## 
+##  5  Variables      3154  Observations
+## ---------------------------------------------------------------------------
+## age 
+##        n  missing distinct     Info     Mean      Gmd      .05      .10 
+##     3154        0       21    0.996    46.28    6.256       39       40 
+##      .25      .50      .75      .90      .95 
+##       42       45       50       55       57 
+## 
+## lowest : 39 40 41 42 43, highest: 55 56 57 58 59
+## ---------------------------------------------------------------------------
+## arcus 
+##        n  missing distinct     Info      Sum     Mean      Gmd 
+##     3152        2        2    0.628      941   0.2985    0.419 
+## 
+## ---------------------------------------------------------------------------
+## behpat 
+##        n  missing distinct 
+##     3154        0        4 
+##                                   
+## Value         A1    A2    B3    B4
+## Frequency    264  1325  1216   349
+## Proportion 0.084 0.420 0.386 0.111
+## ---------------------------------------------------------------------------
+## bmi 
+##        n  missing distinct     Info     Mean      Gmd      .05      .10 
+##     3154        0      679        1    24.52    2.803    20.59    21.52 
+##      .25      .50      .75      .90      .95 
+##    22.96    24.39    25.84    27.45    28.73 
+## 
+## lowest : 11.19061 15.66050 16.87200 17.21633 17.22242
+## highest: 36.04248 37.22973 37.24805 37.65281 38.94737
+## ---------------------------------------------------------------------------
+## chd69 
+##        n  missing distinct 
+##     3154        0        2 
+##                       
+## Value         No   Yes
+## Frequency   2897   257
+## Proportion 0.919 0.081
+## ---------------------------------------------------------------------------</code></pre>
+<p>It also has a <code>summary</code> method for objects of class <code>formula</code> which ultimately can be used to create tables that are ready for markdown:</p>
+<pre class="r"><code>summary(chd69~agec, data = wcgs,method=&#39;reverse&#39;)</code></pre>
+<pre><code>## 
+## 
+## Descriptive Statistics by chd69
+## 
+## +------------+-----------+-----------+
+## |            |No         |Yes        |
+## |            |(N=2897)   |(N=257)    |
+## +------------+-----------+-----------+
+## |agec : 35-40|18%  ( 512)|12%  (  31)|
+## +------------+-----------+-----------+
+## |    41-45   |36%  (1036)|21%  (  55)|
+## +------------+-----------+-----------+
+## |    46-50   |23%  ( 680)|27%  (  70)|
+## +------------+-----------+-----------+
+## |    51-55   |16%  ( 463)|25%  (  65)|
+## +------------+-----------+-----------+
+## |    56-60   | 7%  ( 206)|14%  (  36)|
+## +------------+-----------+-----------+</code></pre>
+<p>It does not work as well as you would expect for additional dimensions, however:</p>
+<pre class="r"><code>summary(chd69~agec+behpat, data = wcgs,method=&#39;reverse&#39;)</code></pre>
+<pre><code>## 
+## 
+## Descriptive Statistics by chd69
+## 
+## +------------+-----------+-----------+
+## |            |No         |Yes        |
+## |            |(N=2897)   |(N=257)    |
+## +------------+-----------+-----------+
+## |agec : 35-40|18%  ( 512)|12%  (  31)|
+## +------------+-----------+-----------+
+## |    41-45   |36%  (1036)|21%  (  55)|
+## +------------+-----------+-----------+
+## |    46-50   |23%  ( 680)|27%  (  70)|
+## +------------+-----------+-----------+
+## |    51-55   |16%  ( 463)|25%  (  65)|
+## +------------+-----------+-----------+
+## |    56-60   | 7%  ( 206)|14%  (  36)|
+## +------------+-----------+-----------+
+## |behpat : A1 | 8%  ( 234)|12%  (  30)|
+## +------------+-----------+-----------+
+## |    A2      |41%  (1177)|58%  ( 148)|
+## +------------+-----------+-----------+
+## |    B3      |40%  (1155)|24%  (  61)|
+## +------------+-----------+-----------+
+## |    B4      |11%  ( 331)| 7%  (  18)|
+## +------------+-----------+-----------+</code></pre>
+<p>Enter <a href="https://cran.r-project.org/web/packages/summarytools/vignettes/Introduction.html">summarytools</a>, immediately appealing in its simplicity. Indeed it only has four primary functions, centered on its wonderful <code>dfSummary()</code> function:</p>
+<pre class="r"><code>library(summarytools)</code></pre>
+<div class="figure">
+<img src="../../img/dfsummary1.PNG" />
 
-<p><center>
-<iframe src="https://public.tableau.com/views/WAPS-infographic/Dash?:showVizHome=no?:embed=y&:display_count=no"
- width="1010" height="940"></iframe>
-</center></p>
+</div>
+<p>This is the prettiest, most thorough output I’ve come across in a summary function, complete with ASCII bar graphs or histograms representing categorical or quantitative variables. You can prettify it even further in the browser with the <code>view()</code> command:</p>
+<pre class="r"><code>view(dfSummary(wcgs))</code></pre>
+<div class="figure">
+<img src="../../img/dfsummary2.PNG" />
+
+</div>
+<p>Two-way tables come by way of <code>ctable()</code>:</p>
+<pre class="r"><code>ctable(wcgs$agec,wcgs$chd69)</code></pre>
+<pre><code>## Cross-Tabulation / Row Proportions   
+## Variables: agec * chd69     
+## Data Frame: wcgs   
+##    
+## ------- ------- --------------- -------------- ----------------
+##           chd69              No            Yes            Total
+##    agec                                                        
+##   35-40            512 (94.29%)    31 ( 5.71%)    543 (100.00%)
+##   41-45           1036 (94.96%)    55 ( 5.04%)   1091 (100.00%)
+##   46-50            680 (90.67%)    70 ( 9.33%)    750 (100.00%)
+##   51-55            463 (87.69%)    65 (12.31%)    528 (100.00%)
+##   56-60            206 (85.12%)    36 (14.88%)    242 (100.00%)
+##   Total           2897 (91.85%)   257 ( 8.15%)   3154 (100.00%)
+## ------- ------- --------------- -------------- ----------------</code></pre>
+<p>A couple drawbacks to <code>summarytools</code>: (1) It is not very compatible with the tidyverse, as you can see with the above use of <code>ctable()</code>. (2) Even the nice 2x2 table is not easily extentable to higher dimensions. You could use <code>by()</code>, but…who wants to do that?</p>
+<p>In finishing this post I see Adam Medcalf from Dabbling with Data has a <a href="https://dabblingwithdata.wordpress.com/2018/01/02/my-favourite-r-package-for-summarising-data/">nice post</a> on Hmisc, summarytools, and a couple others as well. For my money, I’ll take summarytools, though I wish its beautiful 2x2 table displays were more easily extended and its <code>ctable()</code> and <code>descr()</code> functions more tidyverseable!</p>
 
       </div>
 
@@ -280,9 +395,7 @@ if this association held up, in the Winona Area Public Schools, using publicly a
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/data-visualization">data visualization</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/tableau">Tableau</a>
+  <a class="btn btn-primary btn-outline" href="/tags/r">R</a>
   
 </div>
 
@@ -299,6 +412,10 @@ if this association held up, in the Winona Area Public Schools, using publicly a
   <div class="hr-light"></div>
   <h3>Related</h3>
   <ul>
+    
+    <li><a href="/post/dsci-consulting/">Stat consulting: a data science playground</a></li>
+    
+    <li><a href="/post/viz-worldseries-wpa/">Quantifying thrill</a></li>
     
     <li><a href="/post/viz-oscars/">#OscarsSoWhite</a></li>
     

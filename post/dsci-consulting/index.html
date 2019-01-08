@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.31.1" />
   <meta name="author" content="Silas Bergen">
   <meta name="description" content="Assistant professor of statistics and data science">
 
@@ -330,18 +330,18 @@ head(post_melt)</code></pre>
   summarize(post_mean = mean(Response))</code></pre>
 <pre><code>## # A tibble: 67 x 3
 ## # Groups:   id [?]
-##       id Term  post_mean
-##    &lt;int&gt; &lt;fct&gt;     &lt;dbl&gt;
-##  1     1 Term1      3.33
-##  2     2 Term3      3   
-##  3     4 Term2      2.83
-##  4     8 Term2      3.11
-##  5     9 Term1      2.72
-##  6    13 Term4      2.72
-##  7    15 Term1      2.78
-##  8    20 Term1      3   
-##  9    23 Term1      3.5 
-## 10    26 Term4      2.56
+##       id   Term post_mean
+##    &lt;int&gt; &lt;fctr&gt;     &lt;dbl&gt;
+##  1     1  Term1  3.333333
+##  2     2  Term3  3.000000
+##  3     4  Term2  2.833333
+##  4     8  Term2  3.111111
+##  5     9  Term1  2.722222
+##  6    13  Term4  2.722222
+##  7    15  Term1  2.777778
+##  8    20  Term1  3.000000
+##  9    23  Term1  3.500000
+## 10    26  Term4  2.555556
 ## # ... with 57 more rows</code></pre>
 <p>We could also forego the melting, since ultimately all we want is the average response for each student. We can use the original <code>post</code> data set, and an application of the <code>rowMeans()</code> function within which is nested the <code>select()</code> command:</p>
 <pre class="r"><code>post2 &lt;- post %&gt;%
@@ -387,12 +387,12 @@ head(both)</code></pre>
   mutate(sig = c(&#39;no&#39;,&#39;yes&#39;,&#39;yes&#39;,&#39;no&#39;))
 toplot</code></pre>
 <pre><code>## # A tibble: 4 x 4
-##   Term  avg_pre avg_post sig  
-##   &lt;fct&gt;   &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;
-## 1 Term1    2.97     3.10 no   
-## 2 Term2    2.98     3.16 yes  
-## 3 Term3    2.95     3.26 yes  
-## 4 Term4    3.21     3.2  no</code></pre>
+##     Term  avg_pre avg_post   sig
+##   &lt;fctr&gt;    &lt;dbl&gt;    &lt;dbl&gt; &lt;chr&gt;
+## 1  Term1 2.965608 3.100529    no
+## 2  Term2 2.977778 3.161111   yes
+## 3  Term3 2.952675 3.255144   yes
+## 4  Term4 3.211111 3.200000    no</code></pre>
 <p>Note that the <code>avg_pre</code> and <code>avg_post</code> columns are in fact “means of means,” and we have manually added a column to indicate whether the difference was statistically significant.</p>
 </div>
 <div id="plot" class="section level2">
