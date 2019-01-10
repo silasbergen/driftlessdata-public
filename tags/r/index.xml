@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://driftlessdata.space/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A word in favor of summarytools</title>
+      <link>http://driftlessdata.space/post/summarytools/</link>
+      <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/post/summarytools/</guid>
+      <description>Yesterday, I was preparing material for STAT 405 (biostatistics) I am teaching this spring, and was on the prowl for something that is an improvement upon the base R summary() function (it doesn’t even give standard deviations!). The ideal package would also improve upon the base R table() method, for which getting row and/or column percents is a huge pain. Base function xtabs() is great for getting arrays of contigency tables, but no percents.</description>
+    </item>
     
     <item>
       <title>Stat consulting: a data science playground</title>

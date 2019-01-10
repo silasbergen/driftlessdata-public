@@ -11,6 +11,37 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat 405: Biostatistics (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat405/stat405-home/</link>
+      <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat405/stat405-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;spring-2019-office-hours&#34;&gt;Spring 2019 Office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF 1-2; Tues/Th 8:30-11:30&lt;/p&gt;
+
+&lt;h3 id=&#34;syllabus-https-www-dropbox-com-s-qtegkhfhwwksf20-stat405-20syllabus-20s19-docx-dl-0&#34;&gt;&lt;a href=&#34;https://www.dropbox.com/s/qtegkhfhwwksf20/STAT405%20Syllabus%20S19.docx?dl=0&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/courses/free-introduction-to-r&#34;&gt;Free Intro to R course on Data Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.datacamp.com/community/tutorials/functions-in-r-a-tutorial&#34;&gt;Writing R functions tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A word in favor of summarytools</title>
       <link>http://driftlessdata.space/post/summarytools/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
@@ -1826,15 +1857,6 @@ become an active and engaged member of our class and community.
 
 &lt;p&gt;Much thanks goes to Dr. Julie Legler from St. Olaf for reaching out and inviting us to dialogue with her students, and for encouraging me to actually put in the work to compile all these resources!&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Great public data sources with social justice applications</title>
-      <link>http://driftlessdata.space/talk/stolaf/</link>
-      <pubDate>Wed, 14 Mar 2018 00:00:00 -0500</pubDate>
-      
-      <guid>http://driftlessdata.space/talk/stolaf/</guid>
-      <description></description>
     </item>
     
   </channel>
