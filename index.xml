@@ -37,7 +37,7 @@
 &lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Chapter 7: Sampling distributions | &lt;a href=&#34;https://www.dropbox.com/s/66tkibubchl32o0/Chapter_7_-_Intro_to_sampling_distributions.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/1b3amfgypeuzdjs/Chapter%207%20-%20Intro%20to%20sampling%20distributions.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Chapter 7: Sampling distributions | &lt;a href=&#34;https://www.dropbox.com/s/6ktg331ypyewmos/Chapter_7_-_Intro_to_sampling_distributions.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/m3fmf5d8gg3sx15/Chapter%207%20-%20Intro%20to%20sampling%20distributions.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;!--
@@ -109,6 +109,90 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 * Recommended from Ch 16:
   * 1, 10, 11, 12
 --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat460/syllabus/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat460/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-460-mathematical-statistics-ii-stat460-home&#34;&gt;&lt;a href=&#34;../stat460-home/&#34;&gt;STAT 460: Mathematical statistics II&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;spring-2019&#34;&gt;Spring 2019&lt;/h3&gt;
+
+&lt;h3 id=&#34;prerequisite&#34;&gt;Prerequisite:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Stat 450&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;course-summary&#34;&gt;Course summary&lt;/h3&gt;
+
+&lt;p&gt;STAT 460 is a continuation of the mathematical statistics sequence.  Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference.  Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum   R will be of even greater use to us in this semester.&lt;/p&gt;
+
+&lt;h3 id=&#34;course-text&#34;&gt;Course text&lt;/h3&gt;
+
+&lt;p&gt;The required text for this course is Mathematical Statistics with Applications by Wackerly, Mendenhall, &amp;amp; Scheaffer, 7th edition (WMS7).  Students may share copies of this book, although students planning on continuing to graduate school are encouraged to have their own copy.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Mathematical-Statistics-Applications-Dennis-Wackerly/dp/0495110817/ref=sr_1_1?ie=UTF8&amp;amp;qid=1471463588&amp;amp;sr=8-1&amp;amp;keywords=mathematical+statistics+wackerly&#34;&gt;Amazon link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://web.csulb.edu/~okoroste/wackerly.pdf&#34;&gt;Kindle version&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;course-outline&#34;&gt;Course outline&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ch. 7 - Sampling Distributions and the CLT&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 8 - Estimation&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 9 - Properties of Point Estimators and Methods of Estimation&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 10 - Hypothesis Testing&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Ch. 16 - Introduction to Bayesian Methods for Inference&lt;/li&gt;
+&lt;li&gt;Other Chapters and Topics (time permitting)  Selected topics and sections from Ch. 11 - 15 and others not included in the text, e.g. resampling methods.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;statistical-computing&#34;&gt;Statistical computing&lt;/h2&gt;
+
+&lt;p&gt;We will use the open-source R programming language extensively throughout this course, both in the course notes and through regular R-specific assignments.   Please download R and R studio using the links below.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;assignments&#34;&gt;Assignments&lt;/h2&gt;
+
+&lt;p&gt;Your final grade will be determined based on the following criteria:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Presentations (10%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On a regular basis throughout the semester, I will assign problems that you will be required to present to the class.  These may be either problems from the textbook, or additional problems that I assign.  You will have at least 2 days to work on the problem before presenting.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Writing project (10%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This will require the use of R Markdown and LaTeX to submit a written solved problem investigated using both an analytically and mathematically rigorous approach and a simulation approach to problem-solving. Both are examples of writing that are relevant to the field of statistics.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homework (40%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Submitted homework will be comprised of two parts:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;em&gt;Theoretical problems:&lt;/em&gt; These will primarily be problems assigned from WMS7.  Students are encouraged, but not required, to submit these homework solutions using R Markdown/LaTeX.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Investigative problems:&lt;/em&gt; In addition to the theoretical problems, there will be regular problems that require the use of R to investigate some aspect of the content covered in class.  &lt;strong&gt;&lt;em&gt;Solutions to these assignments must be submitted as a knitted html document.&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Midterm exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The Midterm exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final exam (25%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Similar to the Midterm, the Final exam will likely comprise both an in-class and take-home portion, with the in-class involving more theoretical problems and the take-home more computational problems.&lt;/p&gt;
 </description>
     </item>
     
@@ -1675,203 +1759,6 @@ data&lt;/a&gt;&lt;/li&gt;
 data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus (Summer 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/syllabus-summer2018/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/syllabus-summer2018/</guid>
-      <description>
-
-&lt;h2 id=&#34;stat-110-fundamentals-of-statistics-stat110-home&#34;&gt;&lt;a href=&#34;../stat110-home/&#34;&gt;Stat 110: Fundamentals of statistics&lt;/a&gt;&lt;/h2&gt;
-
-&lt;h3 id=&#34;required-software&#34;&gt;Required software&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;JMP -&lt;/strong&gt; available from WSU network for free, or via email (if not using WSU laptop). &lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;Download instructions for WSU laptops&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;optional-text&#34;&gt;Optional text&lt;/h3&gt;
-
-&lt;p&gt;There is no text required for this course. However, if you would like to
-refer to a textbook, a good reference is &lt;em&gt;Unlocking the Power of Data&lt;/em&gt;
-by Lock, Lock, Lock, Lock, and Lock.&lt;/p&gt;
-
-&lt;h3 id=&#34;prerequisites&#34;&gt;Prerequisites&lt;/h3&gt;
-
-&lt;p&gt;Qualifying score on the mathematics placement exam or MATH 050.&lt;/p&gt;
-
-&lt;h3 id=&#34;assessment-items&#34;&gt;Assessment items&lt;/h3&gt;
-
-&lt;p&gt;The following assessments will be used to calculate student grades.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Quizzes (30%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Each week, you will take a quiz in D2L on the lecture content for that week.  You are allowed 2 attempts on each quiz, and the highest attempt will be kept.  Your lowest overall quiz score will be dropped.&lt;/p&gt;
-
-&lt;p&gt;The quizzes will mainly consist of multiple choice and True/False questions.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Homework assignments (30%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Whereas the quizzes are multiple choice and T/F, written homework assignments require deeper thinking and will include written responses, often accompanied by computer output.  These will be distributed in Word documents, and you will type your responses in these documents and upload your submission to D2L. &lt;strong&gt;Homework that is submitted after I have uploaded a key will receive a 0.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Midterm exam (20%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final exam (20%)&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Each exam will be taken in D2L.  The exams will require you to demonstrate your &lt;em&gt;understanding&lt;/em&gt; of the
-material as opposed to your ability to &lt;em&gt;memorize&lt;/em&gt; certain concepts. The
-format will primarily be a combination of short answer, multiple choice,
-and T/F.&lt;/p&gt;
-
-&lt;p&gt;All D2L graded items (quizzes, exams) will require the use of Respondus Monitor, which will not operate without a valid webcam.&lt;/p&gt;
-
-&lt;h3 id=&#34;practice-items&#34;&gt;Practice items&lt;/h3&gt;
-
-&lt;p&gt;These items will not be graded, but are intended to give you additional practice in order to do well on the quizzes and homework.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Practice quizzes&lt;/em&gt;&lt;/strong&gt;
-I will post practice quizzes in D2L that you can take an unlimited number of times for additional practice before taking your graded quiz.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Practice problems&lt;/em&gt;&lt;/strong&gt;
-These longer-form problems will more closely mimic the homework assignments.  I will post a video key for each practice problem assignment, however I &lt;strong&gt;&lt;em&gt;strongly encourage&lt;/em&gt;&lt;/strong&gt; you to attempt the practice problems on your own before viewing the key!&lt;/p&gt;
-
-&lt;h3 id=&#34;virtual-office-hours&#34;&gt;Virtual Office hours&lt;/h3&gt;
-
-&lt;p&gt;I may occasionally hold virtual office hours via an Adobe Connect meeting room. These sessions will be recorded, and any student can watch them after the fact if they are unable to attend live or if they wish to &amp;ldquo;relive the experience.&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;If you are on campus this summer, I am also willing to hold in-person office hours.  If you wish to meet in person, email me to schedule an appointment.&lt;/p&gt;
-
-&lt;h3 id=&#34;note-on-lecture-video-quizzes&#34;&gt;Note on lecture video quizzes&lt;/h3&gt;
-
-&lt;p&gt;The lecture power points are &amp;ldquo;gap style,&amp;rdquo; meaning that they contain many questions with blank answers.  Part of your note-taking process is to fill in your lecture notes as you watch the lecture videos.  These lecture videos are also &amp;ldquo;quizzes,&amp;rdquo; and pause periodically to ask quiz questions.  These questions are not tracked as part of your grade, but merely intended to keep you engaged and thinking about the material as it is presented.&lt;/p&gt;
-
-&lt;h3 id=&#34;a-typical-week-in-online-summer-stat-110&#34;&gt;A typical week in Online Summer Stat 110&lt;/h3&gt;
-
-&lt;p&gt;I hope you are not taking an online summer course because you think it will be easier than a regular-semester version!  You are taking a course that is typically offered over a 15-week semester in 8 weeks, nearly half the time!  Accordingly, you will need to be especially careful to keep up with watching videos, doing practice quizzes, taking for-credit quizzes, attempting practice problems, and completing homework. The following is a template for how you should try to structure your week. &lt;strong&gt;&lt;em&gt;Make use of the D2L checklist to track your tasks and due dates!&lt;/em&gt;&lt;/strong&gt;  I will also post a weekly calendar on the &lt;a href=&#34;../stat110-home/&#34;&gt;main page for the course&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final grades&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Final grades will be a percent that accounts for work on quizzes, homework and
-exams. Final grades will be assigned as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;90-100%: A&lt;/li&gt;
-&lt;li&gt;80-89%: Guaranteed at least a B&lt;/li&gt;
-&lt;li&gt;70-79%: Guaranteed at least a C&lt;/li&gt;
-&lt;li&gt;60-69%: Guaranteed at least a D&lt;/li&gt;
-&lt;li&gt;&amp;lt;60%: No lower than F&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Academic integrity policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;Academic Integrity
-Policy&lt;/a&gt;. Note that both copying
-another student&amp;rsquo;s work and allowing someone to copy your work are clear violations of this
-policy. If there is reasonable evidence of copying another individual&amp;rsquo;s work, it will be construed as
-an act of plagiarism. The first occurrence of violating the academic integrity policy will result
-in a significant loss of points on that specific homework assignment or exam; the second occurrence will
-result in failure of the course.&lt;/p&gt;
-
-&lt;!--
-
-***Commitment to inclusive excellence***
-
-WSU recognizes that our individual differences can deepen our
-understanding of one another and the world around us, rather than divide
-us. In this class, people of all ethnicities, genders, religions, ages,
-sexual orientations, disabilities, socioeconomic backgrounds, regions,
-and nationalities are strongly encouraged to share their rich array of
-perspectives and experiences. If you feel your differences may in some
-way isolate you from WSU&#39;s community or if you have a need of any
-specific accommodations, please speak with the instructor early in the
-semester about your concerns and what we can do together to help you
-become an active and engaged member of our class and community.
-
---&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tentative course outline&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Introduction to data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descriptive Methods for a Single Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Barplots, counts, percents&lt;/p&gt;
-
-&lt;p&gt;b.  Histograms, mean/median, quantiles, standard deviation&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Describing associations between 2 variables&lt;/p&gt;
-
-&lt;p&gt;a.  Mosaic plots&lt;/p&gt;
-
-&lt;p&gt;b.  Boxplots&lt;/p&gt;
-
-&lt;p&gt;c.  Scatterplots&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Multivariable thinking&lt;/p&gt;
-
-&lt;p&gt;a.  Confounding&lt;/p&gt;
-
-&lt;p&gt;b.  Confounding adjustment&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduction to inferential thinking&lt;/p&gt;
-
-&lt;p&gt;a.  Introduction to Statistical Thinking&lt;/p&gt;
-
-&lt;p&gt;b.  Some Definitions&lt;/p&gt;
-
-&lt;p&gt;c.  The Importance of Random Sampling&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for a Single Categorical Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
-
-&lt;p&gt;b.  Discussion of Sample-to-Sample Variation&lt;/p&gt;
-
-&lt;p&gt;c.  Using the Binomial Probability Model to Make Decisions&lt;/p&gt;
-
-&lt;p&gt;d.  Formal Statistical Inference (Binomial Exact Test, Confidence
-    Interval for a Single Proportion, Chi-Square Goodness of Fit Test)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for Two or More Categorical Variables&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
-
-&lt;p&gt;b.  More Descriptive Methods: Relative Risk and Odds Ratios&lt;/p&gt;
-
-&lt;p&gt;c.  Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of
-    Proportions)&lt;/p&gt;
-
-&lt;p&gt;d.  Understanding the Basics of Experimental Design and Correlation
-     vs. Causation&lt;/p&gt;
-
-&lt;p&gt;e.  Inferences for Comparing Several Proportions Across Another
-     Variable (Chi-Square Test)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inferential Methods for a Single Numerical Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Inference for a Single Mean (t-test and confidence interval for
-    a single mean)&lt;/p&gt;
-
-&lt;p&gt;b.  Inference for Comparing Two Means with Dependent Groups (paired
-    t-test, confidence interval for a mean difference)&lt;/p&gt;
-
-&lt;p&gt;c.  Inference for Comparing Two Means with Independent Groups
-    (t-test for independent samples, confidence interval for a
-    difference in means)&lt;/p&gt;
-
-&lt;p&gt;d.  Inference for Comparing Several Group Means (ANOVA)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for Two or More Numerical Variables&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods (correlation, scatterplots)&lt;/p&gt;
-
-&lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
 </description>
     </item>
     

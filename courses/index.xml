@@ -24,6 +24,15 @@ Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2
     </item>
     
     <item>
+      <title>Syllabus</title>
+      <link>http://driftlessdata.space/courses/stat460/syllabus/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat460/syllabus/</guid>
+      <description>STAT 460: Mathematical statistics II Spring 2019 Prerequisite:  Stat 450  Course summary STAT 460 is a continuation of the mathematical statistics sequence. Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference. Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum R will be of even greater use to us in this semester.</description>
+    </item>
+    
+    <item>
       <title>Stat 405: Biostatistics (Spring 2019)</title>
       <link>http://driftlessdata.space/courses/stat405/stat405-home/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
@@ -125,15 +134,6 @@ Resources  Syllabus JMP installation instructions JMP script for calculating bin
       <guid>http://driftlessdata.space/courses/stat310/syllabus/</guid>
       <description>STAT 310: Intermediate Statistics Textbook There is no required text for this class. A recommended text for student reference is Stat 2: Building Models for a World of Data by Cannon et al. This text is well-written and has some nice problems for additional student practice. However, it can get technical at times. You will not need this text to complete the homework or succeed on exams.
 Prerequisites Stat 110, STAT 210, STAT 303, STAT 305, PSY231, or equivalent.</description>
-    </item>
-    
-    <item>
-      <title>Syllabus</title>
-      <link>http://driftlessdata.space/courses/stat460/syllabus/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat460/syllabus/</guid>
-      <description>STAT 460: Mathematical statistics II Spring 2018 Prerequisite:  Stat 450  Course summary STAT 460 is a continuation of the mathematical statistics sequence. Stat 460 turns from properties of a single distribution (the focus of Stat 450), and turns to properties of estimation and foundational concepts of statistical inference. Specific topics include consistency, bias, and methods of finding estimators; confidence interval coverage; hypothesis test properties and optimum R will be of even greater use to us in this semester.</description>
     </item>
     
     <item>
