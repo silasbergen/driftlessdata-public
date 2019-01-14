@@ -11,6 +11,108 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat 460: Mathematical statistics II (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat460/stat460-home/</link>
+      <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat460/stat460-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;syllabus-syllabus&#34;&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/h3&gt;
+
+&lt;h3 id=&#34;spring-2019-office-hours&#34;&gt;Spring 2019 office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF 1-2; Tues/Th 8:30-11:30&lt;/p&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Additional courses on R provided by &lt;a href=&#34;https://www.datacamp.com/&#34;&gt;Data Camp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cran.r-project.org/&#34;&gt;Base R&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/home/&#34;&gt;R Studio&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf&#34;&gt;ggplot2 cheat sheet&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf&#34;&gt;R Markdown cheat sheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;notes&#34;&gt;Notes&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chapter 7: Sampling distributions | &lt;a href=&#34;https://www.dropbox.com/s/66tkibubchl32o0/Chapter_7_-_Intro_to_sampling_distributions.pdf?dl=0&#34;&gt;pdf&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/1b3amfgypeuzdjs/Chapter%207%20-%20Intro%20to%20sampling%20distributions.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;!--
+ * Chapter 8: Properties of estimators | [pdf](https://www.dropbox.com/s/q5py1wmln8m069a/Chapter_8_-_Estimation_and_properties_of_estimators.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/c33yx92rrnm6zng/Chapter%208%20-%20Estimation%20and%20properties%20of%20estimators.Rmd?dl=0)
+ * Chapter 9: Methods of estimation | [pdf](https://www.dropbox.com/s/n07ljfertlsxb95/Chapter_9_-_More_properties_of_and_methods_of_finding_estimators.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/nedz1gdxl27b0qk/Chapter%209%20-%20More%20properties%20of%20and%20methods%20of%20finding%20estimators.Rmd?dl=0)
+ * Chapter 10: Hypothesis testing | [pdf](https://www.dropbox.com/s/9uof55z5ku0z3u1/Chapter_10_-_Hypothesis_testing.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/pt257lv3851nuki/Chapter%2010%20-%20Hypothesis%20testing.Rmd?dl=0)
+* Chapcter 16: Bayesian methods | [pdf](https://www.dropbox.com/s/v2b42larrp5sn0n/Chapter_16_-_Bayesian_methods.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/aaiwe1zdtlvfxi1/Chapter%2016%20-%20Bayesian%20methods.Rmd?dl=0)
+* Chapter 15: Nonparametric methods | [pdf](https://www.dropbox.com/s/o9l64d7d985j6bp/Chapter_15__nonparametric_methods.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/jlru3vwdlkh4xu7/Chapter%2015%20%20nonparametric%20methods.Rmd?dl=0)
+--&gt;&lt;/p&gt;
+
+&lt;!--
+### Exams
+
+This [writing rubric](https://www.dropbox.com/s/0n0vheg0ucg1tln/Writing%20Rubric-2018.docx?dl=0) will be applied to all take-home exams that require the use of R Markdown.  Of your entire midterm grade, 10% of your will come from your score on this rubric; 50% from your score on the take-home portion; and 40% from your score on the in-class portion.  
+
+* **In-class midterm exam** will be Friday, March 16. | [Practice in-class midterm](https://www.dropbox.com/s/hilf2ur2jm6tq0t/PracticeMidterm.docx?dl=0)
+* Take-home midterm (Due 3/23) | [pdf](https://www.dropbox.com/s/threi1o051418e5/Stat460-TakehomeMidterm-S18.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/gt60yidkhqiq8s5/Stat460-TakehomeMidterm-S18.Rmd?dl=0)
+* [Practice final](https://www.dropbox.com/s/n9bvhibnk6p1w44/PracticeFinal.docx?dl=0)
+* Take-home final (Due 5/3) | [pdf](https://www.dropbox.com/s/b1mif5nsmh4304a/Stat460-TakehomeFinal-S18.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/sjyxbbo6gxmxfn0/Stat460-TakehomeFinal-S18.Rmd?dl=0)
+
+
+### Presentations
+To be presented in class Friday, 1/22, from Chapter 7:
+
+29, 36, 37, 38
+
+To be presented in class Friday, 2/9, from Chapter 8 (one bullet = one student&#39;s presentation):
+
+* 8, 13
+* 14, 15
+* 34, 35
+* 44, 45
+
+To be presented in class Friday, 3/2, from Chapter 9 (one bullet to be randomly assigned to each student):
+
+* 17, 18
+* 30, 31, 32
+* 42, 43 (also for 43: what is sufficient for $\theta$?)
+* 40, 58, 63 (part b only), 64 (part a only)
+* 69, 77
+* 82, 97
+
+To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randomly assigned to each student):
+
+* 2, 3
+* 4, 5 
+* 6, 7
+* 8
+
+
+### Homework
+
+* R HW 1: Due 1/26 | [pdf](https://www.dropbox.com/s/n9lvm79y0llpidt/R_460_HW1.pdf?dl=0) |  [Rmd](https://www.dropbox.com/s/5e7usctc63f3p9i/R_460_HW1.Rmd?dl=0) 
+* R HW 2: Due 2/16 | [pdf](https://www.dropbox.com/s/y4mbb6xo57vl5nl/R_460_HW2.pdf?dl=0) | [Rmd](https://www.dropbox.com/s/ra8442vsjd5z56s/R_460_HW2.Rmd?dl=0)
+
+* The following from Ch 7 (Due 2/2):
+  * 30, 33, 34, 39, 52, 54, 95, 96, 100, 101
+  
+  
+* The following from Ch 8 (Due 2/23):
+  * 3, 5, 6, 7, 10, 16, 18, 19, 20, 36, 37, 38, 48, 127, 129, 130, 131, 132
+  
+* The following from Ch 9 (Due 3/16):
+  * 24, 26, 27, 50, 54, 60, 74, 75, 98, 99, 101, 103, 104
+
+* The following from Ch 10 (Due 4/20):
+  * 93, 94, 95, 96, 97, 98, 102, 105, 106, 107, 109, 114, 129, 130
+
+* Recommended from Ch 16:
+  * 1, 10, 11, 12
+--&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stat 405: Biostatistics (Spring 2019)</title>
       <link>http://driftlessdata.space/courses/stat405/stat405-home/</link>
       <pubDate>Thu, 10 Jan 2019 00:00:00 +0000</pubDate>
@@ -36,6 +138,10 @@
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/yir13lx6b4mc4jn/1%20-%20intro%20to%20biostatistics.pptx?dl=0&#34;&gt;Lecture 1: Intro to biostatistics&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
 </description>
@@ -704,9 +810,9 @@ become an active and engaged member of our class and community.&lt;/p&gt;
       <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
       <description>
 
-&lt;h3 id=&#34;office-hours-gildemeister-124d&#34;&gt;Office hours (Gildemeister 124D)&lt;/h3&gt;
+&lt;h3 id=&#34;spring-2019-office-hours&#34;&gt;Spring 2019 office hours&lt;/h3&gt;
 
-&lt;p&gt;MWF: 9:30-11:30; Tue/Th 8:30-10:30&lt;/p&gt;
+&lt;p&gt;MWF 1-2; Tues/Th 8:30-11:30&lt;/p&gt;
 
 &lt;!--
 ### Course evaluation
@@ -740,20 +846,6 @@ Complete the course evaluation by [following this link](https://winona.az1.qualt
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;h3 id=&#34;extra-credit-opportunities&#34;&gt;Extra credit opportunities&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;0.5% overall each added on to final grade: Attend any/all of the &lt;a href=&#34;https://www.dropbox.com/s/34moe706bonf4sr/time%20to%20talk_%20%281%29.pdf?dl=0&#34;&gt;&lt;em&gt;Identity and Empathy&lt;/em&gt; workshops&lt;/a&gt;; upload responses to the following questions to D2L. (Due date: 24 hours after the event for each)
-
-&lt;ol&gt;
-&lt;li&gt;Provide a brief summary of the event&lt;/li&gt;
-&lt;li&gt;What was one thing discussed that you had never thought of before?&lt;/li&gt;
-&lt;li&gt;What is the one thing that most challenged you?&lt;/li&gt;
-&lt;li&gt;What is the one thing that you will take away from this conversation?
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ol&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -767,102 +859,38 @@ Complete the course evaluation by [following this link](https://winona.az1.qualt
 
 &lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Lecture 1: Introduction to data | &lt;a href=&#34;https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+1A+Intro+to+data+-+Quiz/0_fjx8jaqx&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 2: Summarizing a single variable | &lt;a href=&#34;https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+1%29+-+Quiz/0_7aowpg43&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+2%29/0_jd2i1qw1&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 3: Associations between two variables | &lt;a href=&#34;https://www.dropbox.com/s/4pp8rny29604zga/3%20-%20Associations%20between%20variables.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/n4hickmkl8w92na/3%20-%20Associations%20between%20variables.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+1%29+-+Quiz/0_aeeh19lb&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+2%29/0_5u2eba33&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 4: Confounding and study types | &lt;a href=&#34;https://www.dropbox.com/s/8akdo13lm3st9sw/4%20-Confounding%20and%20study%20types.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/xrkraz9byqd5gpe/4%20-Confounding%20and%20study%20types.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+4A+confounding+and+study+types+-+Quiz/0_bq3gwgld&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 5: Populations, parameters, samples, statistics | &lt;a href=&#34;https://www.dropbox.com/s/etcvadh0f98t9zo/5%20-%20Populations%20and%20samples.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/nt7jh4t75cwyzb0/5%20-%20Populations%20and%20samples.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+5A+populations+and+samples+-+Quiz/0_hyqfriy9&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 6: Introduction to inferential thinking | &lt;a href=&#34;https://www.dropbox.com/s/u5cx2edjcauctf8/6%20-%20Intro%20to%20Inference.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/3c8n6btd2ub1d9i/6%20-%20Intro%20to%20Inference.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+6A+Intro+to+inferential+thinking+-+Quiz/0_b8r4agfs&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 7: Hypothesis testing | &lt;a href=&#34;https://www.dropbox.com/s/5zfqa6ri4rl5gst/7%20-%20Hypothesis%20testing.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qz9uu1queflpiyh/7%20-%20Hypothesis%20testing.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+1+-+Quiz/0_e4iyo8pf&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+2+-+Quiz/0_vpnyrwkx&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing+examples+-+Quiz/0_i6q35d42&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 8: Getting exact p-values | &lt;a href=&#34;https://www.dropbox.com/s/stb152ymh90pqcg/8%20-%20Exact%20hypothesis%20testing.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/y9qn3k0xj11ym54/8%20-%20Exact%20hypothesis%20testing.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+8A+Exact+hypothesis+testing+-+Quiz/0_0zf9v3j6&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 9: Confidence intervals | &lt;a href=&#34;https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 10: Measuring association strength in 2x2 tables (risk diff/rel risk) | &lt;a href=&#34;https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 11: Inference for 2x2 tables | &lt;a href=&#34;https://www.dropbox.com/s/10bdpae85pf2jjv/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ik2svnkik7r6bib/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+1%29+-+Quiz/0_356y76gy&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+2%29+-+Quiz/0_y8hec9qo&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+3B+JMP%29/0_ayb6rwc0&#34;&gt;Video 3&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+4%29+-+example+-+Quiz/0_clsscfcr&#34;&gt;Video 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 12: Adjusted measures of association | &lt;a href=&#34;https://www.dropbox.com/s/s8c3y2vwkgrdro9/12%20-%20Adjusted%20measures%20of%20association.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/sywz338i1gdhoku/12%20-%20Adjusted%20measures%20of%20association.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12+A+Adjusted+measures+of+association+%28part+1%29+-+Quiz/0_m1262svg&#34;&gt;Video 1&lt;/a&gt; |  &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12A+Adjusted+measures+of+association+%28part+2%29+-+local+data+filter+in+JMP/0_q0hrkg1a&#34;&gt;Video 2&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 13: Inference for tables that are larger than 2x2 | &lt;a href=&#34;https://www.dropbox.com/s/hpjo5ttsv9z24a8/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2xcerv4nkgzrn5h/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+13+A+Inference+for+large+tables+%28bigger+than+2x2%29+-+Quiz/0_75s1ybqs&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 14: Dependent vs Independent samples | &lt;a href=&#34;https://www.dropbox.com/s/ej2480ze4gx6241/14%20-%20Dependent%20vs%20Independent.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/5dgsfofuhu1m4qn/14%20-%20Dependent%20vs%20Independent.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+14A++dependent+vs+independent+samples+-+Quiz/0_dyq8vvzj&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 15: Comparing means of dependent samples | &lt;a href=&#34;https://www.dropbox.com/s/p5rru3lls53fsis/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/bc0hguju59ent63/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+1%29+-+Quiz/0_bpqogjij&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+2%29+-+Quiz/0_sctmqaup&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+3B+computer+part%29/0_911feqev&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 16: Comparing means of two independent samples | &lt;a href=&#34;https://www.dropbox.com/s/lkjnza8x41k77en/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/5od1qnru78pa113/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+1%29+-+Quiz/0_7gkl3vla&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+2%29/0_1epgsds4&#34;&gt;Video 2&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 17: Associations between two quantitative variables | &lt;a href=&#34;https://www.dropbox.com/s/x80x233m9r5y9a4/17%20-%20Associations%20between%20two%20quantitative%20variables.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/c5ro5zg44vzki1m/17%20-%20Associations%20between%20two%20quantitative%20variables.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+1%29+-+Quiz/0_xsib4h1i&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110A+Lecture+17+-+Associations+between+two+quantitative+variables+%28part+2%29+-+Quiz/0_3r1azjvy&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+3%29/0_wm80pn1t&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Lecture 18: Overview of Stat 110 | &lt;a href=&#34;https://www.dropbox.com/s/wpx36jgzs8hzh40/18%20-%20Overview%20of%20stat%20110.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/xn0xz9n56q0bbkk/18%20-%20Overview%20of%20stat%20110.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Lecture+18+-+overview+of+stat+110+-+part+1.mp4/0_laj8m6wb&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+18A+Overview+of+stat+110++%28part+2%2C+examples%29+-+Quiz/0_3bttdtsz&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;!--
+
+* Lecture 1: Introduction to data | [PPT](https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0) | [PDF](https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+1A+Intro+to+data+-+Quiz/0_fjx8jaqx)
+* Lecture 2: Summarizing a single variable | [PPT](https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0) | [PDF](https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+1%29+-+Quiz/0_7aowpg43) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+2%29/0_jd2i1qw1) 
+* Lecture 3: Associations between two variables | [PPT](https://www.dropbox.com/s/4pp8rny29604zga/3%20-%20Associations%20between%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/n4hickmkl8w92na/3%20-%20Associations%20between%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+1%29+-+Quiz/0_aeeh19lb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+2%29/0_5u2eba33)
+* Lecture 4: Confounding and study types | [PPT](https://www.dropbox.com/s/8akdo13lm3st9sw/4%20-Confounding%20and%20study%20types.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xrkraz9byqd5gpe/4%20-Confounding%20and%20study%20types.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+4A+confounding+and+study+types+-+Quiz/0_bq3gwgld)
+* Lecture 5: Populations, parameters, samples, statistics | [PPT](https://www.dropbox.com/s/etcvadh0f98t9zo/5%20-%20Populations%20and%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/nt7jh4t75cwyzb0/5%20-%20Populations%20and%20samples.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+5A+populations+and+samples+-+Quiz/0_hyqfriy9)
+* Lecture 6: Introduction to inferential thinking | [PPT](https://www.dropbox.com/s/u5cx2edjcauctf8/6%20-%20Intro%20to%20Inference.pptx?dl=0) | [PDF](https://www.dropbox.com/s/3c8n6btd2ub1d9i/6%20-%20Intro%20to%20Inference.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+6A+Intro+to+inferential+thinking+-+Quiz/0_b8r4agfs)
+* Lecture 7: Hypothesis testing | [PPT](https://www.dropbox.com/s/5zfqa6ri4rl5gst/7%20-%20Hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/qz9uu1queflpiyh/7%20-%20Hypothesis%20testing.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+1+-+Quiz/0_e4iyo8pf) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+2+-+Quiz/0_vpnyrwkx) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing+examples+-+Quiz/0_i6q35d42) 
+* Lecture 8: Getting exact p-values | [PPT](https://www.dropbox.com/s/stb152ymh90pqcg/8%20-%20Exact%20hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/y9qn3k0xj11ym54/8%20-%20Exact%20hypothesis%20testing.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+8A+Exact+hypothesis+testing+-+Quiz/0_0zf9v3j6) 
+* Lecture 9: Confidence intervals | [PPT](https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0) | [PDF](https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh) 
+* Lecture 10: Measuring association strength in 2x2 tables (risk diff/rel risk) | [PPT](https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq)
+* Lecture 11: Inference for 2x2 tables | [PPT](https://www.dropbox.com/s/10bdpae85pf2jjv/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/ik2svnkik7r6bib/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+1%29+-+Quiz/0_356y76gy) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+2%29+-+Quiz/0_y8hec9qo) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+3B+JMP%29/0_ayb6rwc0) | [Video 4](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+4%29+-+example+-+Quiz/0_clsscfcr) 
+* Lecture 12: Adjusted measures of association | [PPT](https://www.dropbox.com/s/s8c3y2vwkgrdro9/12%20-%20Adjusted%20measures%20of%20association.pptx?dl=0) | [PDF](https://www.dropbox.com/s/sywz338i1gdhoku/12%20-%20Adjusted%20measures%20of%20association.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12+A+Adjusted+measures+of+association+%28part+1%29+-+Quiz/0_m1262svg) |  [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12A+Adjusted+measures+of+association+%28part+2%29+-+local+data+filter+in+JMP/0_q0hrkg1a)  
+* Lecture 13: Inference for tables that are larger than 2x2 | [PPT](https://www.dropbox.com/s/hpjo5ttsv9z24a8/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pptx?dl=0) | [PDF](https://www.dropbox.com/s/2xcerv4nkgzrn5h/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+13+A+Inference+for+large+tables+%28bigger+than+2x2%29+-+Quiz/0_75s1ybqs) 
+* Lecture 14: Dependent vs Independent samples | [PPT](https://www.dropbox.com/s/ej2480ze4gx6241/14%20-%20Dependent%20vs%20Independent.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5dgsfofuhu1m4qn/14%20-%20Dependent%20vs%20Independent.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+14A++dependent+vs+independent+samples+-+Quiz/0_dyq8vvzj) 
+* Lecture 15: Comparing means of dependent samples | [PPT](https://www.dropbox.com/s/p5rru3lls53fsis/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/bc0hguju59ent63/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+1%29+-+Quiz/0_bpqogjij) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+2%29+-+Quiz/0_sctmqaup) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+3B+computer+part%29/0_911feqev)
+* Lecture 16: Comparing means of two independent samples | [PPT](https://www.dropbox.com/s/lkjnza8x41k77en/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5od1qnru78pa113/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+1%29+-+Quiz/0_7gkl3vla) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+2%29/0_1epgsds4)  
+* Lecture 17: Associations between two quantitative variables | [PPT](https://www.dropbox.com/s/x80x233m9r5y9a4/17%20-%20Associations%20between%20two%20quantitative%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c5ro5zg44vzki1m/17%20-%20Associations%20between%20two%20quantitative%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+1%29+-+Quiz/0_xsib4h1i) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110A+Lecture+17+-+Associations+between+two+quantitative+variables+%28part+2%29+-+Quiz/0_3r1azjvy) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+3%29/0_wm80pn1t)
+* Lecture 18: Overview of Stat 110 | [PPT](https://www.dropbox.com/s/wpx36jgzs8hzh40/18%20-%20Overview%20of%20stat%20110.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xn0xz9n56q0bbkk/18%20-%20Overview%20of%20stat%20110.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Lecture+18+-+overview+of+stat+110+-+part+1.mp4/0_laj8m6wb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+18A+Overview+of+stat+110++%28part+2%2C+examples%29+-+Quiz/0_3bttdtsz) 
+--&gt;
 
 &lt;h3 id=&#34;practice-sets&#34;&gt;Practice sets&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/opb39lb22pa51n2/Practice%201%20-%20data%20and%20univariate%20summaries.docx?dl=0&#34;&gt;Practice set 1&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/lb95jcrsc9rxrsn/Practice%202%20-%20associations%20and%20confounders.docx?dl=0&#34;&gt;Practice set 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/d8dzvmkmy6g3lfb/Practice%203%20-%20populations%20and%20intro%20to%20inference.docx?dl=0&#34;&gt;Practice set 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s5misoi3wajx3wr/Practice%204%20-%20intro%20to%20hypothesis%20testing.docx?dl=0&#34;&gt;Practice set 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kneeqy6rf52qv00/Practice%205%20-%20binomial%20exact%20test.docx?dl=0&#34;&gt;Practice set 5&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/7rbwx91kf6zu28j/Practice%206%20-%20confidence%20intervals.docx?dl=0&#34;&gt;Practice set 6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/nxf84f3rp46570c/Practice%207%20-%20risk%20diff-rel%20risk.docx?dl=0&#34;&gt;Practice set 7&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s9durcstekmsi2v/Practice%208%20-%20chi%20square%20and%20inference.docx?dl=0&#34;&gt;Practice set 8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/af81adxdbcg6y5t/Practice%209%20-%20adjusted%20relationships%20in%202x2%20tables.docx?dl=0&#34;&gt;Practice set 9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/b0t9vwgd09p1m9x/Vitruvian%20man%20activity.docx?dl=0&#34;&gt;Practice set 10 (Vitruvian man activity)&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xftu7ncr42apy19/Practice%20Set%2011%20-%20independent%20samples%20t-test.docx?dl=0&#34;&gt;Practice set 11&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/u0zkhoxlprozgmk/Practice%2012%20-%20simple%20linear%20regression.docx?dl=0&#34;&gt;Practice set 12&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6ot48fklcg3xfli/HW1.docx?dl=0&#34;&gt;Homework 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/gum44ubwta7slhg/HW1-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xmg9nhmrlxjjnim/HW2.docx?dl=0&#34;&gt;Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/83974zgktck4z9i/HW2-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/104xtk0skfdq9tt/HW3.docx?dl=0&#34;&gt;Homework 3&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/vjzlznai9bkgv79/HW4.docx?dl=0&#34;&gt;Homework 4&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/pa2dhqjhel5d22z/HW5.docx?dl=0&#34;&gt;Homework 5&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/a9lcb0607hy0tjr/HW6.docx?dl=0&#34;&gt;Homework 6&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/w0m6ao8nrffjja0/HW7.docx?dl=0&#34;&gt;Homework 7&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jnbuzhjn0kp1ffg/HW7-part2.docx?dl=0&#34;&gt;Part 2&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/amgb8xiibdvd6hl/HW8.docx?dl=0&#34;&gt;Homework 8&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/8pjsbtcax0ikxha/HW9.docx?dl=0&#34;&gt;Homework 9&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/61rtuuavnltcm2r/HW10.docx?dl=0&#34;&gt;Homework 10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;exams&#34;&gt;Exams&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4muh3bzt2nr4ztm/Exam1-F17-modified.docx?dl=0&#34;&gt;Practice exam 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/na2vc65hwsdo3ys/Exam1-F17-modified-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/saouyecnbd3cgt6/Exam2-F17.docx?dl=0&#34;&gt;Practice exam 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/d6doz5j41szdeh6/Exam2-F17-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/shvquqsq9h8cwfz/PracticeFinal-F16.docx?dl=0&#34;&gt;Practice final exam&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/sbkdsf0ked1ssya/PracticeFinal-F16-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
 &lt;!--
+### Exams
 
-
-
-
-* Lecture 18: Overview of Stat 110 | [PPT](https://www.dropbox.com/s/wpx36jgzs8hzh40/18%20-%20Overview%20of%20stat%20110.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xn0xz9n56q0bbkk/18%20-%20Overview%20of%20stat%20110.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Lecture+18+-+overview+of+stat+110+-+part+1.mp4/0_laj8m6wb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+18A+Overview+of+stat+110++%28part+2%2C+examples%29+-+Quiz/0_3bttdtsz)
-
-
-### Final exam
-
-The final exam will be made available in D2L beginning 12AM on ***Tuesday 6/26***.  There is a multiple choice portion (50 minutes; must be completed first) and a written portion (50 minutes; must be completed second).  Both portions of the exam must be completed by 11:59 pm on ***Friday 6/29***. Exam is open-note.  Practice exam and key are available below.  All practice quizzes from the semester will be available for you to review as well.
-
-* [Practice Final Exam](https://www.dropbox.com/s/shvquqsq9h8cwfz/PracticeFinal-F16.docx?dl=0) | [KEY](https://www.dropbox.com/s/sbkdsf0ked1ssya/PracticeFinal-F16-KEY.docx?dl=0)
-
-_________________________________
-
-
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)&lt;/p&gt;
-
-&lt;/div&gt;
-
---&gt;
-
-&lt;!--
-
-### Notes
-
-
-### Homework
-
-
-
+* [Practice exam 1](https://www.dropbox.com/s/4muh3bzt2nr4ztm/Exam1-F17-modified.docx?dl=0) | [KEY](https://www.dropbox.com/s/na2vc65hwsdo3ys/Exam1-F17-modified-KEY.docx?dl=0)
+* [Practice exam 2](https://www.dropbox.com/s/saouyecnbd3cgt6/Exam2-F17.docx?dl=0) | [KEY](https://www.dropbox.com/s/d6doz5j41szdeh6/Exam2-F17-KEY.docx?dl=0)
+* [Practice final exam](https://www.dropbox.com/s/shvquqsq9h8cwfz/PracticeFinal-F16.docx?dl=0) | [KEY](https://www.dropbox.com/s/sbkdsf0ked1ssya/PracticeFinal-F16-KEY.docx?dl=0)
 --&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
@@ -1844,18 +1872,6 @@ become an active and engaged member of our class and community.
 
 &lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Public data resources with social justice applications</title>
-      <link>http://driftlessdata.space/post/about-social-justice/</link>
-      <pubDate>Thu, 15 Mar 2018 00:00:00 -0500</pubDate>
-      
-      <guid>http://driftlessdata.space/post/about-social-justice/</guid>
-      <description>&lt;p&gt;Yesterday, several students and I traveled to St. Olaf to &lt;a href=&#34;../../talk/stolaf/&#34;&gt;illustrate several uses&lt;/a&gt; of interesting, publicly-available data that can be used to investigate &amp;ldquo;social justice&amp;rdquo; issues.  I&amp;rsquo;ve long been meaning to compile all the data sources and some example projects I&amp;rsquo;ve developed over the years, and this talk provided just the right motivation.   Accordingly, I have &lt;a href=&#34;../../project/social-justice-data/&#34;&gt;compiled a list&lt;/a&gt; of some of my favorite data sources and example projects and student work.  It takes some time to gather, wrangle, and aggregate some of these data sources. Part of my goal is to share some of the work I have already done to clean some of the messier data sets and pare them down to a more ready-to-use format.&lt;/p&gt;
-
-&lt;p&gt;Much thanks goes to Dr. Julie Legler from St. Olaf for reaching out and inviting us to dialogue with her students, and for encouraging me to actually put in the work to compile all these resources!&lt;/p&gt;
 </description>
     </item>
     
