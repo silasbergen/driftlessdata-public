@@ -11,6 +11,530 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Stat 110: Fundamentals of statistics (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>
+
+&lt;h3 id=&#34;spring-2019-office-hours&#34;&gt;Spring 2019 office hours&lt;/h3&gt;
+
+&lt;p&gt;MWF 1-2; Tues/Th 8:30-11:30&lt;/p&gt;
+
+&lt;!--
+### Course evaluation
+
+Complete the course evaluation by [following this link](https://winona.az1.qualtrics.com/jfe/form/SV_29KvCdECpznGJJb).  Upload screenshot of confirmation message at the end of the survey for 1% extra credit added on to your overall grade!
+--&gt;
+
+&lt;h3 id=&#34;upcoming&#34;&gt;Upcoming&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Date&lt;/th&gt;
+&lt;th&gt;Done by class&lt;/th&gt;
+&lt;th&gt;In class&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Tues 1/15&lt;/td&gt;
+&lt;td&gt;First Day!&lt;/td&gt;
+&lt;td&gt;First Day Stuff!&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Thurs 1/17&lt;/td&gt;
+&lt;td&gt;Have JMP installed, watch Lectures 1 and 2 videos (all parts)&lt;/td&gt;
+&lt;td&gt;Practice problems (participation points)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c9jxaao3isbgq2a/JMP-installation-instructions.pdf?dl=0&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;Tutoring services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6uwt28iqlgfm3cq/Photo_Slides.pptx?dl=0&#34;&gt;Photo guessing slides&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/amjwf4c0mv6xg6a/BinomialScript.jsl?dl=0&#34;&gt;Binomial JMP script&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lecture 1: Introduction to data | &lt;a href=&#34;https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+1A+Intro+to+data+-+Quiz/0_fjx8jaqx&#34;&gt;Video&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 2: Summarizing a single variable | &lt;a href=&#34;https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+2A+Summarizing+a+single+variable+%281+14+2019%29+-+Quiz/1_mof7ehnq&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+2A+Summarizing+a+single+variable+%28part+2B+1+15+2019%29+-+Quiz/1_z4azp6o3&#34;&gt;Video 2&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+2A+Summarizing+a+single+variable+%28part+3B+1+15+2019%29/1_p59vqhiw&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+* Lecture 3: Associations between two variables | [PPT](https://www.dropbox.com/s/4pp8rny29604zga/3%20-%20Associations%20between%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/n4hickmkl8w92na/3%20-%20Associations%20between%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+1%29+-+Quiz/0_aeeh19lb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+2%29/0_5u2eba33)
+* Lecture 4: Confounding and study types | [PPT](https://www.dropbox.com/s/8akdo13lm3st9sw/4%20-Confounding%20and%20study%20types.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xrkraz9byqd5gpe/4%20-Confounding%20and%20study%20types.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+4A+confounding+and+study+types+-+Quiz/0_bq3gwgld)
+* Lecture 5: Populations, parameters, samples, statistics | [PPT](https://www.dropbox.com/s/etcvadh0f98t9zo/5%20-%20Populations%20and%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/nt7jh4t75cwyzb0/5%20-%20Populations%20and%20samples.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+5A+populations+and+samples+-+Quiz/0_hyqfriy9)
+* Lecture 6: Introduction to inferential thinking | [PPT](https://www.dropbox.com/s/u5cx2edjcauctf8/6%20-%20Intro%20to%20Inference.pptx?dl=0) | [PDF](https://www.dropbox.com/s/3c8n6btd2ub1d9i/6%20-%20Intro%20to%20Inference.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+6A+Intro+to+inferential+thinking+-+Quiz/0_b8r4agfs)
+* Lecture 7: Hypothesis testing | [PPT](https://www.dropbox.com/s/5zfqa6ri4rl5gst/7%20-%20Hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/qz9uu1queflpiyh/7%20-%20Hypothesis%20testing.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+1+-+Quiz/0_e4iyo8pf) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+2+-+Quiz/0_vpnyrwkx) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing+examples+-+Quiz/0_i6q35d42) 
+* Lecture 8: Getting exact p-values | [PPT](https://www.dropbox.com/s/stb152ymh90pqcg/8%20-%20Exact%20hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/y9qn3k0xj11ym54/8%20-%20Exact%20hypothesis%20testing.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+8A+Exact+hypothesis+testing+-+Quiz/0_0zf9v3j6) 
+* Lecture 9: Confidence intervals | [PPT](https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0) | [PDF](https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh) 
+* Lecture 10: Measuring association strength in 2x2 tables (risk diff/rel risk) | [PPT](https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq)
+* Lecture 11: Inference for 2x2 tables | [PPT](https://www.dropbox.com/s/10bdpae85pf2jjv/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/ik2svnkik7r6bib/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+1%29+-+Quiz/0_356y76gy) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+2%29+-+Quiz/0_y8hec9qo) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+3B+JMP%29/0_ayb6rwc0) | [Video 4](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+4%29+-+example+-+Quiz/0_clsscfcr) 
+* Lecture 12: Adjusted measures of association | [PPT](https://www.dropbox.com/s/s8c3y2vwkgrdro9/12%20-%20Adjusted%20measures%20of%20association.pptx?dl=0) | [PDF](https://www.dropbox.com/s/sywz338i1gdhoku/12%20-%20Adjusted%20measures%20of%20association.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12+A+Adjusted+measures+of+association+%28part+1%29+-+Quiz/0_m1262svg) |  [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12A+Adjusted+measures+of+association+%28part+2%29+-+local+data+filter+in+JMP/0_q0hrkg1a)  
+* Lecture 13: Inference for tables that are larger than 2x2 | [PPT](https://www.dropbox.com/s/hpjo5ttsv9z24a8/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pptx?dl=0) | [PDF](https://www.dropbox.com/s/2xcerv4nkgzrn5h/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+13+A+Inference+for+large+tables+%28bigger+than+2x2%29+-+Quiz/0_75s1ybqs) 
+* Lecture 14: Dependent vs Independent samples | [PPT](https://www.dropbox.com/s/ej2480ze4gx6241/14%20-%20Dependent%20vs%20Independent.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5dgsfofuhu1m4qn/14%20-%20Dependent%20vs%20Independent.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+14A++dependent+vs+independent+samples+-+Quiz/0_dyq8vvzj) 
+* Lecture 15: Comparing means of dependent samples | [PPT](https://www.dropbox.com/s/p5rru3lls53fsis/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/bc0hguju59ent63/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+1%29+-+Quiz/0_bpqogjij) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+2%29+-+Quiz/0_sctmqaup) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+3B+computer+part%29/0_911feqev)
+* Lecture 16: Comparing means of two independent samples | [PPT](https://www.dropbox.com/s/lkjnza8x41k77en/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5od1qnru78pa113/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+1%29+-+Quiz/0_7gkl3vla) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+2%29/0_1epgsds4)  
+* Lecture 17: Associations between two quantitative variables | [PPT](https://www.dropbox.com/s/x80x233m9r5y9a4/17%20-%20Associations%20between%20two%20quantitative%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c5ro5zg44vzki1m/17%20-%20Associations%20between%20two%20quantitative%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+1%29+-+Quiz/0_xsib4h1i) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110A+Lecture+17+-+Associations+between+two+quantitative+variables+%28part+2%29+-+Quiz/0_3r1azjvy) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+3%29/0_wm80pn1t)
+* Lecture 18: Overview of Stat 110 | [PPT](https://www.dropbox.com/s/wpx36jgzs8hzh40/18%20-%20Overview%20of%20stat%20110.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xn0xz9n56q0bbkk/18%20-%20Overview%20of%20stat%20110.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Lecture+18+-+overview+of+stat+110+-+part+1.mp4/0_laj8m6wb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+18A+Overview+of+stat+110++%28part+2%2C+examples%29+-+Quiz/0_3bttdtsz) 
+--&gt;
+
+&lt;h3 id=&#34;participation-practice-sets&#34;&gt;Participation practice sets&lt;/h3&gt;
+
+&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Homework 0: First, install JMP, then watch Lectures 1 and 2.  When done, open the Titanic data below.  Use this data set and &lt;strong&gt;Analyze &amp;gt; Distribution&lt;/strong&gt; to complete the Homework 0 quiz in D2L.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+### Exams
+
+* [Practice exam 1](https://www.dropbox.com/s/4muh3bzt2nr4ztm/Exam1-F17-modified.docx?dl=0) | [KEY](https://www.dropbox.com/s/na2vc65hwsdo3ys/Exam1-F17-modified-KEY.docx?dl=0)
+* [Practice exam 2](https://www.dropbox.com/s/saouyecnbd3cgt6/Exam2-F17.docx?dl=0) | [KEY](https://www.dropbox.com/s/d6doz5j41szdeh6/Exam2-F17-KEY.docx?dl=0)
+* [Practice final exam](https://www.dropbox.com/s/shvquqsq9h8cwfz/PracticeFinal-F16.docx?dl=0) | [KEY](https://www.dropbox.com/s/sbkdsf0ked1ssya/PracticeFinal-F16-KEY.docx?dl=0)
+--&gt;
+
+&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4qo37jhtm7ufo88/Child-abuse-violence.jmp?dl=0&#34;&gt;Abuse data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2edp411inmzhdt7/Backpack.jmp?dl=0&#34;&gt;Backpack data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Back pain data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Birthweight.jmp&#34;&gt;Birth weight
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/se0fo4xi45zab5v/Body_Image.jmp?dl=0&#34;&gt;Body Image&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fqt8hfodyrjsa3j/Body%20Temps.jmp?dl=0&#34;&gt;Body temp data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2lthfs7jy3jpitd/breast%20reconstruction.jmp?dl=0&#34;&gt;Breast reconstruction data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/lbqr85a1to664n9/BRFSS.jmp?dl=0&#34;&gt;BRFSS
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/x22xv6aljppse5b/CA_Expenditures.jmp?dl=0&#34;&gt;California expenditures data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wl0ms087o0mqv2/kid_calories.jmp?dl=0&#34;&gt;Calories data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/tf6i6dzej17mxam/CivilRightsActVote.jmp?dl=0&#34;&gt;Civil Rights Act Vote&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wbpr5zkvvyti45/HypoCommute2.jmp?dl=0&#34;&gt;Commute times&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/baujtawawq2ojbi/ConfederateFlag.jmp?dl=0&#34;&gt;Confederate Flag data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ypmejq56fox0rt1/Deodorant.jmp?dl=0&#34;&gt;Deodorant data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/bb80aa850f17hyp/dogs_explosives.jmp?dl=0&#34;&gt;Dog explosives data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/eu9gqha996i9zow/Ear%20Effusion.JMP?dl=0&#34;&gt;Ear effusion data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/sumukatciyia4cj/FEVdata.jmp?dl=0&#34;&gt;FEV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zzqqp6cv96me99r/Gun-data.jmp?dl=0&#34;&gt;Gun data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ufpsu27u3f69u3b/Handedness_F18.jmp?dl=0&#34;&gt;Handedness data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/HIV-Antiretroviral.jmp&#34;&gt;HIV
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/IraqWar.jmp&#34;&gt;Iraq War
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0p65tsym991kmnb/Kidney_Treatment_Data.jmp?dl=0&#34;&gt;Kidney Stone data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Lions.jmp&#34;&gt;Lions
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Lower back pain&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/gkoh69d6ldj8xxm/LSD-mathscore.jmp?dl=0&#34;&gt;LSD math score data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/atthasd2ce0xt7f/Drink-Smoke-Cancer.jmp?dl=0&#34;&gt;Lung cancer data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/LymphNodes.jmp&#34;&gt;Lymphedenopathy
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9pkvfqek2g54lz3/Sitting.jmp?dl=0&#34;&gt;MTL data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4p2fer7gr83v71m/NicotineLozenge.jmp?dl=0&#34;&gt;Nicotine lozenge data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/imdzv0zdtcds1u2/Pancreatic_Cancer_Data.jmp?dl=0&#34;&gt;Pancreatic cancer
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/otx5y9p8b1zi14d/Parents_Attitudes.jmp?dl=0&#34;&gt;Parent attitude data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ehdrph7ki0ikhzl/Parole_Prediction.jmp?dl=0&#34;&gt;Parole prediction data&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/PewFacebookData.jmp&#34;&gt;Pew research
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Smiles.jmp&#34;&gt;Smiles
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/subarus.jmp&#34;&gt;Subaru
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ctw0vjnoii9hhvd/stroop.jmp?dl=0&#34;&gt;Stroop data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qneenvg6ust9rtb/Tangrams-spring2018.jmp?dl=0&#34;&gt;Tangrams data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Titanic.jmp&#34;&gt;Titanic
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/trombone.jmp&#34;&gt;Trombone
+data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s1p51292dbr7hgu/Vitruvian-measurements.jmp?dl=0&#34;&gt;Vitruvian measurements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>
+
+&lt;h3 id=&#34;stat-110-fundamentals-of-statistics-stat110-home&#34;&gt;&lt;a href=&#34;../stat110-home/&#34;&gt;Stat 110: Fundamentals of statistics&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Required software&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;JMP -&lt;/strong&gt; available from WSU network for free. &lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Optional text&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;There is no text required for this course. However, if you would like to
+refer to a textbook, a good reference is &lt;em&gt;Unlocking the Power of Data&lt;/em&gt;
+by Lock, Lock, Lock, Lock, and Lock.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Prerequisites&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Qualifying score on the mathematics placement exam or MATH 050.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Basic Skills Learning Outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This course can be used to satisfy the University Studies Program&amp;rsquo;s
+requirements for Basic Skills in Mathematics or Goal Area 4 under the
+new General Education Program. This includes requirements and learning
+activities that will promote your abilities to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Illustrate historical and contemporary applications of
+mathematical/logical systems;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Clearly express mathematical/logical ideas in writing;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Explain what constitutes a valid mathematical/logical argument
+(proof); and&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Apply higher-order problem-solving and/or modeling strategies.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Additional learning outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The successful Stat 110 student will be able to.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use logical reasoning by studying mathematical patterns and
+relationships&lt;/strong&gt; One of the major goals of statistics is to find patterns and
+relationships in datasets. Hence almost all lectures, homework
+problems, and test questions in the course have the study of
+patterns for variables and relationships between variables as their
+basis.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use mathematical models to describe real-world phenomena and to
+solve real-world problems - as well as understand the limitations of
+models in making predictions and drawing conclusions&lt;/strong&gt;
+In all of the textbooks and course notes used in STAT 110 the
+majority of the problems are real-world based and are &amp;ldquo;word&amp;rdquo;
+problems. Further, all instructors require the students when doing
+such problems to write conclusions and discuss limitations.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;organize data, communicate the essential features of the data, and
+interpret the data in a meaningful way&lt;/strong&gt;
+This is the heart of STAT 110. The topics covered are chosen so
+that students who complete the course can organize data, communicate
+essential features of the data both numerically and graphically and
+provide interpretations/conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;do a critical analysis of scientific and other research&lt;/strong&gt;
+The scientific method is discussed early in the course. The logic
+of hypothesis testing is discussed in detail. Further, on tests and
+written assignments the students are expected to go beyond a simple
+analysis and provide implications, interpretations, and conclusions.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;extract correct information from tables and common graphical
+displays, such as line graphs, scatter plots, histograms, and
+frequency tables&lt;/strong&gt;
+All of these topics are explicitly taught in STAT 110 and are on
+the course outline. Please note that &amp;ldquo;line graphs&amp;rdquo; is subsumed under
+&amp;ldquo;Frequency distributions and histograms&amp;rdquo;. Also, please note that
+&amp;ldquo;scatter plots&amp;rdquo; are more formally called &amp;ldquo;Bivariate displays&amp;rdquo; by
+statisticians.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;express the relationships illustrated in graphical displays and
+tables clearly and correctly in words&lt;/strong&gt;
+As can be seen from the course outline, graphical displays and
+tables cover a significant portion of the course content. As
+discussed above, interpretation in words is expected by all
+instructors on homework and tests.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;use appropriate technology to describe and solve quantitative
+problems.&lt;/strong&gt;
+As stated on the course outline, &amp;ldquo;It is required that at least one
+assignment using an appropriate computer package be included in the
+course.&amp;rdquo; In this section of STAT 110, we will primarily use a
+statistical software package called JMP.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Assessment tasks&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The following assessments will be used to gauge growth in the Basic
+Skills and additional learning outcomes.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Participation (10%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Attending class is very important. Lots of learning happens in class, including group discussions; problem solving; and review of important concepts.  Accordingly, 5% of your final grade is based on participation.  Earn participation by completing in-class activities which will be assigned weekly.  These will be assessed on the basis of completeness and good-faith effort rather than correctness.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Quizzes (20%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The section of Stat 110 you are taking is &lt;em&gt;flipped&lt;/em&gt;.  This means that the PowerPoint lectures are all recorded on video that you watch on your own outside of class, and class time is spent on additional problem solving, concept review, and completing homework.  The video lectures have practice quiz questions embedded along the way, just to help keep the video interactive and help you assess your understanding along the way.  There will also be practice D2L practice quizzes that you can take an unlimited number of times.  The video quiz and D2L practice quizzes are just for practice; you are not graded on these.  After watching the videos and taking the practice quizzes, we will have &lt;em&gt;in-class quizzes&lt;/em&gt; that you can take &lt;strong&gt;up to two times&lt;/strong&gt;.  Your score on the quiz will be the highest of the attempts.  Your cumulative score on these quizzes will account for 20% of your final grade.  Your single lowest quiz score will be dropped.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Group homework assignments (20%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Roughly half of the in-class time will be spent doing group
+homework assignments. There are a number of benefits to in-class group
+assignments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;No (or at least, very little) homework outside of class!&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;You get to explain concepts to, and hear explanations from, your
+classmates. It&amp;rsquo;s very likely that I will explain a concept in a way
+you did not understand, but a classmate will explain it to you in a
+way that you can understand.&lt;/li&gt;
+&lt;li&gt;Those of you who &lt;em&gt;do&lt;/em&gt; understand a concept will understand it &lt;em&gt;ever
+better&lt;/em&gt; when you try to explain it to a classmate!&lt;/li&gt;
+&lt;li&gt;I am there in class with you, so as to better answer your questions
+as they arise.
+But don&amp;rsquo;t take my word for it!  Here&amp;rsquo;s a word cloud of responses to the question &amp;ldquo;What did you like BEST about in-class group homework&amp;rdquo; I asked on the previous two semeters&amp;rsquo; course evaluations:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;figure&gt;
+ &lt;img src=&#34;../../../img/group-best-wordcloud.png&#34; width=&#34;500&#34;&gt;
+&lt;/figure&gt;
+&lt;/center&gt;
+I will alternate between randomly assigning you into groups (usually of 3), and
+allowing you to select your own groups.  On &amp;ldquo;choose your group&amp;rdquo; week, you may choose to work alone in your own group. However, if you are working with peers, I ask that you submit one piece of work.  Students will submit their assignments to
+ D2L, and all students in a group will get the same homework grade. The
+ homework practice concepts learned in class. Homework assignment will
+ often require use of JMP or other software. &lt;strong&gt;Homework that is submitted
+ after I have uploaded a key will receive a 0.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Two midterm exams (30%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;These exams will require you to demonstrate your &lt;em&gt;understanding&lt;/em&gt; of the
+material as opposed to your ability to &lt;em&gt;memorize&lt;/em&gt; certain concepts. The
+format will primarily be a combination of short answer, multiple choice,
+and T/F. Exam dates will be announced at least one week in advance.
+Rescheduling of an exam will be permitted only if there is a
+family/medical emergency. Also, &lt;strong&gt;you must contact me before the exam is
+to be taken&lt;/strong&gt;. Arrangements will be made for the exam to be taken at an
+earlier time, if at all possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Final exam (20%)&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This exam will include material covered since the second midterm exam as
+well as material learned over the course of the entire semester.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final grades&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Final grades will be a percent that accounts for work on homework and
+exams. Final grades will be assigned as follows:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;90-100%: A&lt;/li&gt;
+&lt;li&gt;80-89%: Guaranteed at least a B&lt;/li&gt;
+&lt;li&gt;70-79%: Guaranteed at least a C&lt;/li&gt;
+&lt;li&gt;60-69%: Guaranteed at least a D&lt;/li&gt;
+&lt;li&gt;&amp;lt;60%: No lower than F&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Laptops&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I encourage you to bring your laptop to class every day so that our
+classroom can function as a computer lab. I expect you to use your laptop in class for &lt;strong&gt;ACADEMIC
+PURPOSES ONLY&lt;/strong&gt;!  Also having a FULL BATTERY (or nearly full) is really beneficial!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Academic integrity policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;Academic Integrity
+Policy&lt;/a&gt;. Note that both copying
+another student&amp;rsquo;s work and allowing someone to copy your work are clear violations of this
+policy. If there is reasonable evidence of copying another individual&amp;rsquo;s work, it will be construed as
+an act of plagiarism. The first occurrence of violating the academic integrity policy will result
+in a significant loss of points on that specific homework assignment or exam; the second occurrence will
+result in failure of the course.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Free tutoring is available via tutoring services. You can schedule
+appointments with tutors during times that fit with your schedule.
+See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Two good places to help you find resources of all kinds on campus
+are &lt;em&gt;&lt;a href=&#34;https://www.winona.edu/studentsupportservices/&#34;&gt;Student
+Support&lt;/a&gt;.&lt;/em&gt; This is
+essentially &amp;ldquo;home base&amp;rdquo; for student services, and can direct you to
+other more specific resources. Examples of resources at Student
+Support:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Academic advising&lt;/li&gt;
+&lt;li&gt;Help exploring major and minor options&lt;/li&gt;
+&lt;li&gt;Career exploration&lt;/li&gt;
+&lt;li&gt;Assistance in navigating the Financial Aid system&lt;/li&gt;
+&lt;li&gt;Budget and money management skills&lt;/li&gt;
+&lt;li&gt;Tutoring and/or supplemental instruction&lt;/li&gt;
+&lt;li&gt;Study skills coaching&lt;/li&gt;
+&lt;li&gt;Time management training&lt;/li&gt;
+&lt;li&gt;Leadership skill development&lt;/li&gt;
+&lt;li&gt;Support for students with documented disabilities&lt;/li&gt;
+&lt;li&gt;Support for students who are parents&lt;/li&gt;
+&lt;li&gt;Assistance preparing for graduate and professional programs&lt;/li&gt;
+&lt;li&gt;Assistance with writing resumes and cover letters&lt;/li&gt;
+&lt;li&gt;Cultural and social enrichment opportunities&lt;/li&gt;
+&lt;li&gt;Referrals to on-campus and off-campus resources&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If you have a disability, the &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/accessservices/&#34;&gt;Access
+Services&lt;/a&gt;&lt;/em&gt; office can
+document it for your professors and facilitate accommodations. If
+you have a documented disability that requires accommodation, please
+contact Access Services as soon as possible.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;College can be very stressful. &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/counselingservices/&#34;&gt;Counseling
+Services&lt;/a&gt;&lt;/em&gt; offices on
+both campuses are here to help you with a wide range of
+difficulties, ranging from sexual assault, depression, and grief
+after the loss of a loved one to stress management, anxiety, general
+adjustment to college, and many others.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;https://www.winona.edu/inclusion-diversity/KEAP.asp&#34;&gt;&lt;em&gt;KEAP
+Center&lt;/em&gt;&lt;/a&gt; in
+Kryszko 162 works in partnership with the Inclusion and Diversity
+Office to create a safe space and an inclusive atmosphere for
+diverse persons, organizations and groups. This includes people with
+issues related to:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Race, Ethnicity and National Origin&lt;/li&gt;
+&lt;li&gt;Gender&lt;/li&gt;
+&lt;li&gt;Age&lt;/li&gt;
+&lt;li&gt;Religion and Beliefs&lt;/li&gt;
+&lt;li&gt;Ability Levels&lt;/li&gt;
+&lt;li&gt;Economic Status&lt;/li&gt;
+&lt;li&gt;Gender and Sexual Identity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;!-- --&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To find out about web registration, placement tests, program
+requirements and support tools to help students succeed, visit the
+&lt;em&gt;Advising Services&lt;/em&gt; office and website for answers to all your
+questions!&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Commitment to inclusive excellence&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;WSU recognizes that our individual differences can deepen our
+understanding of one another and the world around us, rather than divide
+us. In this class, people of all ethnicities, genders, religions, ages,
+sexual orientations, disabilities, socioeconomic backgrounds, regions,
+and nationalities are strongly encouraged to share their rich array of
+perspectives and experiences. If you feel your differences may in some
+way isolate you from WSU&amp;rsquo;s community or if you have a need of any
+specific accommodations, please speak with the instructor early in the
+semester about your concerns and what we can do together to help you
+become an active and engaged member of our class and community.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tentative course outline&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Introduction to data&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Descriptive Methods for a Single Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Barplots, counts, percents&lt;/p&gt;
+
+&lt;p&gt;b.  Histograms, mean/median, quantiles, standard deviation&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Describing associations between 2 variables&lt;/p&gt;
+
+&lt;p&gt;a.  Mosaic plots&lt;/p&gt;
+
+&lt;p&gt;b.  Boxplots&lt;/p&gt;
+
+&lt;p&gt;c.  Scatterplots&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Multivariable thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Confounding&lt;/p&gt;
+
+&lt;p&gt;b.  Confounding adjustment&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Introduction to inferential thinking&lt;/p&gt;
+
+&lt;p&gt;a.  Introduction to Statistical Thinking&lt;/p&gt;
+
+&lt;p&gt;b.  Some Definitions&lt;/p&gt;
+
+&lt;p&gt;c.  The Importance of Random Sampling&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for a Single Categorical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  Discussion of Sample-to-Sample Variation&lt;/p&gt;
+
+&lt;p&gt;c.  Using the Binomial Probability Model to Make Decisions&lt;/p&gt;
+
+&lt;p&gt;d.  Formal Statistical Inference (Binomial Exact Test, Confidence
+    Interval for a Single Proportion, Chi-Square Goodness of Fit Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Categorical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
+
+&lt;p&gt;b.  More Descriptive Methods: Relative Risk and Odds Ratios&lt;/p&gt;
+
+&lt;p&gt;c.  Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of
+    Proportions)&lt;/p&gt;
+
+&lt;p&gt;d.  Understanding the Basics of Experimental Design and Correlation
+     vs. Causation&lt;/p&gt;
+
+&lt;p&gt;e.  Inferences for Comparing Several Proportions Across Another
+     Variable (Chi-Square Test)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inferential Methods for a Single Numerical Variable&lt;/p&gt;
+
+&lt;p&gt;a.  Inference for a Single Mean (t-test and confidence interval for
+    a single mean)&lt;/p&gt;
+
+&lt;p&gt;b.  Inference for Comparing Two Means with Dependent Groups (paired
+    t-test, confidence interval for a mean difference)&lt;/p&gt;
+
+&lt;p&gt;c.  Inference for Comparing Two Means with Independent Groups
+    (t-test for independent samples, confidence interval for a
+    difference in means)&lt;/p&gt;
+
+&lt;p&gt;d.  Inference for Comparing Several Group Means (ANOVA)&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Methods for Two or More Numerical Variables&lt;/p&gt;
+
+&lt;p&gt;a.  Descriptive Methods (correlation, scatterplots)&lt;/p&gt;
+
+&lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Stat 460: Mathematical statistics II (Spring 2019)</title>
       <link>http://driftlessdata.space/courses/stat460/stat460-home/</link>
       <pubDate>Mon, 14 Jan 2019 00:00:00 +0000</pubDate>
@@ -516,525 +1040,6 @@ toplot&lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Moral&lt;/h2&gt;
 &lt;p&gt;Wow! The only truly “statistical” aspect of this whole process was a paired t-test. And even that was a bit tricky: figuring out how to carry out these t-tests by term! In reflecting back on the semester, I am struck that our data science students would do well to take our stat consulting course. They would be kept very interested in data “wrangling” tasks such as this. On the flip side, it’s an invaluable experience for our STAT majors (who comprise the usual audience of this course) to realize that the formal statistical analysis in which they are most trained is ultimately the last in a long series of data wrangling steps.&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Syllabus (Fall 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
-      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
-      <description>
-
-&lt;h3 id=&#34;stat-110-fundamentals-of-statistics-stat110-home&#34;&gt;&lt;a href=&#34;../stat110-home/&#34;&gt;Stat 110: Fundamentals of statistics&lt;/a&gt;&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Required software&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;JMP -&lt;/strong&gt; available from WSU network for free. &lt;a href=&#34;https://silasbergen.github.io/JMP_installation.html&#34;&gt;Download instructions&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Optional text&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is no text required for this course. However, if you would like to
-refer to a textbook, a good reference is &lt;em&gt;Unlocking the Power of Data&lt;/em&gt;
-by Lock, Lock, Lock, Lock, and Lock.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Prerequisites&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Qualifying score on the mathematics placement exam or MATH 050.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Basic Skills Learning Outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This course can be used to satisfy the University Studies Program&amp;rsquo;s
-requirements for Basic Skills in Mathematics or Goal Area 4 under the
-new General Education Program. This includes requirements and learning
-activities that will promote your abilities to.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Illustrate historical and contemporary applications of
-mathematical/logical systems;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Clearly express mathematical/logical ideas in writing;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Explain what constitutes a valid mathematical/logical argument
-(proof); and&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Apply higher-order problem-solving and/or modeling strategies.&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Additional learning outcomes&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The successful Stat 110 student will be able to.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;use logical reasoning by studying mathematical patterns and
-relationships&lt;/strong&gt; One of the major goals of statistics is to find patterns and
-relationships in datasets. Hence almost all lectures, homework
-problems, and test questions in the course have the study of
-patterns for variables and relationships between variables as their
-basis.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;use mathematical models to describe real-world phenomena and to
-solve real-world problems - as well as understand the limitations of
-models in making predictions and drawing conclusions&lt;/strong&gt;
-In all of the textbooks and course notes used in STAT 110 the
-majority of the problems are real-world based and are &amp;ldquo;word&amp;rdquo;
-problems. Further, all instructors require the students when doing
-such problems to write conclusions and discuss limitations.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;organize data, communicate the essential features of the data, and
-interpret the data in a meaningful way&lt;/strong&gt;
-This is the heart of STAT 110. The topics covered are chosen so
-that students who complete the course can organize data, communicate
-essential features of the data both numerically and graphically and
-provide interpretations/conclusions.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;do a critical analysis of scientific and other research&lt;/strong&gt;
-The scientific method is discussed early in the course. The logic
-of hypothesis testing is discussed in detail. Further, on tests and
-written assignments the students are expected to go beyond a simple
-analysis and provide implications, interpretations, and conclusions.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;extract correct information from tables and common graphical
-displays, such as line graphs, scatter plots, histograms, and
-frequency tables&lt;/strong&gt;
-All of these topics are explicitly taught in STAT 110 and are on
-the course outline. Please note that &amp;ldquo;line graphs&amp;rdquo; is subsumed under
-&amp;ldquo;Frequency distributions and histograms&amp;rdquo;. Also, please note that
-&amp;ldquo;scatter plots&amp;rdquo; are more formally called &amp;ldquo;Bivariate displays&amp;rdquo; by
-statisticians.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;express the relationships illustrated in graphical displays and
-tables clearly and correctly in words&lt;/strong&gt;
-As can be seen from the course outline, graphical displays and
-tables cover a significant portion of the course content. As
-discussed above, interpretation in words is expected by all
-instructors on homework and tests.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;use appropriate technology to describe and solve quantitative
-problems.&lt;/strong&gt;
-As stated on the course outline, &amp;ldquo;It is required that at least one
-assignment using an appropriate computer package be included in the
-course.&amp;rdquo; In this section of STAT 110, we will primarily use a
-statistical software package called JMP.&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Assessment tasks&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The following assessments will be used to gauge growth in the Basic
-Skills and additional learning outcomes.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Attendance (5%)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Attending class is very important. Lots of learning happens in class, including group discussions; problem solving; and review of important concepts.  Accordingly, 5% of your final grade is based on our simple attendance, which I will take at some point during each class period.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Quizzes (20%)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;The section of Stat 110 you are taking is &lt;em&gt;flipped&lt;/em&gt;.  This means that the PowerPoint lectures are all recorded on video that you watch on your own outside of class, and class time is spent on additional problem solving, concept review, and completing homework.  The video lectures have practice quiz questions embedded along the way, just to help keep the video interactive and help you assess your understanding along the way.  There will also be practice D2L practice quizzes that you can take an unlimited number of times.  The video quiz and D2L practice quizzes are just for practice; you are not graded on these.  After watching the videos and taking the practice quizzes, we will have &lt;em&gt;in-class quizzes&lt;/em&gt; that you can take &lt;strong&gt;up to two times&lt;/strong&gt;.  Your score on the quiz will be the highest of the attempts.  Your cumulative score on these quizzes will account for 20% of your final grade.  Your single lowest quiz score will be dropped.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Group homework assignments (25%)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Roughly half of the in-class time will be spent doing group
-homework assignments. There are a number of benefits to in-class group
-assignments:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;No (or at least, very little) homework outside of class!&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;You get to explain concepts to, and hear explanations from, your
-classmates. It&amp;rsquo;s very likely that I will explain a concept in a way
-you did not understand, but a classmate will explain it to you in a
-way that you can understand.&lt;/li&gt;
-&lt;li&gt;Those of you who &lt;em&gt;do&lt;/em&gt; understand a concept will understand it &lt;em&gt;ever
-better&lt;/em&gt; when you try to explain it to a classmate!&lt;/li&gt;
-&lt;li&gt;I am there in class with you, so as to better answer your questions
-as they arise.
-But don&amp;rsquo;t take my word for it!  Here&amp;rsquo;s a word cloud of responses to the question &amp;ldquo;What did you like BEST about in-class group homework&amp;rdquo; I asked on the previous two semeters&amp;rsquo; course evaluations:&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;center&gt;
-&lt;figure&gt;
- &lt;img src=&#34;../../../img/group-best-wordcloud.png&#34; width=&#34;500&#34;&gt;
-&lt;/figure&gt;
-&lt;/center&gt;
-I will alternate between randomly assigning you into groups (usually of 3), and
-allowing you to select your own groups.  On &amp;ldquo;choose your group&amp;rdquo; week, you may choose to work alone in your own group. However, if you are working with peers, I ask that you submit one piece of work.  Students will submit their assignments to
- D2L, and all students in a group will get the same homework grade. The
- homework practice concepts learned in class. Homework assignment will
- often require use of JMP or other software. &lt;strong&gt;Homework that is submitted
- after I have uploaded a key will receive a 0.&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Two midterm exams (30%)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;These exams will require you to demonstrate your &lt;em&gt;understanding&lt;/em&gt; of the
-material as opposed to your ability to &lt;em&gt;memorize&lt;/em&gt; certain concepts. The
-format will primarily be a combination of short answer, multiple choice,
-and T/F. Exam dates will be announced at least one week in advance.
-Rescheduling of an exam will be permitted only if there is a
-family/medical emergency. Also, &lt;strong&gt;you must contact me before the exam is
-to be taken&lt;/strong&gt;. Arrangements will be made for the exam to be taken at an
-earlier time, if at all possible.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Final exam (20%)&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;This exam will include material covered since the second midterm exam as
-well as material learned over the course of the entire semester.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Final grades&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Final grades will be a percent that accounts for work on homework and
-exams. Final grades will be assigned as follows:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;90-100%: A&lt;/li&gt;
-&lt;li&gt;80-89%: Guaranteed at least a B&lt;/li&gt;
-&lt;li&gt;70-79%: Guaranteed at least a C&lt;/li&gt;
-&lt;li&gt;60-69%: Guaranteed at least a D&lt;/li&gt;
-&lt;li&gt;&amp;lt;60%: No lower than F&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Laptops&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;I encourage you to bring your laptop to class every day so that our
-classroom can function as a computer lab. I expect you to use your laptop in class for &lt;strong&gt;ACADEMIC
-PURPOSES ONLY&lt;/strong&gt;!  Also having a FULL BATTERY (or nearly full) is really beneficial!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Academic integrity policy&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;All students must abide by Winona State University&amp;rsquo;s &lt;a href=&#34;http://www.winona.edu/sld/academicintegrity.asp&#34;&gt;Academic Integrity
-Policy&lt;/a&gt;. Note that both copying
-another student&amp;rsquo;s work and allowing someone to copy your work are clear violations of this
-policy. If there is reasonable evidence of copying another individual&amp;rsquo;s work, it will be construed as
-an act of plagiarism. The first occurrence of violating the academic integrity policy will result
-in a significant loss of points on that specific homework assignment or exam; the second occurrence will
-result in failure of the course.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;DETAILS ABOUT CAMPUS RESOURCES&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Free tutoring is available via tutoring services. You can schedule
-appointments with tutors during times that fit with your schedule.
-See &lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;http://www.winona.edu/tutoring/&lt;/a&gt; for more.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Two good places to help you find resources of all kinds on campus
-are &lt;em&gt;&lt;a href=&#34;https://www.winona.edu/studentsupportservices/&#34;&gt;Student
-Support&lt;/a&gt;.&lt;/em&gt; This is
-essentially &amp;ldquo;home base&amp;rdquo; for student services, and can direct you to
-other more specific resources. Examples of resources at Student
-Support:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- --&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Academic advising&lt;/li&gt;
-&lt;li&gt;Help exploring major and minor options&lt;/li&gt;
-&lt;li&gt;Career exploration&lt;/li&gt;
-&lt;li&gt;Assistance in navigating the Financial Aid system&lt;/li&gt;
-&lt;li&gt;Budget and money management skills&lt;/li&gt;
-&lt;li&gt;Tutoring and/or supplemental instruction&lt;/li&gt;
-&lt;li&gt;Study skills coaching&lt;/li&gt;
-&lt;li&gt;Time management training&lt;/li&gt;
-&lt;li&gt;Leadership skill development&lt;/li&gt;
-&lt;li&gt;Support for students with documented disabilities&lt;/li&gt;
-&lt;li&gt;Support for students who are parents&lt;/li&gt;
-&lt;li&gt;Assistance preparing for graduate and professional programs&lt;/li&gt;
-&lt;li&gt;Assistance with writing resumes and cover letters&lt;/li&gt;
-&lt;li&gt;Cultural and social enrichment opportunities&lt;/li&gt;
-&lt;li&gt;Referrals to on-campus and off-campus resources&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;!-- --&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;If you have a disability, the &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/accessservices/&#34;&gt;Access
-Services&lt;/a&gt;&lt;/em&gt; office can
-document it for your professors and facilitate accommodations. If
-you have a documented disability that requires accommodation, please
-contact Access Services as soon as possible.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;College can be very stressful. &lt;em&gt;&lt;a href=&#34;http://www.winona.edu/counselingservices/&#34;&gt;Counseling
-Services&lt;/a&gt;&lt;/em&gt; offices on
-both campuses are here to help you with a wide range of
-difficulties, ranging from sexual assault, depression, and grief
-after the loss of a loved one to stress management, anxiety, general
-adjustment to college, and many others.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The &lt;a href=&#34;https://www.winona.edu/inclusion-diversity/KEAP.asp&#34;&gt;&lt;em&gt;KEAP
-Center&lt;/em&gt;&lt;/a&gt; in
-Kryszko 162 works in partnership with the Inclusion and Diversity
-Office to create a safe space and an inclusive atmosphere for
-diverse persons, organizations and groups. This includes people with
-issues related to:&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;!-- --&gt;
-
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;Race, Ethnicity and National Origin&lt;/li&gt;
-&lt;li&gt;Gender&lt;/li&gt;
-&lt;li&gt;Age&lt;/li&gt;
-&lt;li&gt;Religion and Beliefs&lt;/li&gt;
-&lt;li&gt;Ability Levels&lt;/li&gt;
-&lt;li&gt;Economic Status&lt;/li&gt;
-&lt;li&gt;Gender and Sexual Identity&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;!-- --&gt;
-
-&lt;ul&gt;
-&lt;li&gt;To find out about web registration, placement tests, program
-requirements and support tools to help students succeed, visit the
-&lt;em&gt;Advising Services&lt;/em&gt; office and website for answers to all your
-questions!&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Commitment to inclusive excellence&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;WSU recognizes that our individual differences can deepen our
-understanding of one another and the world around us, rather than divide
-us. In this class, people of all ethnicities, genders, religions, ages,
-sexual orientations, disabilities, socioeconomic backgrounds, regions,
-and nationalities are strongly encouraged to share their rich array of
-perspectives and experiences. If you feel your differences may in some
-way isolate you from WSU&amp;rsquo;s community or if you have a need of any
-specific accommodations, please speak with the instructor early in the
-semester about your concerns and what we can do together to help you
-become an active and engaged member of our class and community.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tentative course outline&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Introduction to data&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Descriptive Methods for a Single Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Barplots, counts, percents&lt;/p&gt;
-
-&lt;p&gt;b.  Histograms, mean/median, quantiles, standard deviation&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Describing associations between 2 variables&lt;/p&gt;
-
-&lt;p&gt;a.  Mosaic plots&lt;/p&gt;
-
-&lt;p&gt;b.  Boxplots&lt;/p&gt;
-
-&lt;p&gt;c.  Scatterplots&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Multivariable thinking&lt;/p&gt;
-
-&lt;p&gt;a.  Confounding&lt;/p&gt;
-
-&lt;p&gt;b.  Confounding adjustment&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Introduction to inferential thinking&lt;/p&gt;
-
-&lt;p&gt;a.  Introduction to Statistical Thinking&lt;/p&gt;
-
-&lt;p&gt;b.  Some Definitions&lt;/p&gt;
-
-&lt;p&gt;c.  The Importance of Random Sampling&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for a Single Categorical Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
-
-&lt;p&gt;b.  Discussion of Sample-to-Sample Variation&lt;/p&gt;
-
-&lt;p&gt;c.  Using the Binomial Probability Model to Make Decisions&lt;/p&gt;
-
-&lt;p&gt;d.  Formal Statistical Inference (Binomial Exact Test, Confidence
-    Interval for a Single Proportion, Chi-Square Goodness of Fit Test)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for Two or More Categorical Variables&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods&lt;/p&gt;
-
-&lt;p&gt;b.  More Descriptive Methods: Relative Risk and Odds Ratios&lt;/p&gt;
-
-&lt;p&gt;c.  Inferences for Comparing Two Proportions (Chi-Square Test, and Confidence Interval for a Difference in or ratio of
-    Proportions)&lt;/p&gt;
-
-&lt;p&gt;d.  Understanding the Basics of Experimental Design and Correlation
-     vs. Causation&lt;/p&gt;
-
-&lt;p&gt;e.  Inferences for Comparing Several Proportions Across Another
-     Variable (Chi-Square Test)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inferential Methods for a Single Numerical Variable&lt;/p&gt;
-
-&lt;p&gt;a.  Inference for a Single Mean (t-test and confidence interval for
-    a single mean)&lt;/p&gt;
-
-&lt;p&gt;b.  Inference for Comparing Two Means with Dependent Groups (paired
-    t-test, confidence interval for a mean difference)&lt;/p&gt;
-
-&lt;p&gt;c.  Inference for Comparing Two Means with Independent Groups
-    (t-test for independent samples, confidence interval for a
-    difference in means)&lt;/p&gt;
-
-&lt;p&gt;d.  Inference for Comparing Several Group Means (ANOVA)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Methods for Two or More Numerical Variables&lt;/p&gt;
-
-&lt;p&gt;a.  Descriptive Methods (correlation, scatterplots)&lt;/p&gt;
-
-&lt;p&gt;b.  Introduction to Simple Linear Regression&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Stat 110: Fundamentals of statistics (Fall 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
-      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
-      <description>
-
-&lt;h3 id=&#34;spring-2019-office-hours&#34;&gt;Spring 2019 office hours&lt;/h3&gt;
-
-&lt;p&gt;MWF 1-2; Tues/Th 8:30-11:30&lt;/p&gt;
-
-&lt;!--
-### Course evaluation
-
-Complete the course evaluation by [following this link](https://winona.az1.qualtrics.com/jfe/form/SV_29KvCdECpznGJJb).  Upload screenshot of confirmation message at the end of the survey for 1% extra credit added on to your overall grade!
---&gt;
-
-&lt;h3 id=&#34;upcoming&#34;&gt;Upcoming&lt;/h3&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Date&lt;/th&gt;
-&lt;th&gt;Done by class&lt;/th&gt;
-&lt;th&gt;In class&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Tues 12/4&lt;/td&gt;
-&lt;td&gt;Lecture 17 &amp;amp; 18 videos; Lecture 17 practice quiz&lt;/td&gt;
-&lt;td&gt;Practice problem, D2L quiz&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Thurs 12/6&lt;/td&gt;
-&lt;td&gt;HW 10 (choose groups)&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;resources&#34;&gt;Resources&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../syllabus/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c9jxaao3isbgq2a/JMP-installation-instructions.pdf?dl=0&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.winona.edu/tutoring/&#34;&gt;Tutoring services&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/6uwt28iqlgfm3cq/Photo_Slides.pptx?dl=0&#34;&gt;Photo guessing slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qh4k98knj6uk1mh/Day2%20-%20handedness.pptx?dl=0&#34;&gt;Handedness slides&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/amjwf4c0mv6xg6a/BinomialScript.jsl?dl=0&#34;&gt;Binomial JMP script&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;lectures&#34;&gt;Lectures&lt;/h3&gt;
-
-&lt;!--
-
-* Lecture 1: Introduction to data | [PPT](https://www.dropbox.com/s/zjdrvjqee0vajcv/1%20-%20Introduction%20to%20data.pptx?dl=0) | [PDF](https://www.dropbox.com/s/e7u9a2ltai5lssu/1%20-%20Introduction%20to%20data.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+1A+Intro+to+data+-+Quiz/0_fjx8jaqx)
-* Lecture 2: Summarizing a single variable | [PPT](https://www.dropbox.com/s/ho8iswryko2ufri/2%20-%20Summarizing%20a%20single%20variable.pptx?dl=0) | [PDF](https://www.dropbox.com/s/2etabszjxxdowmo/2%20-%20Summarizing%20a%20single%20variable.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+1%29+-+Quiz/0_7aowpg43) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+2A+Summarizing+a+single+variable+%28part+2%29/0_jd2i1qw1) 
-* Lecture 3: Associations between two variables | [PPT](https://www.dropbox.com/s/4pp8rny29604zga/3%20-%20Associations%20between%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/n4hickmkl8w92na/3%20-%20Associations%20between%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+1%29+-+Quiz/0_aeeh19lb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+3A+Associations+between+variables+%28part+2%29/0_5u2eba33)
-* Lecture 4: Confounding and study types | [PPT](https://www.dropbox.com/s/8akdo13lm3st9sw/4%20-Confounding%20and%20study%20types.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xrkraz9byqd5gpe/4%20-Confounding%20and%20study%20types.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+4A+confounding+and+study+types+-+Quiz/0_bq3gwgld)
-* Lecture 5: Populations, parameters, samples, statistics | [PPT](https://www.dropbox.com/s/etcvadh0f98t9zo/5%20-%20Populations%20and%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/nt7jh4t75cwyzb0/5%20-%20Populations%20and%20samples.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+5A+populations+and+samples+-+Quiz/0_hyqfriy9)
-* Lecture 6: Introduction to inferential thinking | [PPT](https://www.dropbox.com/s/u5cx2edjcauctf8/6%20-%20Intro%20to%20Inference.pptx?dl=0) | [PDF](https://www.dropbox.com/s/3c8n6btd2ub1d9i/6%20-%20Intro%20to%20Inference.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+6A+Intro+to+inferential+thinking+-+Quiz/0_b8r4agfs)
-* Lecture 7: Hypothesis testing | [PPT](https://www.dropbox.com/s/5zfqa6ri4rl5gst/7%20-%20Hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/qz9uu1queflpiyh/7%20-%20Hypothesis%20testing.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+1+-+Quiz/0_e4iyo8pf) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing%2C+part+2+-+Quiz/0_vpnyrwkx) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+7A+hypothesis+testing+examples+-+Quiz/0_i6q35d42) 
-* Lecture 8: Getting exact p-values | [PPT](https://www.dropbox.com/s/stb152ymh90pqcg/8%20-%20Exact%20hypothesis%20testing.pptx?dl=0) | [PDF](https://www.dropbox.com/s/y9qn3k0xj11ym54/8%20-%20Exact%20hypothesis%20testing.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+8A+Exact+hypothesis+testing+-+Quiz/0_0zf9v3j6) 
-* Lecture 9: Confidence intervals | [PPT](https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0) | [PDF](https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh) 
-* Lecture 10: Measuring association strength in 2x2 tables (risk diff/rel risk) | [PPT](https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq)
-* Lecture 11: Inference for 2x2 tables | [PPT](https://www.dropbox.com/s/10bdpae85pf2jjv/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/ik2svnkik7r6bib/11%20-%20Testing%20hypotheses%20of%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+1%29+-+Quiz/0_356y76gy) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+2%29+-+Quiz/0_y8hec9qo) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+3B+JMP%29/0_ayb6rwc0) | [Video 4](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+11A+Inference+with+2x2+tables+%28part+4%29+-+example+-+Quiz/0_clsscfcr) 
-* Lecture 12: Adjusted measures of association | [PPT](https://www.dropbox.com/s/s8c3y2vwkgrdro9/12%20-%20Adjusted%20measures%20of%20association.pptx?dl=0) | [PDF](https://www.dropbox.com/s/sywz338i1gdhoku/12%20-%20Adjusted%20measures%20of%20association.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12+A+Adjusted+measures+of+association+%28part+1%29+-+Quiz/0_m1262svg) |  [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+12A+Adjusted+measures+of+association+%28part+2%29+-+local+data+filter+in+JMP/0_q0hrkg1a)  
-* Lecture 13: Inference for tables that are larger than 2x2 | [PPT](https://www.dropbox.com/s/hpjo5ttsv9z24a8/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pptx?dl=0) | [PDF](https://www.dropbox.com/s/2xcerv4nkgzrn5h/13%20-%20Inference%20for%20tables%20that%20are%20larger%20than%202x2.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+13+A+Inference+for+large+tables+%28bigger+than+2x2%29+-+Quiz/0_75s1ybqs) 
-* Lecture 14: Dependent vs Independent samples | [PPT](https://www.dropbox.com/s/ej2480ze4gx6241/14%20-%20Dependent%20vs%20Independent.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5dgsfofuhu1m4qn/14%20-%20Dependent%20vs%20Independent.pdf?dl=0) | [Video](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+14A++dependent+vs+independent+samples+-+Quiz/0_dyq8vvzj) 
-* Lecture 15: Comparing means of dependent samples | [PPT](https://www.dropbox.com/s/p5rru3lls53fsis/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/bc0hguju59ent63/15%20-%20Comparing%20means%20of%20two%20dependent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+1%29+-+Quiz/0_bpqogjij) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+2%29+-+Quiz/0_sctmqaup) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+15A+Comparing+means+of+dependent+samples+%28part+3B+computer+part%29/0_911feqev)
-* Lecture 16: Comparing means of two independent samples | [PPT](https://www.dropbox.com/s/lkjnza8x41k77en/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pptx?dl=0) | [PDF](https://www.dropbox.com/s/5od1qnru78pa113/16%20-%20Comparing%20means%20of%20two%20independent%20samples.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+1%29+-+Quiz/0_7gkl3vla) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+16A+Comparing+means+of+independent+samples+%28part+2%29/0_1epgsds4)  
-* Lecture 17: Associations between two quantitative variables | [PPT](https://www.dropbox.com/s/x80x233m9r5y9a4/17%20-%20Associations%20between%20two%20quantitative%20variables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c5ro5zg44vzki1m/17%20-%20Associations%20between%20two%20quantitative%20variables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+1%29+-+Quiz/0_xsib4h1i) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110A+Lecture+17+-+Associations+between+two+quantitative+variables+%28part+2%29+-+Quiz/0_3r1azjvy) | [Video 3](https://mediaspace.minnstate.edu/media/Stat+110-+Lecture+17A+Associations+between+two+quantitative+variables+%28part+3%29/0_wm80pn1t)
-* Lecture 18: Overview of Stat 110 | [PPT](https://www.dropbox.com/s/wpx36jgzs8hzh40/18%20-%20Overview%20of%20stat%20110.pptx?dl=0) | [PDF](https://www.dropbox.com/s/xn0xz9n56q0bbkk/18%20-%20Overview%20of%20stat%20110.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Lecture+18+-+overview+of+stat+110+-+part+1.mp4/0_laj8m6wb) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+18A+Overview+of+stat+110++%28part+2%2C+examples%29+-+Quiz/0_3bttdtsz) 
---&gt;
-
-&lt;h3 id=&#34;practice-sets&#34;&gt;Practice sets&lt;/h3&gt;
-
-&lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
-
-&lt;!--
-### Exams
-
-* [Practice exam 1](https://www.dropbox.com/s/4muh3bzt2nr4ztm/Exam1-F17-modified.docx?dl=0) | [KEY](https://www.dropbox.com/s/na2vc65hwsdo3ys/Exam1-F17-modified-KEY.docx?dl=0)
-* [Practice exam 2](https://www.dropbox.com/s/saouyecnbd3cgt6/Exam2-F17.docx?dl=0) | [KEY](https://www.dropbox.com/s/d6doz5j41szdeh6/Exam2-F17-KEY.docx?dl=0)
-* [Practice final exam](https://www.dropbox.com/s/shvquqsq9h8cwfz/PracticeFinal-F16.docx?dl=0) | [KEY](https://www.dropbox.com/s/sbkdsf0ked1ssya/PracticeFinal-F16-KEY.docx?dl=0)
---&gt;
-
-&lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4qo37jhtm7ufo88/Child-abuse-violence.jmp?dl=0&#34;&gt;Abuse data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2edp411inmzhdt7/Backpack.jmp?dl=0&#34;&gt;Backpack data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Back pain data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Birthweight.jmp&#34;&gt;Birth weight
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/se0fo4xi45zab5v/Body_Image.jmp?dl=0&#34;&gt;Body Image&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/fqt8hfodyrjsa3j/Body%20Temps.jmp?dl=0&#34;&gt;Body temp data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2lthfs7jy3jpitd/breast%20reconstruction.jmp?dl=0&#34;&gt;Breast reconstruction data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/lbqr85a1to664n9/BRFSS.jmp?dl=0&#34;&gt;BRFSS
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/x22xv6aljppse5b/CA_Expenditures.jmp?dl=0&#34;&gt;California expenditures data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wl0ms087o0mqv2/kid_calories.jmp?dl=0&#34;&gt;Calories data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/tf6i6dzej17mxam/CivilRightsActVote.jmp?dl=0&#34;&gt;Civil Rights Act Vote&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/1wbpr5zkvvyti45/HypoCommute2.jmp?dl=0&#34;&gt;Commute times&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/baujtawawq2ojbi/ConfederateFlag.jmp?dl=0&#34;&gt;Confederate Flag data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ypmejq56fox0rt1/Deodorant.jmp?dl=0&#34;&gt;Deodorant data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/bb80aa850f17hyp/dogs_explosives.jmp?dl=0&#34;&gt;Dog explosives data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/eu9gqha996i9zow/Ear%20Effusion.JMP?dl=0&#34;&gt;Ear effusion data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/sumukatciyia4cj/FEVdata.jmp?dl=0&#34;&gt;FEV
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/zzqqp6cv96me99r/Gun-data.jmp?dl=0&#34;&gt;Gun data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ufpsu27u3f69u3b/Handedness_F18.jmp?dl=0&#34;&gt;Handedness data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/HIV-Antiretroviral.jmp&#34;&gt;HIV
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/IraqWar.jmp&#34;&gt;Iraq War
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/0p65tsym991kmnb/Kidney_Treatment_Data.jmp?dl=0&#34;&gt;Kidney Stone data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Lions.jmp&#34;&gt;Lions
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3xysaha3lw2xct/Lower_back_pain.jmp?dl=0&#34;&gt;Lower back pain&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/gkoh69d6ldj8xxm/LSD-mathscore.jmp?dl=0&#34;&gt;LSD math score data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/atthasd2ce0xt7f/Drink-Smoke-Cancer.jmp?dl=0&#34;&gt;Lung cancer data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/LymphNodes.jmp&#34;&gt;Lymphedenopathy
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9pkvfqek2g54lz3/Sitting.jmp?dl=0&#34;&gt;MTL data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/4p2fer7gr83v71m/NicotineLozenge.jmp?dl=0&#34;&gt;Nicotine lozenge data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/imdzv0zdtcds1u2/Pancreatic_Cancer_Data.jmp?dl=0&#34;&gt;Pancreatic cancer
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/otx5y9p8b1zi14d/Parents_Attitudes.jmp?dl=0&#34;&gt;Parent attitude data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ehdrph7ki0ikhzl/Parole_Prediction.jmp?dl=0&#34;&gt;Parole prediction data&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/PewFacebookData.jmp&#34;&gt;Pew research
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Smiles.jmp&#34;&gt;Smiles
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/subarus.jmp&#34;&gt;Subaru
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ctw0vjnoii9hhvd/stroop.jmp?dl=0&#34;&gt;Stroop data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qneenvg6ust9rtb/Tangrams-spring2018.jmp?dl=0&#34;&gt;Tangrams data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/Titanic.jmp&#34;&gt;Titanic
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/silasbergen/CourseResources/raw/master/Data/trombone.jmp&#34;&gt;Trombone
-data&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xefabapb3jp093s/Trump_Vote_MN.jmp?dl=0&#34;&gt;Trump vote in MN&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/s1p51292dbr7hgu/Vitruvian-measurements.jmp?dl=0&#34;&gt;Vitruvian measurements&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

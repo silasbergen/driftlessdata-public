@@ -7,10 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Mon, 14 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://driftlessdata.space/courses/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Stat 110: Fundamentals of statistics (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
+      <description>Spring 2019 office hours MWF 1-2; Tues/Th 8:30-11:30
+Upcoming    Date Done by class In class     Tues 1/15 First Day! First Day Stuff!   Thurs 1/17 Have JMP installed, watch Lectures 1 and 2 videos (all parts) Practice problems (participation points)    Resources  Syllabus JMP installation instructions Tutoring services Photo guessing slides Binomial JMP script  Lectures  Lecture 1: Introduction to data | PPT | PDF | Video Lecture 2: Summarizing a single variable | PPT | PDF | Video 1 | Video 2 | Video 3  Participation practice sets Homework  Homework 0: First, install JMP, then watch Lectures 1 and 2.</description>
+    </item>
+    
+    <item>
+      <title>Syllabus (Spring 2019)</title>
+      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
+      <pubDate>Tue, 15 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
+      <description>Stat 110: Fundamentals of statistics Required software
+ JMP - available from WSU network for free. Download instructions  Optional text
+There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
+Prerequisites
+Qualifying score on the mathematics placement exam or MATH 050.
+Basic Skills Learning Outcomes</description>
+    </item>
     
     <item>
       <title>Stat 460: Mathematical statistics II (Spring 2019)</title>
@@ -41,30 +65,6 @@ Resources  Additional courses on R provided by Data Camp Base R R Studio ggplot2
       <description> Spring 2019 Office hours MWF 1-2; Tues/Th 8:30-11:30
 Syllabus Resources  Free Intro to R course on Data Camp Writing R functions tutorial Base R R Studio ggplot2 cheat sheet
  R Markdown cheat sheet  Lectures  Lecture 1: Intro to biostatistics  Data </description>
-    </item>
-    
-    <item>
-      <title>Syllabus (Fall 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/syllabus/</link>
-      <pubDate>Tue, 28 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/syllabus/</guid>
-      <description>Stat 110: Fundamentals of statistics Required software
- JMP - available from WSU network for free. Download instructions  Optional text
-There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
-Prerequisites
-Qualifying score on the mathematics placement exam or MATH 050.
-Basic Skills Learning Outcomes</description>
-    </item>
-    
-    <item>
-      <title>Stat 110: Fundamentals of statistics (Fall 2018)</title>
-      <link>http://driftlessdata.space/courses/stat110/stat110-home/</link>
-      <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/courses/stat110/stat110-home/</guid>
-      <description>Spring 2019 office hours MWF 1-2; Tues/Th 8:30-11:30
-Upcoming    Date Done by class In class     Tues 12/4 Lecture 17 &amp;amp; 18 videos; Lecture 17 practice quiz Practice problem, D2L quiz   Thurs 12/6 HW 10 (choose groups)     Resources  Syllabus JMP installation instructions Tutoring services Photo guessing slides Handedness slides Binomial JMP script  Lectures Practice sets Homework Data  Abuse data Backpack data Back pain data Birth weight data Body Image Body temp data Breast reconstruction data BRFSS data California expenditures data Calories data Civil Rights Act Vote Commute times Confederate Flag data Deodorant data Dog explosives data Ear effusion data FEV data Gun data Handedness data HIV data Iraq War data Kidney Stone data Lions data Lower back pain LSD math score data Lung cancer data Lymphedenopathy data MTL data Nicotine lozenge data Pancreatic cancer data Parent attitude data Parole prediction data</description>
     </item>
     
     <item>
