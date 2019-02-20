@@ -775,13 +775,15 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/o6ffwwda7s87vo2/6%20-%20poisson%20distribution.pptx?dl=0&#34;&gt;Lecture 6: Poisson distribution&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kxynijcxnc0jgof/7%20-%20linear%20regression.pptx?dl=0&#34;&gt;Lecture 7: simple linear regression&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/po4k0izyba26ia1/8%20-%20Sandwich%20variance%20estimators.pptx?dl=0&#34;&gt;Lecture 8: the sandwich covariance estimator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/groo1xpk7q192sa/9-%20Multiple%20linear%20regression.pptx?dl=0&#34;&gt;Lecture 9: multiple linear regression&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/47l2f29sl9pgeh4/HW1.docx?dl=0&#34;&gt;Homework 1&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/lelku3u8tmk61op/HW1-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/8gqymopy04leksy/HW2.docx?dl=0&#34;&gt;Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/82g7p2ofqeoq6hi/HW2.Rmd?dl=0&#34;&gt;Rmd file&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/8gqymopy04leksy/HW2.docx?dl=0&#34;&gt;Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/82g7p2ofqeoq6hi/HW2.Rmd?dl=0&#34;&gt;Rmd file&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qyq3p9bca3y3okz/HW2-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/zwn1dzql5ls4ccf/HW2-KEY.Rmd?dl=0&#34;&gt;KEY Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wzm6mhk9u3k8uas/HW3.docx?dl=0&#34;&gt;Homework 3&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/55hk3izyadoi7g0/HW3.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;
@@ -792,13 +794,16 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/r80o183a6pja32w/Binomial%20power%20activity.docx?dl=0&#34;&gt;Activity #3: finding exact binomial power&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/bw5hen3mltmpxdx/Binomial%20power%20activity%20-%20KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/kwube6mfrncbruc/IRs%20and%20Poisson.docx?dl=0&#34;&gt;Activity #4: Poisson and incidence rates&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/9hl4i3xvo69whhj/IRs%20and%20Poisson%20-%20KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/df9nqdgur99flpl/nonconstant%20variance%20simulation%20activity.docx?dl=0&#34;&gt;Activity #5: Nonconstant variance simulation study&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/jgv1f6pun94lyft/nonconstant%20variance%20simulation%20activity-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3lbmt2tkgy0ka6y/HC%20simulation%20activity.docx?dl=0&#34;&gt;Activity #6: using HC covariance simulation study&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3lbmt2tkgy0ka6y/HC%20simulation%20activity.docx?dl=0&#34;&gt;Activity #6: using HC covariance simulation study&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/ueo3cki8wgupbr2/HC%20simulation%20activity%20KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;data&#34;&gt;Data&lt;/h3&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Bone density twin study data | &lt;a href=&#34;https://www.dropbox.com/s/v6f3goghyn91r6g/BONEDEN.csv?dl=0&#34;&gt;csv&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/lqgdaejj0smvlf0/BONEDEN.DOC?dl=0&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/80zxcy9es8uq151/Estradiol.csv?dl=0&#34;&gt;Estradiol data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/2n8xb1d24s4kneo/FEV.csv?dl=0&#34;&gt;FEV data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/eafw1686bwa2hf7/Framingham_Subset.csv?dl=0&#34;&gt;Framingham data&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qva0uzfbzjic679/Framingham%20Longitudinal%20Data%20Documentation_v2.pdf?dl=0&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Lead data | &lt;a href=&#34;https://www.dropbox.com/s/r84evk7q5nciv94/LEAD.csv?dl=0&#34;&gt;csv&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/shhx30qw4vgepnn/LEAD.DOC?dl=0&#34;&gt;Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/m3n4wzez5n0r4ga/Harvard_malpractice_data.csv?dl=0&#34;&gt;Malpractice data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/53n2819tlnla37w/qrs_time.csv?dl=0&#34;&gt;QRS data&lt;/a&gt;&lt;/li&gt;
