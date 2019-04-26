@@ -838,6 +838,7 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/07121wyev1ik1hk/17%20-%20Poisson%20regression.pptx?dl=0&#34;&gt;Lecture 17: Poisson regression&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/qmqy1z5ofxnugy5/18%20-%20survival%20analysis.pptx?dl=0&#34;&gt;Lecture 18: Survival analysis (part 1)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/r1cectr7piyxin0/19%20-%20survival%202%20%28cox%20ph%20model%29.pptx?dl=0&#34;&gt;Lecture 19: Survival analysis (part 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/74djx49yidp8mwe/20%20-%20assessing%20the%20Cox%20model.pptx?dl=0&#34;&gt;Lecture 20: assessing the Cox model&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;homework&#34;&gt;Homework&lt;/h3&gt;
@@ -847,7 +848,8 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/8gqymopy04leksy/HW2.docx?dl=0&#34;&gt;Homework 2&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/82g7p2ofqeoq6hi/HW2.Rmd?dl=0&#34;&gt;Rmd file&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qyq3p9bca3y3okz/HW2-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/zwn1dzql5ls4ccf/HW2-KEY.Rmd?dl=0&#34;&gt;KEY Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/wzm6mhk9u3k8uas/HW3.docx?dl=0&#34;&gt;Homework 3&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/55hk3izyadoi7g0/HW3.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/3tqffya3gjdkx70/HW3-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/iuqlqs9zovbjvfz/HW4.docx?dl=0&#34;&gt;Homework 4&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/5po9j8i7xf8wike/HW4.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/oulzl6shab0rwqq/HW4-KEY.docx?dl=0&#34;&gt;Key&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3k5im1zsn18c4dn/HW5.docx?dl=0&#34;&gt;Homework 5&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/9kefvjrypt278va/HW5.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/3k5im1zsn18c4dn/HW5.docx?dl=0&#34;&gt;Homework 5&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/9kefvjrypt278va/HW5.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/si662ltre6a6nbx/HW5-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/hkv319ey24469v1/HW6.docx?dl=0&#34;&gt;Homework 6&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qkn5gpodkkbrecb/HW6.Rmd?dl=0&#34;&gt;Rmd&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&#34;activities&#34;&gt;Activities&lt;/h3&gt;
@@ -887,6 +889,7 @@ To be presented in class Friday, 3/30, from Chapter 10 (one bullet to be randoml
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/gvfdaj5s1pj3f1n/needle_sharing.csv?dl=0&#34;&gt;Needle sharing data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/53n2819tlnla37w/qrs_time.csv?dl=0&#34;&gt;QRS data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/y6k5w4dcvkhbp6v/Sex_Ratio.csv?dl=0&#34;&gt;Sex ratio data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/x2b0dfldu741hsq/unos.csv?dl=0&#34;&gt;UNOS kidney transplant data&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/9n5s1by6e4uoic1/wcgs.csv?dl=0&#34;&gt;WCGS data&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
