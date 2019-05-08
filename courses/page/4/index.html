@@ -240,6 +240,39 @@
   
   
   <div>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key/">IPUMS visualization in ggplot2</a></h2>
+    <div class="article-style">
+      
+      Code for tasks:
+library(dplyr);library(ggplot2)
+ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
+usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+facet_grid(.~Year) + scale_color_discrete(name=&#39;Highest education attained&#39;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&#39;Count (in millions)&#39;, labels = function(x) paste(x / 1000000,&#39;M&#39;))
+With percents instead of counts:
+usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count))
+#head(usa2)
+ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
+facet_grid(.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.utf8/">IPUMS visualization in ggplot2</a></h2>
+    <div class="article-style">
+      
+      Code for tasks:
+library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.~Year) + scale_color_discrete(name=&lsquo;Highest education attained&rsquo;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&lsquo;Count (in millions)&rsquo;, labels = function(x) paste(x / 1000000,&rsquo;M&rsquo;))  With percents instead of counts:
+usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count)) #head(usa2) ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) + facet_grid(.
+      
+    </div>
+  </div>
+  
+  <div>
     <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
