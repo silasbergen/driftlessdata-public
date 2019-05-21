@@ -251,6 +251,7 @@ overall grade!
 &lt;li&gt;&lt;a href=&#34;../syllabus-summer2019/&#34;&gt;Syllabus&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/c9jxaao3isbgq2a/JMP-installation-instructions.pdf?dl=0&#34;&gt;JMP installation instructions&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://wsu-datascience.github.io/exact_binomial/&#34;&gt;Binomial distribution&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mediaspace.minnstate.edu/media/Screenshots/1_94wcw04z&#34;&gt;Taking screenshots video&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;!-- 
@@ -305,7 +306,7 @@ overall grade!
 &lt;h4 id=&#34;homework&#34;&gt;Homework&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xdy7hmf7u3y4urr/HW1.docx?dl=0&#34;&gt;Week 1 homework (Due 5/20)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xdy7hmf7u3y4urr/HW1.docx?dl=0&#34;&gt;Week 1 homework (Due 5/20)&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/qsbqsv4lgmam4if/Week%201%20HW-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Week+1+HW+video+key.mp4/0_vz1y1h1n&#34;&gt;Video KEY&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
@@ -347,54 +348,53 @@ overall grade!
 
 &lt;hr /&gt;
 
-&lt;!--
-### Week 3 (5/27-6/2)
+&lt;h3 id=&#34;week-3-5-27-6-3&#34;&gt;Week 3 (5/27-6/3)&lt;/h3&gt;
 
-#### Lectures 
+&lt;h4 id=&#34;lectures-2&#34;&gt;Lectures&lt;/h4&gt;
 
+&lt;ul&gt;
+&lt;li&gt;Lecture 9: Confidence intervals | &lt;a href=&#34;https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh&#34;&gt;Video 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Lecture 10: Measuring association strength in 2x2 tables  | &lt;a href=&#34;https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0&#34;&gt;PPT&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0&#34;&gt;PDF&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177&#34;&gt;Video 1&lt;/a&gt; | &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v&#34;&gt;Video 2&lt;/a&gt; |  &lt;a href=&#34;https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq&#34;&gt;Video 3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-* Lecture 9: Confidence intervals | [PPT](https://www.dropbox.com/s/fv7pun2lodbobly/9%20-%20Confidence%20intervals.pptx?dl=0) | [PDF](https://www.dropbox.com/s/r34d13210spvdj5/9%20-%20Confidence%20intervals.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+1%29+-+Quiz/0_0oda9n8y) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+9A+Confidence+intervals+for+a+population+parameter+%28part+2%29+-+Quiz/0_pmobzxxh) 
-* Lecture 10: Measuring association strength in 2x2 tables  | [PPT](https://www.dropbox.com/s/72n3od5nswa5li0/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pptx?dl=0) | [PDF](https://www.dropbox.com/s/c7wji3wp5v04x54/10%20-%20Measuring%20strength%20of%20association%20in%202x2%20tables.pdf?dl=0) | [Video 1](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+1+%28proportional+reasoning%29/0_yo1eq177) | [Video 2](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+2+%28risk+difference+and+relative+risk%29+-+Quiz/0_11aa1q8v) |  [Video 3](https://mediaspace.minnstate.edu/media/Stat+110+-+Lecture+10A+Measuring+strength+in+2x2+tables+-+part+3+%28chi-square+statistic%29+-+Quiz/0_2svoljiq)
+&lt;h4 id=&#34;d2l-tasks-2&#34;&gt;D2L tasks&lt;/h4&gt;
 
-#### D2L tasks
+&lt;ul&gt;
+&lt;li&gt;Lectures 9 and 10 practice quizzes&lt;/li&gt;
+&lt;li&gt;Weekly quiz &lt;strong&gt;Due 5/30; must be attempted to access midterm exam (see below)&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-* Lectures 7 &amp; 8 practice quizzes
-* Weekly quiz ***Due 5/24***
+&lt;h4 id=&#34;practice-problems-2&#34;&gt;Practice problems&lt;/h4&gt;
 
-#### Practice problems 
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/xfz9mpmhvj2grkf/Lecture%209%20-%20confidence%20intervals.docx?dl=0&#34;&gt;Lecture 9&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/g46rkwfcouf945w/Lecture%209%20-%20confidence%20intervals-KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.dropbox.com/s/ukbu7qzaf0hpdl3/Lecture%2010%20-%20measuring%20association%20strength%20in%202x2%20tables.docx?dl=0&#34;&gt;Lecture 10&lt;/a&gt; | &lt;a href=&#34;https://www.dropbox.com/s/gsomc4kdyvofhg8/Lecture%2010%20-%20measuring%20association%20strength%20in%202x2%20tables%20-%20KEY.docx?dl=0&#34;&gt;KEY&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-* [Practice set 3](https://www.dropbox.com/s/wjck8tsj4ovvmy1/Week%203%20practice.docx?dl=0) | [Key](https://www.dropbox.com/s/c9fbhujzyrvu6rg/Week%203%20practice%20KEY.docx?dl=0)
+&lt;h4 id=&#34;homework-2&#34;&gt;Homework&lt;/h4&gt;
 
-#### Homework
+&lt;p&gt;No graded homework due at the end of this week, due to midterm exam (see below).&lt;/p&gt;
 
-* [Homework 3 (Due 5/28)](https://www.dropbox.com/s/fz3g7f3csviyk2h/HW3.docx?dl=0) | 
-[KEY](https://www.dropbox.com/s/o7v3gfzbyamxeh1/HW3-KEY.docx?dl=0) 
+&lt;h4 id=&#34;midterm-exam&#34;&gt;Midterm exam&lt;/h4&gt;
 
-#### D2L tasks
+&lt;p&gt;The midterm exam will be available in D2L beginning Monday, May 27 and must be complete by Monday, June 3 by 11:59 pm.   &lt;strong&gt;You must attempt the Week 3 graded quiz in order to access the exam.&lt;/strong&gt; More details/study materials to follow closer to the release date.&lt;/p&gt;
 
-* Lectures 9 &amp; 10 practice quizzes
-* Weekly quiz ***Due 5/31; must be completed to access midterm exam (see below)***
-
-#### Practice problems 
-
-* [Practice set 4](https://www.dropbox.com/s/3jzy6iqnxbqmkxb/Week%204%20practice.docx?dl=0) | [Key](https://www.dropbox.com/s/ejwlojb8e8sb5cm/Week%204%20practice%20KEY.docx?dl=0)
-
-#### Homework
-
-No graded homework due at the end of this week, due to midterm exam (see below).
+&lt;!-- 
 
 #### Midterm exam
 
-The midterm exam will be available in D2L beginning Friday, May 25 and must be complete by Monday, June 4 by 11:59 pm.  The exam is in two parts, both in D2L: a multiple choice portion (which must completed first) and a short-answer portion (which will be available to you only after completeing the multiple choice portion).  You will have 50 minutes on *each* portion.  You may use your notes on the exam; however both portions will require the use of Lockdown Browser.
+  The exam is in two parts, both in D2L: a multiple choice portion (which must completed first) and a short-answer portion (which will be available to you only after completeing the multiple choice portion).  You are allowed 50 minutes on *each* portion.  You may use your notes on the exam; however both portions will require the use of Lockdown Browser.  **Both portions must be completed alone.**
 
 Study up for the midterm exam by taking the practice midterm exam below and checking your answers with the key.  The midterm exam will cover material from Lectures 1-10.  
 
 * [Practice midterm](https://www.dropbox.com/s/nblwpnjl2yosk2p/Practice%20exam%201.docx?dl=0) | [KEY](https://www.dropbox.com/s/gdhb0sko9lb8ir5/Practice%20exam%201%20KEY.docx?dl=0)
+--&gt;
 
-_________________________________
+&lt;hr /&gt;
 
-_________________________________
+&lt;hr /&gt;
 
+&lt;!--
 
 ### Week 4 (6/3-6/9)
 
