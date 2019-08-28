@@ -82,7 +82,7 @@
   <meta property="og:description" content="Assistant professor of statistics and data science">
   <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2018-05-04T00:00:00&#43;00:00">
+  
   
 
   
@@ -240,117 +240,77 @@
   
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat110/stat110-summer2018/">Stat 110: Fundamentals of statistics (Summer 2018)</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/critique2/">Critique 2</a></h2>
     <div class="article-style">
       
-      Resources  Welcome video! Syllabus JMP installation instructions Binomial JMP script  Reminder: practice D2L quizzes can be taken an unlimited number of times (and it will benefit you to take them more than once!)
- &ndash; Data  Backpack data Back pain data Birth weight data Body Image Body temp data BRFSS data California expenditures data Calories data Civil Rights Act Vote Commute times Confederate Flag data Deodorant data Dog explosives data Ear effusion data FEV data Gun data HIV data Iraq War data Kidney Stone data Lions data Lower back pain LSD math score data Lung cancer data Lymphedenopathy data Nicotine lozenge data Pancreatic cancer data Parent attitude data Parole prediction data
+      As we move closer to designing more complex dashboards, this assignment has you read Chapters 3 (Thirteen Common Mistakes in Dashboard Designs), 7 (Designing Dashboards for Usability), and excerpts from Chapter 8 (sales dashboard examples) from Stephen Few&rsquo;s 2006 book Information Dashboard Design. I have scanned the relevant chapters for you.
+After reading Chapter 3 and 7, look at the eight sample sales dashboards from Chapter 8. Prepare 3 bullet points critiquing each dashboard (so 24 bullet points total), using the ideas from Chapters 3 and 7, and submit these to D2L.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat110/syllabus-summer2018/">Syllabus (Summer 2018)</a></h2>
-    <div class="article-style">
-      
-      Stat 110: Fundamentals of statistics Required software  JMP - available from WSU network for free, or via email (if not using WSU laptop). Download instructions for WSU laptops  Optional text There is no text required for this course. However, if you would like to refer to a textbook, a good reference is Unlocking the Power of Data by Lock, Lock, Lock, Lock, and Lock.
-Prerequisites Qualifying score on the mathematics placement exam or MATH 050.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/stat310/stat310-home/">Stat 310: Intermediate statistics (Spring 2018)</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/flexdash-example/">Example flex dash</a></h2>
     <div class="article-style">
       
     </div>
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat310/syllabus/">Syllabus</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
-      STAT 310: Intermediate Statistics Textbook There is no required text for this class. A recommended text for student reference is Stat 2: Building Models for a World of Data by Cannon et al. This text is well-written and has some nice problems for additional student practice. However, it can get technical at times. You will not need this text to complete the homework or succeed on exams.
-Prerequisites Stat 110, STAT 210, STAT 303, STAT 305, PSY231, or equivalent.
+      Code for tasks:
+library(dplyr);library(ggplot2)
+ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
+usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+facet_grid(.~Year) + scale_color_discrete(name=&#39;Highest education attained&#39;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&#39;Count (in millions)&#39;, labels = function(x) paste(x / 1000000,&#39;M&#39;))
+With percents instead of counts:
+usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count))
+#head(usa2)
+ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) +
+facet_grid(.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/playday4/">Play Day Task</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-key.utf8/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
-      This play day is modified from a similar assignment by Jerzy Wieczorek of CivilStat.com specifically this one.
-Consider data tablulated from the 2010 Digest of Education Statistics, tables 308 to 330.. The intent of this data is to answer:
- In what fields are more women entering college? How is each field&rsquo;s gender balance changing?
- Is there a difference in gender balance comparing STEM to non-STEM fields?
- How has the gender balance in STEM fields changed relative to the balance in non-STEM fields over time?
+      Code for tasks:
+library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.~Year) + scale_color_discrete(name=&lsquo;Highest education attained&rsquo;) + theme(axis.text.x = element_text(angle=90)) + scale_y_continuous(name=&lsquo;Count (in millions)&rsquo;, labels = function(x) paste(x / 1000000,&rsquo;M&rsquo;))  With percents instead of counts:
+usa2 &lt;- usa%&gt;%group_by(Year,Sex)%&gt;%mutate(pct = 100*Count/sum(Count)) #head(usa2) ggplot(data = usa2) + geom_line(aes(x = Sex, y = pct, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = pct, shape = Sex,color=EdAttain),size=4) + facet_grid(.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/final/">Final project</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
-      Description For your final project, you are to find your own data source(s) and create a &ldquo;visual story&rdquo; visualizing insights from the data. Your visual story should consist of at least 1 but no more than 3 dashboards visualizing these data. This project is &ldquo;tool agnostic&rdquo;: you may create your visualizations using Tableau, or R, or any other visualization software. The only requirement is that whatever software you use produces a final dashboard product that is ready-to-publish on the Internet.
+      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2)
+ipums &lt;- read.csv(&#39;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&#39;)
+usa &lt;- ipums %&gt;% filter(Country==&#39;United States&#39;)
+#head(usa)
+ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) +
+geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) +
+facet_grid(.
       
     </div>
   </div>
   
   <div>
-    <h2><a href="http://driftlessdata.space/courses/stat450/r_hw3/">R Homework 3</a></h2>
+    <h2><a href="http://driftlessdata.space/courses/dsci310/ipums-visualization-ggplot.utf8/">IPUMS visualization in ggplot2</a></h2>
     <div class="article-style">
       
-      Due Wednesday, 11/8 by 11:59pm. Prepare your submission with R Markdown. Submit fully-knitted Word doc or pdf to D2L by due date. You are encouraged to use this .Rmd file as your starting point for your submission.
-In Math-Stat, all of the pmfs/pdfs we have discussed are truly models. This means they are proposed mathematical frameworks for explaining behavior of actual data. We consier one proposed model for some actual data in this problem.
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/playday3/">Play Day Task</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/intro_to_ggplot2/">Introduction to data visualization in R using ggplot2</a></h2>
-    <div class="article-style">
-      
-      <p>Overview
-Basic grammar
-Hadley’s Grammar of Graphics is outlined in detail in this article. Here, he illustrates his principles using a small data set similar to the following:
-df &lt;- data.frame(A = c(2,1,4,9),
-B = c(4,1,15,80),
-C = c(1,2,3,4),
-D = c(&#39;far&#39;,&#39;far&#39;,&#39;near&#39;,&#39;near&#39;))
-head(df)</p>
-
-<h2 id="a-b-c-d">A B C D</h2>
-
-<h2 id="1-2-4-1-far">1 2 4 1 far</h2>
-
-<h2 id="2-1-1-2-far">2 1 1 2 far</h2>
-
-<h2 id="3-4-15-3-near">3 4 15 3 near</h2>
-
-<h2 id="4-9-80-4-near">4 9 80 4 near</h2>
-
-<p>To visualize any data set using the Grammar of Graphics, it helps to understand the 3 components of which any graph is comprised:</p>
-
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="http://driftlessdata.space/courses/dsci310/midterm/">Midterm project</a></h2>
-    <div class="article-style">
-      
-      For this semester&rsquo;s midterm project, we will be participating in the American Statistical Association&rsquo;s Police Data Challenge. Read the information on the website for many more details. For the midterm project, all students should visualize the Seattle data set.
- Detailed version of the rules.
- Fill out declaration of intent form by Friday, October 6. Only one team member needs to submit the form. List me (Silas Bergen) as your sponsor.
+      Recall the previous design task where we wanted to visualize changes in educational attainment over time, along with inequity by sex and how that might be changing. One possible visualization is shown below. Can you re-create this visualization? (Below is for the USA, but you can pick your country of interest.)
+library(dplyr);library(ggplot2) ipums &lt;- read.csv(&lsquo;C:/Users/rt1875bv/Dropbox/DataViz/Data/IPUMS-Sex-EdAttain.csv&rsquo;) usa &lt;- ipums %&gt;% filter(Country==&lsquo;United States&rsquo;) #head(usa) ggplot(data = usa) + geom_line(aes(x = Sex, y = Count, group = EdAttain, color=EdAttain), size = 2) + geom_point(aes(x = Sex, y = Count, shape = Sex),size=2) + facet_grid(.
       
     </div>
   </div>
@@ -362,8 +322,6 @@ head(df)</p>
     
     <li><a href="/courses/">&lt;</a></li>
     
-    
-    <li><a href="/courses/page/3/">&gt;</a></li>
     
   </ul>
 </nav>
