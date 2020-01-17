@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MakeoverMonday on Silas Bergen</title>
+    <link>http://driftlessdata.space/tags/makeovermonday/</link>
+    <description>Recent content in MakeoverMonday on Silas Bergen</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Silas Bergen</copyright>
+    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 -0600</lastBuildDate>
+    
+	<atom:link href="http://driftlessdata.space/tags/makeovermonday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MakeoverMonday: Pesticide usage in US</title>
+      <link>http://driftlessdata.space/post/makeovermondayweek2-pesticides/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/makeovermondayweek2-pesticides/</guid>
+      <description>It&amp;rsquo;s been a while since I&amp;rsquo;ve posted! For a while I&amp;rsquo;ve been interested in joining the MakeoverMonday community, a group of data visualizers who come together each week to critique and redesign a visualization provided by Eva Murray and Andy Kriebel. I haven&amp;rsquo;t, due to busyness mostly, but this semester I finally took the dive and signed up! Call it a 2020 resolution. I hope that this will become a regular opportunity for me to keep developing my visualization critique and design skills.</description>
+    </item>
+    
+  </channel>
+</rss>

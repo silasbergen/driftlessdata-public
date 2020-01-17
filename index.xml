@@ -11,6 +11,91 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>MakeoverMonday: Pesticide usage in US</title>
+      <link>http://driftlessdata.space/post/makeovermondayweek2-pesticides/</link>
+      <pubDate>Fri, 17 Jan 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/makeovermondayweek2-pesticides/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a while since I&amp;rsquo;ve posted!  For a while I&amp;rsquo;ve been interested in joining the &lt;a href=&#34;https://www.makeovermonday.co.uk/&#34;&gt;MakeoverMonday&lt;/a&gt; community, a group
+of data visualizers who come together each week to critique and redesign a visualization provided by Eva Murray and Andy Kriebel.  I haven&amp;rsquo;t, due to busyness mostly, but this semester I finally took the
+dive and signed up!  Call it a 2020 resolution. I hope that this will become a regular opportunity for me to keep developing my visualization critique and design skills.&lt;/p&gt;
+
+&lt;p&gt;I enjoyed my first challenge, &lt;a href=&#34;https://data.world/makeovermonday/2020w2&#34;&gt;MakeoverMonday 2020 Week 2&lt;/a&gt;,  a simple visualization that nonetheless provides a lot to think about and was a challenging redesign.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the original visualization, Figure 1 from the &lt;em&gt;Environmental Health&lt;/em&gt; article &lt;a href=&#34;https://ehjournal.biomedcentral.com/articles/10.1186/s12940-019-0488-0&#34;&gt;&lt;em&gt;The USA lags behind other agricultural nations in banning harmful pesticides&lt;/em&gt;:&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12940-019-0488-0/MediaObjects/12940_2019_488_Fig1_HTML.png?as=webp&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&#34;https://data.world/makeovermonday/2020w2/workspace/file?filename=MM+data+week+2+2020.xlsx&#34;&gt;data provided at data.world&lt;/a&gt; for the redesign don&amp;rsquo;t actually contain the same information on counts that we see in the original viz, but rather
+data on total weight of pesticides that are banned/phased out in other countries that were applied used in the U.S. in 2016.&lt;/p&gt;
+
+&lt;p&gt;My critiques of the original figure:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The way the &amp;ldquo;whole&amp;rdquo; is divvied up (whether that &amp;ldquo;whole&amp;rdquo; is number of pesticides or total lbs applied) between EU, Brazil, and China is very unclear.  The figure tries to get at intersections by
+including $\geq 1$, $\geq 2$ and All 3, but it&amp;rsquo;s impossible to know which pesticides are banned by (for example) both China and Brazil.  It takes a while to understand what the &amp;ldquo;whole&amp;rdquo; is.&lt;/li&gt;
+&lt;li&gt;The categories along the horizontal are a mix of both country labels and &lt;em&gt;number of countries&lt;/em&gt;.  I don&amp;rsquo;t like this mixing of label types.&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Only counts of pesticides are shown: no information about &lt;em&gt;amount&lt;/em&gt; of pesticides applied is available in the visualization shown.  For example, China has banned only 11 pesticides, but does it ban the &amp;ldquo;big ones&amp;rdquo; as applied in the U.S.?  We can&amp;rsquo;t
+tell from the figure.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In my redesign, I had a couple goals to address these critiques:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Make clear what the &amp;ldquo;whole&amp;rdquo; is.&lt;/li&gt;
+&lt;li&gt;Allow the viewer to see where the intersections in banned pesticides exist.  E.g., if a pesticide is banned in the EU, is it also banned in China, or in Brazil?  All 3?&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;Visualization amount applied rather than counts.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;To accomplish this I had to dig a bit deeper than the data provided on Data World, and found what I was looking for with &lt;a href=&#34;https://static-content.springer.com/esm/art%3A10.1186%2Fs12940-019-0488-0/MediaObjects/12940_2019_488_MOESM5_ESM.xlsx&#34;&gt;Additional File 5, Tables S131-S133&lt;/a&gt; from
+the article.  I also had to do a bit of cleaning.  Here&amp;rsquo;s a &lt;a href=&#34;https://www.dropbox.com/s/oop1g8ws3dbwir3/pesticide_clean.csv?dl=0&#34;&gt;link to the data&lt;/a&gt; I ultimately ended up connecting to in Tableau&lt;/p&gt;
+
+&lt;p&gt;Finally, my redesign (&lt;a href=&#34;https://public.tableau.com/views/pesticide_viz/Dashboard32?:display_count=y&amp;amp;publish=yes&amp;amp;:origin=viz_share_link&#34;&gt;Tableau Public version&lt;/a&gt;):&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/img/mm2.PNG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some design comments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This accomplishes (I think) a clear visual of &amp;ldquo;the whole&amp;rdquo;: the giant (perhaps too giant) grey box with &amp;ldquo;328 million pounds&amp;rdquo; are the first things you see&lt;/li&gt;
+&lt;li&gt;If desired, you can see which pesticides are banned in the EU, China, &lt;strong&gt;&lt;em&gt;and/or&lt;/em&gt;&lt;/strong&gt; Brazil.  This information was obscured before.&lt;/li&gt;
+&lt;li&gt;You can now see that although China has banned fewer pesticides, they are pesticides that are more widely used (at least in the U.S.).&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;A critique of my own redesign: are the percents meaningful?  &amp;ldquo;98%&amp;rdquo; is a weird percent: the percent of &lt;em&gt;US-applied&lt;/em&gt; pesticides that are banned in the EU.  If they were banned in the US,
+would they be replaced by something else?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some technical comments:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The grey box is giant, perhaps too much so, but getting Tableau to label the cells of the treemap in a satisfactory way was a pain.  Some of the labels (e.g. Fomesan) I added manually.&lt;/li&gt;
+&lt;li&gt;Getting the four treemaps to divide the pesticides up in the same way, while applying different color schemes, was a pain and I used a hack approach (download the Tableau workbook if you are curious).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;R code for creating the .csv I used in my redesign, which begins with a &lt;a href=&#34;https://www.dropbox.com/s/npu4pp5oaxewznz/pesticide_complete_stack.csv?dl=0&#34;&gt;stacked version&lt;/a&gt; of Tables S131-S133 from
+&lt;a href=&#34;https://static-content.springer.com/esm/art%3A10.1186%2Fs12940-019-0488-0/MediaObjects/12940_2019_488_MOESM5_ESM.xlsx&#34;&gt;Additional file 5&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;pest &amp;lt;- read.csv(&#39;pesticide_complete_stack.csv&#39;)
+
+library(tidyr) 
+library(dplyr)
+lbs &amp;lt;- pest %&amp;gt;% group_by(Pesticide) %&amp;gt;% summarize(USLbs2016 = mean(USLbs2016))
+use &amp;lt;- function(col) ifelse(is.na(col),0,1)
+
+out &amp;lt;- pest %&amp;gt;% spread(key = CountryBanned, value = USLbs2016) %&amp;gt;%
+  inner_join(lbs, by = &#39;Pesticide&#39;) %&amp;gt;%
+  mutate_at(vars(EU:Brazil), use) %&amp;gt;%
+  mutate(nbanned = Brazil + China + EU) %&amp;gt;%
+  mutate(used_US = ifelse(USLbs2016&amp;gt; 0, 1, 0)) %&amp;gt;% 
+  select(Pesticide, USLbs2016, EU,China,Brazil,nbanned,used_US)
+
+write.csv(out, file = &#39;pesticide_clean.csv&#39;,row.names=FALSE)
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A word in favor of summarytools</title>
       <link>http://driftlessdata.space/post/summarytools/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
@@ -808,18 +893,6 @@ ggplot(data = stemdata) +
                 facet_grid(Field~ Educ)+
   ylab(&amp;#39;Average income (in thousand $)&amp;#39;)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>And the winner is...</title>
-      <link>http://driftlessdata.space/post/policedatachallenge/</link>
-      <pubDate>Thu, 07 Dec 2017 00:00:00 -0600</pubDate>
-      
-      <guid>http://driftlessdata.space/post/policedatachallenge/</guid>
-      <description>&lt;p&gt;The &lt;a href=&#34;http://driftlessdata.space/courses/dsci310/midterm/&#34;&gt;midterm project for my data visualization course&lt;/a&gt; this past fall required students to submit to the &lt;a href=&#34;http://thisisstatistics.org/policedatachallenge/&#34;&gt;ASA&amp;rsquo;s Police Data Challenge&lt;/a&gt;.  The competition involved analyzing millions of 911 calls for one of three cities (Baltimore, Cincinnati, or Seattle).  I had the students investigate the Seattle data set, since it contained latitudes and longitudes of each call.&lt;/p&gt;
-
-&lt;p&gt;Several weeks later, we received the exciting news that one of the teams won &lt;a href=&#34;http://thisisstatistics.org/police-data-challenge-congratulations-to-our-winners/&#34;&gt;&amp;ldquo;Best Overall&amp;rdquo;&lt;/a&gt; among undergraduate teams!  Congratulations to Winona State students &lt;a href=&#34;https://www.linkedin.com/in/jimmyjhickey/&#34;&gt;Jimmy Hickey&lt;/a&gt;, &lt;a href=&#34;https://www.linkedin.com/in/kapil-khanal/&#34;&gt;Kapil Khanal&lt;/a&gt;, and Luke Peacock for their excellent work.&lt;/p&gt;
 </description>
     </item>
     
