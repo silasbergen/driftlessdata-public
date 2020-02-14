@@ -135,6 +135,24 @@ write.csv(out, file = &#39;pesticide_clean.csv&#39;,row.names=FALSE)
     </item>
     
     <item>
+      <title>Data Visualization: Principles and Applications in R, Tableau, and Python</title>
+      <link>http://driftlessdata.space/project/sdss19-workshop/</link>
+      <pubDate>Sun, 02 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/sdss19-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A core data science curriculum for undergraduates</title>
+      <link>http://driftlessdata.space/project/uscots2019-workshop/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://driftlessdata.space/project/uscots2019-workshop/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>A word in favor of summarytools</title>
       <link>http://driftlessdata.space/post/summarytools/</link>
       <pubDate>Tue, 08 Jan 2019 00:00:00 +0000</pubDate>
@@ -711,131 +729,6 @@ In light of this, he made the following suggestions.&lt;/p&gt;
  &lt;img src=&#34;http://driftlessdata.space/img/beach2.jpg&#34; width=&#34;750&#34;&gt;
  &lt;/figure&gt;
 &lt;/center&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>What students have to say about group homework</title>
-      <link>http://driftlessdata.space/post/group-homework/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/group-homework/</guid>
-      <description>&lt;p&gt;The past two semesters of teaching our lower-level introductory statistics course here at WSU, I’ve incorporated in-class group homework. I could go on at length about why *I* think group homework is beneficial, but that’s not the point of this post. Rather, this is about what the &lt;em&gt;students&lt;/em&gt; think. I think it’s quite striking!&lt;/p&gt;
-&lt;p&gt;First, though, I do need to provide a couple quick details about how I manage group homework. They occur approximately once a week, and I alternate between randomly assigning the students into groups of three and letting them choose their own groups. When students choose their own, I encourage groups of three but allow four (no higher).&lt;/p&gt;
-&lt;p&gt;On end-of-semester course evaluations the past two semesters, I asked the following questions:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;em&gt;What do you like BEST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;What did you like LEAST about in-class group homework?&lt;/em&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Here is a word cloud of the responses to the first question (what did you like BEST?):&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;There are a lot of words in here that I’m glad to see! (And that echo my motivation for implementing group homework.) Students can &lt;em&gt;ask questions&lt;/em&gt;; &lt;em&gt;work&lt;/em&gt; with &lt;em&gt;people&lt;/em&gt;; &lt;em&gt;talk&lt;/em&gt; with &lt;em&gt;others&lt;/em&gt;; etc. &lt;em&gt;Professor&lt;/em&gt; shows up in the cloud too; I’m always present and able to help problem-solve, or ask redirecting questions if students are off-topic.&lt;/p&gt;
-&lt;p&gt;Well and good. But even more striking is the word cloud for student reponses to what they liked &lt;em&gt;LEAST&lt;/em&gt; about group homework:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/group-homework_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;People didn’t work sometimes&lt;/em&gt;&lt;/strong&gt;…it’s even grammatically correct! It’s pretty obvious what I need to work on this semester regarding group homework. One possibility to encourage universal participation: I assign the “scribe” of the group (the person writing down and submitting the group’s answers to be graded), and make sure it’s someone different each week. Maybe simply paying better attention to students who are “staring off” and gently encouraging them to participate.&lt;/p&gt;
-&lt;p&gt;Also not surprising, given the groans when I announce it’s “random assignment week”, are the words &lt;em&gt;assigned&lt;/em&gt;, &lt;em&gt;random&lt;/em&gt;, and &lt;em&gt;randomly&lt;/em&gt;. Students aren’t fond of being randomly assigned to groups, although it’s not something I see myself dropping. It’s important to mix up the voices; give international and domestic students a chance to work together; and give students experience working in a team with people they don’t necessarily choose (that’s real life after all!)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>On elementary perceptual tasks</title>
-      <link>http://driftlessdata.space/post/on-epts/</link>
-      <pubDate>Tue, 19 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>http://driftlessdata.space/post/on-epts/</guid>
-      <description>&lt;p&gt;One of the first concepts I talk about in my &lt;a href=&#34;../../courses/dsci310/dsci310-home/&#34;&gt;data visualization course&lt;/a&gt; is the idea of the &lt;a href=&#34;http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf&#34;&gt;&lt;em&gt;elementary perceptual task&lt;/em&gt;&lt;/a&gt; (EPT), an idea explored in depth by visualization pioneers William S. Cleveland and Robert McGill. Essentially, EPTs are visual building blocks for comparing quantities. The EPTs are summarized nicely in Figure 1 from &lt;a href=&#34;http://info.slis.indiana.edu/~katy/S637-S11/cleveland84.pdf&#34;&gt;&lt;em&gt;Graphical Perception: Theory, Experiementation, and Application to the Development of Graphical Methods&lt;/em&gt;&lt;/a&gt;:&lt;/p&gt;
-&lt;center&gt;
-&lt;figure&gt;
-&lt;img src = &#34;../../img/ept.JPG&#34; width=&#34;500&#34;&gt;
-&lt;/figure&gt;
-&lt;/center&gt;
-&lt;p&gt;For example, looking at the two dots in the upper-left pane, we perceive that the top dot represents a larger quantity than the bottom dot, because it is &lt;em&gt;higher on a common scale&lt;/em&gt; than the bottom dot. In the middle panel (“Angle”), we perceive that the angle on the right represents a larger quantity than the angle on the left, since it is a larger angle.&lt;/p&gt;
-&lt;p&gt;A fundamental finding from the article is that, as humans, we are better at some elementary perceptual tasks than at others. We more accurately and easily compare quantities if they are mapped using &lt;strong&gt;&lt;em&gt;position on a common scale&lt;/em&gt;&lt;/strong&gt; than if they are mapped using &lt;strong&gt;&lt;em&gt;length&lt;/em&gt;&lt;/strong&gt;, &lt;strong&gt;&lt;em&gt;angle&lt;/em&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;em&gt;size&lt;/em&gt;&lt;/strong&gt;. In fact, Cleveland and McGill came up with the following ranking of EPTs we perform most efficiently when visually comparing quantities:&lt;/p&gt;
-&lt;ol style=&#34;list-style-type: decimal&#34;&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Position along a common scale;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Position along misaligned scales;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Length;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Angles;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Size;&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;&lt;em&gt;Color&lt;/em&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Recently, I wrote &lt;a href=&#34;../income-gestalt/&#34;&gt;a post&lt;/a&gt; discussing a few of the Gestalt principles and illustrating them with some ACS data on income, sex, and field of degree. The Gestalt principles describe how we perceive patterns, while the EPTs describe how we most efficiently compare quantities. In this post, we continue to use income data from the American Community Survey to illustrate EPTs.&lt;/p&gt;
-&lt;div id=&#34;case-study-employment-level-by-sex&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Case study: employment level by sex&lt;/h3&gt;
-&lt;p&gt;In my &lt;a href=&#34;../income-gestalt/&#34;&gt;previous post&lt;/a&gt;, it was apparent that a gender gap in average annual income persisted even when accounting for year, highest degree, and field of degree. Another important factor that explains income is level of employment, as measured by average hours worked per week. The data for this example are once again &lt;a href=&#34;https://www.dropbox.com/s/0wmr2brny428lo3/ACS-income-data-aggregated.csv?dl=0&#34;&gt;aggregated ACS data&lt;/a&gt; from the &lt;a href=&#34;https://usa.ipums.org/usa-action/variables/group&#34;&gt;IPUMS USA&lt;/a&gt; extract system, filtered to include only employed individuals with at least a Bachelor’s degree.&lt;/p&gt;
-&lt;p&gt;Let’s start by sticking yet another pitchfork in the favorite straw man of data visualization: the pie chart. With an understanding of EPTs, we can begin to understand why pie charts are &lt;a href=&#34;http://www.businessinsider.com/pie-charts-are-the-worst-2013-6&#34;&gt;so&lt;/a&gt; &lt;a href=&#34;https://blog.funnel.io/why-we-dont-use-pie-charts-and-some-tips-on-better-data-visualizations&#34;&gt;maligned&lt;/a&gt; in the data visualization community. Take a look at the graph below, and try to determine how the percent of females working full time changes over the years:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-2-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Pie charts are fine for visualizing &lt;em&gt;parts of a single whole&lt;/em&gt; (it is easy to tell that, in any given year, a majority of women work full time), but they make it difficult to compare parts of &lt;em&gt;different wholes&lt;/em&gt; (how the percent working full time changes over the years). This comparison is difficult to make because we are comparing &lt;strong&gt;&lt;em&gt;angles&lt;/em&gt;&lt;/strong&gt;, an elementary perceptual task that we do not perform very efficiently or well. Here are the same data, different graph:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-3-1.png&#34; width=&#34;480&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;Notice that it’s now much easier to discern that the percent of females working 40 or more hours per week is increasing over time, while the percent of females working part-time is decreasing. We now compare the &lt;strong&gt;&lt;em&gt;position&lt;/em&gt;&lt;/strong&gt; of the quantities denoted by points along a common scale (the vertical Y-axis), rather than the &lt;strong&gt;&lt;em&gt;angle&lt;/em&gt;&lt;/strong&gt;. We can also still clearly see that in each year, a majority of women work full time, by comparing the points along the common vertical scale within a single year.&lt;/p&gt;
-&lt;p&gt;Let’s turn now to comparing the hours worked for females to males, in 2016 alone. We’ll use a bar chart for this: &lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-4-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;What EPT are we using to compare the percents? It is &lt;a href=&#34;http://flowingdata.com/2010/03/20/graphical-perception-learn-the-fundamentals-first/&#34;&gt;tempting to think&lt;/a&gt; that when we compare quantities in bar charts, we are comparing &lt;strong&gt;&lt;em&gt;lengths&lt;/em&gt;&lt;/strong&gt; of the bars. But this is not the primary EPT we are using, here. We are really comparing &lt;strong&gt;&lt;em&gt;position along a comon scale&lt;/em&gt;&lt;/strong&gt; once again. This is clearer if we represent the quantities not as bars, but as points. We are carrying out the same exact elementary perceptual task to compare the percents:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-5-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This “point chart” has a much better &lt;a href=&#34;http://www.infovis-wiki.net/index.php/Data-Ink_Ratio&#34;&gt;&lt;em&gt;data-to-ink ratio&lt;/em&gt;&lt;/a&gt; than the bar chart, a concept coined by &lt;a href=&#34;https://www.edwardtufte.com/tufte/&#34;&gt;Edward Tufte&lt;/a&gt;. One could argue that it is cleaner and more succinct; better emphasizes the data; and exploits the same exact EPT as the bar chart. Why, then, are bar charts so pervasive while these “point charts” are not? I think the reason is two-fold. First, we just have a comfort level with bar charts. The point of a data visualization is communication: if we can communicate quicker with a more familiar medium, that has advantages. Second, perhaps more importantly, when we see points we immediately start looking for trends. &lt;strong&gt;&lt;em&gt;Direction&lt;/em&gt;&lt;/strong&gt; is one of Cleveland and McGill’s EPTs; we are more inclined to try to visually connect points than the tops of bars. However, we shouldn’t always connect points, especially if the categories on the horizontal have no sense of ordering (for example, if “race,” which has no ordering, was on the horizontal instead of employment level).&lt;/p&gt;
-&lt;p&gt;For these reasons, let’s go back to the bar chart.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-6-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;What comparison does this encourage us to make? Because of the two separate panels for females and males (the &lt;a href=&#34;../income-gestalt/&#34;&gt;Gestalt principle&lt;/a&gt; of &lt;strong&gt;&lt;em&gt;enclosure&lt;/em&gt;&lt;/strong&gt;), the encouraged comparisons seem to be &lt;em&gt;within&lt;/em&gt; sex: among females, a much greater percent of them work 40 or more hours a week than are in the other 3 categories; the same can be said for males. It is more likely that we want to compare &lt;em&gt;across&lt;/em&gt; sex: assess differences between males and females in work time. How can we better encourage this comparison? One approach is to group by hours worked, rather than sex:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-7-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This better encourages us to compare females to males, but it still requires us to jump from panel to panel to make that comparison for each employment level. Another major problem with the above graph is that the percents are calculated by conditioning &lt;em&gt;on sex&lt;/em&gt;, whereas the facets make it appear the conditioning is &lt;em&gt;on employment level&lt;/em&gt;. For example, when we see two bars representing percents in a single panel, we are tempted to think that the total height of the two bars is 100%, which is clearly not the case. The “whole” out of which the percents are taken is not at all clear.&lt;/p&gt;
-&lt;p&gt;Here’s one last take: a &lt;em&gt;stacked bar chart&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://driftlessdata.space/post/on-epts_files/figure-html/unnamed-chunk-8-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;This accomplishes two objectives previous visualizations lacked: A) making the most important comparison obvious (comparing females to males), and B) making obvious “the whole” out of which the percents are taken. Note that when comparing females to males, we use &lt;strong&gt;&lt;em&gt;position along the common (vertical) axis&lt;/em&gt;&lt;/strong&gt; to compare the percents who work 40 or more hours (by determining which dark blue bar extends &lt;em&gt;highest&lt;/em&gt; on the vertical); and to compare the percents who work 20 or fewer hours (by determining which white bar extends &lt;em&gt;lowest&lt;/em&gt; on the vertical). However, to compare the percent who work 21-30 or 31-39 across sex, we use &lt;strong&gt;&lt;em&gt;length&lt;/em&gt;&lt;/strong&gt;, since the middle bars do not share a common baseline. Although we sacrifice making comparisons using &lt;strong&gt;&lt;em&gt;position along a common scale&lt;/em&gt;&lt;/strong&gt; with the stacked bar chart for two of the employment levels, we make up for it with fewer facets; more succinct presentation; and more obvious important comparisons.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;data-notes&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;Data notes&lt;/h3&gt;
-&lt;p&gt;Some of the averages in the &lt;a href=&#34;https://www.dropbox.com/s/0wmr2brny428lo3/ACS-income-data-aggregated.csv?dl=0&#34;&gt;data set&lt;/a&gt; I used for this post (for example, average income for Alabaman males with a doctoral degree in 2009) are based on very few observations, and should be taken with a very large grain of salt. Another brief data note: to aggregate this data set further, it is important to weight by the &lt;code&gt;N&lt;/code&gt; column, which indicates how many individuals in the population the average for that row represents.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;r-code&#34; class=&#34;section level3&#34;&gt;
-&lt;h3&gt;R code&lt;/h3&gt;
-&lt;p&gt;If interested, here is the R code for creating the bar charts.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(ggplot2)
-library(dplyr)
-
-#Read in the data; assuming current working directory houses the .csv file
-tmp &amp;lt;- read.csv(&amp;#39;ACS-income-data-aggregated.csv&amp;#39;)
-
-#Filter to only 2016; aggregate incomes
-df &amp;lt;- tmp%&amp;gt;%
- filter(Year == 2016) %&amp;gt;%
-  group_by(Sex,Hours.work) %&amp;gt;%
-  summarize(count = sum(N), avg.income = weighted.mean(avg.income, N)) %&amp;gt;%
-  filter(Hours.work != &amp;quot;&amp;quot;)%&amp;gt;%
-  mutate(pct = count/sum(count))
-
-#Side by side; faceted by sex:
-ggplot(data = df) + 
- geom_bar(aes(x = Hours.work, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(palette=&amp;#39;Blues&amp;#39;) +
-  guides(fill=FALSE) +
-  theme_dark()+
-   ggtitle(&amp;#39;Employment level by sex: Bar chart&amp;#39;) +
- facet_wrap(~Sex)+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))
-
-#Side by side; faceted by employment level:
-ggplot(data = df) + 
- geom_bar(aes(x = Sex, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(palette=&amp;#39;Blues&amp;#39;) +
-  guides(fill=FALSE) +
-  theme_dark()+
- facet_grid(.~Hours.work)+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))
-
-#Stacked:
-ggplot(data = df) + 
- geom_bar(aes(x = Sex, y = 100*pct, fill=Hours.work), stat=&amp;#39;identity&amp;#39;) + 
-  scale_fill_brewer(name=&amp;#39;Employment level&amp;#39;,palette=&amp;#39;Blues&amp;#39;) +
-  theme_dark()+
-    theme(panel.grid=element_blank()) + 
-  xlab(&amp;#39;Employment level&amp;#39;) + ylab(&amp;#39;Percent&amp;#39;)+
-  ylim(c(0,100))&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
 </description>
     </item>
     
