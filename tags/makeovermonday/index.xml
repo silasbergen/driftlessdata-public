@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Silas Bergen</copyright>
-    <lastBuildDate>Fri, 17 Jan 2020 00:00:00 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 14 Feb 2020 00:00:00 -0600</lastBuildDate>
     
 	<atom:link href="http://driftlessdata.space/tags/makeovermonday/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A life of war (MakeoverMonday Week 6)</title>
+      <link>http://driftlessdata.space/post/mm6-2020-uswar/</link>
+      <pubDate>Fri, 14 Feb 2020 00:00:00 -0600</pubDate>
+      
+      <guid>http://driftlessdata.space/post/mm6-2020-uswar/</guid>
+      <description>This week&amp;rsquo;s MakeoverMonday is a good one. Without further ado, the original visualization by Philip Bump, appearing in his Washington Post article entitled Nearly a quarter of Americans have never experienced the U.S. in a time of peace:
+  This graph triggered my pedagogical Pavlovian dog. Not just because it&amp;rsquo;s easy to malign the poor pie chart (of which this graph has 115!), but because I had a hunch that a redesign would reveal features of the data that are obscured above.</description>
+    </item>
     
     <item>
       <title>MakeoverMonday: Pesticide usage in US</title>
